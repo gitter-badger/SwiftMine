@@ -31,25 +31,21 @@ public class MovingObjectPosition {
     
     
     
-    convenience init (fromBlock x: Int, y: Int, z: Int, side: Int, hitVector: Vector3) {
-        self.init()
+    public static func fromBlock(x: Int, y: Int, z: Int, side: Int, hitVector: Vector3) -> MovingObjectPosition {
         let objectPosition: MovingObjectPosition = MovingObjectPosition()
         objectPosition.typeOfHit = 0
         objectPosition.blockX = x
         objectPosition.blockY = y
         objectPosition.blockZ = z
         objectPosition.hitVector = Vector3(x: hitVector.x!, y: hitVector.y!, z: hitVector.z!)
+        return objectPosition
     }
     
-    convenience init (entity: Entity) {
-        self.init()
+    public static func fromEntity(entity: Entity) -> MovingObjectPosition {
         let objectPosition: MovingObjectPosition = MovingObjectPosition();
         objectPosition.typeOfHit = 1;
         objectPosition.entityHit = entity;
         objectPosition.hitVector = Vector3(x: entity.x!, y: entity.y!, z: entity.z!);
-    }
-    
-    init () {
-        
+        return objectPosition
     }
 }

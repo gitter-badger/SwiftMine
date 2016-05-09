@@ -10,6 +10,15 @@
 		338B6C3C1CDB153000F66065 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B6C3B1CDB153000F66065 /* main.swift */; };
 		33ECB4041CE026A200F66065 /* InterruptibleThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB4031CE026A200F66065 /* InterruptibleThread.swift */; };
 		33ECB4091CE040DB00F66065 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB4081CE040DB00F66065 /* Block.swift */; };
+		33ECB4181CE0494700F66065 /* CommandReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB40B1CE0412E00F66065 /* CommandReader.swift */; };
+		33ECB4191CE0495300F66065 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB40D1CE0412E00F66065 /* Entity.swift */; };
+		33ECB41A1CE0495300F66065 /* MovingObjectPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB40F1CE0412E00F66065 /* MovingObjectPosition.swift */; };
+		33ECB41B1CE0495300F66065 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB4111CE0412E00F66065 /* Vector3.swift */; };
+		33ECB41C1CE0495300F66065 /* Metadatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB4131CE0412E00F66065 /* Metadatable.swift */; };
+		33ECB41D1CE0495300F66065 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB4151CE0412E00F66065 /* Logger.swift */; };
+		33ECB41E1CE0495300F66065 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB4161CE0412E00F66065 /* LogLevel.swift */; };
+		33ECB41F1CE0495300F66065 /* MainLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB4171CE0412E00F66065 /* MainLogger.swift */; };
+		33ECB4211CE04DE800F66065 /* ThreadedLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB4201CE04DE800F66065 /* ThreadedLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +46,7 @@
 		33ECB4151CE0412E00F66065 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		33ECB4161CE0412E00F66065 /* LogLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
 		33ECB4171CE0412E00F66065 /* MainLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLogger.swift; sourceTree = "<group>"; };
+		33ECB4201CE04DE800F66065 /* ThreadedLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadedLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +146,7 @@
 				33ECB4151CE0412E00F66065 /* Logger.swift */,
 				33ECB4161CE0412E00F66065 /* LogLevel.swift */,
 				33ECB4171CE0412E00F66065 /* MainLogger.swift */,
+				33ECB4201CE04DE800F66065 /* ThreadedLogger.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -197,7 +208,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33ECB4211CE04DE800F66065 /* ThreadedLogger.swift in Sources */,
+				33ECB4191CE0495300F66065 /* Entity.swift in Sources */,
+				33ECB41A1CE0495300F66065 /* MovingObjectPosition.swift in Sources */,
+				33ECB41B1CE0495300F66065 /* Vector3.swift in Sources */,
+				33ECB41C1CE0495300F66065 /* Metadatable.swift in Sources */,
+				33ECB41D1CE0495300F66065 /* Logger.swift in Sources */,
+				33ECB41E1CE0495300F66065 /* LogLevel.swift in Sources */,
+				33ECB41F1CE0495300F66065 /* MainLogger.swift in Sources */,
 				338B6C3C1CDB153000F66065 /* main.swift in Sources */,
+				33ECB4181CE0494700F66065 /* CommandReader.swift in Sources */,
 				33ECB4041CE026A200F66065 /* InterruptibleThread.swift in Sources */,
 				33ECB4091CE040DB00F66065 /* Block.swift in Sources */,
 			);
