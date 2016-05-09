@@ -8,18 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		338B6C3C1CDB153000F66065 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B6C3B1CDB153000F66065 /* main.swift */; };
-		338B6C471CDBC3BD00F66065 /* ysocketOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338B6C461CDBC3BD00F66065 /* ysocketOSX.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		338B6C481CDBC63F00F66065 /* ysocketOSX.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 338B6C461CDBC3BD00F66065 /* ysocketOSX.framework */; };
-		338B6DC21CDEF68B00F66065 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B6DC11CDEF68B00F66065 /* Block.swift */; };
-		338B6DC51CDEF71D00F66065 /* MovingObjectPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B6DC41CDEF71D00F66065 /* MovingObjectPosition.swift */; };
-		338B6DCF1CDEFAC400F66065 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B6DCE1CDEFAC400F66065 /* Entity.swift */; };
-		338B6DD21CDF847C00F66065 /* Metadatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B6DD11CDF847C00F66065 /* Metadatable.swift */; };
-		33ECB3FB1CE0110900F66065 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB3FA1CE0110900F66065 /* Vector3.swift */; };
-		33ECB3FE1CE01FA100F66065 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB3FD1CE01FA100F66065 /* Logger.swift */; };
-		33ECB4001CE021CA00F66065 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB3FF1CE021CA00F66065 /* LogLevel.swift */; };
-		33ECB4021CE024EE00F66065 /* MainLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB4011CE024EE00F66065 /* MainLogger.swift */; };
 		33ECB4041CE026A200F66065 /* InterruptibleThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB4031CE026A200F66065 /* InterruptibleThread.swift */; };
-		33ECB4071CE026E800F66065 /* CommandReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB4061CE026E800F66065 /* CommandReader.swift */; };
+		33ECB4091CE040DB00F66065 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECB4081CE040DB00F66065 /* Block.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,7 +19,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				338B6C481CDBC63F00F66065 /* ysocketOSX.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,17 +27,16 @@
 /* Begin PBXFileReference section */
 		338B6C381CDB153000F66065 /* SwiftMine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftMine; sourceTree = BUILT_PRODUCTS_DIR; };
 		338B6C3B1CDB153000F66065 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		338B6C461CDBC3BD00F66065 /* ysocketOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ysocketOSX.framework; sourceTree = "<group>"; };
-		338B6DC11CDEF68B00F66065 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
-		338B6DC41CDEF71D00F66065 /* MovingObjectPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovingObjectPosition.swift; sourceTree = "<group>"; };
-		338B6DCE1CDEFAC400F66065 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
-		338B6DD11CDF847C00F66065 /* Metadatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metadatable.swift; sourceTree = "<group>"; };
-		33ECB3FA1CE0110900F66065 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
-		33ECB3FD1CE01FA100F66065 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		33ECB3FF1CE021CA00F66065 /* LogLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
-		33ECB4011CE024EE00F66065 /* MainLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainLogger.swift; sourceTree = "<group>"; };
 		33ECB4031CE026A200F66065 /* InterruptibleThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterruptibleThread.swift; sourceTree = "<group>"; };
-		33ECB4061CE026E800F66065 /* CommandReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandReader.swift; sourceTree = "<group>"; };
+		33ECB4081CE040DB00F66065 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Block.swift; path = Block/Block.swift; sourceTree = "<group>"; };
+		33ECB40B1CE0412E00F66065 /* CommandReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandReader.swift; sourceTree = "<group>"; };
+		33ECB40D1CE0412E00F66065 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		33ECB40F1CE0412E00F66065 /* MovingObjectPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingObjectPosition.swift; sourceTree = "<group>"; };
+		33ECB4111CE0412E00F66065 /* Vector3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		33ECB4131CE0412E00F66065 /* Metadatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metadatable.swift; sourceTree = "<group>"; };
+		33ECB4151CE0412E00F66065 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		33ECB4161CE0412E00F66065 /* LogLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
+		33ECB4171CE0412E00F66065 /* MainLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				338B6C471CDBC3BD00F66065 /* ysocketOSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,15 +69,14 @@
 		338B6C3A1CDB153000F66065 /* SwiftMine */ = {
 			isa = PBXGroup;
 			children = (
-				33ECB4051CE026DD00F66065 /* Command */,
-				33ECB3FC1CE01F8D00F66065 /* Utils */,
-				33ECB3F91CE010EB00F66065 /* math */,
-				338B6DD01CDF838F00F66065 /* Metadata */,
-				338B6DCD1CDEFAB800F66065 /* Entity */,
-				338B6DC31CDEF70C00F66065 /* Level */,
+				33ECB40A1CE0412E00F66065 /* Command */,
+				33ECB40C1CE0412E00F66065 /* Entity */,
+				33ECB40E1CE0412E00F66065 /* Level */,
+				33ECB4101CE0412E00F66065 /* Math */,
+				33ECB4121CE0412E00F66065 /* Metadata */,
+				33ECB4141CE0412E00F66065 /* Utils */,
 				338B6DC01CDEF67D00F66065 /* Block */,
 				338B6C3B1CDB153000F66065 /* main.swift */,
-				338B6C461CDBC3BD00F66065 /* ysocketOSX.framework */,
 				33ECB4031CE026A200F66065 /* InterruptibleThread.swift */,
 			);
 			path = SwiftMine;
@@ -99,59 +85,59 @@
 		338B6DC01CDEF67D00F66065 /* Block */ = {
 			isa = PBXGroup;
 			children = (
-				338B6DC11CDEF68B00F66065 /* Block.swift */,
+				33ECB4081CE040DB00F66065 /* Block.swift */,
 			);
 			name = Block;
 			sourceTree = "<group>";
 		};
-		338B6DC31CDEF70C00F66065 /* Level */ = {
+		33ECB40A1CE0412E00F66065 /* Command */ = {
 			isa = PBXGroup;
 			children = (
-				338B6DC41CDEF71D00F66065 /* MovingObjectPosition.swift */,
+				33ECB40B1CE0412E00F66065 /* CommandReader.swift */,
 			);
-			name = Level;
+			path = Command;
 			sourceTree = "<group>";
 		};
-		338B6DCD1CDEFAB800F66065 /* Entity */ = {
+		33ECB40C1CE0412E00F66065 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				338B6DCE1CDEFAC400F66065 /* Entity.swift */,
+				33ECB40D1CE0412E00F66065 /* Entity.swift */,
 			);
-			name = Entity;
+			path = Entity;
 			sourceTree = "<group>";
 		};
-		338B6DD01CDF838F00F66065 /* Metadata */ = {
+		33ECB40E1CE0412E00F66065 /* Level */ = {
 			isa = PBXGroup;
 			children = (
-				338B6DD11CDF847C00F66065 /* Metadatable.swift */,
+				33ECB40F1CE0412E00F66065 /* MovingObjectPosition.swift */,
 			);
-			name = Metadata;
+			path = Level;
 			sourceTree = "<group>";
 		};
-		33ECB3F91CE010EB00F66065 /* math */ = {
+		33ECB4101CE0412E00F66065 /* Math */ = {
 			isa = PBXGroup;
 			children = (
-				33ECB3FA1CE0110900F66065 /* Vector3.swift */,
+				33ECB4111CE0412E00F66065 /* Vector3.swift */,
 			);
-			name = math;
+			path = Math;
 			sourceTree = "<group>";
 		};
-		33ECB3FC1CE01F8D00F66065 /* Utils */ = {
+		33ECB4121CE0412E00F66065 /* Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				33ECB3FD1CE01FA100F66065 /* Logger.swift */,
-				33ECB3FF1CE021CA00F66065 /* LogLevel.swift */,
-				33ECB4011CE024EE00F66065 /* MainLogger.swift */,
+				33ECB4131CE0412E00F66065 /* Metadatable.swift */,
 			);
-			name = Utils;
+			path = Metadata;
 			sourceTree = "<group>";
 		};
-		33ECB4051CE026DD00F66065 /* Command */ = {
+		33ECB4141CE0412E00F66065 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				33ECB4061CE026E800F66065 /* CommandReader.swift */,
+				33ECB4151CE0412E00F66065 /* Logger.swift */,
+				33ECB4161CE0412E00F66065 /* LogLevel.swift */,
+				33ECB4171CE0412E00F66065 /* MainLogger.swift */,
 			);
-			name = Command;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,17 +197,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33ECB4071CE026E800F66065 /* CommandReader.swift in Sources */,
-				338B6DCF1CDEFAC400F66065 /* Entity.swift in Sources */,
 				338B6C3C1CDB153000F66065 /* main.swift in Sources */,
-				338B6DC21CDEF68B00F66065 /* Block.swift in Sources */,
 				33ECB4041CE026A200F66065 /* InterruptibleThread.swift in Sources */,
-				33ECB4021CE024EE00F66065 /* MainLogger.swift in Sources */,
-				33ECB4001CE021CA00F66065 /* LogLevel.swift in Sources */,
-				338B6DD21CDF847C00F66065 /* Metadatable.swift in Sources */,
-				33ECB3FE1CE01FA100F66065 /* Logger.swift in Sources */,
-				33ECB3FB1CE0110900F66065 /* Vector3.swift in Sources */,
-				338B6DC51CDEF71D00F66065 /* MovingObjectPosition.swift in Sources */,
+				33ECB4091CE040DB00F66065 /* Block.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
