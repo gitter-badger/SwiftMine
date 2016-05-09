@@ -1,0 +1,10 @@
+framework module ysocketOSX {
+  umbrella header "ysocketOSX.h"
+
+  export *
+  module * { export * }
+}
+
+module ysocketOSX.Swift {
+    header "ysocketOSX-Swift.h"
+}
