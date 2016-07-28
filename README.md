@@ -1,4 +1,6 @@
 # SwiftMine 0.1
+
+[![Join the chat at https://gitter.im/dschwartz783/SwiftMine](https://badges.gitter.im/dschwartz783/SwiftMine.svg)](https://gitter.im/dschwartz783/SwiftMine?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 A Minecraft PE Server, written in Swift.
 
 ##Goal
