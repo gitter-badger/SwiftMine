@@ -15,32 +15,14 @@ public class Vector3 {
     public let SIDE_SOUTH: Int = 3
     public let SIDE_WEST: Int = 4
     public let SIDE_EAST: Int = 5
-    
-    public var x: Double?
-    public var y: Double?
-    public var z: Double?
-    
-    init() {
-        self.x = 0
-        self.y = 0
-        self.z = 0
-    }
-    
-    init(x: Double) {
-        self.x = x
-        self.y = 0
-        self.z = 0
-    }
-    
-    init(x: Double, y: Double) {
-        self.x = x
-        self.y = y
-        self.z = 0
-    }
-    
-    init(x: Double, y: Double, z: Double) {
-        self.x = x
-        self.y = y
-        self.z = z
+
+    public var x: Double
+    public var y: Double
+    public var z: Double
+
+    init(x: Double? = nil, y: Double? = nil, z: Double? = nil) {
+        self.x = x ?? 0
+        self.y = y ?? 0
+        self.z = z ?? 0
     }
 }
