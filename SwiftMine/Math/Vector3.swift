@@ -20,9 +20,9 @@ public class Vector3 {
     public var y: Double
     public var z: Double
 
-    init(x: Double? = nil, y: Double? = nil, z: Double? = nil) {
-        self.x = x ?? 0
-        self.y = y ?? 0
-        self.z = z ?? 0
+    init(x: Double = 0, y: Double = 0, z: Double = 0) {
+        self.x = x
+        self.y = y
+        self.z = z
     }
 }
