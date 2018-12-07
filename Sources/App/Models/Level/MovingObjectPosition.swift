@@ -37,7 +37,7 @@ public class MovingObjectPosition {
         objectPosition.blockX = x
         objectPosition.blockY = y
         objectPosition.blockZ = z
-        objectPosition.hitVector = Vector3(x: hitVector.x!, y: hitVector.y!, z: hitVector.z!)
+        objectPosition.hitVector = Vector3(x: hitVector.x, y: hitVector.y, z: hitVector.z)
         return objectPosition
     }
     

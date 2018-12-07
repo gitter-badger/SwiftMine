@@ -1,4 +1,4 @@
 module CNIOOpenSSL {
-    umbrella "/Users/davidseitzjr/Desktop/Minecraft/SwiftMine/.build/checkouts/swift-nio-ssl.git--1139418204658550121/Sources/CNIOOpenSSL/include"
+    umbrella "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/CNIOOpenSSL/include"
     export *
 }

@@ -8,6 +8,6 @@
 
 import Foundation
 
-class CommandReader: NSThread {
+class CommandReader: Thread {
     
 }

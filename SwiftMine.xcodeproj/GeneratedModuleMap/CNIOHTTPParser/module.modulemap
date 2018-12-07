@@ -1,4 +1,4 @@
 module CNIOHTTPParser {
-    umbrella "/Users/davidseitzjr/Desktop/Minecraft/SwiftMine/.build/checkouts/swift-nio.git-1040269697393771273/Sources/CNIOHTTPParser/include"
+    umbrella "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOHTTPParser/include"
     export *
 }
