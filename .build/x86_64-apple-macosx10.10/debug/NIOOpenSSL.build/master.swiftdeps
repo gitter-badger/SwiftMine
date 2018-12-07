@@ -1,0 +1,19 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "630dd1792dafd0caacda395c04e3c0c0"
+build_time: [1544147842, 501668000]
+inputs:
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/NIOOpenSSL/ByteBufferBIO.swift": [1544147828, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/NIOOpenSSL/IdentityVerification.swift": [1544147828, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/NIOOpenSSL/OpenSSLClientHandler.swift": [1544147828, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/NIOOpenSSL/OpenSSLHandler.swift": [1544147828, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/NIOOpenSSL/OpenSSLServerHandler.swift": [1544147828, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/NIOOpenSSL/PosixPort.swift": [1544147828, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/NIOOpenSSL/SSLCertificate.swift": [1544147828, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/NIOOpenSSL/SSLConnection.swift": [1544147828, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/NIOOpenSSL/SSLContext.swift": [1544147828, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/NIOOpenSSL/SSLErrors.swift": [1544147828, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/NIOOpenSSL/SSLInit.swift": [1544147828, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/NIOOpenSSL/SSLPKCS12Bundle.swift": [1544147828, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/NIOOpenSSL/SSLPointerTricks.swift": [1544147828, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/NIOOpenSSL/SSLPrivateKey.swift": [1544147828, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/NIOOpenSSL/TLSConfiguration.swift": [1544147828, 0]

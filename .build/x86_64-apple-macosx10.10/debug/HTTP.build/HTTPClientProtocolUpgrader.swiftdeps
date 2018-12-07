@@ -1,0 +1,628 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HTTPClientProtocolUpgrader"
+provides-nominal:
+- "4HTTP26HTTPClientProtocolUpgraderP"
+provides-member:
+- ["4HTTP10HTTPClientC", ""]
+- ["4HTTP26HTTPClientProtocolUpgraderP", ""]
+- ["4HTTP10HTTPClientC", "upgrade"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private ">"
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ChannelHandlerContext"
+- "ChannelInboundHandler"
+- !private "ChannelOptions"
+- !private "ClientBootstrap"
+- "EventLoopFuture"
+- !private "FloatLiteralType"
+- "Future"
+- "HTTPClient"
+- "HTTPClientProtocolUpgrader"
+- "HTTPClientRequestPart"
+- "HTTPClientResponsePart"
+- !private "HTTPClientUpgradeHandler"
+- !private "HTTPRequestEncoder"
+- "HTTPRequestHead"
+- !private "HTTPResponseDecoder"
+- "HTTPResponseHead"
+- "HTTPScheme"
+- "Int"
+- !private "IntegerLiteralType"
+- "NIOAny"
+- "Promise"
+- !private "SOL_SOCKET"
+- !private "SO_REUSEADDR"
+- !private "SocketOptionLevel"
+- "String"
+- !private "StringLiteralType"
+- "Void"
+- "Worker"
+- !private "assert"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- !private ["4Core22AnyReflectionDecodableP", "count"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "map"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "map"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["3NIO20ByteToMessageDecoderP", "init"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["3NIO7ChannelP", "pipeline"]
+- !private ["3NIO14ChannelHandlerP", "EventLoopFuture"]
+- ["3NIO14ChannelHandlerP", "InboundIn"]
+- ["3NIO14ChannelHandlerP", "InboundOut"]
+- ["3NIO14ChannelHandlerP", "OutboundOut"]
+- !private ["3NIO14ChannelHandlerP", "Upgrader"]
+- !private ["3NIO14ChannelHandlerP", ""]
+- !private ["3NIO14ChannelHandlerP", "assert"]
+- ["3NIO14ChannelHandlerP", "channelActive"]
+- ["3NIO14ChannelHandlerP", "channelInactive"]
+- ["3NIO14ChannelHandlerP", "channelRead"]
+- ["3NIO14ChannelHandlerP", "channelReadComplete"]
+- ["3NIO14ChannelHandlerP", "channelRegistered"]
+- ["3NIO14ChannelHandlerP", "channelUnregistered"]
+- ["3NIO14ChannelHandlerP", "channelWritabilityChanged"]
+- ["3NIO14ChannelHandlerP", "errorCaught"]
+- !private ["3NIO14ChannelHandlerP", "extraHTTPHandlerNames"]
+- ["3NIO14ChannelHandlerP", "handlerAdded"]
+- ["3NIO14ChannelHandlerP", "handlerRemoved"]
+- !private ["3NIO14ChannelHandlerP", "init"]
+- !private ["3NIO14ChannelHandlerP", "notUpgrading"]
+- !private ["3NIO14ChannelHandlerP", "onUpgrade"]
+- !private ["3NIO14ChannelHandlerP", "receivedMessages"]
+- !private ["3NIO14ChannelHandlerP", "removeExtraHandlers"]
+- !private ["3NIO14ChannelHandlerP", "seenFirstResponse"]
+- ["3NIO14ChannelHandlerP", "unwrapInboundIn"]
+- !private ["3NIO14ChannelHandlerP", "upgradePromise"]
+- !private ["3NIO14ChannelHandlerP", "upgrader"]
+- !private ["3NIO14ChannelHandlerP", "upgrading"]
+- ["3NIO14ChannelHandlerP", "userInboundEventTriggered"]
+- ["3NIO14ChannelHandlerP", "wrapInboundOut"]
+- ["3NIO14ChannelHandlerP", "wrapOutboundOut"]
+- !private ["3NIO21ChannelHandlerContextC", "eventLoop"]
+- !private ["3NIO21ChannelHandlerContextC", "fireChannelRead"]
+- !private ["3NIO21ChannelHandlerContextC", "pipeline"]
+- !private ["3NIO21ChannelHandlerContextC", "write"]
+- !private ["3NIO21ChannelHandlerContextC", "writeAndFlush"]
+- !private ["3NIO21ChannelInboundHandlerP", "EventLoopFuture"]
+- ["3NIO21ChannelInboundHandlerP", "InboundIn"]
+- ["3NIO21ChannelInboundHandlerP", "InboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "OutboundOut"]
+- !private ["3NIO21ChannelInboundHandlerP", "Upgrader"]
+- !private ["3NIO21ChannelInboundHandlerP", ""]
+- !private ["3NIO21ChannelInboundHandlerP", "assert"]
+- ["3NIO21ChannelInboundHandlerP", "channelActive"]
+- ["3NIO21ChannelInboundHandlerP", "channelInactive"]
+- ["3NIO21ChannelInboundHandlerP", "channelRead"]
+- ["3NIO21ChannelInboundHandlerP", "channelReadComplete"]
+- ["3NIO21ChannelInboundHandlerP", "channelRegistered"]
+- ["3NIO21ChannelInboundHandlerP", "channelUnregistered"]
+- ["3NIO21ChannelInboundHandlerP", "channelWritabilityChanged"]
+- ["3NIO21ChannelInboundHandlerP", "errorCaught"]
+- !private ["3NIO21ChannelInboundHandlerP", "extraHTTPHandlerNames"]
+- ["3NIO21ChannelInboundHandlerP", "handlerAdded"]
+- ["3NIO21ChannelInboundHandlerP", "handlerRemoved"]
+- !private ["3NIO21ChannelInboundHandlerP", "init"]
+- !private ["3NIO21ChannelInboundHandlerP", "notUpgrading"]
+- !private ["3NIO21ChannelInboundHandlerP", "onUpgrade"]
+- !private ["3NIO21ChannelInboundHandlerP", "receivedMessages"]
+- !private ["3NIO21ChannelInboundHandlerP", "removeExtraHandlers"]
+- !private ["3NIO21ChannelInboundHandlerP", "seenFirstResponse"]
+- ["3NIO21ChannelInboundHandlerP", "unwrapInboundIn"]
+- !private ["3NIO21ChannelInboundHandlerP", "upgradePromise"]
+- !private ["3NIO21ChannelInboundHandlerP", "upgrader"]
+- !private ["3NIO21ChannelInboundHandlerP", "upgrading"]
+- ["3NIO21ChannelInboundHandlerP", "userInboundEventTriggered"]
+- ["3NIO21ChannelInboundHandlerP", "wrapInboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "wrapOutboundOut"]
+- !private ["3NIO21ChannelInboundInvokerP", "add"]
+- !private ["3NIO21ChannelInboundInvokerP", "eventLoop"]
+- !private ["3NIO21ChannelInboundInvokerP", "fireChannelRead"]
+- !private ["3NIO21ChannelInboundInvokerP", "pipeline"]
+- !private ["3NIO21ChannelInboundInvokerP", "remove"]
+- !private ["3NIO21ChannelInboundInvokerP", "write"]
+- !private ["3NIO21ChannelInboundInvokerP", "writeAndFlush"]
+- !private ["3NIO14ChannelInvokerP", "add"]
+- !private ["3NIO14ChannelInvokerP", "eventLoop"]
+- !private ["3NIO14ChannelInvokerP", "fireChannelRead"]
+- !private ["3NIO14ChannelInvokerP", "pipeline"]
+- !private ["3NIO14ChannelInvokerP", "remove"]
+- !private ["3NIO14ChannelInvokerP", "write"]
+- !private ["3NIO14ChannelInvokerP", "writeAndFlush"]
+- !private ["3NIO14ChannelOptionsV", "socket"]
+- !private ["3NIO22ChannelOutboundHandlerP", "init"]
+- !private ["3NIO22ChannelOutboundInvokerP", "add"]
+- !private ["3NIO22ChannelOutboundInvokerP", "eventLoop"]
+- !private ["3NIO22ChannelOutboundInvokerP", "fireChannelRead"]
+- !private ["3NIO22ChannelOutboundInvokerP", "pipeline"]
+- !private ["3NIO22ChannelOutboundInvokerP", "remove"]
+- !private ["3NIO22ChannelOutboundInvokerP", "write"]
+- !private ["3NIO22ChannelOutboundInvokerP", "writeAndFlush"]
+- !private ["3NIO15ChannelPipelineC", "add"]
+- !private ["3NIO15ChannelPipelineC", "remove"]
+- !private ["3NIO15ClientBootstrapC", "channelInitializer"]
+- !private ["3NIO15ClientBootstrapC", "channelOption"]
+- !private ["3NIO15ClientBootstrapC", "connect"]
+- !private ["3NIO15ClientBootstrapC", "init"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "status"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "andAll"]
+- !private ["SE", "append"]
+- !private ["SE", "cascade"]
+- !private ["SE", "count"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "then"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "andAll"]
+- !private ["SQ", "append"]
+- !private ["SQ", "cascade"]
+- !private ["SQ", "count"]
+- !private ["SQ", "end"]
+- !private ["SQ", "flatMap"]
+- ["SQ", "head"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "status"]
+- !private ["SQ", "switchingProtocols"]
+- !private ["SQ", "then"]
+- !private ["3NIO9EventLoopP", "newPromise"]
+- !private ["3NIO9EventLoopP", "newSucceededFuture"]
+- !private ["3NIO15EventLoopFutureC", "andAll"]
+- !private ["3NIO15EventLoopFutureC", "cascade"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO15EventLoopFutureC", "then"]
+- !private ["3NIO14EventLoopGroupP", "eventLoop"]
+- !private ["3NIO14EventLoopGroupP", "newPromise"]
+- !private ["3NIO14EventLoopGroupP", "newSucceededFuture"]
+- !private ["3NIO16EventLoopPromiseV", "futureResult"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["5Async10FutureTypeP", "andAll"]
+- !private ["5Async10FutureTypeP", "cascade"]
+- !private ["5Async10FutureTypeP", "flatMap"]
+- !private ["5Async10FutureTypeP", "map"]
+- !private ["5Async10FutureTypeP", "then"]
+- !private ["4HTTP10HTTPClientC", "ChannelOptions"]
+- !private ["4HTTP10HTTPClientC", "ClientBootstrap"]
+- ["4HTTP10HTTPClientC", "Future"]
+- ["4HTTP10HTTPClientC", "HTTPClientProtocolUpgrader"]
+- !private ["4HTTP10HTTPClientC", "HTTPClientUpgradeHandler"]
+- !private ["4HTTP10HTTPClientC", "HTTPRequestEncoder"]
+- !private ["4HTTP10HTTPClientC", "HTTPResponseDecoder"]
+- ["4HTTP10HTTPClientC", "HTTPScheme"]
+- ["4HTTP10HTTPClientC", "Int"]
+- !private ["4HTTP10HTTPClientC", "SOL_SOCKET"]
+- !private ["4HTTP10HTTPClientC", "SO_REUSEADDR"]
+- !private ["4HTTP10HTTPClientC", "SocketOptionLevel"]
+- ["4HTTP10HTTPClientC", "String"]
+- ["4HTTP10HTTPClientC", "Worker"]
+- ["4HTTP10HTTPClientC", "upgrade"]
+- ["4HTTP26HTTPClientProtocolUpgraderP", "Bool"]
+- ["4HTTP26HTTPClientProtocolUpgraderP", "ChannelHandlerContext"]
+- ["4HTTP26HTTPClientProtocolUpgraderP", "Future"]
+- ["4HTTP26HTTPClientProtocolUpgraderP", "HTTPRequestHead"]
+- ["4HTTP26HTTPClientProtocolUpgraderP", "HTTPResponseHead"]
+- ["4HTTP26HTTPClientProtocolUpgraderP", "UpgradeResult"]
+- ["4HTTP26HTTPClientProtocolUpgraderP", "buildUpgradeRequest"]
+- ["4HTTP26HTTPClientProtocolUpgraderP", "isValidUpgradeResponse"]
+- ["4HTTP26HTTPClientProtocolUpgraderP", "upgrade"]
+- !private ["8NIOHTTP111HTTPDecoderC", "init"]
+- !private ["8NIOHTTP18HTTPPartO", "end"]
+- ["8NIOHTTP18HTTPPartO", "head"]
+- !private ["8NIOHTTP118HTTPRequestEncoderC", "init"]
+- !private ["8NIOHTTP119HTTPResponseDecoderC", "init"]
+- !private ["8NIOHTTP116HTTPResponseHeadV", "status"]
+- !private ["8NIOHTTP118HTTPResponseStatusO", "switchingProtocols"]
+- !private ["4HTTP10HTTPSchemeV", "configureChannel"]
+- !private ["4HTTP10HTTPSchemeV", "defaultPort"]
+- !private ["4HTTP10HTTPSchemeV", "http"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["s5Int32V", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- !private ["4Core23LosslessDataConvertibleP", "count"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "map"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "init"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "map"]
+- !private ["Sj", "init"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "map"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "map"]
+- !private ["4Core19ReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- !private ["4Core19ReflectionDecodableP", "count"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "map"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["4HTTP16URLRepresentableP", "init"]
+- !private ["4HTTP16URLRepresentableP", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["3NIO22_ChannelInboundHandlerP", "EventLoopFuture"]
+- ["3NIO22_ChannelInboundHandlerP", "InboundIn"]
+- ["3NIO22_ChannelInboundHandlerP", "InboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "OutboundOut"]
+- !private ["3NIO22_ChannelInboundHandlerP", "Upgrader"]
+- !private ["3NIO22_ChannelInboundHandlerP", ""]
+- !private ["3NIO22_ChannelInboundHandlerP", "assert"]
+- ["3NIO22_ChannelInboundHandlerP", "channelActive"]
+- ["3NIO22_ChannelInboundHandlerP", "channelInactive"]
+- ["3NIO22_ChannelInboundHandlerP", "channelRead"]
+- ["3NIO22_ChannelInboundHandlerP", "channelReadComplete"]
+- ["3NIO22_ChannelInboundHandlerP", "channelRegistered"]
+- ["3NIO22_ChannelInboundHandlerP", "channelUnregistered"]
+- ["3NIO22_ChannelInboundHandlerP", "channelWritabilityChanged"]
+- ["3NIO22_ChannelInboundHandlerP", "errorCaught"]
+- !private ["3NIO22_ChannelInboundHandlerP", "extraHTTPHandlerNames"]
+- ["3NIO22_ChannelInboundHandlerP", "handlerAdded"]
+- ["3NIO22_ChannelInboundHandlerP", "handlerRemoved"]
+- !private ["3NIO22_ChannelInboundHandlerP", "init"]
+- !private ["3NIO22_ChannelInboundHandlerP", "notUpgrading"]
+- !private ["3NIO22_ChannelInboundHandlerP", "onUpgrade"]
+- !private ["3NIO22_ChannelInboundHandlerP", "receivedMessages"]
+- !private ["3NIO22_ChannelInboundHandlerP", "removeExtraHandlers"]
+- !private ["3NIO22_ChannelInboundHandlerP", "seenFirstResponse"]
+- ["3NIO22_ChannelInboundHandlerP", "unwrapInboundIn"]
+- !private ["3NIO22_ChannelInboundHandlerP", "upgradePromise"]
+- !private ["3NIO22_ChannelInboundHandlerP", "upgrader"]
+- !private ["3NIO22_ChannelInboundHandlerP", "upgrading"]
+- ["3NIO22_ChannelInboundHandlerP", "userInboundEventTriggered"]
+- ["3NIO22_ChannelInboundHandlerP", "wrapInboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "wrapOutboundOut"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["3NIO23_EmittingChannelHandlerP", "EventLoopFuture"]
+- ["3NIO23_EmittingChannelHandlerP", "InboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "InboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "OutboundOut"]
+- !private ["3NIO23_EmittingChannelHandlerP", "Upgrader"]
+- !private ["3NIO23_EmittingChannelHandlerP", ""]
+- !private ["3NIO23_EmittingChannelHandlerP", "assert"]
+- ["3NIO23_EmittingChannelHandlerP", "channelActive"]
+- ["3NIO23_EmittingChannelHandlerP", "channelInactive"]
+- ["3NIO23_EmittingChannelHandlerP", "channelRead"]
+- ["3NIO23_EmittingChannelHandlerP", "channelReadComplete"]
+- ["3NIO23_EmittingChannelHandlerP", "channelRegistered"]
+- ["3NIO23_EmittingChannelHandlerP", "channelUnregistered"]
+- ["3NIO23_EmittingChannelHandlerP", "channelWritabilityChanged"]
+- ["3NIO23_EmittingChannelHandlerP", "errorCaught"]
+- !private ["3NIO23_EmittingChannelHandlerP", "extraHTTPHandlerNames"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerAdded"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerRemoved"]
+- !private ["3NIO23_EmittingChannelHandlerP", "init"]
+- !private ["3NIO23_EmittingChannelHandlerP", "notUpgrading"]
+- !private ["3NIO23_EmittingChannelHandlerP", "onUpgrade"]
+- !private ["3NIO23_EmittingChannelHandlerP", "receivedMessages"]
+- !private ["3NIO23_EmittingChannelHandlerP", "removeExtraHandlers"]
+- !private ["3NIO23_EmittingChannelHandlerP", "seenFirstResponse"]
+- ["3NIO23_EmittingChannelHandlerP", "unwrapInboundIn"]
+- !private ["3NIO23_EmittingChannelHandlerP", "upgradePromise"]
+- !private ["3NIO23_EmittingChannelHandlerP", "upgrader"]
+- !private ["3NIO23_EmittingChannelHandlerP", "upgrading"]
+- ["3NIO23_EmittingChannelHandlerP", "userInboundEventTriggered"]
+- ["3NIO23_EmittingChannelHandlerP", "wrapInboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "wrapOutboundOut"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "SK"
+- !private "Sz"
+- !private "Sb"
+- !private "3NIO20ByteToMessageDecoderP"
+- !private "s7CVarArgP"
+- !private "3NIO7ChannelP"
+- "3NIO14ChannelHandlerP"
+- !private "3NIO21ChannelHandlerContextC"
+- "3NIO21ChannelInboundHandlerP"
+- !private "3NIO21ChannelInboundInvokerP"
+- !private "3NIO14ChannelInvokerP"
+- !private "3NIO14ChannelOptionsV"
+- !private "3NIO22ChannelOutboundHandlerP"
+- !private "3NIO22ChannelOutboundInvokerP"
+- !private "3NIO15ChannelPipelineC"
+- !private "3NIO15ClientBootstrapC"
+- !private "Sl"
+- !private "SL"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "3NIO16EventLoopPromiseV"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "5Async10FutureTypeP"
+- "4HTTP10HTTPClientC"
+- "4HTTP26HTTPClientProtocolUpgraderP"
+- !private "8NIOHTTP111HTTPDecoderC"
+- "8NIOHTTP18HTTPPartO"
+- !private "8NIOHTTP118HTTPRequestEncoderC"
+- !private "8NIOHTTP119HTTPResponseDecoderC"
+- !private "8NIOHTTP116HTTPResponseHeadV"
+- !private "8NIOHTTP118HTTPResponseStatusO"
+- !private "4HTTP10HTTPSchemeV"
+- !private "SH"
+- !private "s5Int32V"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "4HTTP29LosslessHTTPBodyRepresentableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "4Core19ReflectionDecodableP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "4HTTP16URLRepresentableP"
+- !private "s18_BitwiseOperationsP"
+- "3NIO22_ChannelInboundHandlerP"
+- !private "3NIO23_ChannelOutboundHandlerP"
+- !private "s24_DestructorSafeContainerP"
+- "3NIO23_EmittingChannelHandlerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOHTTP1.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOTLS.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/rsa.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOZlib/include/c_nio_zlib.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ec.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ssl.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/bn.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/buffer.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/err.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/opensslv.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/x509_vfy.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl-support.git-7929588247395141738/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5fa1c5b233e0723bba7e696ca2ca80bd"

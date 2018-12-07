@@ -1,0 +1,4 @@
+module CNIOAtomics {
+    umbrella "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include"
+    export *
+}

@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "ac9f557a5e464aeebe43818f6c4116c3"
+build_time: [1544147845, 515700000]
+inputs:
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/console.git-7429217546398231572/Sources/Logging/Exports.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/console.git-7429217546398231572/Sources/Logging/LogLevel.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/console.git-7429217546398231572/Sources/Logging/Logger.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/console.git-7429217546398231572/Sources/Logging/PrintLogger.swift": [1544147825, 0]

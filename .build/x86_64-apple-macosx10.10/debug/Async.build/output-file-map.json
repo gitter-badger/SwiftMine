@@ -1,0 +1,95 @@
+{
+  "": {
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/master.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Async+NIO.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Async+NIO.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Async+NIO.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Async+NIO~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Async+NIO.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/AsyncError.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/AsyncError.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/AsyncError.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/AsyncError~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/AsyncError.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Collection+Future.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Collection+Future.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Collection+Future.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Collection+Future~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Collection+Future.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Deprecated.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Deprecated.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Deprecated.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Deprecated~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Deprecated.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Exports.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Exports.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Exports.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Exports.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Future+DoCatch.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+DoCatch.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+DoCatch.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+DoCatch~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+DoCatch.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Future+Flatten.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Flatten.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Flatten.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Flatten~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Flatten.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Future+Global.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Global.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Global.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Global~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Global.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Future+Map.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Map.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Map.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Map~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Map.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Future+Transform.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Transform.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Transform.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Transform~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Transform.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Future+Variadic.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Variadic.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Variadic.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Variadic~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Variadic.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Future+Void.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Void.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Void.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Void~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Future+Void.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/FutureType.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/FutureType.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/FutureType.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/FutureType~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/FutureType.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/QueueHandler.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/QueueHandler.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/QueueHandler.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/QueueHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/QueueHandler.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Worker.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Worker.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Worker.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Worker~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.build/Worker.swiftdeps"
+  }
+}

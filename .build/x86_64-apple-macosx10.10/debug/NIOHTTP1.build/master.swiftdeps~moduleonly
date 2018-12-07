@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "bd6306ac4fefce2892dfe95442d30fe3"
+build_time: [1544147841, 162604000]
+inputs:
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/NIOHTTP1/HTTPDecoder.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/NIOHTTP1/HTTPEncoder.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/NIOHTTP1/HTTPPipelineSetup.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/NIOHTTP1/HTTPResponseCompressor.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/NIOHTTP1/HTTPServerPipelineHandler.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/NIOHTTP1/HTTPServerProtocolErrorHandler.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/NIOHTTP1/HTTPTypes.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/NIOHTTP1/HTTPUpgradeHandler.swift": [1544147825, 0]

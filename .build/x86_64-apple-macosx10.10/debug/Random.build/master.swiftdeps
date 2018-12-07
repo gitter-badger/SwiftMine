@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "bef04bca47569a7410fefb6b1e3061b6"
+build_time: [1544147842, 593429000]
+inputs:
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Random/Array+Random.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Random/OSRandom.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Random/RandomProtocol.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Random/URandom.swift": [1544147827, 0]

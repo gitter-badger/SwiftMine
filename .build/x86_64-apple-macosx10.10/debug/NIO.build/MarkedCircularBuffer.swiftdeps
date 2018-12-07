@@ -1,0 +1,486 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MarkedCircularBuffer"
+provides-nominal:
+- "3NIO20MarkedCircularBufferV"
+provides-member:
+- ["3NIO20MarkedCircularBufferV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "-"
+- !private "-="
+- !private "<"
+- !private "=="
+- !private ">"
+- !private ">="
+- "AppendableCollection"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CircularBuffer"
+- "CountableRange"
+- "CustomStringConvertible"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "MarkedCircularBuffer"
+- "SignedInteger"
+- "Strideable"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "assert"
+- !private "precondition"
+depends-member:
+- !private ["3NIO20AppendableCollectionP", "CircularBuffer"]
+- ["3NIO20AppendableCollectionP", "Element"]
+- ["3NIO20AppendableCollectionP", "Index"]
+- ["3NIO20AppendableCollectionP", "Indices"]
+- ["3NIO20AppendableCollectionP", "Iterator"]
+- ["3NIO20AppendableCollectionP", "SubSequence"]
+- ["3NIO20AppendableCollectionP", ""]
+- ["3NIO20AppendableCollectionP", "_Default_Element"]
+- ["3NIO20AppendableCollectionP", "_Default_Index"]
+- ["3NIO20AppendableCollectionP", "_Default_Indices"]
+- ["3NIO20AppendableCollectionP", "_Default_Iterator"]
+- ["3NIO20AppendableCollectionP", "_Default_SubSequence"]
+- ["3NIO20AppendableCollectionP", "_copyContents"]
+- ["3NIO20AppendableCollectionP", "_copyToContiguousArray"]
+- ["3NIO20AppendableCollectionP", "_customContainsEquatableElement"]
+- ["3NIO20AppendableCollectionP", "_customIndexOfEquatableElement"]
+- ["3NIO20AppendableCollectionP", "_customLastIndexOfEquatableElement"]
+- ["3NIO20AppendableCollectionP", "_failEarlyRangeCheck"]
+- ["3NIO20AppendableCollectionP", "_preprocessingPass"]
+- ["3NIO20AppendableCollectionP", "append"]
+- !private ["3NIO20AppendableCollectionP", "assert"]
+- !private ["3NIO20AppendableCollectionP", "buffer"]
+- ["3NIO20AppendableCollectionP", "count"]
+- ["3NIO20AppendableCollectionP", "description"]
+- ["3NIO20AppendableCollectionP", "distance"]
+- ["3NIO20AppendableCollectionP", "drop"]
+- ["3NIO20AppendableCollectionP", "dropFirst"]
+- ["3NIO20AppendableCollectionP", "dropLast"]
+- ["3NIO20AppendableCollectionP", "endIndex"]
+- ["3NIO20AppendableCollectionP", "filter"]
+- ["3NIO20AppendableCollectionP", "first"]
+- ["3NIO20AppendableCollectionP", "forEach"]
+- ["3NIO20AppendableCollectionP", "formIndex"]
+- ["3NIO20AppendableCollectionP", "index"]
+- ["3NIO20AppendableCollectionP", "indices"]
+- !private ["3NIO20AppendableCollectionP", "init"]
+- ["3NIO20AppendableCollectionP", "isEmpty"]
+- ["3NIO20AppendableCollectionP", "makeIterator"]
+- ["3NIO20AppendableCollectionP", "map"]
+- !private ["3NIO20AppendableCollectionP", "markedElementIndex"]
+- !private ["3NIO20AppendableCollectionP", "markedIndex"]
+- !private ["3NIO20AppendableCollectionP", "precondition"]
+- ["3NIO20AppendableCollectionP", "prefix"]
+- !private ["3NIO20AppendableCollectionP", "removeFirst"]
+- ["3NIO20AppendableCollectionP", "split"]
+- ["3NIO20AppendableCollectionP", "startIndex"]
+- ["3NIO20AppendableCollectionP", "subscript"]
+- ["3NIO20AppendableCollectionP", "suffix"]
+- ["3NIO20AppendableCollectionP", "underestimatedCount"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "description"]
+- !private ["SK", "endIndex"]
+- !private ["SK", "first"]
+- !private ["SK", "index"]
+- !private ["SK", "indices"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "removeFirst"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["3NIO14CircularBufferV", "append"]
+- !private ["3NIO14CircularBufferV", "count"]
+- !private ["3NIO14CircularBufferV", "deinit"]
+- !private ["3NIO14CircularBufferV", "description"]
+- !private ["3NIO14CircularBufferV", "endIndex"]
+- !private ["3NIO14CircularBufferV", "first"]
+- !private ["3NIO14CircularBufferV", "index"]
+- !private ["3NIO14CircularBufferV", "indices"]
+- !private ["3NIO14CircularBufferV", "init"]
+- !private ["3NIO14CircularBufferV", "isEmpty"]
+- !private ["3NIO14CircularBufferV", "removeFirst"]
+- !private ["3NIO14CircularBufferV", "startIndex"]
+- !private ["3NIO14CircularBufferV", "subscript"]
+- !private ["Sl", "CircularBuffer"]
+- ["Sl", "Element"]
+- ["Sl", "Index"]
+- ["Sl", "Indices"]
+- ["Sl", "Iterator"]
+- ["Sl", "SubSequence"]
+- ["Sl", ""]
+- ["Sl", "_Default_Element"]
+- ["Sl", "_Default_Index"]
+- ["Sl", "_Default_Indices"]
+- ["Sl", "_Default_Iterator"]
+- ["Sl", "_Default_SubSequence"]
+- ["Sl", "_copyContents"]
+- ["Sl", "_copyToContiguousArray"]
+- ["Sl", "_customContainsEquatableElement"]
+- ["Sl", "_customIndexOfEquatableElement"]
+- ["Sl", "_customLastIndexOfEquatableElement"]
+- ["Sl", "_failEarlyRangeCheck"]
+- ["Sl", "_preprocessingPass"]
+- ["Sl", "append"]
+- !private ["Sl", "assert"]
+- !private ["Sl", "buffer"]
+- ["Sl", "count"]
+- ["Sl", "description"]
+- ["Sl", "distance"]
+- ["Sl", "drop"]
+- ["Sl", "dropFirst"]
+- ["Sl", "dropLast"]
+- ["Sl", "endIndex"]
+- ["Sl", "filter"]
+- ["Sl", "first"]
+- ["Sl", "forEach"]
+- ["Sl", "formIndex"]
+- ["Sl", "index"]
+- ["Sl", "indices"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- ["Sl", "isEmpty"]
+- ["Sl", "makeIterator"]
+- ["Sl", "map"]
+- !private ["Sl", "markedElementIndex"]
+- !private ["Sl", "markedIndex"]
+- !private ["Sl", "precondition"]
+- ["Sl", "prefix"]
+- !private ["Sl", "removeFirst"]
+- ["Sl", "split"]
+- ["Sl", "startIndex"]
+- ["Sl", "subscript"]
+- ["Sl", "suffix"]
+- ["Sl", "underestimatedCount"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "CircularBuffer"]
+- ["s23CustomStringConvertibleP", "Element"]
+- ["s23CustomStringConvertibleP", "Index"]
+- ["s23CustomStringConvertibleP", "Indices"]
+- ["s23CustomStringConvertibleP", "Iterator"]
+- ["s23CustomStringConvertibleP", "SubSequence"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_Element"]
+- ["s23CustomStringConvertibleP", "_Default_Index"]
+- ["s23CustomStringConvertibleP", "_Default_Indices"]
+- ["s23CustomStringConvertibleP", "_Default_Iterator"]
+- ["s23CustomStringConvertibleP", "_Default_SubSequence"]
+- ["s23CustomStringConvertibleP", "_copyContents"]
+- ["s23CustomStringConvertibleP", "_copyToContiguousArray"]
+- ["s23CustomStringConvertibleP", "_customContainsEquatableElement"]
+- ["s23CustomStringConvertibleP", "_customIndexOfEquatableElement"]
+- ["s23CustomStringConvertibleP", "_customLastIndexOfEquatableElement"]
+- ["s23CustomStringConvertibleP", "_failEarlyRangeCheck"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "_preprocessingPass"]
+- ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "assert"]
+- !private ["s23CustomStringConvertibleP", "buffer"]
+- ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "distance"]
+- ["s23CustomStringConvertibleP", "drop"]
+- ["s23CustomStringConvertibleP", "dropFirst"]
+- ["s23CustomStringConvertibleP", "dropLast"]
+- ["s23CustomStringConvertibleP", "endIndex"]
+- ["s23CustomStringConvertibleP", "filter"]
+- ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "forEach"]
+- ["s23CustomStringConvertibleP", "formIndex"]
+- ["s23CustomStringConvertibleP", "index"]
+- ["s23CustomStringConvertibleP", "indices"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "isEmpty"]
+- ["s23CustomStringConvertibleP", "makeIterator"]
+- ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "markedElementIndex"]
+- !private ["s23CustomStringConvertibleP", "markedIndex"]
+- !private ["s23CustomStringConvertibleP", "precondition"]
+- ["s23CustomStringConvertibleP", "prefix"]
+- !private ["s23CustomStringConvertibleP", "removeFirst"]
+- ["s23CustomStringConvertibleP", "split"]
+- ["s23CustomStringConvertibleP", "startIndex"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "suffix"]
+- ["s23CustomStringConvertibleP", "underestimatedCount"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["3NIO20MarkedCircularBufferV", "Bool"]
+- ["3NIO20MarkedCircularBufferV", "CircularBuffer"]
+- ["3NIO20MarkedCircularBufferV", "CountableRange"]
+- ["3NIO20MarkedCircularBufferV", "E"]
+- ["3NIO20MarkedCircularBufferV", "Element"]
+- ["3NIO20MarkedCircularBufferV", "Index"]
+- ["3NIO20MarkedCircularBufferV", "Indices"]
+- ["3NIO20MarkedCircularBufferV", "Int"]
+- ["3NIO20MarkedCircularBufferV", "Iterator"]
+- ["3NIO20MarkedCircularBufferV", "RangeType"]
+- ["3NIO20MarkedCircularBufferV", "SignedInteger"]
+- ["3NIO20MarkedCircularBufferV", "Strideable"]
+- ["3NIO20MarkedCircularBufferV", "String"]
+- ["3NIO20MarkedCircularBufferV", "SubSequence"]
+- ["3NIO20MarkedCircularBufferV", "_Default_Element"]
+- ["3NIO20MarkedCircularBufferV", "_Default_Index"]
+- ["3NIO20MarkedCircularBufferV", "_Default_Indices"]
+- ["3NIO20MarkedCircularBufferV", "_Default_Iterator"]
+- ["3NIO20MarkedCircularBufferV", "_Default_SubSequence"]
+- ["3NIO20MarkedCircularBufferV", "_copyContents"]
+- ["3NIO20MarkedCircularBufferV", "_copyToContiguousArray"]
+- ["3NIO20MarkedCircularBufferV", "_customContainsEquatableElement"]
+- ["3NIO20MarkedCircularBufferV", "_customIndexOfEquatableElement"]
+- ["3NIO20MarkedCircularBufferV", "_customLastIndexOfEquatableElement"]
+- ["3NIO20MarkedCircularBufferV", "_failEarlyRangeCheck"]
+- ["3NIO20MarkedCircularBufferV", "_preprocessingPass"]
+- ["3NIO20MarkedCircularBufferV", "append"]
+- !private ["3NIO20MarkedCircularBufferV", "assert"]
+- !private ["3NIO20MarkedCircularBufferV", "buffer"]
+- ["3NIO20MarkedCircularBufferV", "count"]
+- ["3NIO20MarkedCircularBufferV", "deinit"]
+- ["3NIO20MarkedCircularBufferV", "description"]
+- ["3NIO20MarkedCircularBufferV", "distance"]
+- ["3NIO20MarkedCircularBufferV", "drop"]
+- ["3NIO20MarkedCircularBufferV", "dropFirst"]
+- ["3NIO20MarkedCircularBufferV", "dropLast"]
+- ["3NIO20MarkedCircularBufferV", "endIndex"]
+- ["3NIO20MarkedCircularBufferV", "filter"]
+- ["3NIO20MarkedCircularBufferV", "first"]
+- ["3NIO20MarkedCircularBufferV", "forEach"]
+- ["3NIO20MarkedCircularBufferV", "formIndex"]
+- ["3NIO20MarkedCircularBufferV", "hasMark"]
+- ["3NIO20MarkedCircularBufferV", "index"]
+- ["3NIO20MarkedCircularBufferV", "indices"]
+- ["3NIO20MarkedCircularBufferV", "init"]
+- ["3NIO20MarkedCircularBufferV", "isEmpty"]
+- ["3NIO20MarkedCircularBufferV", "isMarked"]
+- ["3NIO20MarkedCircularBufferV", "makeIterator"]
+- ["3NIO20MarkedCircularBufferV", "map"]
+- ["3NIO20MarkedCircularBufferV", "mark"]
+- ["3NIO20MarkedCircularBufferV", "markedElement"]
+- ["3NIO20MarkedCircularBufferV", "markedElementIndex"]
+- !private ["3NIO20MarkedCircularBufferV", "markedIndex"]
+- !private ["3NIO20MarkedCircularBufferV", "precondition"]
+- ["3NIO20MarkedCircularBufferV", "prefix"]
+- ["3NIO20MarkedCircularBufferV", "removeFirst"]
+- ["3NIO20MarkedCircularBufferV", "split"]
+- ["3NIO20MarkedCircularBufferV", "startIndex"]
+- ["3NIO20MarkedCircularBufferV", "subscript"]
+- ["3NIO20MarkedCircularBufferV", "suffix"]
+- ["3NIO20MarkedCircularBufferV", "underestimatedCount"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["Sq", "map"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "description"]
+- !private ["Sk", "endIndex"]
+- !private ["Sk", "first"]
+- !private ["Sk", "index"]
+- !private ["Sk", "indices"]
+- !private ["Sk", "init"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "removeFirst"]
+- !private ["Sk", "startIndex"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "description"]
+- !private ["Sm", "endIndex"]
+- !private ["Sm", "first"]
+- !private ["Sm", "index"]
+- !private ["Sm", "indices"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "removeFirst"]
+- !private ["Sm", "startIndex"]
+- !private ["Sm", "subscript"]
+- !private ["ST", "CircularBuffer"]
+- ["ST", "Element"]
+- ["ST", "Index"]
+- ["ST", "Indices"]
+- ["ST", "Iterator"]
+- ["ST", "SubSequence"]
+- ["ST", ""]
+- ["ST", "_Default_Element"]
+- ["ST", "_Default_Index"]
+- ["ST", "_Default_Indices"]
+- ["ST", "_Default_Iterator"]
+- ["ST", "_Default_SubSequence"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- ["ST", "_customIndexOfEquatableElement"]
+- ["ST", "_customLastIndexOfEquatableElement"]
+- ["ST", "_failEarlyRangeCheck"]
+- ["ST", "_preprocessingPass"]
+- ["ST", "append"]
+- !private ["ST", "assert"]
+- !private ["ST", "buffer"]
+- ["ST", "count"]
+- ["ST", "description"]
+- ["ST", "distance"]
+- ["ST", "drop"]
+- ["ST", "dropFirst"]
+- ["ST", "dropLast"]
+- ["ST", "endIndex"]
+- ["ST", "filter"]
+- ["ST", "first"]
+- ["ST", "forEach"]
+- ["ST", "formIndex"]
+- ["ST", "index"]
+- ["ST", "indices"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- ["ST", "isEmpty"]
+- ["ST", "makeIterator"]
+- ["ST", "map"]
+- !private ["ST", "markedElementIndex"]
+- !private ["ST", "markedIndex"]
+- !private ["ST", "precondition"]
+- ["ST", "prefix"]
+- !private ["ST", "removeFirst"]
+- ["ST", "split"]
+- ["ST", "startIndex"]
+- ["ST", "subscript"]
+- ["ST", "suffix"]
+- ["ST", "underestimatedCount"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "3NIO20AppendableCollectionP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "3NIO14CircularBufferV"
+- "Sl"
+- !private "SL"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- "3NIO20MarkedCircularBufferV"
+- !private "s10MirrorPathP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- "ST"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+interface-hash: "9b496bf7bd5467ab9593ebd087f70b3b"

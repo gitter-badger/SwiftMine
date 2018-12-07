@@ -1,0 +1,207 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLQueryFetcher"
+provides-nominal:
+- "3SQL15SQLQueryFetcherP"
+provides-member:
+- ["3SQL15SQLQueryFetcherP", ""]
+- ["3SQL15SQLQueryFetcherP", "first"]
+- ["3SQL15SQLQueryFetcherP", "first"]
+- ["3SQL15SQLQueryFetcherP", "first"]
+- ["3SQL15SQLQueryFetcherP", "first"]
+- ["3SQL15SQLQueryFetcherP", "all"]
+- ["3SQL15SQLQueryFetcherP", "all"]
+- ["3SQL15SQLQueryFetcherP", "all"]
+- ["3SQL15SQLQueryFetcherP", "all"]
+- ["3SQL15SQLQueryFetcherP", "run"]
+- ["3SQL15SQLQueryFetcherP", "run"]
+- ["3SQL15SQLQueryFetcherP", "run"]
+- ["3SQL15SQLQueryFetcherP", "run"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Decodable"
+- "Future"
+- "SQLQueryBuilder"
+- "SQLQueryFetcher"
+- "SQLTable"
+- "Void"
+depends-member:
+- !private ["4Core15AnyOptionalTypeP", "table"]
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- !private ["4Core22AnyReflectionDecodableP", "first"]
+- !private ["4Core22AnyReflectionDecodableP", "table"]
+- !private ["Sa", "append"]
+- !private ["Sa", "first"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "first"]
+- !private ["SK", "append"]
+- !private ["SK", "first"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "first"]
+- !private ["Sl", "append"]
+- !private ["Sl", "first"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "table"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "table"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["11DatabaseKit0A9QueryableP", "Output"]
+- !private ["11DatabaseKit0A9QueryableP", "decode"]
+- !private ["11DatabaseKit0A9QueryableP", "query"]
+- !private ["Se", "append"]
+- !private ["Se", "first"]
+- !private ["Se", "table"]
+- !private ["SE", "append"]
+- !private ["SE", "first"]
+- !private ["SE", "map"]
+- !private ["SE", "table"]
+- !private ["SQ", "append"]
+- !private ["SQ", "first"]
+- !private ["SQ", "map"]
+- !private ["SQ", "table"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s23ExpressibleByNilLiteralP", "table"]
+- !private ["5Async10FutureTypeP", "map"]
+- !private ["SH", "append"]
+- !private ["SH", "first"]
+- !private ["SH", "table"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- !private ["4Core23LosslessDataConvertibleP", "first"]
+- !private ["SM", "append"]
+- !private ["SM", "first"]
+- !private ["Sq", "table"]
+- !private ["4Core12OptionalTypeP", "table"]
+- !private ["Sk", "append"]
+- !private ["Sk", "first"]
+- !private ["Sm", "append"]
+- !private ["Sm", "first"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- !private ["4Core19ReflectionDecodableP", "first"]
+- !private ["4Core19ReflectionDecodableP", "table"]
+- !private ["3SQL14SQLConnectableP", "Connection"]
+- !private ["3SQL14SQLConnectableP", "Output"]
+- !private ["3SQL14SQLConnectableP", "decode"]
+- !private ["3SQL14SQLConnectableP", "query"]
+- !private ["3SQL14SQLConnectableP", "withSQLConnection"]
+- !private ["3SQL13SQLConnectionP", "Output"]
+- !private ["3SQL13SQLConnectionP", "decode"]
+- !private ["3SQL13SQLConnectionP", "query"]
+- ["3SQL15SQLQueryBuilderP", "Connectable"]
+- ["3SQL15SQLQueryBuilderP", "Decodable"]
+- ["3SQL15SQLQueryBuilderP", "Future"]
+- ["3SQL15SQLQueryBuilderP", "SQLTable"]
+- ["3SQL15SQLQueryBuilderP", "Void"]
+- ["3SQL15SQLQueryBuilderP", ""]
+- !private ["3SQL15SQLQueryBuilderP", "all"]
+- !private ["3SQL15SQLQueryBuilderP", "connectable"]
+- !private ["3SQL15SQLQueryBuilderP", "query"]
+- !private ["3SQL15SQLQueryBuilderP", "run"]
+- ["3SQL15SQLQueryFetcherP", "Connectable"]
+- ["3SQL15SQLQueryFetcherP", "Decodable"]
+- ["3SQL15SQLQueryFetcherP", "Future"]
+- ["3SQL15SQLQueryFetcherP", "SQLTable"]
+- ["3SQL15SQLQueryFetcherP", "Void"]
+- ["3SQL15SQLQueryFetcherP", "all"]
+- !private ["3SQL15SQLQueryFetcherP", "connectable"]
+- ["3SQL15SQLQueryFetcherP", "first"]
+- !private ["3SQL15SQLQueryFetcherP", "query"]
+- ["3SQL15SQLQueryFetcherP", "run"]
+- !private ["3SQL15SQLSerializableP", "table"]
+- !private ["3SQL18SQLTableIdentifierP", "table"]
+- !private ["ST", "append"]
+- !private ["ST", "first"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "table"]
+depends-nominal:
+- !private "4Core15AnyOptionalTypeP"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "11DatabaseKit0A9QueryableP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "3NIO15EventLoopFutureC"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "5Async10FutureTypeP"
+- !private "SH"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "SM"
+- !private "Sq"
+- !private "4Core12OptionalTypeP"
+- !private "Sk"
+- !private "Sm"
+- !private "4Core19ReflectionDecodableP"
+- !private "3SQL14SQLConnectableP"
+- !private "3SQL13SQLConnectionP"
+- "3SQL15SQLQueryBuilderP"
+- "3SQL15SQLQueryFetcherP"
+- !private "3SQL15SQLSerializableP"
+- !private "3SQL18SQLTableIdentifierP"
+- !private "ST"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/DatabaseKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "137633c23b7c582aafe52d868f209684"

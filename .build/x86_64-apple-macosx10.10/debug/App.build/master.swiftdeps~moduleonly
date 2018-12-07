@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "38d9632771f0e54714fb7cb6b8f91601"
+build_time: [1544147859, 934733000]
+inputs:
+  "/Users/davidseitzjr/Desktop/SwiftMine/Sources/App/Controllers/TodoController.swift": [1544147678, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/Sources/App/Models/Todo.swift": [1544147678, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/Sources/App/app.swift": [1544147678, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/Sources/App/boot.swift": [1544147678, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/Sources/App/configure.swift": [1544147678, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/Sources/App/routes.swift": [1544147678, 0]

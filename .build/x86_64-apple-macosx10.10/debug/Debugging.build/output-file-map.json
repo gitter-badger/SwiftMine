@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.build/master.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Debugging/Debuggable.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.build/Debuggable.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.build/Debuggable.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.build/Debuggable~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.build/Debuggable.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Debugging/Demangler.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.build/Demangler.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.build/Demangler.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.build/Demangler~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.build/Demangler.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Debugging/SourceLocation.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.build/SourceLocation.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.build/SourceLocation.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.build/SourceLocation~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.build/SourceLocation.swiftdeps"
+  }
+}

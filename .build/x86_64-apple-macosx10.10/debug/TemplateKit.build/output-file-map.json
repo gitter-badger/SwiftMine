@@ -1,0 +1,251 @@
+{
+  "": {
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/master.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/AST/TemplateConditional.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateConditional.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/AST/TemplateConditional.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateConditional~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateConditional.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/AST/TemplateConstant.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateConstant.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/AST/TemplateConstant.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateConstant~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateConstant.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/AST/TemplateCustom.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateCustom.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/AST/TemplateCustom.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateCustom~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateCustom.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/AST/TemplateDataContext.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateDataContext.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/AST/TemplateDataContext.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateDataContext~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateDataContext.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/AST/TemplateEmbed.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateEmbed.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/AST/TemplateEmbed.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateEmbed~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateEmbed.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/AST/TemplateExpression.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateExpression.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/AST/TemplateExpression.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateExpression~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateExpression.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/AST/TemplateIdentifier.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateIdentifier.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/AST/TemplateIdentifier.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateIdentifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateIdentifier.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/AST/TemplateIterator.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateIterator.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/AST/TemplateIterator.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateIterator~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateIterator.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/AST/TemplateRaw.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateRaw.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/AST/TemplateRaw.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateRaw~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateRaw.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/AST/TemplateSource.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateSource.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/AST/TemplateSource.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateSource~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateSource.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/AST/TemplateSyntax.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateSyntax.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/AST/TemplateSyntax.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateSyntax~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateSyntax.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/AST/TemplateSyntaxType.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateSyntaxType.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/AST/TemplateSyntaxType.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateSyntaxType~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateSyntaxType.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/AST/TemplateTag.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateTag.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/AST/TemplateTag.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateTag~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateTag.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Data/TemplateData.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateData.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Data/TemplateData.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateData~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateData.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Data/TemplateDataEncoder.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateDataEncoder.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Data/TemplateDataEncoder.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateDataEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateDataEncoder.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Data/TemplateDataRepresentable.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateDataRepresentable.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Data/TemplateDataRepresentable.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateDataRepresentable~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateDataRepresentable.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Data/TemplateDataStorage.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateDataStorage.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Data/TemplateDataStorage.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateDataStorage~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateDataStorage.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Deprecated.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Deprecated.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Deprecated.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Deprecated~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Deprecated.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Pipeline/ASTCache.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/ASTCache.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Pipeline/ASTCache.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/ASTCache~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/ASTCache.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Pipeline/PlaintextRenderer.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/PlaintextRenderer.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Pipeline/PlaintextRenderer.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/PlaintextRenderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/PlaintextRenderer.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Pipeline/TemplateByteScanner.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateByteScanner.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Pipeline/TemplateByteScanner.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateByteScanner~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateByteScanner.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Pipeline/TemplateParser.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateParser.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Pipeline/TemplateParser.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateParser.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Pipeline/TemplateRenderer.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateRenderer.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Pipeline/TemplateRenderer.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateRenderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateRenderer.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Pipeline/TemplateSerializer.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateSerializer.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Pipeline/TemplateSerializer.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateSerializer~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateSerializer.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Tag/Capitalize.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Capitalize.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Tag/Capitalize.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Capitalize~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Capitalize.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Tag/Comment.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Comment.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Tag/Comment.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Comment~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Comment.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Tag/Contains.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Contains.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Tag/Contains.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Contains~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Contains.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Tag/Count.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Count.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Tag/Count.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Count~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Count.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Tag/DateFormat.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/DateFormat.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Tag/DateFormat.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/DateFormat~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/DateFormat.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Tag/Lowercase.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Lowercase.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Tag/Lowercase.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Lowercase~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Lowercase.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Tag/Print.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Print.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Tag/Print.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Print~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Print.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Tag/Raw.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Raw.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Tag/Raw.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Raw~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Raw.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Tag/TagContext.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TagContext.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Tag/TagContext.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TagContext~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TagContext.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Tag/TagRenderer.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TagRenderer.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Tag/TagRenderer.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TagRenderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TagRenderer.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Tag/Uppercase.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Uppercase.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Tag/Uppercase.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Uppercase~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Uppercase.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Tag/Var.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Var.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Tag/Var.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Var~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Var.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Utilities/Exports.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Exports.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Utilities/Exports.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Exports.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Utilities/HTMLEscape.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/HTMLEscape.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Utilities/HTMLEscape.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/HTMLEscape~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/HTMLEscape.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/Utilities/TemplateError.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateError.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/Utilities/TemplateError.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateError~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/TemplateError.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/View.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/View.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/View.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/View~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/View.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/template-kit.git-792666203319437151/Sources/TemplateKit/ViewRenderer.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/ViewRenderer.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/ViewRenderer.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/ViewRenderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.build/ViewRenderer.swiftdeps"
+  }
+}

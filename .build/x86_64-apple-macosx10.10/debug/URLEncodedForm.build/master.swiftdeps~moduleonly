@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "b042cadbbd40b38a08b03c4fa2c2ba83"
+build_time: [1544147845, 517995000]
+inputs:
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/url-encoded-form.git--6897194620875079850/Sources/URLEncodedForm/Codable/URLEncodedFormDecoder.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/url-encoded-form.git--6897194620875079850/Sources/URLEncodedForm/Codable/URLEncodedFormEncoder.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/url-encoded-form.git--6897194620875079850/Sources/URLEncodedForm/Data/URLEncodedFormData.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/url-encoded-form.git--6897194620875079850/Sources/URLEncodedForm/Data/URLEncodedFormDataConvertible.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/url-encoded-form.git--6897194620875079850/Sources/URLEncodedForm/Data/URLEncodedFormParser.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/url-encoded-form.git--6897194620875079850/Sources/URLEncodedForm/Data/URLEncodedFormSerializer.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/url-encoded-form.git--6897194620875079850/Sources/URLEncodedForm/Utilities/Exports.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/url-encoded-form.git--6897194620875079850/Sources/URLEncodedForm/Utilities/URLEncodedFormError.swift": [1544147824, 0]

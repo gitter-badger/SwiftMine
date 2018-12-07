@@ -1,0 +1,77 @@
+{
+  "": {
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/master.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/Exports.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/Exports.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/Exports.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/Exports.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/FluentSQLiteError.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/FluentSQLiteError.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/FluentSQLiteError.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/FluentSQLiteError~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/FluentSQLiteError.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/FluentSQLiteProvider.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/FluentSQLiteProvider.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/FluentSQLiteProvider.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/FluentSQLiteProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/FluentSQLiteProvider.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/FluentSQLiteQuery.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/FluentSQLiteQuery.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/FluentSQLiteQuery.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/FluentSQLiteQuery~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/FluentSQLiteQuery.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/FluentSQLiteSchema.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/FluentSQLiteSchema.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/FluentSQLiteSchema.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/FluentSQLiteSchema~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/FluentSQLiteSchema.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/SQLiteDatabase+JoinSupporting.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+JoinSupporting.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+JoinSupporting.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+JoinSupporting~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+JoinSupporting.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/SQLiteDatabase+MigrationSupporting.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+MigrationSupporting.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+MigrationSupporting.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+MigrationSupporting~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+MigrationSupporting.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/SQLiteDatabase+QuerySupporting.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+QuerySupporting.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+QuerySupporting.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+QuerySupporting~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+QuerySupporting.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/SQLiteDatabase+SchemaSupporting.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+SchemaSupporting.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+SchemaSupporting.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+SchemaSupporting~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+SchemaSupporting.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/SQLiteDatabase+TransactionSupporting.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+TransactionSupporting.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+TransactionSupporting.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+TransactionSupporting~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteDatabase+TransactionSupporting.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/SQLiteModels.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteModels.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteModels.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteModels~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteModels.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/SQLiteTypes.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteTypes.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteTypes.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteTypes~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQLite.build/SQLiteTypes.swiftdeps"
+  }
+}

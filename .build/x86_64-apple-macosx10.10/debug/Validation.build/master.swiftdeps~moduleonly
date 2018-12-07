@@ -1,0 +1,22 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "ea7b42f5efc91b2aa6a9b622ed4a7221"
+build_time: [1544147845, 517950000]
+inputs:
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/validation.git--1998599855278873518/Sources/Validation/Exports.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/validation.git--1998599855278873518/Sources/Validation/Validatable.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/validation.git--1998599855278873518/Sources/Validation/ValidationError.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/validation.git--1998599855278873518/Sources/Validation/Validations.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/validation.git--1998599855278873518/Sources/Validation/Validator.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/validation.git--1998599855278873518/Sources/Validation/ValidatorType.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/validation.git--1998599855278873518/Sources/Validation/Validators/AndValidator.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/validation.git--1998599855278873518/Sources/Validation/Validators/CharacterSetValidator.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/validation.git--1998599855278873518/Sources/Validation/Validators/CountValidator.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/validation.git--1998599855278873518/Sources/Validation/Validators/EmailValidator.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/validation.git--1998599855278873518/Sources/Validation/Validators/EmptyValidator.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/validation.git--1998599855278873518/Sources/Validation/Validators/InValidator.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/validation.git--1998599855278873518/Sources/Validation/Validators/NilIgnoringValidator.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/validation.git--1998599855278873518/Sources/Validation/Validators/NilValidator.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/validation.git--1998599855278873518/Sources/Validation/Validators/NotValidator.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/validation.git--1998599855278873518/Sources/Validation/Validators/OrValidator.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/validation.git--1998599855278873518/Sources/Validation/Validators/RangeValidator.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/validation.git--1998599855278873518/Sources/Validation/Validators/URLValidator.swift": [1544147824, 0]

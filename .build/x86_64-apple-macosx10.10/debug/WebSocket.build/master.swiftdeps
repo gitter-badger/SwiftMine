@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "9d06df7913dfbe9c16a301444fc21e3f"
+build_time: [1544147852, 86444000]
+inputs:
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/websocket.git-5601365634395871692/Sources/WebSocket/Exports.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/websocket.git-5601365634395871692/Sources/WebSocket/WebSocket+Client.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/websocket.git-5601365634395871692/Sources/WebSocket/WebSocket+Server.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/websocket.git-5601365634395871692/Sources/WebSocket/WebSocket.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/websocket.git-5601365634395871692/Sources/WebSocket/WebSocketHandler.swift": [1544147825, 0]

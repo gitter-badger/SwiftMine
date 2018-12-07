@@ -1,0 +1,647 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OpenSSLCertificate"
+- "SubjectAltNameSequence"
+- "=="
+provides-nominal:
+- "10NIOOpenSSL18OpenSSLCertificateC"
+- "10NIOOpenSSL18OpenSSLCertificateC15AlternativeNameO"
+- "10NIOOpenSSL18OpenSSLCertificateC9IPAddressO"
+- "10NIOOpenSSL22SubjectAltNameSequenceC"
+provides-member:
+- ["10NIOOpenSSL18OpenSSLCertificateC", ""]
+- ["10NIOOpenSSL18OpenSSLCertificateC15AlternativeNameO", ""]
+- ["10NIOOpenSSL18OpenSSLCertificateC9IPAddressO", ""]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+="
+- !private "<"
+- "=="
+- !private ">="
+- !private "ASN1_STRING_length"
+- !private "ASN1_STRING_to_UTF8"
+- "AssignmentPrecedence"
+- !private "BIO_free"
+- !private "BIO_new_mem_buf"
+- "Bool"
+- !private "CNIOOpenSSL_ASN1_STRING_get0_data"
+- !private "CNIOOpenSSL_OPENSSL_free"
+- !private "CNIOOpenSSL_sk_GENERAL_NAME_num"
+- !private "CNIOOpenSSL_sk_GENERAL_NAME_value"
+- "Equatable"
+- !private "FloatLiteralType"
+- !private "GENERAL_NAMES_free"
+- !private "GEN_DNS"
+- !private "GEN_IPADD"
+- !private "Int"
+- "Int32"
+- "Int8"
+- !private "IntegerLiteralType"
+- "IteratorProtocol"
+- !private "NID_commonName"
+- !private "NID_subject_alt_name"
+- !private "NIOOpenSSLError"
+- "OpaquePointer"
+- "OpenSSLCertificate"
+- "OpenSSLSerializationFormats"
+- !private "PEM_read_X509"
+- !private "PEM_read_bio_X509"
+- !private "Posix"
+- "Sequence"
+- "String"
+- !private "StringLiteralType"
+- "SubjectAltNameSequence"
+- "UInt8"
+- "UnsafeBufferPointer"
+- !private "UnsafeMutablePointer"
+- !private "UnsafeMutableRawPointer"
+- "UnsafePointer"
+- !private "X509_NAME_ENTRY_get_data"
+- !private "X509_NAME_get_entry"
+- !private "X509_NAME_get_index_by_NID"
+- !private "X509_cmp"
+- !private "X509_free"
+- !private "X509_get_ext_d2i"
+- !private "X509_get_subject_name"
+- !private "d2i_X509_bio"
+- !private "d2i_X509_fp"
+- !private "fatalError"
+- !private "fclose"
+- "in6_addr"
+- "in_addr"
+- !private "~="
+depends-member:
+- ["10NIOOpenSSL18OpenSSLCertificateC15AlternativeNameO", "IPAddress"]
+- ["10NIOOpenSSL18OpenSSLCertificateC15AlternativeNameO", "UInt8"]
+- ["10NIOOpenSSL18OpenSSLCertificateC15AlternativeNameO", "dnsName"]
+- ["10NIOOpenSSL18OpenSSLCertificateC15AlternativeNameO", "ipAddress"]
+- !private ["Sa", "init"]
+- !private ["Sa", "withUnsafeBytes"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "withUnsafeBytes"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["SK", "baseAddress"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "withUnsafeBytes"]
+- !private ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "make"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "withMemoryRebound"]
+- !private ["Sl", "baseAddress"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "withUnsafeBytes"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "make"]
+- !private ["SL", "pointee"]
+- !private ["SL", "withMemoryRebound"]
+- !private ["3NIO20ContiguousCollectionP", "baseAddress"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "withUnsafeBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dnsName"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "ipAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "ipv4"]
+- !private ["s28CustomDebugStringConvertibleP", "ipv6"]
+- !private ["s28CustomDebugStringConvertibleP", "make"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "withMemoryRebound"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeBytes"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "make"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s29CustomPlaygroundQuickLookableP", "withMemoryRebound"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "dnsName"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "ipAddress"]
+- !private ["s17CustomReflectableP", "ipv4"]
+- !private ["s17CustomReflectableP", "ipv6"]
+- !private ["s17CustomReflectableP", "make"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "withMemoryRebound"]
+- !private ["s17CustomReflectableP", "withUnsafeBytes"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeBytes"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "dnsName"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "ipAddress"]
+- !private ["Se", "ipv4"]
+- !private ["Se", "ipv6"]
+- !private ["Se", "make"]
+- !private ["Se", "withUnsafeBytes"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "dnsName"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "ipAddress"]
+- !private ["SE", "ipv4"]
+- !private ["SE", "ipv6"]
+- !private ["SE", "make"]
+- !private ["SE", "withUnsafeBytes"]
+- !private ["SQ", "ASN1_STRING_to_UTF8"]
+- ["SQ", "AlternativeName"]
+- !private ["SQ", "BIO_free"]
+- !private ["SQ", "BIO_new_mem_buf"]
+- !private ["SQ", "CNIOOpenSSL_OPENSSL_free"]
+- ["SQ", "IPAddress"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "Int32"]
+- !private ["SQ", "NID_commonName"]
+- !private ["SQ", "NID_subject_alt_name"]
+- !private ["SQ", "NIOOpenSSLError"]
+- !private ["SQ", "OpenSSLCertificate"]
+- !private ["SQ", "PEM_read_X509"]
+- !private ["SQ", "PEM_read_bio_X509"]
+- !private ["SQ", "Posix"]
+- !private ["SQ", "SubjectAltNameSequence"]
+- !private ["SQ", "UInt8"]
+- !private ["SQ", "UnsafeBufferPointer"]
+- !private ["SQ", "UnsafeMutableRawPointer"]
+- !private ["SQ", "X509_NAME_ENTRY_get_data"]
+- !private ["SQ", "X509_NAME_get_entry"]
+- !private ["SQ", "X509_NAME_get_index_by_NID"]
+- !private ["SQ", "X509_cmp"]
+- !private ["SQ", "X509_free"]
+- !private ["SQ", "X509_get_ext_d2i"]
+- !private ["SQ", "X509_get_subject_name"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "d2i_X509_bio"]
+- !private ["SQ", "d2i_X509_fp"]
+- ["SQ", "der"]
+- !private ["SQ", "dnsName"]
+- !private ["SQ", "failedToLoadCertificate"]
+- !private ["SQ", "fclose"]
+- !private ["SQ", "fromUnsafePointer"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "ipAddress"]
+- !private ["SQ", "ipv4"]
+- !private ["SQ", "ipv6"]
+- !private ["SQ", "make"]
+- ["SQ", "pem"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "ref"]
+- !private ["SQ", "withMemoryRebound"]
+- !private ["SQ", "withUnsafeBytes"]
+- !private ["s5ErrorP", "failedToLoadCertificate"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "withUnsafeBytes"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "dnsName"]
+- !private ["s23ExpressibleByNilLiteralP", "ipAddress"]
+- !private ["s23ExpressibleByNilLiteralP", "ipv4"]
+- !private ["s23ExpressibleByNilLiteralP", "ipv6"]
+- !private ["s23ExpressibleByNilLiteralP", "make"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["So15GENERAL_NAME_stV", "d"]
+- !private ["So15GENERAL_NAME_stV", "type"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "der"]
+- !private ["SH", "dnsName"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "ipAddress"]
+- !private ["SH", "ipv4"]
+- !private ["SH", "ipv6"]
+- !private ["SH", "make"]
+- ["SH", "pem"]
+- !private ["SH", "pointee"]
+- !private ["SH", "withMemoryRebound"]
+- !private ["SH", "withUnsafeBytes"]
+- ["10NIOOpenSSL18OpenSSLCertificateC9IPAddressO", "in6_addr"]
+- ["10NIOOpenSSL18OpenSSLCertificateC9IPAddressO", "in_addr"]
+- ["10NIOOpenSSL18OpenSSLCertificateC9IPAddressO", "ipv4"]
+- ["10NIOOpenSSL18OpenSSLCertificateC9IPAddressO", "ipv6"]
+- !private ["Si", "init"]
+- !private ["s5Int32V", "init"]
+- !private ["St", "ASN1_STRING_length"]
+- !private ["St", "CNIOOpenSSL_ASN1_STRING_get0_data"]
+- !private ["St", "CNIOOpenSSL_sk_GENERAL_NAME_num"]
+- !private ["St", "CNIOOpenSSL_sk_GENERAL_NAME_value"]
+- ["St", "Element"]
+- !private ["St", "GENERAL_NAMES_free"]
+- !private ["St", "GEN_DNS"]
+- !private ["St", "GEN_IPADD"]
+- !private ["St", "Int"]
+- ["St", "Iterator"]
+- ["St", "SubSequence"]
+- !private ["St", "UInt8"]
+- !private ["St", "UnsafeBufferPointer"]
+- ["St", ""]
+- ["St", "_Default_Iterator"]
+- ["St", "_Default_SubSequence"]
+- ["St", "_copyContents"]
+- ["St", "_copyToContiguousArray"]
+- ["St", "_customContainsEquatableElement"]
+- ["St", "_preprocessingPass"]
+- !private ["St", "addressFromBytes"]
+- ["St", "drop"]
+- ["St", "dropFirst"]
+- ["St", "dropLast"]
+- !private ["St", "fatalError"]
+- ["St", "filter"]
+- ["St", "forEach"]
+- !private ["St", "in6_addr"]
+- !private ["St", "in_addr"]
+- !private ["St", "init"]
+- ["St", "makeIterator"]
+- ["St", "map"]
+- !private ["St", "nameStack"]
+- ["St", "next"]
+- !private ["St", "nextIdx"]
+- ["St", "prefix"]
+- ["St", "split"]
+- !private ["St", "stackSize"]
+- ["St", "suffix"]
+- ["St", "underestimatedCount"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "init"]
+- !private ["SM", "withUnsafeBytes"]
+- !private ["10NIOOpenSSL0A8SSLErrorO", "deinit"]
+- !private ["10NIOOpenSSL0A8SSLErrorO", "failedToLoadCertificate"]
+- !private ["Sj", "init"]
+- !private ["s13OpaquePointerV", "init"]
+- !private ["s13OpaquePointerV", "init"]
+- !private ["s13OpaquePointerV", "make"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "=="]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "ASN1_STRING_to_UTF8"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "AlternativeName"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "BIO_free"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "BIO_new_mem_buf"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "Bool"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "CNIOOpenSSL_OPENSSL_free"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "IPAddress"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "Int"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "Int32"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "Int8"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "NID_commonName"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "NID_subject_alt_name"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "NIOOpenSSLError"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "OpaquePointer"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "OpenSSLCertificate"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "OpenSSLSerializationFormats"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "PEM_read_X509"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "PEM_read_bio_X509"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "Posix"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "String"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "SubjectAltNameSequence"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "UInt8"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "UnsafeBufferPointer"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "UnsafeMutablePointer"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "UnsafeMutableRawPointer"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "UnsafePointer"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "X509_NAME_ENTRY_get_data"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "X509_NAME_get_entry"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "X509_NAME_get_index_by_NID"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "X509_cmp"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "X509_free"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "X509_get_ext_d2i"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "X509_get_subject_name"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "commonName"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "d2i_X509_bio"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "d2i_X509_fp"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "deinit"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "fclose"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "fromUnsafePointer"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "in6_addr"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "in_addr"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "init"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "ref"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "subjectAlternativeNames"]
+- ["10NIOOpenSSL27OpenSSLSerializationFormatsO", "der"]
+- ["10NIOOpenSSL27OpenSSLSerializationFormatsO", "pem"]
+- !private ["Sq", "dnsName"]
+- !private ["Sq", "ipAddress"]
+- !private ["Sq", "ipv4"]
+- !private ["Sq", "ipv6"]
+- !private ["Sq", "make"]
+- !private ["10NIOOpenSSL5PosixO", "fopen"]
+- !private ["Sk", "baseAddress"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "withUnsafeBytes"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "withUnsafeBytes"]
+- !private ["ST", "ASN1_STRING_length"]
+- !private ["ST", "CNIOOpenSSL_ASN1_STRING_get0_data"]
+- !private ["ST", "CNIOOpenSSL_sk_GENERAL_NAME_num"]
+- !private ["ST", "CNIOOpenSSL_sk_GENERAL_NAME_value"]
+- ["ST", "Element"]
+- !private ["ST", "GENERAL_NAMES_free"]
+- !private ["ST", "GEN_DNS"]
+- !private ["ST", "GEN_IPADD"]
+- !private ["ST", "Int"]
+- ["ST", "Iterator"]
+- ["ST", "SubSequence"]
+- !private ["ST", "UInt8"]
+- !private ["ST", "UnsafeBufferPointer"]
+- ["ST", ""]
+- ["ST", "_Default_Iterator"]
+- ["ST", "_Default_SubSequence"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- ["ST", "_preprocessingPass"]
+- !private ["ST", "addressFromBytes"]
+- !private ["ST", "baseAddress"]
+- !private ["ST", "count"]
+- ["ST", "drop"]
+- ["ST", "dropFirst"]
+- ["ST", "dropLast"]
+- !private ["ST", "fatalError"]
+- ["ST", "filter"]
+- ["ST", "forEach"]
+- !private ["ST", "in6_addr"]
+- !private ["ST", "in_addr"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- ["ST", "makeIterator"]
+- ["ST", "map"]
+- !private ["ST", "nameStack"]
+- ["ST", "next"]
+- !private ["ST", "nextIdx"]
+- ["ST", "prefix"]
+- ["ST", "split"]
+- !private ["ST", "stackSize"]
+- ["ST", "suffix"]
+- ["ST", "underestimatedCount"]
+- !private ["ST", "withUnsafeBytes"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- !private ["Sx", "make"]
+- !private ["Sx", "pointee"]
+- !private ["Sx", "withMemoryRebound"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["10NIOOpenSSL22SubjectAltNameSequenceC", "ASN1_STRING_length"]
+- !private ["10NIOOpenSSL22SubjectAltNameSequenceC", "CNIOOpenSSL_ASN1_STRING_get0_data"]
+- !private ["10NIOOpenSSL22SubjectAltNameSequenceC", "CNIOOpenSSL_sk_GENERAL_NAME_num"]
+- !private ["10NIOOpenSSL22SubjectAltNameSequenceC", "CNIOOpenSSL_sk_GENERAL_NAME_value"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "Element"]
+- !private ["10NIOOpenSSL22SubjectAltNameSequenceC", "GENERAL_NAMES_free"]
+- !private ["10NIOOpenSSL22SubjectAltNameSequenceC", "GEN_DNS"]
+- !private ["10NIOOpenSSL22SubjectAltNameSequenceC", "GEN_IPADD"]
+- !private ["10NIOOpenSSL22SubjectAltNameSequenceC", "Int"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "Int32"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "Iterator"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "OpaquePointer"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "OpenSSLCertificate"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "SubSequence"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "UInt8"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "UnsafeBufferPointer"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "_Default_Iterator"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "_Default_SubSequence"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "_copyContents"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "_copyToContiguousArray"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "_customContainsEquatableElement"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "_preprocessingPass"]
+- !private ["10NIOOpenSSL22SubjectAltNameSequenceC", "addressFromBytes"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "deinit"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "drop"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "dropFirst"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "dropLast"]
+- !private ["10NIOOpenSSL22SubjectAltNameSequenceC", "fatalError"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "filter"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "forEach"]
+- !private ["10NIOOpenSSL22SubjectAltNameSequenceC", "in6_addr"]
+- !private ["10NIOOpenSSL22SubjectAltNameSequenceC", "in_addr"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "init"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "makeIterator"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "map"]
+- !private ["10NIOOpenSSL22SubjectAltNameSequenceC", "nameStack"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "next"]
+- !private ["10NIOOpenSSL22SubjectAltNameSequenceC", "nextIdx"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "prefix"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "split"]
+- !private ["10NIOOpenSSL22SubjectAltNameSequenceC", "stackSize"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "suffix"]
+- ["10NIOOpenSSL22SubjectAltNameSequenceC", "underestimatedCount"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["SR", "baseAddress"]
+- !private ["SR", "count"]
+- !private ["SR", "init"]
+- !private ["Sp", "make"]
+- !private ["Sv", "init"]
+- !private ["SP", "make"]
+- !private ["SP", "pointee"]
+- !private ["SP", "withMemoryRebound"]
+- !private ["SW", "baseAddress"]
+- !private ["SW", "count"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "withUnsafeBytes"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "withUnsafeBytes"]
+- !private ["s21_ObjectiveCBridgeableP", "dnsName"]
+- !private ["s21_ObjectiveCBridgeableP", "ipAddress"]
+- !private ["s21_ObjectiveCBridgeableP", "ipv4"]
+- !private ["s21_ObjectiveCBridgeableP", "ipv6"]
+- !private ["s21_ObjectiveCBridgeableP", "make"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "make"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s8_PointerP", "withMemoryRebound"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["So15GENERAL_NAME_stV17__Unnamed_union_dV", "ia5"]
+depends-nominal:
+- "10NIOOpenSSL18OpenSSLCertificateC15AlternativeNameO"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "SK"
+- !private "Sz"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "So15GENERAL_NAME_stV"
+- "SH"
+- "10NIOOpenSSL18OpenSSLCertificateC9IPAddressO"
+- !private "Si"
+- !private "s5Int32V"
+- "St"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10NIOOpenSSL0A8SSLErrorO"
+- !private "Sj"
+- !private "s13OpaquePointerV"
+- "10NIOOpenSSL18OpenSSLCertificateC"
+- "10NIOOpenSSL27OpenSSLSerializationFormatsO"
+- !private "Sq"
+- !private "10NIOOpenSSL5PosixO"
+- !private "Sk"
+- !private "Sm"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- "10NIOOpenSSL22SubjectAltNameSequenceC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "SR"
+- !private "Sp"
+- !private "Sv"
+- !private "SP"
+- !private "SW"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s16_SwiftStringViewP"
+- !private "So15GENERAL_NAME_stV17__Unnamed_union_dV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOTLS.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ec.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ssl.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/bn.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/err.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/opensslv.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/x509_vfy.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl-support.git-7929588247395141738/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+interface-hash: "832cf0fc72c42919e177a17e09f948dd"

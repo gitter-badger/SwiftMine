@@ -1,0 +1,725 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "6SQLite0A8DatabaseC"
+provides-member:
+- ["6SQLite0A8DatabaseC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "=="
+- !private "AnyOptionalType"
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- "FluentSQLiteSchema"
+- "FluentSQLiteSchemaStatement"
+- "Future"
+- !private "IntegerLiteralType"
+- "SQLConstraintIdentifierNormalizer"
+- !private "SQLiteColumnConstraint"
+- "SQLiteColumnDefinition"
+- "SQLiteConnection"
+- !private "SQLiteCreateTable"
+- "SQLiteDataType"
+- !private "SQLiteDataTypeStaticRepresentable"
+- "SQLiteDatabase"
+- !private "SQLiteDropTable"
+- "SQLiteForeignKeyAction"
+- !private "SQLiteQuery"
+- "SQLiteTableConstraint"
+- "SchemaSupporting"
+- "String"
+- !private "StringLiteralType"
+- "Void"
+- !private "fatalError"
+depends-member:
+- !private ["4Core15AnyOptionalTypeP", "anyWrappedType"]
+- !private ["4Core22AnyReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- !private ["4Core22AnyReflectionDecodableP", "count"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "subscript"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["5Async11BasicWorkerP", "query"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["11DatabaseKit0A0P", "Schema"]
+- ["11DatabaseKit0A0P", "SchemaAction"]
+- ["11DatabaseKit0A0P", "SchemaConstraint"]
+- ["11DatabaseKit0A0P", "SchemaField"]
+- ["11DatabaseKit0A0P", "SchemaFieldType"]
+- ["11DatabaseKit0A0P", "SchemaReferenceAction"]
+- ["11DatabaseKit0A0P", "disableReferences"]
+- ["11DatabaseKit0A0P", "enableReferences"]
+- !private ["11DatabaseKit0A0P", "fatalError"]
+- ["11DatabaseKit0A0P", "normalizeSQLConstraintIdentifier"]
+- ["11DatabaseKit0A0P", "schemaActionCreate"]
+- ["11DatabaseKit0A0P", "schemaActionDelete"]
+- ["11DatabaseKit0A0P", "schemaActionUpdate"]
+- ["11DatabaseKit0A0P", "schemaConstraintCreate"]
+- ["11DatabaseKit0A0P", "schemaConstraintDelete"]
+- ["11DatabaseKit0A0P", "schemaCreate"]
+- ["11DatabaseKit0A0P", "schemaExecute"]
+- ["11DatabaseKit0A0P", "schemaField"]
+- ["11DatabaseKit0A0P", "schemaFieldCreate"]
+- ["11DatabaseKit0A0P", "schemaFieldDelete"]
+- ["11DatabaseKit0A0P", "schemaReference"]
+- ["11DatabaseKit0A0P", "schemaUnique"]
+- !private ["11DatabaseKit0A11ConnectableP", "query"]
+- !private ["11DatabaseKit0A10ConnectionP", "query"]
+- !private ["11DatabaseKit0A9QueryableP", "query"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SE", "transform"]
+- ["SQ", "_alterTable"]
+- ["SQ", "_createTable"]
+- ["SQ", "_dropTable"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- ["SQ", "blob"]
+- !private ["SQ", "count"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "integer"]
+- ["SQ", "null"]
+- ["SQ", "real"]
+- !private ["SQ", "subscript"]
+- ["SQ", "text"]
+- !private ["SQ", "transform"]
+- !private ["3NIO15EventLoopFutureC", "transform"]
+- !private ["3NIO14EventLoopGroupP", "query"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_createTable"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_dropTable"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "alterTable"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "_createTable"]
+- !private ["s26ExpressibleByStringLiteralP", "_dropTable"]
+- !private ["s26ExpressibleByStringLiteralP", "alterTable"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "_createTable"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "_dropTable"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "alterTable"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["7Service10ExtendableP", "query"]
+- !private ["9FluentSQL0A9SQLSchemaP", "columns"]
+- !private ["9FluentSQL0A9SQLSchemaP", "constraints"]
+- !private ["9FluentSQL0A9SQLSchemaP", "statement"]
+- !private ["9FluentSQL0A9SQLSchemaP", "table"]
+- ["9FluentSQL0A18SQLSchemaStatementP", "_alterTable"]
+- ["9FluentSQL0A18SQLSchemaStatementP", "_createTable"]
+- ["9FluentSQL0A18SQLSchemaStatementP", "_dropTable"]
+- !private ["12FluentSQLite0aB6SchemaV", "columns"]
+- !private ["12FluentSQLite0aB6SchemaV", "constraints"]
+- ["12FluentSQLite0aB6SchemaV", "deinit"]
+- !private ["12FluentSQLite0aB6SchemaV", "statement"]
+- !private ["12FluentSQLite0aB6SchemaV", "table"]
+- ["12FluentSQLite0aB15SchemaStatementO", "_alterTable"]
+- ["12FluentSQLite0aB15SchemaStatementO", "_createTable"]
+- ["12FluentSQLite0aB15SchemaStatementO", "_dropTable"]
+- ["12FluentSQLite0aB15SchemaStatementO", "deinit"]
+- !private ["5Async10FutureTypeP", "transform"]
+- !private ["3SQL26GenericSQLColumnConstraintV", "notNull"]
+- !private ["3SQL26GenericSQLColumnConstraintV", "primaryKey"]
+- !private ["3SQL26GenericSQLColumnDefinitionV", "columnDefinition"]
+- !private ["3SQL19GenericSQLDropTableV", "dropTable"]
+- ["SH", "_alterTable"]
+- ["SH", "_createTable"]
+- ["SH", "_dropTable"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- ["SH", "blob"]
+- !private ["SH", "count"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "integer"]
+- ["SH", "null"]
+- ["SH", "real"]
+- !private ["SH", "subscript"]
+- ["SH", "text"]
+- !private ["6Fluent2IDP", "init"]
+- !private ["6Fluent2IDP", "init"]
+- ["6Fluent14JoinSupportingP", "Schema"]
+- ["6Fluent14JoinSupportingP", "SchemaAction"]
+- ["6Fluent14JoinSupportingP", "SchemaConstraint"]
+- ["6Fluent14JoinSupportingP", "SchemaField"]
+- ["6Fluent14JoinSupportingP", "SchemaFieldType"]
+- ["6Fluent14JoinSupportingP", "SchemaReferenceAction"]
+- ["6Fluent14JoinSupportingP", "disableReferences"]
+- ["6Fluent14JoinSupportingP", "enableReferences"]
+- !private ["6Fluent14JoinSupportingP", "fatalError"]
+- ["6Fluent14JoinSupportingP", "normalizeSQLConstraintIdentifier"]
+- ["6Fluent14JoinSupportingP", "schemaActionCreate"]
+- ["6Fluent14JoinSupportingP", "schemaActionDelete"]
+- ["6Fluent14JoinSupportingP", "schemaActionUpdate"]
+- ["6Fluent14JoinSupportingP", "schemaConstraintCreate"]
+- ["6Fluent14JoinSupportingP", "schemaConstraintDelete"]
+- ["6Fluent14JoinSupportingP", "schemaCreate"]
+- ["6Fluent14JoinSupportingP", "schemaExecute"]
+- ["6Fluent14JoinSupportingP", "schemaField"]
+- ["6Fluent14JoinSupportingP", "schemaFieldCreate"]
+- ["6Fluent14JoinSupportingP", "schemaFieldDelete"]
+- ["6Fluent14JoinSupportingP", "schemaReference"]
+- ["6Fluent14JoinSupportingP", "schemaUnique"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "Schema"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "SchemaAction"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "SchemaConstraint"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "SchemaField"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "SchemaFieldType"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "SchemaReferenceAction"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "disableReferences"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "enableReferences"]
+- !private ["11DatabaseKit20KeyedCacheSupportingP", "fatalError"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "normalizeSQLConstraintIdentifier"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaActionCreate"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaActionDelete"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaActionUpdate"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaConstraintCreate"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaConstraintDelete"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaCreate"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaExecute"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaField"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaFieldCreate"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaFieldDelete"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaReference"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaUnique"]
+- ["11DatabaseKit13LogSupportingP", "Schema"]
+- ["11DatabaseKit13LogSupportingP", "SchemaAction"]
+- ["11DatabaseKit13LogSupportingP", "SchemaConstraint"]
+- ["11DatabaseKit13LogSupportingP", "SchemaField"]
+- ["11DatabaseKit13LogSupportingP", "SchemaFieldType"]
+- ["11DatabaseKit13LogSupportingP", "SchemaReferenceAction"]
+- ["11DatabaseKit13LogSupportingP", "disableReferences"]
+- ["11DatabaseKit13LogSupportingP", "enableReferences"]
+- !private ["11DatabaseKit13LogSupportingP", "fatalError"]
+- ["11DatabaseKit13LogSupportingP", "normalizeSQLConstraintIdentifier"]
+- ["11DatabaseKit13LogSupportingP", "schemaActionCreate"]
+- ["11DatabaseKit13LogSupportingP", "schemaActionDelete"]
+- ["11DatabaseKit13LogSupportingP", "schemaActionUpdate"]
+- ["11DatabaseKit13LogSupportingP", "schemaConstraintCreate"]
+- ["11DatabaseKit13LogSupportingP", "schemaConstraintDelete"]
+- ["11DatabaseKit13LogSupportingP", "schemaCreate"]
+- ["11DatabaseKit13LogSupportingP", "schemaExecute"]
+- ["11DatabaseKit13LogSupportingP", "schemaField"]
+- ["11DatabaseKit13LogSupportingP", "schemaFieldCreate"]
+- ["11DatabaseKit13LogSupportingP", "schemaFieldDelete"]
+- ["11DatabaseKit13LogSupportingP", "schemaReference"]
+- ["11DatabaseKit13LogSupportingP", "schemaUnique"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- !private ["4Core23LosslessDataConvertibleP", "count"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["6Fluent19MigrationSupportingP", "Schema"]
+- ["6Fluent19MigrationSupportingP", "SchemaAction"]
+- ["6Fluent19MigrationSupportingP", "SchemaConstraint"]
+- ["6Fluent19MigrationSupportingP", "SchemaField"]
+- ["6Fluent19MigrationSupportingP", "SchemaFieldType"]
+- ["6Fluent19MigrationSupportingP", "SchemaReferenceAction"]
+- ["6Fluent19MigrationSupportingP", "disableReferences"]
+- ["6Fluent19MigrationSupportingP", "enableReferences"]
+- !private ["6Fluent19MigrationSupportingP", "fatalError"]
+- ["6Fluent19MigrationSupportingP", "normalizeSQLConstraintIdentifier"]
+- ["6Fluent19MigrationSupportingP", "schemaActionCreate"]
+- ["6Fluent19MigrationSupportingP", "schemaActionDelete"]
+- ["6Fluent19MigrationSupportingP", "schemaActionUpdate"]
+- ["6Fluent19MigrationSupportingP", "schemaConstraintCreate"]
+- ["6Fluent19MigrationSupportingP", "schemaConstraintDelete"]
+- ["6Fluent19MigrationSupportingP", "schemaCreate"]
+- ["6Fluent19MigrationSupportingP", "schemaExecute"]
+- ["6Fluent19MigrationSupportingP", "schemaField"]
+- ["6Fluent19MigrationSupportingP", "schemaFieldCreate"]
+- ["6Fluent19MigrationSupportingP", "schemaFieldDelete"]
+- ["6Fluent19MigrationSupportingP", "schemaReference"]
+- ["6Fluent19MigrationSupportingP", "schemaUnique"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "subscript"]
+- ["6Fluent15QuerySupportingP", "Schema"]
+- ["6Fluent15QuerySupportingP", "SchemaAction"]
+- ["6Fluent15QuerySupportingP", "SchemaConstraint"]
+- ["6Fluent15QuerySupportingP", "SchemaField"]
+- ["6Fluent15QuerySupportingP", "SchemaFieldType"]
+- ["6Fluent15QuerySupportingP", "SchemaReferenceAction"]
+- ["6Fluent15QuerySupportingP", "disableReferences"]
+- ["6Fluent15QuerySupportingP", "enableReferences"]
+- !private ["6Fluent15QuerySupportingP", "fatalError"]
+- ["6Fluent15QuerySupportingP", "normalizeSQLConstraintIdentifier"]
+- ["6Fluent15QuerySupportingP", "schemaActionCreate"]
+- ["6Fluent15QuerySupportingP", "schemaActionDelete"]
+- ["6Fluent15QuerySupportingP", "schemaActionUpdate"]
+- ["6Fluent15QuerySupportingP", "schemaConstraintCreate"]
+- ["6Fluent15QuerySupportingP", "schemaConstraintDelete"]
+- ["6Fluent15QuerySupportingP", "schemaCreate"]
+- ["6Fluent15QuerySupportingP", "schemaExecute"]
+- ["6Fluent15QuerySupportingP", "schemaField"]
+- ["6Fluent15QuerySupportingP", "schemaFieldCreate"]
+- ["6Fluent15QuerySupportingP", "schemaFieldDelete"]
+- ["6Fluent15QuerySupportingP", "schemaReference"]
+- ["6Fluent15QuerySupportingP", "schemaUnique"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["4Core19ReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- !private ["4Core19ReflectionDecodableP", "count"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "subscript"]
+- !private ["3SQL13SQLAlterTableP", "init"]
+- !private ["3SQL13SQLAlterTableP", "init"]
+- !private ["3SQL19SQLColumnConstraintP", "notNull"]
+- !private ["3SQL19SQLColumnConstraintP", "primaryKey"]
+- !private ["3SQL19SQLColumnDefinitionP", "columnDefinition"]
+- !private ["3SQL14SQLConnectableP", "query"]
+- !private ["3SQL13SQLConnectionP", "query"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "Schema"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "SchemaAction"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "SchemaConstraint"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "SchemaField"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "SchemaFieldType"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "SchemaReferenceAction"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", ""]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "disableReferences"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "enableReferences"]
+- !private ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "fatalError"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "normalizeSQLConstraintIdentifier"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaActionCreate"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaActionDelete"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaActionUpdate"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaConstraintCreate"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaConstraintDelete"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaCreate"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaExecute"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaField"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaFieldCreate"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaFieldDelete"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaReference"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaUnique"]
+- !private ["3SQL14SQLCreateTableP", "columns"]
+- !private ["3SQL14SQLCreateTableP", "createTable"]
+- !private ["3SQL14SQLCreateTableP", "tableConstraints"]
+- ["3SQL11SQLDataTypeP", "blob"]
+- ["3SQL11SQLDataTypeP", "integer"]
+- ["3SQL11SQLDataTypeP", "null"]
+- ["3SQL11SQLDataTypeP", "real"]
+- ["3SQL11SQLDataTypeP", "text"]
+- !private ["3SQL12SQLDropTableP", "dropTable"]
+- !private ["3SQL8SQLQueryP", "_createTable"]
+- !private ["3SQL8SQLQueryP", "_dropTable"]
+- !private ["3SQL8SQLQueryP", "alterTable"]
+- !private ["3SQL8SQLQueryP", "init"]
+- !private ["3SQL8SQLQueryP", "init"]
+- !private ["3SQL15SQLSerializableP", "_createTable"]
+- !private ["3SQL15SQLSerializableP", "_dropTable"]
+- !private ["3SQL15SQLSerializableP", "addColumn"]
+- !private ["3SQL15SQLSerializableP", "alterTable"]
+- ["3SQL15SQLSerializableP", "blob"]
+- !private ["3SQL15SQLSerializableP", "columnDefinition"]
+- !private ["3SQL15SQLSerializableP", "columns"]
+- !private ["3SQL15SQLSerializableP", "createTable"]
+- !private ["3SQL15SQLSerializableP", "dropTable"]
+- !private ["3SQL15SQLSerializableP", "init"]
+- !private ["3SQL15SQLSerializableP", "init"]
+- ["3SQL15SQLSerializableP", "integer"]
+- !private ["3SQL15SQLSerializableP", "notNull"]
+- ["3SQL15SQLSerializableP", "null"]
+- !private ["3SQL15SQLSerializableP", "primaryKey"]
+- ["3SQL15SQLSerializableP", "real"]
+- !private ["3SQL15SQLSerializableP", "tableConstraints"]
+- ["3SQL15SQLSerializableP", "text"]
+- !private ["6SQLite0A10AlterTableV", "init"]
+- !private ["6SQLite0A10AlterTableV", "init"]
+- !private ["6SQLite0A10ConnectionC", "query"]
+- !private ["6SQLite0A11CreateTableV", "columns"]
+- !private ["6SQLite0A11CreateTableV", "createTable"]
+- !private ["6SQLite0A11CreateTableV", "tableConstraints"]
+- !private ["6SQLite0A15DataConvertibleP", "_getBuiltinLogicValue"]
+- !private ["6SQLite0A15DataConvertibleP", "init"]
+- !private ["6SQLite0A15DataConvertibleP", "init"]
+- ["6SQLite0A8DataTypeO", "blob"]
+- ["6SQLite0A8DataTypeO", "integer"]
+- ["6SQLite0A8DataTypeO", "null"]
+- ["6SQLite0A8DataTypeO", "real"]
+- ["6SQLite0A8DataTypeO", "text"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "_getBuiltinLogicValue"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "init"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "init"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "sqliteDataType"]
+- !private ["6SQLite0A8DatabaseC", "AnyOptionalType"]
+- ["6SQLite0A8DatabaseC", "Bool"]
+- ["6SQLite0A8DatabaseC", "FluentSQLiteSchema"]
+- ["6SQLite0A8DatabaseC", "FluentSQLiteSchemaStatement"]
+- ["6SQLite0A8DatabaseC", "Future"]
+- ["6SQLite0A8DatabaseC", "QueryField"]
+- !private ["6SQLite0A8DatabaseC", "SQLiteColumnConstraint"]
+- ["6SQLite0A8DatabaseC", "SQLiteColumnDefinition"]
+- ["6SQLite0A8DatabaseC", "SQLiteConnection"]
+- !private ["6SQLite0A8DatabaseC", "SQLiteCreateTable"]
+- ["6SQLite0A8DatabaseC", "SQLiteDataType"]
+- !private ["6SQLite0A8DatabaseC", "SQLiteDataTypeStaticRepresentable"]
+- !private ["6SQLite0A8DatabaseC", "SQLiteDropTable"]
+- ["6SQLite0A8DatabaseC", "SQLiteForeignKeyAction"]
+- !private ["6SQLite0A8DatabaseC", "SQLiteQuery"]
+- ["6SQLite0A8DatabaseC", "SQLiteTableConstraint"]
+- ["6SQLite0A8DatabaseC", "Schema"]
+- ["6SQLite0A8DatabaseC", "SchemaAction"]
+- ["6SQLite0A8DatabaseC", "SchemaConstraint"]
+- ["6SQLite0A8DatabaseC", "SchemaField"]
+- ["6SQLite0A8DatabaseC", "SchemaFieldType"]
+- ["6SQLite0A8DatabaseC", "SchemaReferenceAction"]
+- ["6SQLite0A8DatabaseC", "String"]
+- ["6SQLite0A8DatabaseC", "Void"]
+- ["6SQLite0A8DatabaseC", "deinit"]
+- ["6SQLite0A8DatabaseC", "disableReferences"]
+- ["6SQLite0A8DatabaseC", "enableReferences"]
+- !private ["6SQLite0A8DatabaseC", "fatalError"]
+- ["6SQLite0A8DatabaseC", "normalizeSQLConstraintIdentifier"]
+- ["6SQLite0A8DatabaseC", "schemaActionCreate"]
+- ["6SQLite0A8DatabaseC", "schemaActionDelete"]
+- ["6SQLite0A8DatabaseC", "schemaActionUpdate"]
+- ["6SQLite0A8DatabaseC", "schemaConstraintCreate"]
+- ["6SQLite0A8DatabaseC", "schemaConstraintDelete"]
+- ["6SQLite0A8DatabaseC", "schemaCreate"]
+- ["6SQLite0A8DatabaseC", "schemaExecute"]
+- ["6SQLite0A8DatabaseC", "schemaField"]
+- ["6SQLite0A8DatabaseC", "schemaFieldCreate"]
+- ["6SQLite0A8DatabaseC", "schemaFieldDelete"]
+- ["6SQLite0A8DatabaseC", "schemaReference"]
+- ["6SQLite0A8DatabaseC", "schemaUnique"]
+- !private ["6SQLite0A5QueryO", "_createTable"]
+- !private ["6SQLite0A5QueryO", "_dropTable"]
+- !private ["6SQLite0A5QueryO", "alterTable"]
+- !private ["6SQLite0A5QueryO", "init"]
+- !private ["6SQLite0A5QueryO", "init"]
+- ["6Fluent16SchemaSupportingP", "Schema"]
+- ["6Fluent16SchemaSupportingP", "SchemaAction"]
+- ["6Fluent16SchemaSupportingP", "SchemaConstraint"]
+- ["6Fluent16SchemaSupportingP", "SchemaField"]
+- ["6Fluent16SchemaSupportingP", "SchemaFieldType"]
+- ["6Fluent16SchemaSupportingP", "SchemaReferenceAction"]
+- ["6Fluent16SchemaSupportingP", ""]
+- ["6Fluent16SchemaSupportingP", "disableReferences"]
+- ["6Fluent16SchemaSupportingP", "enableReferences"]
+- !private ["6Fluent16SchemaSupportingP", "fatalError"]
+- ["6Fluent16SchemaSupportingP", "normalizeSQLConstraintIdentifier"]
+- ["6Fluent16SchemaSupportingP", "schemaActionCreate"]
+- ["6Fluent16SchemaSupportingP", "schemaActionDelete"]
+- ["6Fluent16SchemaSupportingP", "schemaActionUpdate"]
+- ["6Fluent16SchemaSupportingP", "schemaConstraintCreate"]
+- ["6Fluent16SchemaSupportingP", "schemaConstraintDelete"]
+- ["6Fluent16SchemaSupportingP", "schemaCreate"]
+- ["6Fluent16SchemaSupportingP", "schemaExecute"]
+- ["6Fluent16SchemaSupportingP", "schemaField"]
+- ["6Fluent16SchemaSupportingP", "schemaFieldCreate"]
+- ["6Fluent16SchemaSupportingP", "schemaFieldDelete"]
+- ["6Fluent16SchemaSupportingP", "schemaReference"]
+- ["6Fluent16SchemaSupportingP", "schemaUnique"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- ["7ServiceAAP", "Schema"]
+- ["7ServiceAAP", "SchemaAction"]
+- ["7ServiceAAP", "SchemaConstraint"]
+- ["7ServiceAAP", "SchemaField"]
+- ["7ServiceAAP", "SchemaFieldType"]
+- ["7ServiceAAP", "SchemaReferenceAction"]
+- ["7ServiceAAP", "disableReferences"]
+- ["7ServiceAAP", "enableReferences"]
+- !private ["7ServiceAAP", "fatalError"]
+- ["7ServiceAAP", "normalizeSQLConstraintIdentifier"]
+- ["7ServiceAAP", "schemaActionCreate"]
+- ["7ServiceAAP", "schemaActionDelete"]
+- ["7ServiceAAP", "schemaActionUpdate"]
+- ["7ServiceAAP", "schemaConstraintCreate"]
+- ["7ServiceAAP", "schemaConstraintDelete"]
+- ["7ServiceAAP", "schemaCreate"]
+- ["7ServiceAAP", "schemaExecute"]
+- ["7ServiceAAP", "schemaField"]
+- ["7ServiceAAP", "schemaFieldCreate"]
+- ["7ServiceAAP", "schemaFieldDelete"]
+- ["7ServiceAAP", "schemaReference"]
+- ["7ServiceAAP", "schemaUnique"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["6Fluent21TransactionSupportingP", "Schema"]
+- ["6Fluent21TransactionSupportingP", "SchemaAction"]
+- ["6Fluent21TransactionSupportingP", "SchemaConstraint"]
+- ["6Fluent21TransactionSupportingP", "SchemaField"]
+- ["6Fluent21TransactionSupportingP", "SchemaFieldType"]
+- ["6Fluent21TransactionSupportingP", "SchemaReferenceAction"]
+- ["6Fluent21TransactionSupportingP", "disableReferences"]
+- ["6Fluent21TransactionSupportingP", "enableReferences"]
+- !private ["6Fluent21TransactionSupportingP", "fatalError"]
+- ["6Fluent21TransactionSupportingP", "normalizeSQLConstraintIdentifier"]
+- ["6Fluent21TransactionSupportingP", "schemaActionCreate"]
+- ["6Fluent21TransactionSupportingP", "schemaActionDelete"]
+- ["6Fluent21TransactionSupportingP", "schemaActionUpdate"]
+- ["6Fluent21TransactionSupportingP", "schemaConstraintCreate"]
+- ["6Fluent21TransactionSupportingP", "schemaConstraintDelete"]
+- ["6Fluent21TransactionSupportingP", "schemaCreate"]
+- ["6Fluent21TransactionSupportingP", "schemaExecute"]
+- ["6Fluent21TransactionSupportingP", "schemaField"]
+- ["6Fluent21TransactionSupportingP", "schemaFieldCreate"]
+- ["6Fluent21TransactionSupportingP", "schemaFieldDelete"]
+- ["6Fluent21TransactionSupportingP", "schemaReference"]
+- ["6Fluent21TransactionSupportingP", "schemaUnique"]
+- !private ["6SQLite0A10AlterTableV5ValueO", "addColumn"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "4Core15AnyOptionalTypeP"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "5Async11BasicWorkerP"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "11DatabaseKit0A0P"
+- !private "11DatabaseKit0A11ConnectableP"
+- !private "11DatabaseKit0A10ConnectionP"
+- !private "11DatabaseKit0A9QueryableP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7Service10ExtendableP"
+- !private "9FluentSQL0A9SQLSchemaP"
+- "9FluentSQL0A18SQLSchemaStatementP"
+- "12FluentSQLite0aB6SchemaV"
+- "12FluentSQLite0aB15SchemaStatementO"
+- !private "5Async10FutureTypeP"
+- !private "3SQL26GenericSQLColumnConstraintV"
+- !private "3SQL26GenericSQLColumnDefinitionV"
+- !private "3SQL19GenericSQLDropTableV"
+- "SH"
+- !private "6Fluent2IDP"
+- "6Fluent14JoinSupportingP"
+- "11DatabaseKit20KeyedCacheSupportingP"
+- "11DatabaseKit13LogSupportingP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- "6Fluent19MigrationSupportingP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- "6Fluent15QuerySupportingP"
+- !private "Sk"
+- !private "Sm"
+- !private "4Core19ReflectionDecodableP"
+- !private "3SQL13SQLAlterTableP"
+- !private "3SQL19SQLColumnConstraintP"
+- !private "3SQL19SQLColumnDefinitionP"
+- !private "3SQL14SQLConnectableP"
+- !private "3SQL13SQLConnectionP"
+- "9FluentSQL33SQLConstraintIdentifierNormalizerP"
+- !private "3SQL14SQLCreateTableP"
+- "3SQL11SQLDataTypeP"
+- !private "3SQL12SQLDropTableP"
+- !private "3SQL8SQLQueryP"
+- "3SQL15SQLSerializableP"
+- !private "6SQLite0A10AlterTableV"
+- !private "6SQLite0A10ConnectionC"
+- !private "6SQLite0A11CreateTableV"
+- !private "6SQLite0A15DataConvertibleP"
+- "6SQLite0A8DataTypeO"
+- !private "6SQLite0A27DataTypeStaticRepresentableP"
+- "6SQLite0A8DatabaseC"
+- !private "6SQLite0A5QueryO"
+- "6Fluent16SchemaSupportingP"
+- !private "ST"
+- "7ServiceAAP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "6Fluent21TransactionSupportingP"
+- !private "6SQLite0A10AlterTableV5ValueO"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/SQL.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQL.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Command.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Console.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/SQLite.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Logging.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/DatabaseKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Fluent.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a0b6ab0fa3945921e3751d078625308f"

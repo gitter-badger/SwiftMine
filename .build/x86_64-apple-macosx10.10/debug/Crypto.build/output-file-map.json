@@ -1,0 +1,119 @@
+{
+  "": {
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/master.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/BCrypt/BCryptDigest.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/BCryptDigest.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/BCrypt/BCryptDigest.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/BCryptDigest~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/BCryptDigest.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/Cipher/AuthenticatedCipher.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/AuthenticatedCipher.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Cipher/AuthenticatedCipher.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/AuthenticatedCipher~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/AuthenticatedCipher.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/Cipher/AuthenticatedCipherAlgorithm.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/AuthenticatedCipherAlgorithm.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Cipher/AuthenticatedCipherAlgorithm.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/AuthenticatedCipherAlgorithm~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/AuthenticatedCipherAlgorithm.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/Cipher/Cipher.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Cipher.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Cipher/Cipher.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Cipher~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Cipher.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/Cipher/CipherAlgorithm.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/CipherAlgorithm.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Cipher/CipherAlgorithm.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/CipherAlgorithm~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/CipherAlgorithm.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/Cipher/OpenSSLCipherAlgorithm.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/OpenSSLCipherAlgorithm.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Cipher/OpenSSLCipherAlgorithm.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/OpenSSLCipherAlgorithm~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/OpenSSLCipherAlgorithm.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/Cipher/OpenSSLStreamCipher.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/OpenSSLStreamCipher.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Cipher/OpenSSLStreamCipher.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/OpenSSLStreamCipher~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/OpenSSLStreamCipher.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/Digest/Digest.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Digest.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Digest/Digest.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Digest~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Digest.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/Digest/DigestAlgorithm.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/DigestAlgorithm.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Digest/DigestAlgorithm.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/DigestAlgorithm~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/DigestAlgorithm.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/MAC/HMAC.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/HMAC.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/MAC/HMAC.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/HMAC~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/HMAC.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/MAC/OTP.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/OTP.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/MAC/OTP.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/OTP~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/OTP.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/RSA/RSA.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSA.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSA/RSA.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSA~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSA.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/RSA/RSAKey.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSAKey.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSA/RSAKey.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSAKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSAKey.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/RSA/RSAPadding.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSAPadding.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSA/RSAPadding.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSAPadding~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/RSAPadding.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/Random/CryptoRandom.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/CryptoRandom.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Random/CryptoRandom.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/CryptoRandom~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/CryptoRandom.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/Utilities/Base32.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Base32.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Utilities/Base32.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Base32~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Base32.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/Utilities/CryptoError.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/CryptoError.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Utilities/CryptoError.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/CryptoError~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/CryptoError.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/Utilities/Deprecated.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Deprecated.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Utilities/Deprecated.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Deprecated~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Deprecated.swiftdeps"
+  },
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/Crypto/Utilities/Exports.swift": {
+    "dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Exports.d",
+    "object": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Utilities/Exports.swift.o",
+    "swiftmodule": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.build/Exports.swiftdeps"
+  }
+}

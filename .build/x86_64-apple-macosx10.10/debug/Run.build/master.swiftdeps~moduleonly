@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "0a390a80b90b38de34d93dfb198eed95"
+build_time: [1544147860, 519112000]
+inputs:
+  "/Users/davidseitzjr/Desktop/SwiftMine/Sources/Run/main.swift": [1544147678, 0]

@@ -1,0 +1,19 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "e4298ed2d765c28b0c6883fb1b386534"
+build_time: [1544147841, 162608000]
+inputs:
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Async+NIO.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/AsyncError.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Collection+Future.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Deprecated.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Exports.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Future+DoCatch.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Future+Flatten.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Future+Global.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Future+Map.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Future+Transform.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Future+Variadic.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Future+Void.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/FutureType.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/QueueHandler.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Async/Worker.swift": [1544147827, 0]

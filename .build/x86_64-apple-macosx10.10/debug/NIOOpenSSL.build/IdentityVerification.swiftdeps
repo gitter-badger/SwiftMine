@@ -1,0 +1,768 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SliceType"
+- "validIdentityForService"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "!="
+- !private "&&"
+- !private "+"
+- !private "..."
+- !private "<"
+- "=="
+- !private ">"
+- !private ">="
+- !private "ASCII_ASTERISK"
+- !private "ASCII_CAPITAL_A"
+- !private "ASCII_CAPITAL_Z"
+- !private "ASCII_CASE_DISTANCE"
+- !private "ASCII_IDN_A_IDENTIFIER"
+- !private "ASCII_PERIOD"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "MemoryLayout"
+- !private "NIOOpenSSLError"
+- "OpenSSLCertificate"
+- "Slice"
+- "SliceType"
+- "SocketAddress"
+- "String"
+- "StringLiteralType"
+- "UInt8"
+- "UnicodeScalarType"
+- "UnsafeBufferPointer"
+- !private "assert"
+- !private "in6_addr"
+- !private "in_addr"
+- !private "matchHostname"
+- !private "matchIpAddress"
+- !private "memcmp"
+- !private "precondition"
+- "validIdentityForService"
+- !private "wildcardLabelMatch"
+- !private "||"
+- !private "~="
+depends-member:
+- ["10NIOOpenSSL18OpenSSLCertificateC15AlternativeNameO", "dnsName"]
+- ["10NIOOpenSSL18OpenSSLCertificateC15AlternativeNameO", "ipAddress"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["Sa", "reserveCapacity"]
+- !private ["Sa", "subscript"]
+- !private ["Sa", "withUnsafeBufferPointer"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "count"]
+- ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "reserveCapacity"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["s13ArrayProtocolP", "withUnsafeBufferPointer"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["SK", "ASCII_CAPITAL_A"]
+- !private ["SK", "ASCII_CAPITAL_Z"]
+- !private ["SK", "ASCII_CASE_DISTANCE"]
+- !private ["SK", "NIOOpenSSLError"]
+- ["SK", "UInt8"]
+- ["SK", "UnsafeBufferPointer"]
+- !private ["SK", "append"]
+- !private ["SK", "base"]
+- !private ["SK", "baseAddress"]
+- !private ["SK", "contains"]
+- !private ["SK", "count"]
+- !private ["SK", "dropLast"]
+- !private ["SK", "filter"]
+- ["SK", "first"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "last"]
+- !private ["SK", "lazy"]
+- !private ["SK", "memcmp"]
+- !private ["SK", "prefix"]
+- !private ["SK", "reserveCapacity"]
+- !private ["SK", "split"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "subscript"]
+- !private ["SK", "suffix"]
+- ["SK", "utf8"]
+- !private ["SK", "withLowercaseASCIIBuffer"]
+- !private ["SK", "withUnsafeBufferPointer"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "advanced"]
+- !private ["SN", "contains"]
+- !private ["Sl", "ASCII_CAPITAL_A"]
+- !private ["Sl", "ASCII_CAPITAL_Z"]
+- !private ["Sl", "ASCII_CASE_DISTANCE"]
+- !private ["Sl", "NIOOpenSSLError"]
+- ["Sl", "UInt8"]
+- ["Sl", "UnsafeBufferPointer"]
+- !private ["Sl", "append"]
+- !private ["Sl", "base"]
+- !private ["Sl", "baseAddress"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "count"]
+- !private ["Sl", "dropLast"]
+- !private ["Sl", "filter"]
+- ["Sl", "first"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "last"]
+- !private ["Sl", "lazy"]
+- !private ["Sl", "memcmp"]
+- !private ["Sl", "prefix"]
+- !private ["Sl", "reserveCapacity"]
+- !private ["Sl", "split"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "suffix"]
+- ["Sl", "utf8"]
+- !private ["Sl", "withLowercaseASCIIBuffer"]
+- !private ["Sl", "withUnsafeBufferPointer"]
+- !private ["SL", "ASCII_CAPITAL_A"]
+- !private ["SL", "ASCII_CAPITAL_Z"]
+- !private ["SL", "ASCII_CASE_DISTANCE"]
+- !private ["SL", "NIOOpenSSLError"]
+- !private ["SL", "UInt8"]
+- !private ["SL", "advanced"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["SL", "utf8"]
+- !private ["SL", "withLowercaseASCIIBuffer"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "baseAddress"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "reserveCapacity"]
+- !private ["3NIO20ContiguousCollectionP", "subscript"]
+- !private ["3NIO20ContiguousCollectionP", "withUnsafeBufferPointer"]
+- !private ["s28CustomDebugStringConvertibleP", "ASCII_CAPITAL_A"]
+- !private ["s28CustomDebugStringConvertibleP", "ASCII_CAPITAL_Z"]
+- !private ["s28CustomDebugStringConvertibleP", "ASCII_CASE_DISTANCE"]
+- !private ["s28CustomDebugStringConvertibleP", "NIOOpenSSLError"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt8"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "reserveCapacity"]
+- !private ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "utf8"]
+- !private ["s28CustomDebugStringConvertibleP", "withLowercaseASCIIBuffer"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeBufferPointer"]
+- !private ["s29CustomPlaygroundQuickLookableP", "ASCII_CAPITAL_A"]
+- !private ["s29CustomPlaygroundQuickLookableP", "ASCII_CAPITAL_Z"]
+- !private ["s29CustomPlaygroundQuickLookableP", "ASCII_CASE_DISTANCE"]
+- !private ["s29CustomPlaygroundQuickLookableP", "NIOOpenSSLError"]
+- !private ["s29CustomPlaygroundQuickLookableP", "UInt8"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s29CustomPlaygroundQuickLookableP", "count"]
+- ["s29CustomPlaygroundQuickLookableP", "first"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "utf8"]
+- !private ["s29CustomPlaygroundQuickLookableP", "withLowercaseASCIIBuffer"]
+- !private ["s17CustomReflectableP", "ASCII_CAPITAL_A"]
+- !private ["s17CustomReflectableP", "ASCII_CAPITAL_Z"]
+- !private ["s17CustomReflectableP", "ASCII_CASE_DISTANCE"]
+- !private ["s17CustomReflectableP", "NIOOpenSSLError"]
+- !private ["s17CustomReflectableP", "UInt8"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "reserveCapacity"]
+- !private ["s17CustomReflectableP", "some"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s17CustomReflectableP", "utf8"]
+- !private ["s17CustomReflectableP", "withLowercaseASCIIBuffer"]
+- !private ["s17CustomReflectableP", "withUnsafeBufferPointer"]
+- !private ["s23CustomStringConvertibleP", "ASCII_CAPITAL_A"]
+- !private ["s23CustomStringConvertibleP", "ASCII_CAPITAL_Z"]
+- !private ["s23CustomStringConvertibleP", "ASCII_CASE_DISTANCE"]
+- !private ["s23CustomStringConvertibleP", "NIOOpenSSLError"]
+- !private ["s23CustomStringConvertibleP", "UInt8"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "reserveCapacity"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "utf8"]
+- ["s23CustomStringConvertibleP", "v4"]
+- ["s23CustomStringConvertibleP", "v6"]
+- !private ["s23CustomStringConvertibleP", "withLowercaseASCIIBuffer"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeBufferPointer"]
+- !private ["Se", "ASCII_CAPITAL_A"]
+- !private ["Se", "ASCII_CAPITAL_Z"]
+- !private ["Se", "ASCII_CASE_DISTANCE"]
+- !private ["Se", "NIOOpenSSLError"]
+- !private ["Se", "UInt8"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "reserveCapacity"]
+- !private ["Se", "some"]
+- !private ["Se", "subscript"]
+- ["Se", "utf8"]
+- !private ["Se", "withLowercaseASCIIBuffer"]
+- !private ["Se", "withUnsafeBufferPointer"]
+- !private ["SE", "ASCII_CAPITAL_A"]
+- !private ["SE", "ASCII_CAPITAL_Z"]
+- !private ["SE", "ASCII_CASE_DISTANCE"]
+- !private ["SE", "NIOOpenSSLError"]
+- !private ["SE", "UInt8"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "reserveCapacity"]
+- !private ["SE", "some"]
+- !private ["SE", "subscript"]
+- ["SE", "utf8"]
+- !private ["SE", "withLowercaseASCIIBuffer"]
+- !private ["SE", "withUnsafeBufferPointer"]
+- !private ["SQ", "ASCII_CAPITAL_A"]
+- !private ["SQ", "ASCII_CAPITAL_Z"]
+- !private ["SQ", "ASCII_CASE_DISTANCE"]
+- ["SQ", "IPAddress"]
+- !private ["SQ", "NIOOpenSSLError"]
+- !private ["SQ", "UInt8"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "advanced"]
+- !private ["SQ", "append"]
+- !private ["SQ", "cannotMatchULabel"]
+- !private ["SQ", "commonName"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "count"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "reserveCapacity"]
+- !private ["SQ", "some"]
+- !private ["SQ", "subjectAlternativeNames"]
+- !private ["SQ", "subscript"]
+- ["SQ", "utf8"]
+- ["SQ", "v4"]
+- ["SQ", "v6"]
+- !private ["SQ", "withLowercaseASCIIBuffer"]
+- !private ["SQ", "withUnsafeBufferPointer"]
+- !private ["s5ErrorP", "cannotMatchULabel"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "reserveCapacity"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "withUnsafeBufferPointer"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ASCII_CAPITAL_A"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ASCII_CAPITAL_Z"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ASCII_CASE_DISTANCE"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "NIOOpenSSLError"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UInt8"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "withLowercaseASCIIBuffer"]
+- !private ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s26ExpressibleByStringLiteralP", "ASCII_CAPITAL_A"]
+- !private ["s26ExpressibleByStringLiteralP", "ASCII_CAPITAL_Z"]
+- !private ["s26ExpressibleByStringLiteralP", "ASCII_CASE_DISTANCE"]
+- !private ["s26ExpressibleByStringLiteralP", "NIOOpenSSLError"]
+- !private ["s26ExpressibleByStringLiteralP", "UInt8"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "utf8"]
+- !private ["s26ExpressibleByStringLiteralP", "withLowercaseASCIIBuffer"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ASCII_CAPITAL_A"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ASCII_CAPITAL_Z"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ASCII_CASE_DISTANCE"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "NIOOpenSSLError"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "UInt8"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "utf8"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "withLowercaseASCIIBuffer"]
+- !private ["SH", "ASCII_CAPITAL_A"]
+- !private ["SH", "ASCII_CAPITAL_Z"]
+- !private ["SH", "ASCII_CASE_DISTANCE"]
+- !private ["SH", "NIOOpenSSLError"]
+- !private ["SH", "UInt8"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "advanced"]
+- !private ["SH", "append"]
+- !private ["SH", "contains"]
+- !private ["SH", "count"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "reserveCapacity"]
+- !private ["SH", "some"]
+- !private ["SH", "subscript"]
+- ["SH", "utf8"]
+- !private ["SH", "withLowercaseASCIIBuffer"]
+- !private ["SH", "withUnsafeBufferPointer"]
+- ["10NIOOpenSSL18OpenSSLCertificateC9IPAddressO", "ipv4"]
+- ["10NIOOpenSSL18OpenSSLCertificateC9IPAddressO", "ipv6"]
+- !private ["3NIO13SocketAddressO04IPv4C0V", "address"]
+- !private ["3NIO13SocketAddressO04IPv6C0V", "address"]
+- !private ["s14LazyCollectionV", "filter"]
+- ["s22LazyCollectionProtocolP", "UInt8"]
+- ["s22LazyCollectionProtocolP", "UnsafeBufferPointer"]
+- !private ["s22LazyCollectionProtocolP", "base"]
+- !private ["s22LazyCollectionProtocolP", "contains"]
+- !private ["s22LazyCollectionProtocolP", "count"]
+- !private ["s22LazyCollectionProtocolP", "dropLast"]
+- !private ["s22LazyCollectionProtocolP", "filter"]
+- !private ["s22LazyCollectionProtocolP", "last"]
+- !private ["s22LazyCollectionProtocolP", "lazy"]
+- !private ["s22LazyCollectionProtocolP", "memcmp"]
+- !private ["s22LazyCollectionProtocolP", "prefix"]
+- !private ["s22LazyCollectionProtocolP", "split"]
+- !private ["s22LazyCollectionProtocolP", "startIndex"]
+- !private ["s22LazyCollectionProtocolP", "suffix"]
+- !private ["s20LazyFilterCollectionV", "count"]
+- !private ["s18LazyFilterSequenceV", "count"]
+- !private ["s12LazySequenceV", "filter"]
+- ["s20LazySequenceProtocolP", "UInt8"]
+- ["s20LazySequenceProtocolP", "UnsafeBufferPointer"]
+- !private ["s20LazySequenceProtocolP", "base"]
+- !private ["s20LazySequenceProtocolP", "contains"]
+- !private ["s20LazySequenceProtocolP", "count"]
+- !private ["s20LazySequenceProtocolP", "dropLast"]
+- !private ["s20LazySequenceProtocolP", "filter"]
+- !private ["s20LazySequenceProtocolP", "last"]
+- !private ["s20LazySequenceProtocolP", "lazy"]
+- !private ["s20LazySequenceProtocolP", "memcmp"]
+- !private ["s20LazySequenceProtocolP", "prefix"]
+- !private ["s20LazySequenceProtocolP", "split"]
+- !private ["s20LazySequenceProtocolP", "startIndex"]
+- !private ["s20LazySequenceProtocolP", "suffix"]
+- !private ["s25LosslessStringConvertibleP", "ASCII_CAPITAL_A"]
+- !private ["s25LosslessStringConvertibleP", "ASCII_CAPITAL_Z"]
+- !private ["s25LosslessStringConvertibleP", "ASCII_CASE_DISTANCE"]
+- !private ["s25LosslessStringConvertibleP", "NIOOpenSSLError"]
+- !private ["s25LosslessStringConvertibleP", "UInt8"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "utf8"]
+- !private ["s25LosslessStringConvertibleP", "withLowercaseASCIIBuffer"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["s10MirrorPathP", "ASCII_CAPITAL_A"]
+- !private ["s10MirrorPathP", "ASCII_CAPITAL_Z"]
+- !private ["s10MirrorPathP", "ASCII_CASE_DISTANCE"]
+- !private ["s10MirrorPathP", "NIOOpenSSLError"]
+- !private ["s10MirrorPathP", "UInt8"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "utf8"]
+- !private ["s10MirrorPathP", "withLowercaseASCIIBuffer"]
+- ["SM", "UInt8"]
+- ["SM", "UnsafeBufferPointer"]
+- !private ["SM", "append"]
+- !private ["SM", "base"]
+- !private ["SM", "contains"]
+- !private ["SM", "count"]
+- !private ["SM", "dropLast"]
+- ["SM", "init"]
+- !private ["SM", "last"]
+- !private ["SM", "lazy"]
+- !private ["SM", "memcmp"]
+- !private ["SM", "prefix"]
+- !private ["SM", "reserveCapacity"]
+- !private ["SM", "split"]
+- !private ["SM", "startIndex"]
+- !private ["SM", "subscript"]
+- !private ["SM", "suffix"]
+- !private ["SM", "withUnsafeBufferPointer"]
+- !private ["10NIOOpenSSL0A8SSLErrorO", "cannotMatchULabel"]
+- !private ["10NIOOpenSSL0A8SSLErrorO", "deinit"]
+- ["10NIOOpenSSL18OpenSSLCertificateC", "IPAddress"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "commonName"]
+- !private ["10NIOOpenSSL18OpenSSLCertificateC", "subjectAlternativeNames"]
+- !private ["Sq", "some"]
+- ["Sk", "UInt8"]
+- ["Sk", "UnsafeBufferPointer"]
+- !private ["Sk", "append"]
+- !private ["Sk", "base"]
+- !private ["Sk", "baseAddress"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "count"]
+- !private ["Sk", "dropLast"]
+- !private ["Sk", "filter"]
+- ["Sk", "init"]
+- !private ["Sk", "last"]
+- !private ["Sk", "lazy"]
+- !private ["Sk", "memcmp"]
+- !private ["Sk", "prefix"]
+- !private ["Sk", "reserveCapacity"]
+- !private ["Sk", "split"]
+- !private ["Sk", "startIndex"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "suffix"]
+- !private ["Sk", "withUnsafeBufferPointer"]
+- !private ["SX", "contains"]
+- !private ["Sm", "ASCII_CAPITAL_A"]
+- !private ["Sm", "ASCII_CAPITAL_Z"]
+- !private ["Sm", "ASCII_CASE_DISTANCE"]
+- !private ["Sm", "NIOOpenSSLError"]
+- ["Sm", "UInt8"]
+- ["Sm", "UnsafeBufferPointer"]
+- !private ["Sm", "append"]
+- !private ["Sm", "base"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "count"]
+- !private ["Sm", "dropLast"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "last"]
+- !private ["Sm", "lazy"]
+- !private ["Sm", "memcmp"]
+- !private ["Sm", "prefix"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["Sm", "split"]
+- !private ["Sm", "startIndex"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "suffix"]
+- ["Sm", "utf8"]
+- !private ["Sm", "withLowercaseASCIIBuffer"]
+- !private ["Sm", "withUnsafeBufferPointer"]
+- !private ["ST", "ASCII_CAPITAL_A"]
+- !private ["ST", "ASCII_CAPITAL_Z"]
+- !private ["ST", "ASCII_CASE_DISTANCE"]
+- !private ["ST", "NIOOpenSSLError"]
+- ["ST", "UInt8"]
+- ["ST", "UnsafeBufferPointer"]
+- !private ["ST", "append"]
+- !private ["ST", "base"]
+- !private ["ST", "baseAddress"]
+- !private ["ST", "contains"]
+- !private ["ST", "count"]
+- !private ["ST", "dropLast"]
+- !private ["ST", "filter"]
+- ["ST", "first"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "last"]
+- !private ["ST", "lazy"]
+- !private ["ST", "memcmp"]
+- !private ["ST", "prefix"]
+- !private ["ST", "reserveCapacity"]
+- !private ["ST", "split"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "subscript"]
+- !private ["ST", "suffix"]
+- ["ST", "utf8"]
+- !private ["ST", "withLowercaseASCIIBuffer"]
+- !private ["ST", "withUnsafeBufferPointer"]
+- !private ["s5SliceV", "!="]
+- !private ["s5SliceV", "=="]
+- ["s5SliceV", "Base"]
+- ["s5SliceV", "Bool"]
+- ["s5SliceV", "SliceType"]
+- ["s5SliceV", "UInt8"]
+- ["s5SliceV", "UnsafeBufferPointer"]
+- !private ["s5SliceV", "base"]
+- !private ["s5SliceV", "contains"]
+- !private ["s5SliceV", "count"]
+- !private ["s5SliceV", "dropLast"]
+- !private ["s5SliceV", "last"]
+- !private ["s5SliceV", "lazy"]
+- !private ["s5SliceV", "memcmp"]
+- !private ["s5SliceV", "prefix"]
+- !private ["s5SliceV", "split"]
+- !private ["s5SliceV", "startIndex"]
+- !private ["s5SliceV", "suffix"]
+- !private ["3NIO16SockAddrProtocolP", "sin6_addr"]
+- !private ["3NIO16SockAddrProtocolP", "sin_addr"]
+- ["3NIO13SocketAddressO", "v4"]
+- ["3NIO13SocketAddressO", "v6"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "advanced"]
+- !private ["SS", "ASCII_CAPITAL_A"]
+- !private ["SS", "ASCII_CAPITAL_Z"]
+- !private ["SS", "ASCII_CASE_DISTANCE"]
+- !private ["SS", "NIOOpenSSLError"]
+- ["SS", "UInt8"]
+- ["SS", "UnsafeBufferPointer"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["SS", "utf8"]
+- !private ["SS", "withLowercaseASCIIBuffer"]
+- !private ["Sy", "ASCII_CAPITAL_A"]
+- !private ["Sy", "ASCII_CAPITAL_Z"]
+- !private ["Sy", "ASCII_CASE_DISTANCE"]
+- !private ["Sy", "NIOOpenSSLError"]
+- !private ["Sy", "UInt8"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["Sy", "utf8"]
+- !private ["Sy", "withLowercaseASCIIBuffer"]
+- !private ["10NIOOpenSSL22SubjectAltNameSequenceC", "deinit"]
+- !private ["s16TextOutputStreamP", "ASCII_CAPITAL_A"]
+- !private ["s16TextOutputStreamP", "ASCII_CAPITAL_Z"]
+- !private ["s16TextOutputStreamP", "ASCII_CASE_DISTANCE"]
+- !private ["s16TextOutputStreamP", "NIOOpenSSLError"]
+- !private ["s16TextOutputStreamP", "UInt8"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "utf8"]
+- !private ["s16TextOutputStreamP", "withLowercaseASCIIBuffer"]
+- !private ["s20TextOutputStreamableP", "ASCII_CAPITAL_A"]
+- !private ["s20TextOutputStreamableP", "ASCII_CAPITAL_Z"]
+- !private ["s20TextOutputStreamableP", "ASCII_CASE_DISTANCE"]
+- !private ["s20TextOutputStreamableP", "NIOOpenSSLError"]
+- !private ["s20TextOutputStreamableP", "UInt8"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "utf8"]
+- !private ["s20TextOutputStreamableP", "withLowercaseASCIIBuffer"]
+- !private ["SS8UTF8ViewV", "count"]
+- ["SS8UTF8ViewV", "first"]
+- !private ["SR", "baseAddress"]
+- !private ["SR", "subscript"]
+- !private ["SP", "advanced"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "reserveCapacity"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "withUnsafeBufferPointer"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "ASCII_CAPITAL_A"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "ASCII_CAPITAL_Z"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "ASCII_CASE_DISTANCE"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "NIOOpenSSLError"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "UInt8"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "withLowercaseASCIIBuffer"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "ASCII_CAPITAL_A"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "ASCII_CAPITAL_Z"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "ASCII_CASE_DISTANCE"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "NIOOpenSSLError"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "UInt8"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "utf8"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "withLowercaseASCIIBuffer"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "ASCII_CAPITAL_A"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "ASCII_CAPITAL_Z"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "ASCII_CASE_DISTANCE"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "NIOOpenSSLError"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "UInt8"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "utf8"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "withLowercaseASCIIBuffer"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "ASCII_CAPITAL_A"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "ASCII_CAPITAL_Z"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "ASCII_CASE_DISTANCE"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "NIOOpenSSLError"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "UInt8"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "withLowercaseASCIIBuffer"]
+- !private ["s33_ExpressibleByStringInterpolationP", "ASCII_CAPITAL_A"]
+- !private ["s33_ExpressibleByStringInterpolationP", "ASCII_CAPITAL_Z"]
+- !private ["s33_ExpressibleByStringInterpolationP", "ASCII_CASE_DISTANCE"]
+- !private ["s33_ExpressibleByStringInterpolationP", "NIOOpenSSLError"]
+- !private ["s33_ExpressibleByStringInterpolationP", "UInt8"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "utf8"]
+- !private ["s33_ExpressibleByStringInterpolationP", "withLowercaseASCIIBuffer"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reserveCapacity"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "withUnsafeBufferPointer"]
+- !private ["s21_ObjectiveCBridgeableP", "some"]
+- !private ["s26_OptionalNilComparisonTypeV", "some"]
+- !private ["s8_PointerP", "advanced"]
+- !private ["s16_SequenceWrapperP", "filter"]
+- !private ["s16_SwiftStringViewP", "ASCII_CAPITAL_A"]
+- !private ["s16_SwiftStringViewP", "ASCII_CAPITAL_Z"]
+- !private ["s16_SwiftStringViewP", "ASCII_CASE_DISTANCE"]
+- !private ["s16_SwiftStringViewP", "NIOOpenSSLError"]
+- !private ["s16_SwiftStringViewP", "UInt8"]
+- !private ["s16_SwiftStringViewP", "count"]
+- ["s16_SwiftStringViewP", "first"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "utf8"]
+- !private ["s16_SwiftStringViewP", "withLowercaseASCIIBuffer"]
+- !private ["So11sockaddr_inV", "sin_addr"]
+- !private ["So12sockaddr_in6V", "sin6_addr"]
+depends-nominal:
+- "10NIOOpenSSL18OpenSSLCertificateC15AlternativeNameO"
+- "Sa"
+- "s13ArrayProtocolP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "SN"
+- "Sl"
+- "SL"
+- "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "10NIOOpenSSL18OpenSSLCertificateC9IPAddressO"
+- !private "3NIO13SocketAddressO04IPv4C0V"
+- !private "3NIO13SocketAddressO04IPv6C0V"
+- !private "s14LazyCollectionV"
+- "s22LazyCollectionProtocolP"
+- !private "s20LazyFilterCollectionV"
+- !private "s18LazyFilterSequenceV"
+- !private "s12LazySequenceV"
+- "s20LazySequenceProtocolP"
+- "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- "s10MirrorPathP"
+- "SM"
+- !private "10NIOOpenSSL0A8SSLErrorO"
+- "10NIOOpenSSL18OpenSSLCertificateC"
+- !private "Sq"
+- "Sk"
+- !private "SX"
+- "Sm"
+- "ST"
+- "s5SliceV"
+- !private "3NIO16SockAddrProtocolP"
+- "3NIO13SocketAddressO"
+- !private "s12StaticStringV"
+- !private "Sx"
+- "SS"
+- "Sy"
+- !private "10NIOOpenSSL22SubjectAltNameSequenceC"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "SS8UTF8ViewV"
+- !private "SR"
+- !private "SP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+- !private "s8_PointerP"
+- !private "s16_SequenceWrapperP"
+- "s16_SwiftStringViewP"
+- !private "So11sockaddr_inV"
+- !private "So12sockaddr_in6V"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOTLS.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ec.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ssl.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/bn.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/err.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/opensslv.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/x509_vfy.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl-support.git-7929588247395141738/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+interface-hash: "165d4f82c26709ab90cdda7c073e1426"

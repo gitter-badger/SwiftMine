@@ -1,0 +1,131 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Children"
+provides-nominal:
+- "6Fluent8ChildrenV"
+- "6Fluent8ChildrenV15ParentIDStorageO"
+provides-member:
+- ["6Fluent8ChildrenV", ""]
+- ["6Fluent8ChildrenV15ParentIDStorageO", ""]
+- ["6Fluent5ModelP", ""]
+- ["6Fluent5ModelP", "children"]
+- ["6Fluent5ModelP", "children"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "Children"
+- "DatabaseConnectable"
+- "KeyPath"
+- "Model"
+- "QueryBuilder"
+depends-member:
+- ["6Fluent8AnyModelP", "Children"]
+- ["6Fluent8AnyModelP", "ID"]
+- ["6Fluent8AnyModelP", "KeyPath"]
+- ["6Fluent8AnyModelP", "Self"]
+- !private ["6Fluent8AnyModelP", "query"]
+- !private ["6Fluent8AnyModelP", "requireID"]
+- ["4Core14AnyReflectableP", "Children"]
+- ["4Core14AnyReflectableP", "ID"]
+- ["4Core14AnyReflectableP", "KeyPath"]
+- ["4Core14AnyReflectableP", "Self"]
+- !private ["4Core14AnyReflectableP", "query"]
+- !private ["4Core14AnyReflectableP", "requireID"]
+- ["6Fluent8ChildrenV", "Child"]
+- ["6Fluent8ChildrenV", "DatabaseConnectable"]
+- ["6Fluent8ChildrenV", "KeyPath"]
+- ["6Fluent8ChildrenV", "Parent"]
+- ["6Fluent8ChildrenV", "ParentIDStorage"]
+- ["6Fluent8ChildrenV", "QueryBuilder"]
+- ["6Fluent8ChildrenV", "init"]
+- ["6Fluent8ChildrenV", "parent"]
+- ["6Fluent8ChildrenV", "parentID"]
+- ["6Fluent8ChildrenV", "query"]
+- ["Se", "Children"]
+- ["Se", "ID"]
+- ["Se", "KeyPath"]
+- ["Se", "Self"]
+- !private ["Se", "query"]
+- !private ["Se", "requireID"]
+- ["SE", "Children"]
+- ["SE", "ID"]
+- ["SE", "KeyPath"]
+- ["SE", "Self"]
+- !private ["SE", "query"]
+- !private ["SE", "requireID"]
+- ["6Fluent5ModelP", "Children"]
+- ["6Fluent5ModelP", "ID"]
+- ["6Fluent5ModelP", "KeyPath"]
+- ["6Fluent5ModelP", "Self"]
+- ["6Fluent5ModelP", "children"]
+- !private ["6Fluent5ModelP", "query"]
+- !private ["6Fluent5ModelP", "requireID"]
+- ["6Fluent8ChildrenV15ParentIDStorageO", "Child"]
+- ["6Fluent8ChildrenV15ParentIDStorageO", "KeyPath"]
+- ["6Fluent8ChildrenV15ParentIDStorageO", "Parent"]
+- ["6Fluent8ChildrenV15ParentIDStorageO", "optional"]
+- ["6Fluent8ChildrenV15ParentIDStorageO", "required"]
+- !private ["6Fluent12QueryBuilderC", "filter"]
+- ["4Core11ReflectableP", "Children"]
+- ["4Core11ReflectableP", "ID"]
+- ["4Core11ReflectableP", "KeyPath"]
+- ["4Core11ReflectableP", "Self"]
+- !private ["4Core11ReflectableP", "query"]
+- !private ["4Core11ReflectableP", "requireID"]
+depends-nominal:
+- "6Fluent8AnyModelP"
+- "4Core14AnyReflectableP"
+- "6Fluent8ChildrenV"
+- "Se"
+- "SE"
+- "6Fluent5ModelP"
+- "6Fluent8ChildrenV15ParentIDStorageO"
+- !private "6Fluent12QueryBuilderC"
+- "4Core11ReflectableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Command.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Console.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Logging.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/DatabaseKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "91f747feec6d67a09f36f9116e755523"

@@ -1,0 +1,506 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "11TemplateKit17PlaintextRendererC"
+- "7Console8TerminalC"
+- "4Core15DirectoryConfigV"
+- "7Console0A6LoggerC"
+- "7Logging11PrintLoggerC"
+- "6Crypto12BCryptDigestC"
+provides-member:
+- ["7Service8ServicesV", ""]
+- ["11TemplateKit17PlaintextRendererC", ""]
+- ["7Console8TerminalC", ""]
+- ["4Core15DirectoryConfigV", ""]
+- ["7Console0A6LoggerC", ""]
+- ["7Logging11PrintLoggerC", ""]
+- ["6Crypto12BCryptDigestC", ""]
+- ["7Service8ServicesV", "default"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "ApplicationResponder"
+- "BCryptDigest"
+- !private "BlockingIOThreadPool"
+- !private "BootCommand"
+- !private "CommandConfig"
+- !private "Commands"
+- !private "Console"
+- "ConsoleLogger"
+- !private "ContentCoders"
+- !private "ContentConfig"
+- "DirectoryConfig"
+- !private "EngineRouter"
+- !private "ErrorMiddleware"
+- !private "FileMiddleware"
+- !private "FloatLiteralType"
+- !private "FoundationClient"
+- !private "IntegerLiteralType"
+- !private "KeyedCache"
+- !private "KeyedCacheSessions"
+- !private "Logger"
+- !private "MemoryKeyedCache"
+- !private "MemorySessions"
+- !private "MiddlewareConfig"
+- !private "NIOServer"
+- !private "NIOServerConfig"
+- !private "NIOWebSocketClient"
+- !private "NonBlockingFileIO"
+- "PlaintextRenderer"
+- "PrintLogger"
+- !private "Router"
+- !private "RoutesCommand"
+- !private "RunningServerCache"
+- !private "ServeCommand"
+- "Service"
+- "Services"
+- !private "SessionCache"
+- !private "Sessions"
+- !private "SessionsConfig"
+- !private "SessionsMiddleware"
+- "StringLiteralType"
+- "Terminal"
+- !private "ViewRenderer"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["5Vapor20ApplicationResponderV", "deinit"]
+- ["6Crypto12BCryptDigestC", "deinit"]
+- !private ["6Crypto12BCryptDigestC", "init"]
+- !private ["6Crypto12BCryptDigestC", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["5Async11BasicWorkerP", "make"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["3NIO20BlockingIOThreadPoolC", "deinit"]
+- !private ["3NIO20BlockingIOThreadPoolC", "init"]
+- !private ["3NIO20BlockingIOThreadPoolC", "start"]
+- !private ["5Vapor11BootCommandV", "deinit"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["7Command0A6ConfigV", "default"]
+- !private ["7Command0A6ConfigV", "resolve"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["7ConsoleAAP", "init"]
+- ["7Console0A6LoggerC", "deinit"]
+- !private ["7Console0A6LoggerC", "init"]
+- !private ["7Service9ContainerP", "make"]
+- !private ["5Vapor7ContentP", "init"]
+- !private ["5Vapor7ContentP", "init"]
+- !private ["5Vapor13ContentCodersV", "deinit"]
+- !private ["5Vapor13ContentConfigV", "deinit"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "ApplicationResponder"]
+- !private ["s23CustomStringConvertibleP", "BlockingIOThreadPool"]
+- !private ["s23CustomStringConvertibleP", "BootCommand"]
+- !private ["s23CustomStringConvertibleP", "CommandConfig"]
+- !private ["s23CustomStringConvertibleP", "Console"]
+- !private ["s23CustomStringConvertibleP", "ConsoleLogger"]
+- !private ["s23CustomStringConvertibleP", "ContentCoders"]
+- !private ["s23CustomStringConvertibleP", "ContentConfig"]
+- !private ["s23CustomStringConvertibleP", "DirectoryConfig"]
+- !private ["s23CustomStringConvertibleP", "EngineRouter"]
+- !private ["s23CustomStringConvertibleP", "ErrorMiddleware"]
+- !private ["s23CustomStringConvertibleP", "FileMiddleware"]
+- !private ["s23CustomStringConvertibleP", "FoundationClient"]
+- !private ["s23CustomStringConvertibleP", "KeyedCache"]
+- !private ["s23CustomStringConvertibleP", "KeyedCacheSessions"]
+- !private ["s23CustomStringConvertibleP", "Logger"]
+- !private ["s23CustomStringConvertibleP", "MemoryKeyedCache"]
+- !private ["s23CustomStringConvertibleP", "MemorySessions"]
+- !private ["s23CustomStringConvertibleP", "MiddlewareConfig"]
+- !private ["s23CustomStringConvertibleP", "NIOServer"]
+- !private ["s23CustomStringConvertibleP", "NIOServerConfig"]
+- !private ["s23CustomStringConvertibleP", "NIOWebSocketClient"]
+- !private ["s23CustomStringConvertibleP", "NonBlockingFileIO"]
+- !private ["s23CustomStringConvertibleP", "PlaintextRenderer"]
+- !private ["s23CustomStringConvertibleP", "PrintLogger"]
+- !private ["s23CustomStringConvertibleP", "Router"]
+- !private ["s23CustomStringConvertibleP", "RoutesCommand"]
+- !private ["s23CustomStringConvertibleP", "RunningServerCache"]
+- !private ["s23CustomStringConvertibleP", "ServeCommand"]
+- !private ["s23CustomStringConvertibleP", "Services"]
+- !private ["s23CustomStringConvertibleP", "SessionCache"]
+- !private ["s23CustomStringConvertibleP", "Sessions"]
+- !private ["s23CustomStringConvertibleP", "SessionsConfig"]
+- !private ["s23CustomStringConvertibleP", "SessionsMiddleware"]
+- !private ["s23CustomStringConvertibleP", "Terminal"]
+- !private ["s23CustomStringConvertibleP", "ViewRenderer"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "register"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- ["4Core15DirectoryConfigV", "deinit"]
+- !private ["4Core15DirectoryConfigV", "detect"]
+- !private ["4Core15DirectoryConfigV", "workDir"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["5Vapor12EngineRouterC", "default"]
+- !private ["5Vapor12EngineRouterC", "deinit"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["5Vapor15ErrorMiddlewareC", "deinit"]
+- !private ["3NIO14EventLoopGroupP", "make"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["7Service10ExtendableP", "init"]
+- !private ["5Vapor14FileMiddlewareC", "deinit"]
+- !private ["5Vapor16FoundationClientC", "deinit"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["11DatabaseKit10KeyedCacheP", "init"]
+- !private ["5Vapor18KeyedCacheSessionsC", "deinit"]
+- !private ["7Logging6LoggerP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "init"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["11DatabaseKit16MemoryKeyedCacheC", "init"]
+- !private ["5Vapor14MemorySessionsC", "deinit"]
+- !private ["5Vapor14MemorySessionsC", "init"]
+- !private ["5Vapor16MiddlewareConfigV", "deinit"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["9Multipart0A15PartConvertibleP", "init"]
+- !private ["9Multipart0A15PartConvertibleP", "init"]
+- !private ["5Vapor9NIOServerC", "deinit"]
+- !private ["5Vapor15NIOServerConfigV", "deinit"]
+- !private ["5Vapor18NIOWebSocketClientC", "deinit"]
+- !private ["3NIO17NonBlockingFileIOV", "deinit"]
+- !private ["7Routing9ParameterP", "init"]
+- !private ["7Routing9ParameterP", "init"]
+- !private ["7Routing27PathComponentsRepresentableP", "init"]
+- !private ["7Routing27PathComponentsRepresentableP", "init"]
+- ["11TemplateKit17PlaintextRendererC", "deinit"]
+- !private ["11TemplateKit17PlaintextRendererC", "init"]
+- !private ["11TemplateKit17PlaintextRendererC", "init"]
+- ["7Logging11PrintLoggerC", "deinit"]
+- !private ["7Logging11PrintLoggerC", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["5Vapor16RequestDecodableP", "init"]
+- !private ["5Vapor16RequestDecodableP", "init"]
+- !private ["5Vapor16RequestEncodableP", "init"]
+- !private ["5Vapor16RequestEncodableP", "init"]
+- !private ["5Vapor17ResponseDecodableP", "init"]
+- !private ["5Vapor17ResponseDecodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "init"]
+- !private ["7Routing17RoutableComponentP", "init"]
+- !private ["7Routing17RoutableComponentP", "init"]
+- !private ["5Vapor6RouterP", "default"]
+- !private ["5Vapor13RoutesCommandV", "deinit"]
+- !private ["5Vapor18RunningServerCacheC", "deinit"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["5Vapor12ServeCommandV", "deinit"]
+- ["7ServiceAAP", ""]
+- !private ["7ServiceAAP", "default"]
+- !private ["7ServiceAAP", "detect"]
+- !private ["7ServiceAAP", "init"]
+- !private ["7ServiceAAP", "init"]
+- !private ["7ServiceAAP", "resolve"]
+- !private ["7ServiceAAP", "start"]
+- !private ["7ServiceAAP", "workDir"]
+- !private ["7Service0A4TypeP", "init"]
+- !private ["7Service0A4TypeP", "start"]
+- !private ["7Service8ServicesV", "ApplicationResponder"]
+- !private ["7Service8ServicesV", "BCryptDigest"]
+- !private ["7Service8ServicesV", "BlockingIOThreadPool"]
+- !private ["7Service8ServicesV", "BootCommand"]
+- !private ["7Service8ServicesV", "CommandConfig"]
+- !private ["7Service8ServicesV", "Commands"]
+- !private ["7Service8ServicesV", "Console"]
+- !private ["7Service8ServicesV", "ConsoleLogger"]
+- !private ["7Service8ServicesV", "ContentCoders"]
+- !private ["7Service8ServicesV", "ContentConfig"]
+- !private ["7Service8ServicesV", "DirectoryConfig"]
+- !private ["7Service8ServicesV", "EngineRouter"]
+- !private ["7Service8ServicesV", "ErrorMiddleware"]
+- !private ["7Service8ServicesV", "FileMiddleware"]
+- !private ["7Service8ServicesV", "FoundationClient"]
+- !private ["7Service8ServicesV", "KeyedCache"]
+- !private ["7Service8ServicesV", "KeyedCacheSessions"]
+- !private ["7Service8ServicesV", "Logger"]
+- !private ["7Service8ServicesV", "MemoryKeyedCache"]
+- !private ["7Service8ServicesV", "MemorySessions"]
+- !private ["7Service8ServicesV", "MiddlewareConfig"]
+- !private ["7Service8ServicesV", "NIOServer"]
+- !private ["7Service8ServicesV", "NIOServerConfig"]
+- !private ["7Service8ServicesV", "NIOWebSocketClient"]
+- !private ["7Service8ServicesV", "NonBlockingFileIO"]
+- !private ["7Service8ServicesV", "PlaintextRenderer"]
+- !private ["7Service8ServicesV", "PrintLogger"]
+- !private ["7Service8ServicesV", "Router"]
+- !private ["7Service8ServicesV", "RoutesCommand"]
+- !private ["7Service8ServicesV", "RunningServerCache"]
+- !private ["7Service8ServicesV", "ServeCommand"]
+- ["7Service8ServicesV", "Services"]
+- !private ["7Service8ServicesV", "SessionCache"]
+- !private ["7Service8ServicesV", "Sessions"]
+- !private ["7Service8ServicesV", "SessionsConfig"]
+- !private ["7Service8ServicesV", "SessionsMiddleware"]
+- !private ["7Service8ServicesV", "Terminal"]
+- !private ["7Service8ServicesV", "ViewRenderer"]
+- ["7Service8ServicesV", "default"]
+- !private ["7Service8ServicesV", "init"]
+- !private ["7Service8ServicesV", "register"]
+- !private ["5Vapor12SessionCacheC", "deinit"]
+- !private ["5Vapor8SessionsP", "init"]
+- !private ["5Vapor14SessionsConfigV", "deinit"]
+- !private ["5Vapor18SessionsMiddlewareC", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["11TemplateKit0A17DataRepresentableP", "init"]
+- !private ["11TemplateKit0A17DataRepresentableP", "init"]
+- !private ["11TemplateKit0A6ParserP", "init"]
+- !private ["11TemplateKit0A6ParserP", "init"]
+- !private ["11TemplateKit0A8RendererP", "init"]
+- !private ["11TemplateKit0A8RendererP", "init"]
+- ["7Console8TerminalC", "deinit"]
+- !private ["7Console8TerminalC", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "init"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "init"]
+- !private ["4HTTP16URLRepresentableP", "init"]
+- !private ["4HTTP16URLRepresentableP", "init"]
+- !private ["11TemplateKit12ViewRendererP", "init"]
+- !private ["11TemplateKit12ViewRendererP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "4Core22AnyReflectionDecodableP"
+- !private "5Vapor20ApplicationResponderV"
+- "6Crypto12BCryptDigestC"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "5Async11BasicWorkerP"
+- !private "SK"
+- !private "3NIO20BlockingIOThreadPoolC"
+- !private "5Vapor11BootCommandV"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "7Command0A6ConfigV"
+- !private "SL"
+- !private "7ConsoleAAP"
+- "7Console0A6LoggerC"
+- !private "7Service9ContainerP"
+- !private "5Vapor7ContentP"
+- !private "5Vapor13ContentCodersV"
+- !private "5Vapor13ContentConfigV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- "4Core15DirectoryConfigV"
+- !private "SE"
+- !private "5Vapor12EngineRouterC"
+- !private "SQ"
+- !private "5Vapor15ErrorMiddlewareC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7Service10ExtendableP"
+- !private "5Vapor14FileMiddlewareC"
+- !private "5Vapor16FoundationClientC"
+- !private "SH"
+- !private "11DatabaseKit10KeyedCacheP"
+- !private "5Vapor18KeyedCacheSessionsC"
+- !private "7Logging6LoggerP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "4HTTP29LosslessHTTPBodyRepresentableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "11DatabaseKit16MemoryKeyedCacheC"
+- !private "5Vapor14MemorySessionsC"
+- !private "5Vapor16MiddlewareConfigV"
+- !private "s10MirrorPathP"
+- !private "9Multipart0A15PartConvertibleP"
+- !private "5Vapor9NIOServerC"
+- !private "5Vapor15NIOServerConfigV"
+- !private "5Vapor18NIOWebSocketClientC"
+- !private "3NIO17NonBlockingFileIOV"
+- !private "7Routing9ParameterP"
+- !private "7Routing27PathComponentsRepresentableP"
+- "11TemplateKit17PlaintextRendererC"
+- "7Logging11PrintLoggerC"
+- !private "Sm"
+- !private "4Core19ReflectionDecodableP"
+- !private "5Vapor16RequestDecodableP"
+- !private "5Vapor16RequestEncodableP"
+- !private "5Vapor17ResponseDecodableP"
+- !private "5Vapor17ResponseEncodableP"
+- !private "7Routing17RoutableComponentP"
+- !private "5Vapor6RouterP"
+- !private "5Vapor13RoutesCommandV"
+- !private "5Vapor18RunningServerCacheC"
+- !private "ST"
+- !private "5Vapor12ServeCommandV"
+- "7ServiceAAP"
+- !private "7Service0A4TypeP"
+- "7Service8ServicesV"
+- !private "5Vapor12SessionCacheC"
+- !private "5Vapor8SessionsP"
+- !private "5Vapor14SessionsConfigV"
+- !private "5Vapor18SessionsMiddlewareC"
+- !private "SS"
+- !private "Sy"
+- !private "11TemplateKit0A17DataRepresentableP"
+- !private "11TemplateKit0A6ParserP"
+- !private "11TemplateKit0A8RendererP"
+- "7Console8TerminalC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "14URLEncodedForm0aB15DataConvertibleP"
+- !private "4HTTP16URLRepresentableP"
+- !private "11TemplateKit12ViewRendererP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOHTTP1.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOOpenSSL.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/HTTP.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOTLS.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Command.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Console.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Logging.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Routing.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Random.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/URLEncodedForm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Validation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/WebSocket.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOWebSocket.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/DatabaseKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/TemplateKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Multipart.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOSHA1/include/c_nio_sha1.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/rsa.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOZlib/include/c_nio_zlib.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ec.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ssl.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl.git-6216602140679013668/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/bn.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/buffer.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/err.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/opensslv.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.8.2/include/openssl/x509_vfy.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl-support.git-7929588247395141738/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/CBase32/include/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/CBcrypt/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e368b55a9859469f7b67a65f71901eb5"

@@ -1,0 +1,621 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SocketAddressError"
+- "SocketAddress"
+- "=="
+provides-nominal:
+- "3NIO18SocketAddressErrorO"
+- "3NIO13SocketAddressO"
+- "3NIO13SocketAddressO04IPv4C0V"
+- "3NIO13SocketAddressO04IPv6C0V"
+- "3NIO13SocketAddressO04UnixbC0V"
+provides-member:
+- ["3NIO18SocketAddressErrorO", ""]
+- ["3NIO13SocketAddressO", ""]
+- ["3NIO13SocketAddressO04IPv4C0V", ""]
+- ["3NIO13SocketAddressO04IPv6C0V", ""]
+- ["3NIO13SocketAddressO04UnixbC0V", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "<="
+- "=="
+- !private "??"
+- !private "AF_INET"
+- !private "AF_INET6"
+- !private "AF_UNIX"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Box"
+- "CustomStringConvertible"
+- "Equatable"
+- "Error"
+- "FloatLiteralType"
+- "Int"
+- "Int32"
+- "IntegerLiteralType"
+- !private "MemoryLayout"
+- !private "PF_INET"
+- !private "PF_INET6"
+- !private "PF_UNIX"
+- "SocketAddress"
+- "SocketAddressError"
+- "String"
+- !private "StringLiteralType"
+- "UInt16"
+- !private "UInt8"
+- !private "UnicodeScalarType"
+- !private "UnsafeMutablePointer"
+- "UnsafePointer"
+- !private "addrinfo"
+- !private "freeaddrinfo"
+- !private "getaddrinfo"
+- !private "in6_addr"
+- !private "in_addr"
+- !private "inet_pton"
+- !private "memcmp"
+- !private "sa_family_t"
+- "sockaddr"
+- "sockaddr_in"
+- "sockaddr_in6"
+- "sockaddr_un"
+- !private "withUnsafeBytes"
+- !private "withUnsafeMutablePointer"
+- !private "~="
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "withUnsafeBufferPointer"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "withUnsafeBufferPointer"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "bigEndian"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["SK", "baseAddress"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "utf8"]
+- !private ["SK", "withCString"]
+- !private ["SK", "withUnsafeBufferPointer"]
+- !private ["Sz", "bigEndian"]
+- !private ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["3NIO3BoxC", "init"]
+- !private ["3NIO3BoxC", "value"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "assign"]
+- !private ["s7CVarArgP", "bigEndian"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "withMemoryRebound"]
+- !private ["Sl", "baseAddress"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "utf8"]
+- !private ["Sl", "withCString"]
+- !private ["Sl", "withUnsafeBufferPointer"]
+- !private ["SL", "assign"]
+- !private ["SL", "bigEndian"]
+- !private ["SL", "bindMemory"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "pointee"]
+- !private ["SL", "utf8"]
+- !private ["SL", "withCString"]
+- !private ["SL", "withMemoryRebound"]
+- !private ["3NIO20ContiguousCollectionP", "baseAddress"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "withUnsafeBufferPointer"]
+- !private ["s28CustomDebugStringConvertibleP", "assign"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "bindMemory"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8"]
+- !private ["s28CustomDebugStringConvertibleP", "withCString"]
+- !private ["s28CustomDebugStringConvertibleP", "withMemoryRebound"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeBufferPointer"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "assign"]
+- !private ["s29CustomPlaygroundQuickLookableP", "bigEndian"]
+- !private ["s29CustomPlaygroundQuickLookableP", "bindMemory"]
+- !private ["s29CustomPlaygroundQuickLookableP", "count"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s29CustomPlaygroundQuickLookableP", "utf8"]
+- !private ["s29CustomPlaygroundQuickLookableP", "withCString"]
+- !private ["s29CustomPlaygroundQuickLookableP", "withMemoryRebound"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "assign"]
+- !private ["s17CustomReflectableP", "bigEndian"]
+- !private ["s17CustomReflectableP", "bindMemory"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "utf8"]
+- !private ["s17CustomReflectableP", "withCString"]
+- !private ["s17CustomReflectableP", "withMemoryRebound"]
+- !private ["s17CustomReflectableP", "withUnsafeBufferPointer"]
+- !private ["s23CustomStringConvertibleP", "AF_INET"]
+- !private ["s23CustomStringConvertibleP", "AF_INET6"]
+- !private ["s23CustomStringConvertibleP", "AF_UNIX"]
+- !private ["s23CustomStringConvertibleP", "Box"]
+- !private ["s23CustomStringConvertibleP", "MemoryLayout"]
+- !private ["s23CustomStringConvertibleP", "PF_INET"]
+- !private ["s23CustomStringConvertibleP", "PF_INET6"]
+- !private ["s23CustomStringConvertibleP", "PF_UNIX"]
+- !private ["s23CustomStringConvertibleP", "SocketAddressError"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UInt16"]
+- !private ["s23CustomStringConvertibleP", "UInt8"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "bigEndian"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "freeaddrinfo"]
+- !private ["s23CustomStringConvertibleP", "getaddrinfo"]
+- !private ["s23CustomStringConvertibleP", "in6_addr"]
+- !private ["s23CustomStringConvertibleP", "in_addr"]
+- !private ["s23CustomStringConvertibleP", "inet_pton"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "memcmp"]
+- !private ["s23CustomStringConvertibleP", "port"]
+- !private ["s23CustomStringConvertibleP", "sa_family_t"]
+- !private ["s23CustomStringConvertibleP", "sockaddr_in"]
+- !private ["s23CustomStringConvertibleP", "sockaddr_in6"]
+- !private ["s23CustomStringConvertibleP", "sockaddr_un"]
+- ["s23CustomStringConvertibleP", "unixDomainSocket"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- ["s23CustomStringConvertibleP", "v4"]
+- ["s23CustomStringConvertibleP", "v6"]
+- !private ["s23CustomStringConvertibleP", "withCString"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeBufferPointer"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeBytes"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeMutablePointer"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "bigEndian"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "utf8"]
+- !private ["Se", "withCString"]
+- !private ["Se", "withMemoryRebound"]
+- !private ["Se", "withUnsafeBufferPointer"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "bigEndian"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "utf8"]
+- !private ["SE", "withCString"]
+- !private ["SE", "withMemoryRebound"]
+- !private ["SE", "withUnsafeBufferPointer"]
+- !private ["SQ", "AF_INET"]
+- !private ["SQ", "AF_INET6"]
+- !private ["SQ", "AF_UNIX"]
+- !private ["SQ", "Box"]
+- !private ["SQ", "MemoryLayout"]
+- !private ["SQ", "PF_INET"]
+- !private ["SQ", "PF_INET6"]
+- !private ["SQ", "PF_UNIX"]
+- !private ["SQ", "SocketAddressError"]
+- !private ["SQ", "String"]
+- !private ["SQ", "UInt16"]
+- !private ["SQ", "UInt8"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "assign"]
+- !private ["SQ", "bigEndian"]
+- !private ["SQ", "bindMemory"]
+- !private ["SQ", "count"]
+- ["SQ", "description"]
+- !private ["SQ", "freeaddrinfo"]
+- !private ["SQ", "getaddrinfo"]
+- !private ["SQ", "in6_addr"]
+- !private ["SQ", "in_addr"]
+- !private ["SQ", "inet_pton"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "memcmp"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "port"]
+- !private ["SQ", "sa_family_t"]
+- !private ["SQ", "sockaddr_in"]
+- !private ["SQ", "sockaddr_in6"]
+- !private ["SQ", "sockaddr_un"]
+- ["SQ", "unixDomainSocket"]
+- !private ["SQ", "utf8"]
+- ["SQ", "v4"]
+- ["SQ", "v6"]
+- !private ["SQ", "withCString"]
+- !private ["SQ", "withMemoryRebound"]
+- !private ["SQ", "withUnsafeBufferPointer"]
+- !private ["SQ", "withUnsafeBytes"]
+- !private ["SQ", "withUnsafeMutablePointer"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "failedToParseIPString"]
+- !private ["s5ErrorP", "unixDomainSocketPathTooLong"]
+- !private ["s5ErrorP", "unknown"]
+- !private ["s5ErrorP", "unsupported"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "withUnsafeBufferPointer"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "withCString"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bigEndian"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s23ExpressibleByNilLiteralP", "withMemoryRebound"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8"]
+- !private ["s26ExpressibleByStringLiteralP", "withCString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "withCString"]
+- !private ["s17FixedWidthIntegerP", "bigEndian"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "assign"]
+- !private ["SH", "bigEndian"]
+- !private ["SH", "bindMemory"]
+- !private ["SH", "count"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "pointee"]
+- !private ["SH", "utf8"]
+- !private ["SH", "withCString"]
+- !private ["SH", "withMemoryRebound"]
+- !private ["SH", "withUnsafeBufferPointer"]
+- ["3NIO13SocketAddressO04IPv4C0V", "Box"]
+- ["3NIO13SocketAddressO04IPv4C0V", "String"]
+- !private ["3NIO13SocketAddressO04IPv4C0V", "_storage"]
+- ["3NIO13SocketAddressO04IPv4C0V", "address"]
+- ["3NIO13SocketAddressO04IPv4C0V", "host"]
+- !private ["3NIO13SocketAddressO04IPv4C0V", "init"]
+- !private ["3NIO13SocketAddressO04IPv4C0V", "init"]
+- ["3NIO13SocketAddressO04IPv4C0V", "sockaddr_in"]
+- ["3NIO13SocketAddressO04IPv6C0V", "Box"]
+- ["3NIO13SocketAddressO04IPv6C0V", "String"]
+- !private ["3NIO13SocketAddressO04IPv6C0V", "_storage"]
+- ["3NIO13SocketAddressO04IPv6C0V", "address"]
+- ["3NIO13SocketAddressO04IPv6C0V", "host"]
+- !private ["3NIO13SocketAddressO04IPv6C0V", "init"]
+- !private ["3NIO13SocketAddressO04IPv6C0V", "init"]
+- ["3NIO13SocketAddressO04IPv6C0V", "sockaddr_in6"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "bigEndian"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "utf8"]
+- !private ["s25LosslessStringConvertibleP", "withCString"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "utf8"]
+- !private ["s10MirrorPathP", "withCString"]
+- !private ["SM", "count"]
+- !private ["SM", "withUnsafeBufferPointer"]
+- !private ["Sj", "bigEndian"]
+- !private ["Sj", "init"]
+- !private ["Sq", "map"]
+- !private ["Sq", "withMemoryRebound"]
+- !private ["Sk", "baseAddress"]
+- !private ["Sk", "count"]
+- !private ["Sk", "withUnsafeBufferPointer"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "utf8"]
+- !private ["Sm", "withCString"]
+- !private ["Sm", "withUnsafeBufferPointer"]
+- !private ["ST", "baseAddress"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "utf8"]
+- !private ["ST", "withCString"]
+- !private ["ST", "withUnsafeBufferPointer"]
+- !private ["3NIO16SockAddrProtocolP", "init"]
+- !private ["3NIO16SockAddrProtocolP", "sin6_addr"]
+- !private ["3NIO16SockAddrProtocolP", "sin6_family"]
+- !private ["3NIO16SockAddrProtocolP", "sin6_flowinfo"]
+- !private ["3NIO16SockAddrProtocolP", "sin6_port"]
+- !private ["3NIO16SockAddrProtocolP", "sin6_scope_id"]
+- !private ["3NIO16SockAddrProtocolP", "sin_addr"]
+- !private ["3NIO16SockAddrProtocolP", "sin_family"]
+- !private ["3NIO16SockAddrProtocolP", "sin_port"]
+- !private ["3NIO16SockAddrProtocolP", "sun_family"]
+- !private ["3NIO16SockAddrProtocolP", "sun_path"]
+- !private ["3NIO16SockAddrProtocolP", "withSockAddr"]
+- ["3NIO13SocketAddressO", "=="]
+- !private ["3NIO13SocketAddressO", "AF_INET"]
+- !private ["3NIO13SocketAddressO", "AF_INET6"]
+- !private ["3NIO13SocketAddressO", "AF_UNIX"]
+- ["3NIO13SocketAddressO", "Bool"]
+- ["3NIO13SocketAddressO", "Box"]
+- ["3NIO13SocketAddressO", "IPv4Address"]
+- ["3NIO13SocketAddressO", "IPv6Address"]
+- ["3NIO13SocketAddressO", "Int"]
+- ["3NIO13SocketAddressO", "Int32"]
+- !private ["3NIO13SocketAddressO", "MemoryLayout"]
+- !private ["3NIO13SocketAddressO", "PF_INET"]
+- !private ["3NIO13SocketAddressO", "PF_INET6"]
+- !private ["3NIO13SocketAddressO", "PF_UNIX"]
+- ["3NIO13SocketAddressO", "SocketAddress"]
+- !private ["3NIO13SocketAddressO", "SocketAddressError"]
+- ["3NIO13SocketAddressO", "String"]
+- ["3NIO13SocketAddressO", "UInt16"]
+- !private ["3NIO13SocketAddressO", "UInt8"]
+- ["3NIO13SocketAddressO", "UnixSocketAddress"]
+- !private ["3NIO13SocketAddressO", "UnsafeMutablePointer"]
+- ["3NIO13SocketAddressO", "UnsafePointer"]
+- !private ["3NIO13SocketAddressO", "addrinfo"]
+- ["3NIO13SocketAddressO", "deinit"]
+- ["3NIO13SocketAddressO", "description"]
+- !private ["3NIO13SocketAddressO", "freeaddrinfo"]
+- !private ["3NIO13SocketAddressO", "getaddrinfo"]
+- !private ["3NIO13SocketAddressO", "in6_addr"]
+- !private ["3NIO13SocketAddressO", "in_addr"]
+- !private ["3NIO13SocketAddressO", "inet_pton"]
+- ["3NIO13SocketAddressO", "init"]
+- !private ["3NIO13SocketAddressO", "memcmp"]
+- ["3NIO13SocketAddressO", "newAddressResolving"]
+- ["3NIO13SocketAddressO", "port"]
+- ["3NIO13SocketAddressO", "protocolFamily"]
+- !private ["3NIO13SocketAddressO", "sa_family_t"]
+- ["3NIO13SocketAddressO", "sockaddr"]
+- ["3NIO13SocketAddressO", "sockaddr_in"]
+- ["3NIO13SocketAddressO", "sockaddr_in6"]
+- ["3NIO13SocketAddressO", "sockaddr_un"]
+- ["3NIO13SocketAddressO", "unixDomainSocket"]
+- ["3NIO13SocketAddressO", "v4"]
+- ["3NIO13SocketAddressO", "v6"]
+- ["3NIO13SocketAddressO", "withSockAddr"]
+- !private ["3NIO13SocketAddressO", "withUnsafeBytes"]
+- !private ["3NIO13SocketAddressO", "withUnsafeMutablePointer"]
+- ["3NIO18SocketAddressErrorO", "Int"]
+- ["3NIO18SocketAddressErrorO", "String"]
+- ["3NIO18SocketAddressErrorO", "_code"]
+- ["3NIO18SocketAddressErrorO", "_domain"]
+- ["3NIO18SocketAddressErrorO", "_getEmbeddedNSError"]
+- ["3NIO18SocketAddressErrorO", "_userInfo"]
+- ["3NIO18SocketAddressErrorO", "deinit"]
+- ["3NIO18SocketAddressErrorO", "failedToParseIPString"]
+- ["3NIO18SocketAddressErrorO", "unixDomainSocketPathTooLong"]
+- ["3NIO18SocketAddressErrorO", "unknown"]
+- ["3NIO18SocketAddressErrorO", "unsupported"]
+- !private ["Sx", "assign"]
+- !private ["Sx", "bigEndian"]
+- !private ["Sx", "bindMemory"]
+- !private ["Sx", "init"]
+- !private ["Sx", "pointee"]
+- !private ["Sx", "withMemoryRebound"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "utf8"]
+- !private ["SS", "withCString"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "utf8"]
+- !private ["Sy", "withCString"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "utf8"]
+- !private ["s16TextOutputStreamP", "withCString"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "utf8"]
+- !private ["s20TextOutputStreamableP", "withCString"]
+- !private ["s6UInt16V", "bigEndian"]
+- !private ["s6UInt16V", "init"]
+- !private ["s5UInt8V", "init"]
+- !private ["SS8UTF8ViewV", "count"]
+- ["3NIO13SocketAddressO04UnixbC0V", "Box"]
+- !private ["3NIO13SocketAddressO04UnixbC0V", "_storage"]
+- ["3NIO13SocketAddressO04UnixbC0V", "address"]
+- !private ["3NIO13SocketAddressO04UnixbC0V", "init"]
+- !private ["3NIO13SocketAddressO04UnixbC0V", "init"]
+- ["3NIO13SocketAddressO04UnixbC0V", "sockaddr_un"]
+- !private ["SR", "baseAddress"]
+- !private ["Sp", "assign"]
+- !private ["Sp", "pointee"]
+- !private ["Sp", "withMemoryRebound"]
+- !private ["SW", "baseAddress"]
+- !private ["SV", "bindMemory"]
+- !private ["SU", "bigEndian"]
+- !private ["SU", "init"]
+- !private ["s18_BitwiseOperationsP", "bigEndian"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "withUnsafeBufferPointer"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "withCString"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "bigEndian"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "withCString"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "utf8"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "withCString"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "withCString"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "utf8"]
+- !private ["s33_ExpressibleByStringInterpolationP", "withCString"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "bigEndian"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "withUnsafeBufferPointer"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "withMemoryRebound"]
+- !private ["s8_PointerP", "assign"]
+- !private ["s8_PointerP", "bindMemory"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s8_PointerP", "withMemoryRebound"]
+- !private ["s14_StringElementP", "bigEndian"]
+- !private ["s14_StringElementP", "init"]
+- !private ["s16_SwiftStringViewP", "count"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "utf8"]
+- !private ["s16_SwiftStringViewP", "withCString"]
+- !private ["So8addrinfoV", "ai_addr"]
+- !private ["So8addrinfoV", "ai_family"]
+- !private ["So8in6_addrV", "init"]
+- !private ["So7in_addrV", "init"]
+- !private ["So7in_addrV", "s_addr"]
+- !private ["So11sockaddr_inV", "deinit"]
+- !private ["So11sockaddr_inV", "init"]
+- !private ["So11sockaddr_inV", "sin_addr"]
+- !private ["So11sockaddr_inV", "sin_family"]
+- !private ["So11sockaddr_inV", "sin_port"]
+- !private ["So11sockaddr_inV", "withSockAddr"]
+- !private ["So12sockaddr_in6V", "deinit"]
+- !private ["So12sockaddr_in6V", "init"]
+- !private ["So12sockaddr_in6V", "sin6_addr"]
+- !private ["So12sockaddr_in6V", "sin6_family"]
+- !private ["So12sockaddr_in6V", "sin6_flowinfo"]
+- !private ["So12sockaddr_in6V", "sin6_port"]
+- !private ["So12sockaddr_in6V", "sin6_scope_id"]
+- !private ["So12sockaddr_in6V", "withSockAddr"]
+- !private ["So11sockaddr_unV", "deinit"]
+- !private ["So11sockaddr_unV", "init"]
+- !private ["So11sockaddr_unV", "sun_family"]
+- !private ["So11sockaddr_unV", "sun_path"]
+- !private ["So11sockaddr_unV", "withSockAddr"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "SK"
+- !private "Sz"
+- !private "Sb"
+- !private "3NIO3BoxC"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- "3NIO13SocketAddressO04IPv4C0V"
+- "3NIO13SocketAddressO04IPv6C0V"
+- !private "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "Sj"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "3NIO16SockAddrProtocolP"
+- "3NIO13SocketAddressO"
+- "3NIO18SocketAddressErrorO"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt16V"
+- !private "s5UInt8V"
+- !private "SS8UTF8ViewV"
+- "3NIO13SocketAddressO04UnixbC0V"
+- !private "SR"
+- !private "Sp"
+- !private "SW"
+- !private "SV"
+- !private "SU"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s14_StringElementP"
+- !private "s16_SwiftStringViewP"
+- !private "So8addrinfoV"
+- !private "So8in6_addrV"
+- !private "So7in_addrV"
+- !private "So11sockaddr_inV"
+- !private "So12sockaddr_in6V"
+- !private "So11sockaddr_unV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+interface-hash: "276f24e8289f335fe9544afc457a93b5"

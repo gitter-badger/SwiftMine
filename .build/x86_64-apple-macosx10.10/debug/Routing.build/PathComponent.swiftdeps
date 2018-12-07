@@ -1,0 +1,493 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PathComponent"
+- "any"
+- "all"
+- "PathComponentsRepresentable"
+provides-nominal:
+- "7Routing13PathComponentO"
+- "Sa"
+- "7Routing27PathComponentsRepresentableP"
+- "SS"
+provides-member:
+- ["7Routing13PathComponentO", ""]
+- ["Sa", ""]
+- ["7Routing27PathComponentsRepresentableP", ""]
+- ["SS", ""]
+- ["Sa", "readable"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "Array"
+- "AssignmentPrecedence"
+- "ExpressibleByStringLiteral"
+- !private "ExtendedGraphemeClusterType"
+- "PathComponent"
+- "PathComponentsRepresentable"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- "all"
+- "any"
+depends-member:
+- ["4Core22AnyReflectionDecodableP", "PathComponent"]
+- ["4Core22AnyReflectionDecodableP", "PathComponentsRepresentable"]
+- ["4Core22AnyReflectionDecodableP", "convertToPathComponents"]
+- !private ["4Core22AnyReflectionDecodableP", "flatMap"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "joined"]
+- !private ["4Core22AnyReflectionDecodableP", "map"]
+- !private ["4Core22AnyReflectionDecodableP", "split"]
+- ["Sa", "PathComponent"]
+- ["Sa", "PathComponentsRepresentable"]
+- ["Sa", "String"]
+- ["Sa", "convertToPathComponents"]
+- ["Sa", "deinit"]
+- !private ["Sa", "flatMap"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- ["Sa", "readable"]
+- ["s13ArrayProtocolP", "PathComponent"]
+- ["s13ArrayProtocolP", "PathComponentsRepresentable"]
+- ["s13ArrayProtocolP", "convertToPathComponents"]
+- !private ["s13ArrayProtocolP", "flatMap"]
+- !private ["s13ArrayProtocolP", "joined"]
+- !private ["s13ArrayProtocolP", "map"]
+- ["4Core21BasicKeyRepresentableP", "convertToPathComponents"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "split"]
+- ["SK", "PathComponent"]
+- ["SK", "PathComponentsRepresentable"]
+- ["SK", "convertToPathComponents"]
+- !private ["SK", "flatMap"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "joined"]
+- !private ["SK", "map"]
+- !private ["SK", "split"]
+- ["s7CVarArgP", "PathComponent"]
+- ["s7CVarArgP", "PathComponentsRepresentable"]
+- ["s7CVarArgP", "convertToPathComponents"]
+- !private ["s7CVarArgP", "flatMap"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "split"]
+- !private ["SJ", "init"]
+- !private ["SJ", "init"]
+- ["Sl", "PathComponent"]
+- ["Sl", "PathComponentsRepresentable"]
+- ["Sl", "convertToPathComponents"]
+- !private ["Sl", "flatMap"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "map"]
+- !private ["Sl", "split"]
+- ["SL", "convertToPathComponents"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "split"]
+- ["3NIO20ContiguousCollectionP", "PathComponent"]
+- ["3NIO20ContiguousCollectionP", "PathComponentsRepresentable"]
+- ["3NIO20ContiguousCollectionP", "convertToPathComponents"]
+- !private ["3NIO20ContiguousCollectionP", "flatMap"]
+- !private ["3NIO20ContiguousCollectionP", "joined"]
+- !private ["3NIO20ContiguousCollectionP", "map"]
+- ["s28CustomDebugStringConvertibleP", "PathComponent"]
+- ["s28CustomDebugStringConvertibleP", "PathComponentsRepresentable"]
+- ["s28CustomDebugStringConvertibleP", "convertToPathComponents"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "split"]
+- ["s29CustomPlaygroundQuickLookableP", "convertToPathComponents"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "split"]
+- ["s17CustomReflectableP", "PathComponent"]
+- ["s17CustomReflectableP", "PathComponentsRepresentable"]
+- ["s17CustomReflectableP", "convertToPathComponents"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "split"]
+- ["s23CustomStringConvertibleP", "PathComponent"]
+- ["s23CustomStringConvertibleP", "PathComponentsRepresentable"]
+- ["s23CustomStringConvertibleP", "convertToPathComponents"]
+- !private ["s23CustomStringConvertibleP", "flatMap"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "split"]
+- ["Se", "PathComponent"]
+- ["Se", "PathComponentsRepresentable"]
+- ["Se", "convertToPathComponents"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "joined"]
+- !private ["Se", "map"]
+- !private ["Se", "split"]
+- ["SE", "PathComponent"]
+- ["SE", "PathComponentsRepresentable"]
+- ["SE", "convertToPathComponents"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "joined"]
+- !private ["SE", "map"]
+- !private ["SE", "split"]
+- ["SQ", "PathComponent"]
+- ["SQ", "PathComponentsRepresentable"]
+- ["SQ", "convertToPathComponents"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "map"]
+- !private ["SQ", "split"]
+- ["s25ExpressibleByArrayLiteralP", "PathComponent"]
+- ["s25ExpressibleByArrayLiteralP", "PathComponentsRepresentable"]
+- ["s25ExpressibleByArrayLiteralP", "convertToPathComponents"]
+- !private ["s25ExpressibleByArrayLiteralP", "flatMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "anything"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "catchall"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "constant"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "convertToPathComponents"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "parameter"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "split"]
+- ["s26ExpressibleByStringLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "anything"]
+- ["s26ExpressibleByStringLiteralP", "catchall"]
+- !private ["s26ExpressibleByStringLiteralP", "constant"]
+- ["s26ExpressibleByStringLiteralP", "convertToPathComponents"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "parameter"]
+- !private ["s26ExpressibleByStringLiteralP", "split"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "anything"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "catchall"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "constant"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "convertToPathComponents"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "parameter"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "split"]
+- ["SH", "PathComponent"]
+- ["SH", "PathComponentsRepresentable"]
+- ["SH", "convertToPathComponents"]
+- !private ["SH", "flatMap"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "joined"]
+- !private ["SH", "map"]
+- !private ["SH", "split"]
+- ["4Core23LosslessDataConvertibleP", "PathComponent"]
+- ["4Core23LosslessDataConvertibleP", "PathComponentsRepresentable"]
+- ["4Core23LosslessDataConvertibleP", "convertToPathComponents"]
+- !private ["4Core23LosslessDataConvertibleP", "flatMap"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "joined"]
+- !private ["4Core23LosslessDataConvertibleP", "map"]
+- !private ["4Core23LosslessDataConvertibleP", "split"]
+- ["s25LosslessStringConvertibleP", "convertToPathComponents"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "split"]
+- ["s10MirrorPathP", "convertToPathComponents"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "split"]
+- ["SM", "PathComponent"]
+- ["SM", "PathComponentsRepresentable"]
+- ["SM", "convertToPathComponents"]
+- !private ["SM", "flatMap"]
+- !private ["SM", "joined"]
+- !private ["SM", "map"]
+- !private ["So8NSCodingP", "split"]
+- !private ["So9NSCopyingP", "split"]
+- !private ["So21NSItemProviderReadingP", "split"]
+- !private ["So21NSItemProviderWritingP", "split"]
+- !private ["So16NSMutableCopyingP", "split"]
+- !private ["So8NSObjectC", "split"]
+- !private ["So8NSObjectP", "split"]
+- !private ["So14NSSecureCodingP", "split"]
+- !private ["So8NSStringC", "split"]
+- ["7Routing9ParameterP", "convertToPathComponents"]
+- !private ["7Routing9ParameterP", "init"]
+- !private ["7Routing9ParameterP", "init"]
+- !private ["7Routing9ParameterP", "split"]
+- ["7Routing13PathComponentO", "ExtendedGraphemeClusterLiteralType"]
+- ["7Routing13PathComponentO", "PathComponent"]
+- ["7Routing13PathComponentO", "String"]
+- ["7Routing13PathComponentO", "StringLiteralType"]
+- ["7Routing13PathComponentO", "UnicodeScalarLiteralType"]
+- ["7Routing13PathComponentO", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["7Routing13PathComponentO", "_Default_StringLiteralType"]
+- ["7Routing13PathComponentO", "_Default_UnicodeScalarLiteralType"]
+- ["7Routing13PathComponentO", "anything"]
+- ["7Routing13PathComponentO", "catchall"]
+- ["7Routing13PathComponentO", "constant"]
+- ["7Routing13PathComponentO", "convertToPathComponents"]
+- ["7Routing13PathComponentO", "deinit"]
+- ["7Routing13PathComponentO", "init"]
+- ["7Routing13PathComponentO", "parameter"]
+- ["7Routing27PathComponentsRepresentableP", "ExtendedGraphemeClusterLiteralType"]
+- ["7Routing27PathComponentsRepresentableP", "PathComponent"]
+- ["7Routing27PathComponentsRepresentableP", "PathComponentsRepresentable"]
+- ["7Routing27PathComponentsRepresentableP", "StringLiteralType"]
+- ["7Routing27PathComponentsRepresentableP", "UnicodeScalarLiteralType"]
+- ["7Routing27PathComponentsRepresentableP", ""]
+- ["7Routing27PathComponentsRepresentableP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["7Routing27PathComponentsRepresentableP", "_Default_StringLiteralType"]
+- ["7Routing27PathComponentsRepresentableP", "_Default_UnicodeScalarLiteralType"]
+- ["7Routing27PathComponentsRepresentableP", "anything"]
+- ["7Routing27PathComponentsRepresentableP", "catchall"]
+- !private ["7Routing27PathComponentsRepresentableP", "constant"]
+- ["7Routing27PathComponentsRepresentableP", "convertToPathComponents"]
+- !private ["7Routing27PathComponentsRepresentableP", "flatMap"]
+- ["7Routing27PathComponentsRepresentableP", "init"]
+- !private ["7Routing27PathComponentsRepresentableP", "init"]
+- !private ["7Routing27PathComponentsRepresentableP", "joined"]
+- !private ["7Routing27PathComponentsRepresentableP", "map"]
+- !private ["7Routing27PathComponentsRepresentableP", "parameter"]
+- !private ["7Routing27PathComponentsRepresentableP", "split"]
+- ["Sk", "PathComponent"]
+- ["Sk", "PathComponentsRepresentable"]
+- ["Sk", "convertToPathComponents"]
+- !private ["Sk", "flatMap"]
+- !private ["Sk", "joined"]
+- !private ["Sk", "map"]
+- ["Sm", "PathComponent"]
+- ["Sm", "PathComponentsRepresentable"]
+- ["Sm", "convertToPathComponents"]
+- !private ["Sm", "flatMap"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "map"]
+- !private ["Sm", "split"]
+- ["4Core19ReflectionDecodableP", "PathComponent"]
+- ["4Core19ReflectionDecodableP", "PathComponentsRepresentable"]
+- ["4Core19ReflectionDecodableP", "convertToPathComponents"]
+- !private ["4Core19ReflectionDecodableP", "flatMap"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "joined"]
+- !private ["4Core19ReflectionDecodableP", "map"]
+- !private ["4Core19ReflectionDecodableP", "split"]
+- ["7Routing17RoutableComponentP", "convertToPathComponents"]
+- !private ["7Routing17RoutableComponentP", "init"]
+- !private ["7Routing17RoutableComponentP", "init"]
+- !private ["7Routing17RoutableComponentP", "split"]
+- ["ST", "PathComponent"]
+- ["ST", "PathComponentsRepresentable"]
+- ["ST", "convertToPathComponents"]
+- !private ["ST", "flatMap"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "joined"]
+- !private ["ST", "map"]
+- !private ["ST", "split"]
+- ["SS", "PathComponent"]
+- ["SS", "convertToPathComponents"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "split"]
+- ["Sy", "convertToPathComponents"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "split"]
+- ["s16TextOutputStreamP", "convertToPathComponents"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "split"]
+- ["s20TextOutputStreamableP", "convertToPathComponents"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "split"]
+- ["s24_DestructorSafeContainerP", "PathComponent"]
+- ["s24_DestructorSafeContainerP", "PathComponentsRepresentable"]
+- ["s24_DestructorSafeContainerP", "convertToPathComponents"]
+- !private ["s24_DestructorSafeContainerP", "flatMap"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "convertToPathComponents"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "split"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "convertToPathComponents"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "split"]
+- !private ["s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "convertToPathComponents"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "split"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "convertToPathComponents"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "split"]
+- ["s33_ExpressibleByStringInterpolationP", "convertToPathComponents"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "split"]
+- ["s35_HasCustomAnyHashableRepresentationP", "PathComponent"]
+- ["s35_HasCustomAnyHashableRepresentationP", "PathComponentsRepresentable"]
+- ["s35_HasCustomAnyHashableRepresentationP", "convertToPathComponents"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "flatMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "split"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "split"]
+- ["s21_ObjectiveCBridgeableP", "PathComponent"]
+- ["s21_ObjectiveCBridgeableP", "PathComponentsRepresentable"]
+- ["s21_ObjectiveCBridgeableP", "convertToPathComponents"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "split"]
+- ["s16_SwiftStringViewP", "convertToPathComponents"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "split"]
+depends-nominal:
+- "4Core22AnyReflectionDecodableP"
+- "Sa"
+- "s13ArrayProtocolP"
+- "4Core21BasicKeyRepresentableP"
+- "SK"
+- "s7CVarArgP"
+- !private "SJ"
+- "Sl"
+- "SL"
+- "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "4Core23LosslessDataConvertibleP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "7Routing9ParameterP"
+- "7Routing13PathComponentO"
+- "7Routing27PathComponentsRepresentableP"
+- "Sk"
+- "Sm"
+- "4Core19ReflectionDecodableP"
+- "7Routing17RoutableComponentP"
+- "ST"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "43d2f7611857d099ba7465a54a580783"

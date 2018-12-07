@@ -1,0 +1,133 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["3NIO15EventLoopFutureC", ""]
+- ["Sa", ""]
+- ["3NIO15EventLoopFutureC", "chain"]
+- ["Sa", "transform"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- "Future"
+- "Promise"
+- "Void"
+- "Worker"
+depends-member:
+- ["Sa", "Future"]
+- ["Sa", "Void"]
+- ["Sa", "Worker"]
+- !private ["Sa", "flatten"]
+- ["Sa", "transform"]
+- ["s13ArrayProtocolP", "Future"]
+- ["s13ArrayProtocolP", "Void"]
+- !private ["s13ArrayProtocolP", "flatten"]
+- ["SK", "Future"]
+- ["SK", "Void"]
+- !private ["SK", "flatten"]
+- ["Sl", "Future"]
+- ["Sl", "Void"]
+- !private ["Sl", "flatten"]
+- ["3NIO20ContiguousCollectionP", "Future"]
+- ["3NIO20ContiguousCollectionP", "Void"]
+- !private ["3NIO20ContiguousCollectionP", "flatten"]
+- ["s28CustomDebugStringConvertibleP", "Future"]
+- ["s28CustomDebugStringConvertibleP", "Void"]
+- !private ["s28CustomDebugStringConvertibleP", "flatten"]
+- ["s17CustomReflectableP", "Future"]
+- ["s17CustomReflectableP", "Void"]
+- !private ["s17CustomReflectableP", "flatten"]
+- ["s23CustomStringConvertibleP", "Future"]
+- ["s23CustomStringConvertibleP", "Void"]
+- !private ["s23CustomStringConvertibleP", "flatten"]
+- ["Se", "Future"]
+- ["Se", "Void"]
+- !private ["Se", "flatten"]
+- ["SE", "Future"]
+- ["SE", "Void"]
+- !private ["SE", "flatten"]
+- ["SQ", "Future"]
+- ["SQ", "Void"]
+- !private ["SQ", "cascade"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "flatten"]
+- ["3NIO15EventLoopFutureC", "Promise"]
+- ["3NIO15EventLoopFutureC", "T"]
+- !private ["3NIO15EventLoopFutureC", "cascade"]
+- ["3NIO15EventLoopFutureC", "chain"]
+- !private ["3NIO15EventLoopFutureC", "deinit"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- ["s25ExpressibleByArrayLiteralP", "Future"]
+- ["s25ExpressibleByArrayLiteralP", "Void"]
+- !private ["s25ExpressibleByArrayLiteralP", "flatten"]
+- !private ["5Async10FutureTypeP", "cascade"]
+- !private ["5Async10FutureTypeP", "flatMap"]
+- ["SH", "Future"]
+- ["SH", "Void"]
+- !private ["SH", "flatten"]
+- ["SM", "Future"]
+- ["SM", "Void"]
+- !private ["SM", "flatten"]
+- ["Sk", "Future"]
+- ["Sk", "Void"]
+- !private ["Sk", "flatten"]
+- ["Sm", "Future"]
+- ["Sm", "Void"]
+- !private ["Sm", "flatten"]
+- ["ST", "Future"]
+- ["ST", "Void"]
+- !private ["ST", "flatten"]
+- ["s24_DestructorSafeContainerP", "Future"]
+- ["s24_DestructorSafeContainerP", "Void"]
+- !private ["s24_DestructorSafeContainerP", "flatten"]
+- ["s35_HasCustomAnyHashableRepresentationP", "Future"]
+- ["s35_HasCustomAnyHashableRepresentationP", "Void"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "flatten"]
+depends-nominal:
+- "Sa"
+- "s13ArrayProtocolP"
+- "SK"
+- "Sl"
+- "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "3NIO15EventLoopFutureC"
+- "s25ExpressibleByArrayLiteralP"
+- !private "5Async10FutureTypeP"
+- "SH"
+- "SM"
+- "Sk"
+- "Sm"
+- "ST"
+- "s24_DestructorSafeContainerP"
+- "s35_HasCustomAnyHashableRepresentationP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+interface-hash: "7b40643ae0248cd362d2da208dba1a31"

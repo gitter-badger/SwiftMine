@@ -1,0 +1,866 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLiteDataConvertible"
+provides-nominal:
+- "6SQLite0A15DataConvertibleP"
+- "6SQLite0A4DataO"
+- "10Foundation4DataV"
+- "10Foundation4UUIDV"
+- "10Foundation4DateV"
+- "SS"
+- "10Foundation3URLV"
+- "s4Int8V"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "Si"
+- "s5UInt8V"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "Su"
+- "Sd"
+- "Sf"
+- "Sb"
+provides-member:
+- ["6SQLite0A15DataConvertibleP", ""]
+- ["6SQLite0A4DataO", ""]
+- ["10Foundation4DataV", ""]
+- ["10Foundation4UUIDV", ""]
+- ["10Foundation4DateV", ""]
+- ["SS", ""]
+- ["10Foundation3URLV", ""]
+- ["s17FixedWidthIntegerP", ""]
+- ["s4Int8V", ""]
+- ["s5Int16V", ""]
+- ["s5Int32V", ""]
+- ["s5Int64V", ""]
+- ["Si", ""]
+- ["s5UInt8V", ""]
+- ["s6UInt16V", ""]
+- ["s6UInt32V", ""]
+- ["s6UInt64V", ""]
+- ["Su", ""]
+- ["SB", ""]
+- ["Sd", ""]
+- ["Sf", ""]
+- ["Sb", ""]
+- ["s17FixedWidthIntegerP", "convertFromSQLiteData"]
+- ["s17FixedWidthIntegerP", "convertToSQLiteData"]
+- ["SB", "convertFromSQLiteData"]
+- ["SB", "convertToSQLiteData"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "<="
+- !private "=="
+- !private ">="
+- !private "Array"
+- "BinaryFloatingPoint"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Data"
+- "Date"
+- "Double"
+- "FixedWidthInteger"
+- "Float"
+- !private "FloatLiteralType"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- !private "IntegerLiteralType"
+- "SQLiteData"
+- "SQLiteDataConvertible"
+- !private "SQLiteError"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- "URL"
+- "UUID"
+- !private "numericCast"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "Data"]
+- !private ["4Core22AnyReflectionDecodableP", "Date"]
+- !private ["4Core22AnyReflectionDecodableP", "SQLiteData"]
+- !private ["4Core22AnyReflectionDecodableP", "SQLiteError"]
+- !private ["4Core22AnyReflectionDecodableP", "UUID"]
+- !private ["4Core22AnyReflectionDecodableP", "_getBuiltinLogicValue"]
+- ["4Core22AnyReflectionDecodableP", "convertFromSQLiteData"]
+- ["4Core22AnyReflectionDecodableP", "convertToSQLiteData"]
+- !private ["4Core22AnyReflectionDecodableP", "count"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "subscript"]
+- !private ["4Core22AnyReflectionDecodableP", "timeIntervalSince1970"]
+- !private ["4Core22AnyReflectionDecodableP", "uuid"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "SQLiteData"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "SQLiteError"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "convertFromSQLiteData"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "convertToSQLiteData"]
+- !private ["4Core21BasicKeyRepresentableP", "SQLiteError"]
+- ["4Core21BasicKeyRepresentableP", "convertFromSQLiteData"]
+- ["4Core21BasicKeyRepresentableP", "convertToSQLiteData"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["SK", "SQLiteError"]
+- ["SK", "convertFromSQLiteData"]
+- ["SK", "convertToSQLiteData"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["SB", "Double"]
+- !private ["SB", "Float"]
+- ["SB", "SQLiteData"]
+- !private ["SB", "SQLiteError"]
+- ["SB", "Self"]
+- ["SB", "convertFromSQLiteData"]
+- ["SB", "convertToSQLiteData"]
+- !private ["SB", "init"]
+- !private ["SB", "init"]
+- ["Sz", "SQLiteData"]
+- !private ["Sz", "SQLiteError"]
+- ["Sz", "Self"]
+- ["Sz", "convertFromSQLiteData"]
+- ["Sz", "convertToSQLiteData"]
+- !private ["Sz", "max"]
+- !private ["Sz", "min"]
+- !private ["Sz", "numericCast"]
+- ["Sb", "Bool"]
+- ["Sb", "SQLiteData"]
+- !private ["Sb", "SQLiteError"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "convertFromSQLiteData"]
+- ["Sb", "convertToSQLiteData"]
+- ["Sb", "deinit"]
+- !private ["s7CVarArgP", "SQLiteData"]
+- !private ["s7CVarArgP", "SQLiteError"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "convertFromSQLiteData"]
+- ["s7CVarArgP", "convertToSQLiteData"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "SQLiteError"]
+- ["Sl", "convertFromSQLiteData"]
+- ["Sl", "convertToSQLiteData"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "Date"]
+- !private ["SL", "Double"]
+- !private ["SL", "Float"]
+- ["SL", "SQLiteData"]
+- !private ["SL", "SQLiteError"]
+- ["SL", "Self"]
+- ["SL", "convertFromSQLiteData"]
+- ["SL", "convertToSQLiteData"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "max"]
+- !private ["SL", "min"]
+- !private ["SL", "numericCast"]
+- !private ["SL", "timeIntervalSince1970"]
+- !private ["3NIO20ContiguousCollectionP", "SQLiteError"]
+- ["3NIO20ContiguousCollectionP", "convertFromSQLiteData"]
+- ["3NIO20ContiguousCollectionP", "convertToSQLiteData"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "SQLiteError"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "UUID"]
+- ["s28CustomDebugStringConvertibleP", "convertFromSQLiteData"]
+- ["s28CustomDebugStringConvertibleP", "convertToSQLiteData"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s28CustomDebugStringConvertibleP", "uuid"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Date"]
+- !private ["s29CustomPlaygroundQuickLookableP", "SQLiteData"]
+- !private ["s29CustomPlaygroundQuickLookableP", "SQLiteError"]
+- !private ["s29CustomPlaygroundQuickLookableP", "URL"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "convertFromSQLiteData"]
+- ["s29CustomPlaygroundQuickLookableP", "convertToSQLiteData"]
+- !private ["s29CustomPlaygroundQuickLookableP", "description"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "Data"]
+- !private ["s17CustomReflectableP", "Date"]
+- !private ["s17CustomReflectableP", "SQLiteData"]
+- !private ["s17CustomReflectableP", "SQLiteError"]
+- !private ["s17CustomReflectableP", "UUID"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "convertFromSQLiteData"]
+- ["s17CustomReflectableP", "convertToSQLiteData"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "uuid"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- ["s23CustomStringConvertibleP", "SQLiteData"]
+- !private ["s23CustomStringConvertibleP", "SQLiteError"]
+- ["s23CustomStringConvertibleP", "Self"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "UUID"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "blob"]
+- ["s23CustomStringConvertibleP", "convertFromSQLiteData"]
+- ["s23CustomStringConvertibleP", "convertToSQLiteData"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "float"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "integer"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "min"]
+- !private ["s23CustomStringConvertibleP", "numericCast"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "uuid"]
+- ["10Foundation4DataV", "Data"]
+- ["10Foundation4DataV", "SQLiteData"]
+- !private ["10Foundation4DataV", "SQLiteError"]
+- ["10Foundation4DataV", "convertFromSQLiteData"]
+- ["10Foundation4DataV", "convertToSQLiteData"]
+- !private ["10Foundation4DataV", "count"]
+- ["10Foundation4DataV", "deinit"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation4DataV", "subscript"]
+- ["10Foundation4DateV", "Date"]
+- ["10Foundation4DateV", "SQLiteData"]
+- !private ["10Foundation4DateV", "SQLiteError"]
+- ["10Foundation4DateV", "convertFromSQLiteData"]
+- ["10Foundation4DateV", "convertToSQLiteData"]
+- ["10Foundation4DateV", "deinit"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSince1970"]
+- !private ["9Debugging10DebuggableP", "init"]
+- !private ["Se", "Data"]
+- !private ["Se", "Date"]
+- !private ["Se", "SQLiteData"]
+- !private ["Se", "SQLiteError"]
+- !private ["Se", "URL"]
+- !private ["Se", "UUID"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "convertFromSQLiteData"]
+- ["Se", "convertToSQLiteData"]
+- !private ["Se", "count"]
+- !private ["Se", "description"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["Se", "timeIntervalSince1970"]
+- !private ["Se", "uuid"]
+- ["Sd", "convertFromSQLiteData"]
+- ["Sd", "convertToSQLiteData"]
+- ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["Sd", "init"]
+- !private ["SE", "Data"]
+- !private ["SE", "Date"]
+- !private ["SE", "SQLiteData"]
+- !private ["SE", "SQLiteError"]
+- !private ["SE", "URL"]
+- !private ["SE", "UUID"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "blob"]
+- ["SE", "convertFromSQLiteData"]
+- ["SE", "convertToSQLiteData"]
+- !private ["SE", "count"]
+- !private ["SE", "description"]
+- ["SE", "float"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- ["SE", "integer"]
+- !private ["SE", "subscript"]
+- ["SE", "text"]
+- !private ["SE", "timeIntervalSince1970"]
+- !private ["SE", "uuid"]
+- !private ["SQ", "Data"]
+- !private ["SQ", "Date"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "Float"]
+- ["SQ", "SQLiteData"]
+- !private ["SQ", "SQLiteError"]
+- ["SQ", "Self"]
+- !private ["SQ", "URL"]
+- !private ["SQ", "UUID"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "blob"]
+- ["SQ", "convertFromSQLiteData"]
+- ["SQ", "convertToSQLiteData"]
+- !private ["SQ", "count"]
+- !private ["SQ", "description"]
+- ["SQ", "float"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "integer"]
+- !private ["SQ", "max"]
+- !private ["SQ", "min"]
+- !private ["SQ", "numericCast"]
+- !private ["SQ", "subscript"]
+- ["SQ", "text"]
+- !private ["SQ", "timeIntervalSince1970"]
+- !private ["SQ", "uuid"]
+- !private ["SQ", "warning"]
+- !private ["s5ErrorP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "SQLiteData"]
+- !private ["s27ExpressibleByBooleanLiteralP", "SQLiteError"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s27ExpressibleByBooleanLiteralP", "convertFromSQLiteData"]
+- ["s27ExpressibleByBooleanLiteralP", "convertToSQLiteData"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "SQLiteError"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "convertFromSQLiteData"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "convertToSQLiteData"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "Double"]
+- !private ["s25ExpressibleByFloatLiteralP", "Float"]
+- ["s25ExpressibleByFloatLiteralP", "SQLiteData"]
+- !private ["s25ExpressibleByFloatLiteralP", "SQLiteError"]
+- ["s25ExpressibleByFloatLiteralP", "Self"]
+- ["s25ExpressibleByFloatLiteralP", "convertFromSQLiteData"]
+- ["s25ExpressibleByFloatLiteralP", "convertToSQLiteData"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Double"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Float"]
+- ["s27ExpressibleByIntegerLiteralP", "SQLiteData"]
+- !private ["s27ExpressibleByIntegerLiteralP", "SQLiteError"]
+- ["s27ExpressibleByIntegerLiteralP", "Self"]
+- ["s27ExpressibleByIntegerLiteralP", "convertFromSQLiteData"]
+- ["s27ExpressibleByIntegerLiteralP", "convertToSQLiteData"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "max"]
+- !private ["s27ExpressibleByIntegerLiteralP", "min"]
+- !private ["s27ExpressibleByIntegerLiteralP", "numericCast"]
+- !private ["s26ExpressibleByStringLiteralP", "SQLiteError"]
+- ["s26ExpressibleByStringLiteralP", "convertFromSQLiteData"]
+- ["s26ExpressibleByStringLiteralP", "convertToSQLiteData"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "SQLiteError"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "convertFromSQLiteData"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "convertToSQLiteData"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s17FixedWidthIntegerP", "SQLiteData"]
+- !private ["s17FixedWidthIntegerP", "SQLiteError"]
+- ["s17FixedWidthIntegerP", "Self"]
+- ["s17FixedWidthIntegerP", "convertFromSQLiteData"]
+- ["s17FixedWidthIntegerP", "convertToSQLiteData"]
+- !private ["s17FixedWidthIntegerP", "max"]
+- !private ["s17FixedWidthIntegerP", "min"]
+- !private ["s17FixedWidthIntegerP", "numericCast"]
+- ["Sf", "convertFromSQLiteData"]
+- ["Sf", "convertToSQLiteData"]
+- ["Sf", "deinit"]
+- !private ["SF", "Double"]
+- !private ["SF", "Float"]
+- ["SF", "SQLiteData"]
+- !private ["SF", "SQLiteError"]
+- ["SF", "Self"]
+- ["SF", "convertFromSQLiteData"]
+- ["SF", "convertToSQLiteData"]
+- !private ["SF", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "Data"]
+- !private ["SH", "Date"]
+- !private ["SH", "Double"]
+- !private ["SH", "Float"]
+- ["SH", "SQLiteData"]
+- !private ["SH", "SQLiteError"]
+- ["SH", "Self"]
+- !private ["SH", "URL"]
+- !private ["SH", "UUID"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "convertFromSQLiteData"]
+- ["SH", "convertToSQLiteData"]
+- !private ["SH", "count"]
+- !private ["SH", "description"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "max"]
+- !private ["SH", "min"]
+- !private ["SH", "numericCast"]
+- !private ["SH", "subscript"]
+- !private ["SH", "timeIntervalSince1970"]
+- !private ["SH", "uuid"]
+- !private ["SH", "warning"]
+- ["Si", "convertFromSQLiteData"]
+- ["Si", "convertToSQLiteData"]
+- ["Si", "deinit"]
+- ["s5Int16V", "convertFromSQLiteData"]
+- ["s5Int16V", "convertToSQLiteData"]
+- ["s5Int16V", "deinit"]
+- ["s5Int32V", "convertFromSQLiteData"]
+- ["s5Int32V", "convertToSQLiteData"]
+- ["s5Int32V", "deinit"]
+- ["s5Int64V", "convertFromSQLiteData"]
+- ["s5Int64V", "convertToSQLiteData"]
+- ["s5Int64V", "deinit"]
+- ["s4Int8V", "convertFromSQLiteData"]
+- ["s4Int8V", "convertToSQLiteData"]
+- ["s4Int8V", "deinit"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "SQLiteError"]
+- ["4Core23LosslessDataConvertibleP", "convertFromSQLiteData"]
+- ["4Core23LosslessDataConvertibleP", "convertToSQLiteData"]
+- !private ["4Core23LosslessDataConvertibleP", "count"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "Data"]
+- ["s25LosslessStringConvertibleP", "SQLiteData"]
+- !private ["s25LosslessStringConvertibleP", "SQLiteError"]
+- ["s25LosslessStringConvertibleP", "Self"]
+- !private ["s25LosslessStringConvertibleP", "UUID"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "convertFromSQLiteData"]
+- ["s25LosslessStringConvertibleP", "convertToSQLiteData"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "max"]
+- !private ["s25LosslessStringConvertibleP", "min"]
+- !private ["s25LosslessStringConvertibleP", "numericCast"]
+- !private ["s25LosslessStringConvertibleP", "uuid"]
+- !private ["s10MirrorPathP", "SQLiteError"]
+- ["s10MirrorPathP", "convertFromSQLiteData"]
+- ["s10MirrorPathP", "convertToSQLiteData"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "SQLiteError"]
+- ["SM", "convertFromSQLiteData"]
+- ["SM", "convertToSQLiteData"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "subscript"]
+- !private ["Sj", "Double"]
+- !private ["Sj", "Float"]
+- ["Sj", "SQLiteData"]
+- !private ["Sj", "SQLiteError"]
+- ["Sj", "Self"]
+- ["Sj", "convertFromSQLiteData"]
+- ["Sj", "convertToSQLiteData"]
+- !private ["Sj", "init"]
+- !private ["Sj", "init"]
+- !private ["Sj", "max"]
+- !private ["Sj", "min"]
+- !private ["Sj", "numericCast"]
+- !private ["6SQLite7ProblemO", "warning"]
+- !private ["Sk", "SQLiteError"]
+- ["Sk", "convertFromSQLiteData"]
+- ["Sk", "convertToSQLiteData"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "SQLiteError"]
+- ["Sm", "convertFromSQLiteData"]
+- ["Sm", "convertToSQLiteData"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "warning"]
+- !private ["10Foundation20ReferenceConvertibleP", "Data"]
+- !private ["10Foundation20ReferenceConvertibleP", "Date"]
+- !private ["10Foundation20ReferenceConvertibleP", "SQLiteError"]
+- !private ["10Foundation20ReferenceConvertibleP", "URL"]
+- !private ["10Foundation20ReferenceConvertibleP", "UUID"]
+- ["10Foundation20ReferenceConvertibleP", "convertFromSQLiteData"]
+- ["10Foundation20ReferenceConvertibleP", "convertToSQLiteData"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "description"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuid"]
+- !private ["4Core19ReflectionDecodableP", "Data"]
+- !private ["4Core19ReflectionDecodableP", "Date"]
+- !private ["4Core19ReflectionDecodableP", "SQLiteData"]
+- !private ["4Core19ReflectionDecodableP", "SQLiteError"]
+- !private ["4Core19ReflectionDecodableP", "UUID"]
+- !private ["4Core19ReflectionDecodableP", "_getBuiltinLogicValue"]
+- ["4Core19ReflectionDecodableP", "convertFromSQLiteData"]
+- ["4Core19ReflectionDecodableP", "convertToSQLiteData"]
+- !private ["4Core19ReflectionDecodableP", "count"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "subscript"]
+- !private ["4Core19ReflectionDecodableP", "timeIntervalSince1970"]
+- !private ["4Core19ReflectionDecodableP", "uuid"]
+- ["6SQLite0A4DataO", "SQLiteData"]
+- ["6SQLite0A4DataO", "blob"]
+- ["6SQLite0A4DataO", "convertFromSQLiteData"]
+- ["6SQLite0A4DataO", "convertToSQLiteData"]
+- ["6SQLite0A4DataO", "deinit"]
+- ["6SQLite0A4DataO", "float"]
+- ["6SQLite0A4DataO", "integer"]
+- ["6SQLite0A4DataO", "text"]
+- !private ["6SQLite0A15DataConvertibleP", "Data"]
+- !private ["6SQLite0A15DataConvertibleP", "Date"]
+- ["6SQLite0A15DataConvertibleP", "SQLiteData"]
+- !private ["6SQLite0A15DataConvertibleP", "SQLiteError"]
+- !private ["6SQLite0A15DataConvertibleP", "URL"]
+- !private ["6SQLite0A15DataConvertibleP", "UUID"]
+- ["6SQLite0A15DataConvertibleP", ""]
+- !private ["6SQLite0A15DataConvertibleP", "_getBuiltinLogicValue"]
+- ["6SQLite0A15DataConvertibleP", "blob"]
+- ["6SQLite0A15DataConvertibleP", "convertFromSQLiteData"]
+- ["6SQLite0A15DataConvertibleP", "convertToSQLiteData"]
+- !private ["6SQLite0A15DataConvertibleP", "count"]
+- !private ["6SQLite0A15DataConvertibleP", "description"]
+- ["6SQLite0A15DataConvertibleP", "float"]
+- !private ["6SQLite0A15DataConvertibleP", "init"]
+- !private ["6SQLite0A15DataConvertibleP", "init"]
+- ["6SQLite0A15DataConvertibleP", "integer"]
+- !private ["6SQLite0A15DataConvertibleP", "subscript"]
+- ["6SQLite0A15DataConvertibleP", "text"]
+- !private ["6SQLite0A15DataConvertibleP", "timeIntervalSince1970"]
+- !private ["6SQLite0A15DataConvertibleP", "uuid"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "Data"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "Date"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "SQLiteData"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "SQLiteError"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "URL"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "UUID"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "_getBuiltinLogicValue"]
+- ["6SQLite0A27DataTypeStaticRepresentableP", "convertFromSQLiteData"]
+- ["6SQLite0A27DataTypeStaticRepresentableP", "convertToSQLiteData"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "count"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "description"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "init"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "init"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "subscript"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "timeIntervalSince1970"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "uuid"]
+- !private ["6SQLite0A5ErrorV", "deinit"]
+- !private ["6SQLite0A5ErrorV", "init"]
+- !private ["ST", "SQLiteError"]
+- ["ST", "convertFromSQLiteData"]
+- ["ST", "convertToSQLiteData"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- ["SZ", "convertFromSQLiteData"]
+- ["SZ", "convertToSQLiteData"]
+- !private ["s13SignedNumericP", "Double"]
+- !private ["s13SignedNumericP", "Float"]
+- ["s13SignedNumericP", "SQLiteData"]
+- !private ["s13SignedNumericP", "SQLiteError"]
+- ["s13SignedNumericP", "Self"]
+- ["s13SignedNumericP", "convertFromSQLiteData"]
+- ["s13SignedNumericP", "convertToSQLiteData"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["9Debugging14SourceLocationV", "capture"]
+- !private ["Sx", "Double"]
+- !private ["Sx", "Float"]
+- ["Sx", "SQLiteData"]
+- !private ["Sx", "SQLiteError"]
+- ["Sx", "Self"]
+- ["Sx", "convertFromSQLiteData"]
+- ["Sx", "convertToSQLiteData"]
+- !private ["Sx", "init"]
+- !private ["Sx", "init"]
+- !private ["Sx", "max"]
+- !private ["Sx", "min"]
+- !private ["Sx", "numericCast"]
+- ["SS", "SQLiteData"]
+- !private ["SS", "SQLiteError"]
+- ["SS", "String"]
+- ["SS", "convertFromSQLiteData"]
+- ["SS", "convertToSQLiteData"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "SQLiteError"]
+- ["Sy", "convertFromSQLiteData"]
+- ["Sy", "convertToSQLiteData"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "SQLiteError"]
+- ["s16TextOutputStreamP", "convertFromSQLiteData"]
+- ["s16TextOutputStreamP", "convertToSQLiteData"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "SQLiteError"]
+- ["s20TextOutputStreamableP", "convertFromSQLiteData"]
+- ["s20TextOutputStreamableP", "convertToSQLiteData"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["Su", "convertFromSQLiteData"]
+- ["Su", "convertToSQLiteData"]
+- ["Su", "deinit"]
+- ["s6UInt16V", "convertFromSQLiteData"]
+- ["s6UInt16V", "convertToSQLiteData"]
+- ["s6UInt16V", "deinit"]
+- ["s6UInt32V", "convertFromSQLiteData"]
+- ["s6UInt32V", "convertToSQLiteData"]
+- ["s6UInt32V", "deinit"]
+- ["s6UInt64V", "convertFromSQLiteData"]
+- ["s6UInt64V", "convertToSQLiteData"]
+- ["s6UInt64V", "deinit"]
+- ["s5UInt8V", "convertFromSQLiteData"]
+- ["s5UInt8V", "convertToSQLiteData"]
+- ["s5UInt8V", "deinit"]
+- ["10Foundation3URLV", "SQLiteData"]
+- !private ["10Foundation3URLV", "SQLiteError"]
+- ["10Foundation3URLV", "URL"]
+- ["10Foundation3URLV", "convertFromSQLiteData"]
+- ["10Foundation3URLV", "convertToSQLiteData"]
+- ["10Foundation3URLV", "deinit"]
+- !private ["10Foundation3URLV", "description"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation4UUIDV", "Data"]
+- ["10Foundation4UUIDV", "SQLiteData"]
+- !private ["10Foundation4UUIDV", "SQLiteError"]
+- ["10Foundation4UUIDV", "UUID"]
+- ["10Foundation4UUIDV", "convertFromSQLiteData"]
+- ["10Foundation4UUIDV", "convertToSQLiteData"]
+- ["10Foundation4UUIDV", "deinit"]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["10Foundation4UUIDV", "uuid"]
+- ["SU", "convertFromSQLiteData"]
+- ["SU", "convertToSQLiteData"]
+- ["s18_BitwiseOperationsP", "SQLiteData"]
+- !private ["s18_BitwiseOperationsP", "SQLiteError"]
+- ["s18_BitwiseOperationsP", "Self"]
+- ["s18_BitwiseOperationsP", "convertFromSQLiteData"]
+- ["s18_BitwiseOperationsP", "convertToSQLiteData"]
+- !private ["s18_BitwiseOperationsP", "max"]
+- !private ["s18_BitwiseOperationsP", "min"]
+- !private ["s18_BitwiseOperationsP", "numericCast"]
+- ["s15_CVarArgAlignedP", "convertFromSQLiteData"]
+- ["s15_CVarArgAlignedP", "convertToSQLiteData"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- ["s22_CVarArgPassedAsDoubleP", "convertFromSQLiteData"]
+- ["s22_CVarArgPassedAsDoubleP", "convertToSQLiteData"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "SQLiteData"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "SQLiteError"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "convertFromSQLiteData"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "convertToSQLiteData"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "SQLiteError"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "convertFromSQLiteData"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "convertToSQLiteData"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "convertFromSQLiteData"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "convertToSQLiteData"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "convertFromSQLiteData"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "convertToSQLiteData"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "SQLiteError"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "convertFromSQLiteData"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "convertToSQLiteData"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "SQLiteError"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "convertFromSQLiteData"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "convertToSQLiteData"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "SQLiteError"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "convertFromSQLiteData"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "convertToSQLiteData"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "SQLiteError"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "URL"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "convertFromSQLiteData"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "convertToSQLiteData"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "description"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "SQLiteError"]
+- ["s33_ExpressibleByStringInterpolationP", "convertFromSQLiteData"]
+- ["s33_ExpressibleByStringInterpolationP", "convertToSQLiteData"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "convertFromSQLiteData"]
+- ["s35_HasCustomAnyHashableRepresentationP", "convertToSQLiteData"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "Data"]
+- !private ["s21_ObjectiveCBridgeableP", "Date"]
+- !private ["s21_ObjectiveCBridgeableP", "SQLiteData"]
+- !private ["s21_ObjectiveCBridgeableP", "SQLiteError"]
+- !private ["s21_ObjectiveCBridgeableP", "URL"]
+- !private ["s21_ObjectiveCBridgeableP", "UUID"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "convertFromSQLiteData"]
+- ["s21_ObjectiveCBridgeableP", "convertToSQLiteData"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+- !private ["s21_ObjectiveCBridgeableP", "uuid"]
+- ["s14_StringElementP", "convertFromSQLiteData"]
+- ["s14_StringElementP", "convertToSQLiteData"]
+- !private ["s16_SwiftStringViewP", "SQLiteError"]
+- ["s16_SwiftStringViewP", "convertFromSQLiteData"]
+- ["s16_SwiftStringViewP", "convertToSQLiteData"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "4Core22AnyReflectionDecodableP"
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "4Core21BasicKeyRepresentableP"
+- "SK"
+- "SB"
+- "Sz"
+- "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- "10Foundation4DateV"
+- !private "9Debugging10DebuggableP"
+- "Se"
+- "Sd"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "Sf"
+- "SF"
+- "SH"
+- "Si"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "s4Int8V"
+- !private "10Foundation14LocalizedErrorP"
+- "4Core23LosslessDataConvertibleP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "SM"
+- "Sj"
+- !private "6SQLite7ProblemO"
+- "Sk"
+- "Sm"
+- !private "SY"
+- "10Foundation20ReferenceConvertibleP"
+- "4Core19ReflectionDecodableP"
+- "6SQLite0A4DataO"
+- "6SQLite0A15DataConvertibleP"
+- "6SQLite0A27DataTypeStaticRepresentableP"
+- !private "6SQLite0A5ErrorV"
+- "ST"
+- "SZ"
+- "s13SignedNumericP"
+- !private "9Debugging14SourceLocationV"
+- "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "Su"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "s5UInt8V"
+- "10Foundation3URLV"
+- "10Foundation4UUIDV"
+- "SU"
+- "s18_BitwiseOperationsP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+- "s14_StringElementP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/SQL.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/DatabaseKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c0b2785cc425e6a68930ac563247fe71"

@@ -1,0 +1,188 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["6Fluent5ModelP", ""]
+- ["3NIO15EventLoopFutureC", ""]
+- ["6Fluent5ModelP", "save"]
+- ["6Fluent5ModelP", "create"]
+- ["6Fluent5ModelP", "update"]
+- ["6Fluent5ModelP", "delete"]
+- ["6Fluent5ModelP", "restore"]
+- ["3NIO15EventLoopFutureC", "save"]
+- ["3NIO15EventLoopFutureC", "create"]
+- ["3NIO15EventLoopFutureC", "update"]
+- ["3NIO15EventLoopFutureC", "delete"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "BooleanLiteralType"
+- "DatabaseConnectable"
+- "Future"
+- "Model"
+- "QuerySupporting"
+- "Void"
+depends-member:
+- ["6Fluent8AnyModelP", "Bool"]
+- ["6Fluent8AnyModelP", "Database"]
+- ["6Fluent8AnyModelP", "DatabaseConnectable"]
+- ["6Fluent8AnyModelP", "Future"]
+- ["6Fluent8AnyModelP", "ID"]
+- ["6Fluent8AnyModelP", "QuerySupporting"]
+- ["6Fluent8AnyModelP", "Self"]
+- ["6Fluent8AnyModelP", "Void"]
+- !private ["6Fluent8AnyModelP", "create"]
+- !private ["6Fluent8AnyModelP", "delete"]
+- !private ["6Fluent8AnyModelP", "query"]
+- !private ["6Fluent8AnyModelP", "save"]
+- !private ["6Fluent8AnyModelP", "update"]
+- ["4Core14AnyReflectableP", "Bool"]
+- ["4Core14AnyReflectableP", "Database"]
+- ["4Core14AnyReflectableP", "DatabaseConnectable"]
+- ["4Core14AnyReflectableP", "Future"]
+- ["4Core14AnyReflectableP", "ID"]
+- ["4Core14AnyReflectableP", "QuerySupporting"]
+- ["4Core14AnyReflectableP", "Self"]
+- ["4Core14AnyReflectableP", "Void"]
+- !private ["4Core14AnyReflectableP", "create"]
+- !private ["4Core14AnyReflectableP", "delete"]
+- !private ["4Core14AnyReflectableP", "query"]
+- !private ["4Core14AnyReflectableP", "save"]
+- !private ["4Core14AnyReflectableP", "update"]
+- ["Se", "Bool"]
+- ["Se", "Database"]
+- ["Se", "DatabaseConnectable"]
+- ["Se", "Future"]
+- ["Se", "ID"]
+- ["Se", "QuerySupporting"]
+- ["Se", "Self"]
+- ["Se", "Void"]
+- !private ["Se", "create"]
+- !private ["Se", "delete"]
+- !private ["Se", "query"]
+- !private ["Se", "save"]
+- !private ["Se", "update"]
+- ["SE", "Bool"]
+- ["SE", "Database"]
+- ["SE", "DatabaseConnectable"]
+- ["SE", "Future"]
+- ["SE", "ID"]
+- ["SE", "Model"]
+- ["SE", "QuerySupporting"]
+- ["SE", "Self"]
+- !private ["SE", "T"]
+- ["SE", "Void"]
+- !private ["SE", "create"]
+- !private ["SE", "delete"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "query"]
+- !private ["SE", "save"]
+- !private ["SE", "transform"]
+- !private ["SE", "update"]
+- ["SQ", "Model"]
+- !private ["SQ", "T"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "transform"]
+- ["3NIO15EventLoopFutureC", "DatabaseConnectable"]
+- ["3NIO15EventLoopFutureC", "Future"]
+- ["3NIO15EventLoopFutureC", "Model"]
+- ["3NIO15EventLoopFutureC", "T"]
+- ["3NIO15EventLoopFutureC", "create"]
+- ["3NIO15EventLoopFutureC", "delete"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- ["3NIO15EventLoopFutureC", "save"]
+- !private ["3NIO15EventLoopFutureC", "transform"]
+- ["3NIO15EventLoopFutureC", "update"]
+- ["5Async10FutureTypeP", "Model"]
+- !private ["5Async10FutureTypeP", "T"]
+- !private ["5Async10FutureTypeP", "flatMap"]
+- !private ["5Async10FutureTypeP", "transform"]
+- ["6Fluent5ModelP", "Bool"]
+- ["6Fluent5ModelP", "Database"]
+- ["6Fluent5ModelP", "DatabaseConnectable"]
+- ["6Fluent5ModelP", "Future"]
+- ["6Fluent5ModelP", "ID"]
+- ["6Fluent5ModelP", "QuerySupporting"]
+- ["6Fluent5ModelP", "Self"]
+- ["6Fluent5ModelP", "Void"]
+- ["6Fluent5ModelP", "create"]
+- ["6Fluent5ModelP", "delete"]
+- !private ["6Fluent5ModelP", "query"]
+- ["6Fluent5ModelP", "restore"]
+- ["6Fluent5ModelP", "save"]
+- ["6Fluent5ModelP", "update"]
+- !private ["6Fluent12QueryBuilderC", "create"]
+- !private ["6Fluent12QueryBuilderC", "delete"]
+- !private ["6Fluent12QueryBuilderC", "restore"]
+- !private ["6Fluent12QueryBuilderC", "save"]
+- !private ["6Fluent12QueryBuilderC", "update"]
+- ["4Core11ReflectableP", "Bool"]
+- ["4Core11ReflectableP", "Database"]
+- ["4Core11ReflectableP", "DatabaseConnectable"]
+- ["4Core11ReflectableP", "Future"]
+- ["4Core11ReflectableP", "ID"]
+- ["4Core11ReflectableP", "QuerySupporting"]
+- ["4Core11ReflectableP", "Self"]
+- ["4Core11ReflectableP", "Void"]
+- !private ["4Core11ReflectableP", "create"]
+- !private ["4Core11ReflectableP", "delete"]
+- !private ["4Core11ReflectableP", "query"]
+- !private ["4Core11ReflectableP", "save"]
+- !private ["4Core11ReflectableP", "update"]
+depends-nominal:
+- "6Fluent8AnyModelP"
+- "4Core14AnyReflectableP"
+- "Se"
+- "SE"
+- "SQ"
+- "3NIO15EventLoopFutureC"
+- "5Async10FutureTypeP"
+- "6Fluent5ModelP"
+- !private "6Fluent12QueryBuilderC"
+- "4Core11ReflectableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Command.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Console.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Logging.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/DatabaseKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "06a73052b43a8c6905bdd1639fffcdf3"

@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "460a4997f536755132d0d529d87d8e04"
+build_time: [1544147857, 367094000]
+inputs:
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent.git--2931432599512609530/Sources/FluentSQL/Exports.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent.git--2931432599512609530/Sources/FluentSQL/FluentSQLQuery.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent.git--2931432599512609530/Sources/FluentSQL/FluentSQLSchema.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent.git--2931432599512609530/Sources/FluentSQL/QueryBuilder+GroupBy.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent.git--2931432599512609530/Sources/FluentSQL/SQL+Contains.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent.git--2931432599512609530/Sources/FluentSQL/SQL+JoinSupporting.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent.git--2931432599512609530/Sources/FluentSQL/SQL+QuerySupporting.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent.git--2931432599512609530/Sources/FluentSQL/SQL+SchemaSupporting.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent.git--2931432599512609530/Sources/FluentSQL/SchemaBuilder+Field.swift": [1544147824, 0]

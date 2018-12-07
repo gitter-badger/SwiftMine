@@ -1,0 +1,285 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLColumnConstraint"
+- "GenericSQLColumnConstraint"
+provides-nominal:
+- "3SQL19SQLColumnConstraintP"
+- "3SQL26GenericSQLColumnConstraintV"
+provides-member:
+- ["3SQL19SQLColumnConstraintP", ""]
+- ["3SQL26GenericSQLColumnConstraintV", ""]
+- ["3SQL19SQLColumnConstraintP", "primaryKey"]
+- ["3SQL19SQLColumnConstraintP", "primaryKey"]
+- ["3SQL19SQLColumnConstraintP", "notNull"]
+- ["3SQL19SQLColumnConstraintP", "notNull"]
+- ["3SQL19SQLColumnConstraintP", "unique"]
+- ["3SQL19SQLColumnConstraintP", "default"]
+- ["3SQL19SQLColumnConstraintP", "check"]
+- ["3SQL19SQLColumnConstraintP", "references"]
+- ["3SQL19SQLColumnConstraintP", "references"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "Array"
+- "Encodable"
+- "GenericSQLColumnConstraint"
+- "KeyPath"
+- "SQLColumnConstraint"
+- "SQLColumnConstraintAlgorithm"
+- "SQLIdentifier"
+- "SQLSerializable"
+- "SQLTable"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["4Core15AnyOptionalTypeP", "default"]
+- !private ["4Core22AnyReflectionDecodableP", "default"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "default"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "default"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "default"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "default"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "keyPath"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "serialize"]
+- !private ["s23ExpressibleByNilLiteralP", "default"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "keyPath"]
+- !private ["s26ExpressibleByStringLiteralP", "serialize"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "keyPath"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "serialize"]
+- ["3SQL26GenericSQLColumnConstraintV", "Algorithm"]
+- ["3SQL26GenericSQLColumnConstraintV", "Encodable"]
+- ["3SQL26GenericSQLColumnConstraintV", "GenericSQLColumnConstraint"]
+- ["3SQL26GenericSQLColumnConstraintV", "Identifier"]
+- ["3SQL26GenericSQLColumnConstraintV", "Self"]
+- ["3SQL26GenericSQLColumnConstraintV", "String"]
+- ["3SQL26GenericSQLColumnConstraintV", "_Default_Algorithm"]
+- ["3SQL26GenericSQLColumnConstraintV", "_Default_Identifier"]
+- ["3SQL26GenericSQLColumnConstraintV", "algorithm"]
+- ["3SQL26GenericSQLColumnConstraintV", "constraint"]
+- ["3SQL26GenericSQLColumnConstraintV", "deinit"]
+- ["3SQL26GenericSQLColumnConstraintV", "identifier"]
+- ["3SQL26GenericSQLColumnConstraintV", "init"]
+- !private ["3SQL26GenericSQLColumnConstraintV", "init"]
+- ["3SQL26GenericSQLColumnConstraintV", "serialize"]
+- !private ["SH", "default"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["Sq", "default"]
+- !private ["4Core12OptionalTypeP", "default"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["4Core19ReflectionDecodableP", "default"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- ["3SQL19SQLColumnConstraintP", "Algorithm"]
+- ["3SQL19SQLColumnConstraintP", "Identifier"]
+- ["3SQL19SQLColumnConstraintP", "KeyPath"]
+- ["3SQL19SQLColumnConstraintP", "SQLColumnConstraintAlgorithm"]
+- ["3SQL19SQLColumnConstraintP", "SQLIdentifier"]
+- ["3SQL19SQLColumnConstraintP", "SQLTable"]
+- ["3SQL19SQLColumnConstraintP", "Self"]
+- ["3SQL19SQLColumnConstraintP", ""]
+- ["3SQL19SQLColumnConstraintP", "_Default_Algorithm"]
+- ["3SQL19SQLColumnConstraintP", "_Default_Identifier"]
+- !private ["3SQL19SQLColumnConstraintP", "algorithm"]
+- ["3SQL19SQLColumnConstraintP", "check"]
+- ["3SQL19SQLColumnConstraintP", "constraint"]
+- ["3SQL19SQLColumnConstraintP", "default"]
+- !private ["3SQL19SQLColumnConstraintP", "identifier"]
+- !private ["3SQL19SQLColumnConstraintP", "init"]
+- !private ["3SQL19SQLColumnConstraintP", "init"]
+- ["3SQL19SQLColumnConstraintP", "notNull"]
+- ["3SQL19SQLColumnConstraintP", "primaryKey"]
+- ["3SQL19SQLColumnConstraintP", "references"]
+- ["3SQL19SQLColumnConstraintP", "serialize"]
+- ["3SQL19SQLColumnConstraintP", "unique"]
+- !private ["3SQL28SQLColumnConstraintAlgorithmP", "check"]
+- !private ["3SQL28SQLColumnConstraintAlgorithmP", "default"]
+- !private ["3SQL28SQLColumnConstraintAlgorithmP", "foreignKey"]
+- !private ["3SQL28SQLColumnConstraintAlgorithmP", "notNull"]
+- !private ["3SQL28SQLColumnConstraintAlgorithmP", "primaryKey"]
+- !private ["3SQL28SQLColumnConstraintAlgorithmP", "serialize"]
+- !private ["3SQL28SQLColumnConstraintAlgorithmP", "unique"]
+- !private ["3SQL13SQLForeignKeyP", "foreignKey"]
+- !private ["3SQL13SQLIdentifierP", "keyPath"]
+- !private ["3SQL13SQLIdentifierP", "serialize"]
+- !private ["3SQL20SQLPrimaryKeyDefaultP", "default"]
+- ["3SQL15SQLSerializableP", "Algorithm"]
+- ["3SQL15SQLSerializableP", "Identifier"]
+- ["3SQL15SQLSerializableP", "KeyPath"]
+- ["3SQL15SQLSerializableP", "SQLColumnConstraintAlgorithm"]
+- ["3SQL15SQLSerializableP", "SQLIdentifier"]
+- ["3SQL15SQLSerializableP", "SQLTable"]
+- ["3SQL15SQLSerializableP", "Self"]
+- ["3SQL15SQLSerializableP", ""]
+- ["3SQL15SQLSerializableP", "_Default_Algorithm"]
+- ["3SQL15SQLSerializableP", "_Default_Identifier"]
+- !private ["3SQL15SQLSerializableP", "algorithm"]
+- !private ["3SQL15SQLSerializableP", "check"]
+- ["3SQL15SQLSerializableP", "constraint"]
+- !private ["3SQL15SQLSerializableP", "default"]
+- !private ["3SQL15SQLSerializableP", "foreignKey"]
+- !private ["3SQL15SQLSerializableP", "identifier"]
+- !private ["3SQL15SQLSerializableP", "init"]
+- !private ["3SQL15SQLSerializableP", "init"]
+- !private ["3SQL15SQLSerializableP", "keyPath"]
+- !private ["3SQL15SQLSerializableP", "notNull"]
+- !private ["3SQL15SQLSerializableP", "primaryKey"]
+- !private ["3SQL15SQLSerializableP", "references"]
+- ["3SQL15SQLSerializableP", "serialize"]
+- !private ["3SQL15SQLSerializableP", "unique"]
+- !private ["3SQL18SQLTableIdentifierP", "keyPath"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "default"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "4Core15AnyOptionalTypeP"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "3SQL26GenericSQLColumnConstraintV"
+- !private "SH"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "Sq"
+- !private "4Core12OptionalTypeP"
+- !private "Sm"
+- !private "4Core19ReflectionDecodableP"
+- "3SQL19SQLColumnConstraintP"
+- !private "3SQL28SQLColumnConstraintAlgorithmP"
+- !private "3SQL13SQLForeignKeyP"
+- !private "3SQL13SQLIdentifierP"
+- !private "3SQL20SQLPrimaryKeyDefaultP"
+- "3SQL15SQLSerializableP"
+- !private "3SQL18SQLTableIdentifierP"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/DatabaseKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "99c78e140bde10c4f0eb874e50ee3b62"

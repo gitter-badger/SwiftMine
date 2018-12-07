@@ -1,0 +1,204 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FluentSQLiteProvider"
+- "SQLiteCache"
+provides-nominal:
+- "12FluentSQLite0aB8ProviderC"
+- "6SQLite0A8DatabaseC"
+provides-member:
+- ["12FluentSQLite0aB8ProviderC", ""]
+- ["6SQLite0A8DatabaseC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "ConfiguredDatabase"
+- "Container"
+- "DatabaseKeyedCache"
+- !private "FluentProvider"
+- "FluentSQLiteProvider"
+- "Future"
+- !private "KeyedCache"
+- "KeyedCacheSupporting"
+- "Provider"
+- "SQLiteCache"
+- "SQLiteDatabase"
+- !private "SQLiteStorage"
+- "Service"
+- "Services"
+- "Void"
+depends-member:
+- !private ["5Async11BasicWorkerP", "connectionPool"]
+- !private ["5Async11BasicWorkerP", "make"]
+- !private ["7Service9ContainerP", "connectionPool"]
+- !private ["7Service9ContainerP", "make"]
+- !private ["s23CustomStringConvertibleP", "register"]
+- !private ["s23CustomStringConvertibleP", "sqlite"]
+- !private ["11DatabaseKit0A0P", "init"]
+- ["11DatabaseKit0A0P", "keyedCacheGet"]
+- ["11DatabaseKit0A0P", "keyedCacheRemove"]
+- ["11DatabaseKit0A0P", "keyedCacheSet"]
+- !private ["11DatabaseKit0A10IdentifierV", "sqlite"]
+- !private ["11DatabaseKit0A10KeyedCacheC", "init"]
+- !private ["11DatabaseKit0A10KeyedCacheC", "init"]
+- !private ["SE", "done"]
+- !private ["SQ", "done"]
+- !private ["SQ", "sqlite"]
+- !private ["3NIO15EventLoopFutureC", "done"]
+- !private ["3NIO14EventLoopGroupP", "connectionPool"]
+- !private ["3NIO14EventLoopGroupP", "make"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "sqlite"]
+- !private ["s26ExpressibleByStringLiteralP", "sqlite"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "sqlite"]
+- !private ["6Fluent0A8ProviderC", "init"]
+- ["12FluentSQLite0aB8ProviderC", "Container"]
+- !private ["12FluentSQLite0aB8ProviderC", "FluentProvider"]
+- ["12FluentSQLite0aB8ProviderC", "Future"]
+- !private ["12FluentSQLite0aB8ProviderC", "KeyedCache"]
+- !private ["12FluentSQLite0aB8ProviderC", "SQLiteCache"]
+- !private ["12FluentSQLite0aB8ProviderC", "SQLiteDatabase"]
+- !private ["12FluentSQLite0aB8ProviderC", "SQLiteStorage"]
+- ["12FluentSQLite0aB8ProviderC", "Services"]
+- ["12FluentSQLite0aB8ProviderC", "Void"]
+- ["12FluentSQLite0aB8ProviderC", "deinit"]
+- ["12FluentSQLite0aB8ProviderC", "didBoot"]
+- ["12FluentSQLite0aB8ProviderC", "init"]
+- ["12FluentSQLite0aB8ProviderC", "register"]
+- ["12FluentSQLite0aB8ProviderC", "willBoot"]
+- !private ["5Async10FutureTypeP", "done"]
+- !private ["SH", "sqlite"]
+- !private ["6Fluent14JoinSupportingP", "init"]
+- ["6Fluent14JoinSupportingP", "keyedCacheGet"]
+- ["6Fluent14JoinSupportingP", "keyedCacheRemove"]
+- ["6Fluent14JoinSupportingP", "keyedCacheSet"]
+- !private ["11DatabaseKit10KeyedCacheP", "init"]
+- !private ["11DatabaseKit10KeyedCacheP", "init"]
+- ["11DatabaseKit20KeyedCacheSupportingP", ""]
+- !private ["11DatabaseKit20KeyedCacheSupportingP", "init"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "keyedCacheGet"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "keyedCacheRemove"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "keyedCacheSet"]
+- !private ["11DatabaseKit13LogSupportingP", "init"]
+- ["11DatabaseKit13LogSupportingP", "keyedCacheGet"]
+- ["11DatabaseKit13LogSupportingP", "keyedCacheRemove"]
+- ["11DatabaseKit13LogSupportingP", "keyedCacheSet"]
+- !private ["6Fluent19MigrationSupportingP", "init"]
+- ["6Fluent19MigrationSupportingP", "keyedCacheGet"]
+- ["6Fluent19MigrationSupportingP", "keyedCacheRemove"]
+- ["6Fluent19MigrationSupportingP", "keyedCacheSet"]
+- !private ["7Service8ProviderP", "FluentProvider"]
+- !private ["7Service8ProviderP", "KeyedCache"]
+- !private ["7Service8ProviderP", "SQLiteDatabase"]
+- !private ["7Service8ProviderP", "SQLiteStorage"]
+- ["7Service8ProviderP", ""]
+- ["7Service8ProviderP", "didBoot"]
+- !private ["7Service8ProviderP", "init"]
+- ["7Service8ProviderP", "register"]
+- ["7Service8ProviderP", "willBoot"]
+- !private ["6Fluent15QuerySupportingP", "init"]
+- ["6Fluent15QuerySupportingP", "keyedCacheGet"]
+- ["6Fluent15QuerySupportingP", "keyedCacheRemove"]
+- ["6Fluent15QuerySupportingP", "keyedCacheSet"]
+- !private ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "init"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "keyedCacheGet"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "keyedCacheRemove"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "keyedCacheSet"]
+- ["6SQLite0A8DatabaseC", "deinit"]
+- !private ["6SQLite0A8DatabaseC", "init"]
+- ["6SQLite0A8DatabaseC", "keyedCacheGet"]
+- ["6SQLite0A8DatabaseC", "keyedCacheRemove"]
+- ["6SQLite0A8DatabaseC", "keyedCacheSet"]
+- !private ["6Fluent16SchemaSupportingP", "init"]
+- ["6Fluent16SchemaSupportingP", "keyedCacheGet"]
+- ["6Fluent16SchemaSupportingP", "keyedCacheRemove"]
+- ["6Fluent16SchemaSupportingP", "keyedCacheSet"]
+- ["7ServiceAAP", ""]
+- !private ["7ServiceAAP", "init"]
+- !private ["7ServiceAAP", "init"]
+- ["7ServiceAAP", "keyedCacheGet"]
+- ["7ServiceAAP", "keyedCacheRemove"]
+- ["7ServiceAAP", "keyedCacheSet"]
+- !private ["7Service8ServicesV", "register"]
+- !private ["6Fluent21TransactionSupportingP", "init"]
+- ["6Fluent21TransactionSupportingP", "keyedCacheGet"]
+- ["6Fluent21TransactionSupportingP", "keyedCacheRemove"]
+- ["6Fluent21TransactionSupportingP", "keyedCacheSet"]
+depends-nominal:
+- !private "5Async11BasicWorkerP"
+- !private "7Service9ContainerP"
+- !private "s23CustomStringConvertibleP"
+- "11DatabaseKit0A0P"
+- !private "11DatabaseKit0A10IdentifierV"
+- !private "11DatabaseKit0A10KeyedCacheC"
+- !private "SE"
+- !private "SQ"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "6Fluent0A8ProviderC"
+- "12FluentSQLite0aB8ProviderC"
+- !private "5Async10FutureTypeP"
+- !private "SH"
+- "6Fluent14JoinSupportingP"
+- !private "11DatabaseKit10KeyedCacheP"
+- "11DatabaseKit20KeyedCacheSupportingP"
+- "11DatabaseKit13LogSupportingP"
+- "6Fluent19MigrationSupportingP"
+- "7Service8ProviderP"
+- "6Fluent15QuerySupportingP"
+- "9FluentSQL33SQLConstraintIdentifierNormalizerP"
+- "6SQLite0A8DatabaseC"
+- "6Fluent16SchemaSupportingP"
+- "7ServiceAAP"
+- !private "7Service8ServicesV"
+- "6Fluent21TransactionSupportingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/SQL.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/FluentSQL.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Command.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Console.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/SQLite.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Logging.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/DatabaseKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Fluent.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1bd0a0404b69dea75c691a699c15d1de"

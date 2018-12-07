@@ -1,0 +1,523 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ANSICommand"
+- "ANSISGRCommand"
+- "ANSISGRColorSpec"
+provides-nominal:
+- "7Console11ANSICommandO"
+- "7Console14ANSISGRCommandO"
+- "7Console16ANSISGRColorSpecO"
+provides-member:
+- ["7Console11ANSICommandO", ""]
+- ["7Console14ANSISGRCommandO", ""]
+- ["7Console8TerminalC", ""]
+- ["7Console0A4TextV", ""]
+- ["SS", ""]
+- ["7Console16ANSISGRColorSpecO", ""]
+- ["7Console0A5ColorO", ""]
+- ["7Console0A5StyleV", ""]
+- ["7Console8TerminalC", "command"]
+- ["7Console0A4TextV", "terminalStylize"]
+- ["SS", "terminalStylize"]
+- ["7Console14ANSISGRCommandO", "ansi"]
+- ["7Console0A5ColorO", "ansiSpec"]
+- ["7Console16ANSISGRColorSpecO", "foregroundAnsiCommand"]
+- ["7Console16ANSISGRColorSpecO", "backgroundAnsiCommand"]
+- ["7Console0A5StyleV", "ansiCommand"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "+"
+- !private "=="
+- "ANSICommand"
+- "ANSISGRColorSpec"
+- "ANSISGRCommand"
+- !private "Array"
+- "ConsoleColor"
+- "ConsoleStyle"
+- "ConsoleText"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "String"
+- !private "StringLiteralType"
+- !private "Swift"
+- "Terminal"
+- "UInt8"
+- !private "UnicodeScalarType"
+depends-member:
+- ["7Console11ANSICommandO", "ANSISGRCommand"]
+- ["7Console11ANSICommandO", "String"]
+- !private ["7Console11ANSICommandO", "ansi"]
+- ["7Console11ANSICommandO", "cursorUp"]
+- ["7Console11ANSICommandO", "eraseLine"]
+- ["7Console11ANSICommandO", "eraseScreen"]
+- ["7Console11ANSICommandO", "sgr"]
+- ["7Console16ANSISGRColorSpecO", "ANSISGRCommand"]
+- ["7Console16ANSISGRColorSpecO", "UInt8"]
+- ["7Console16ANSISGRColorSpecO", "backgroundAnsiCommand"]
+- ["7Console16ANSISGRColorSpecO", "bright"]
+- ["7Console16ANSISGRColorSpecO", "default"]
+- ["7Console16ANSISGRColorSpecO", "foregroundAnsiCommand"]
+- ["7Console16ANSISGRColorSpecO", "palette"]
+- ["7Console16ANSISGRColorSpecO", "rgb"]
+- ["7Console16ANSISGRColorSpecO", "traditional"]
+- ["7Console14ANSISGRCommandO", "String"]
+- ["7Console14ANSISGRCommandO", "UInt8"]
+- ["7Console14ANSISGRCommandO", "ansi"]
+- ["7Console14ANSISGRCommandO", "backgroundColor"]
+- ["7Console14ANSISGRCommandO", "bold"]
+- ["7Console14ANSISGRCommandO", "brightBackgroundColor"]
+- ["7Console14ANSISGRCommandO", "brightForegroundColor"]
+- ["7Console14ANSISGRCommandO", "defaultBackgroundColor"]
+- ["7Console14ANSISGRCommandO", "defaultForegroundColor"]
+- ["7Console14ANSISGRCommandO", "foregroundColor"]
+- ["7Console14ANSISGRCommandO", "paletteBackgroundColor"]
+- ["7Console14ANSISGRCommandO", "paletteForegroundColor"]
+- ["7Console14ANSISGRCommandO", "reset"]
+- ["7Console14ANSISGRCommandO", "rgbBackgroundColor"]
+- ["7Console14ANSISGRCommandO", "rgbForegroundColor"]
+- ["7Console14ANSISGRCommandO", "slowBlink"]
+- ["7Console14ANSISGRCommandO", "underline"]
+- !private ["4Core22AnyReflectionDecodableP", "ANSICommand"]
+- !private ["4Core22AnyReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core22AnyReflectionDecodableP", "ansi"]
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "joined"]
+- !private ["4Core22AnyReflectionDecodableP", "map"]
+- !private ["4Core22AnyReflectionDecodableP", "terminalStylize"]
+- !private ["Sa", "append"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "joined"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["4Core21BasicKeyRepresentableP", "ANSICommand"]
+- !private ["4Core21BasicKeyRepresentableP", "ansi"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "terminalStylize"]
+- !private ["SK", "ANSICommand"]
+- !private ["SK", "ansi"]
+- !private ["SK", "append"]
+- !private ["SK", "fragments"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "joined"]
+- !private ["SK", "map"]
+- !private ["SK", "terminalStylize"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "ANSICommand"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "ansi"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "terminalStylize"]
+- !private ["Sl", "ANSICommand"]
+- !private ["Sl", "ansi"]
+- !private ["Sl", "append"]
+- !private ["Sl", "fragments"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "map"]
+- !private ["Sl", "terminalStylize"]
+- !private ["SL", "ANSICommand"]
+- !private ["SL", "ansi"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "terminalStylize"]
+- !private ["7ConsoleAAP", "Swift"]
+- !private ["7ConsoleAAP", "enableCommands"]
+- ["7Console0A5ColorO", "ANSISGRColorSpec"]
+- ["7Console0A5ColorO", "ansiSpec"]
+- ["7Console0A5ColorO", "black"]
+- ["7Console0A5ColorO", "blue"]
+- ["7Console0A5ColorO", "brightBlack"]
+- ["7Console0A5ColorO", "brightBlue"]
+- ["7Console0A5ColorO", "brightCyan"]
+- ["7Console0A5ColorO", "brightGreen"]
+- ["7Console0A5ColorO", "brightMagenta"]
+- ["7Console0A5ColorO", "brightRed"]
+- ["7Console0A5ColorO", "brightWhite"]
+- ["7Console0A5ColorO", "brightYellow"]
+- ["7Console0A5ColorO", "custom"]
+- ["7Console0A5ColorO", "cyan"]
+- ["7Console0A5ColorO", "green"]
+- ["7Console0A5ColorO", "magenta"]
+- ["7Console0A5ColorO", "palette"]
+- ["7Console0A5ColorO", "red"]
+- ["7Console0A5ColorO", "white"]
+- ["7Console0A5ColorO", "yellow"]
+- ["7Console0A5StyleV", "ANSICommand"]
+- !private ["7Console0A5StyleV", "ANSISGRCommand"]
+- ["7Console0A5StyleV", "ansiCommand"]
+- !private ["7Console0A5StyleV", "background"]
+- !private ["7Console0A5StyleV", "color"]
+- !private ["7Console0A5StyleV", "isBold"]
+- ["7Console0A4TextV", "String"]
+- !private ["7Console0A4TextV", "fragments"]
+- ["7Console0A4TextV", "terminalStylize"]
+- !private ["7Console0A12TextFragmentV", "string"]
+- !private ["7Console0A12TextFragmentV", "style"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "joined"]
+- !private ["3NIO20ContiguousCollectionP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "ANSICommand"]
+- !private ["s28CustomDebugStringConvertibleP", "ansi"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "terminalStylize"]
+- !private ["s29CustomPlaygroundQuickLookableP", "ANSICommand"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "ansi"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "terminalStylize"]
+- !private ["s17CustomReflectableP", "ANSICommand"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "ansi"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "terminalStylize"]
+- !private ["s23CustomStringConvertibleP", "ANSICommand"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "ansi"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "fragments"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "terminalStylize"]
+- !private ["Se", "ANSICommand"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "ansi"]
+- !private ["Se", "append"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "joined"]
+- !private ["Se", "map"]
+- !private ["Se", "terminalStylize"]
+- !private ["SE", "ANSICommand"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "ansi"]
+- !private ["SE", "append"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "joined"]
+- !private ["SE", "map"]
+- !private ["SE", "terminalStylize"]
+- !private ["SQ", "ANSICommand"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "ansi"]
+- !private ["SQ", "append"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "map"]
+- !private ["SQ", "terminalStylize"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "fragments"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ANSICommand"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ansi"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "fragments"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "terminalStylize"]
+- !private ["s26ExpressibleByStringLiteralP", "ANSICommand"]
+- !private ["s26ExpressibleByStringLiteralP", "ansi"]
+- !private ["s26ExpressibleByStringLiteralP", "fragments"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "terminalStylize"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ANSICommand"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ansi"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "fragments"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "terminalStylize"]
+- !private ["7Service10ExtendableP", "Swift"]
+- !private ["7Service10ExtendableP", "enableCommands"]
+- !private ["SH", "ANSICommand"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "ansi"]
+- !private ["SH", "append"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "joined"]
+- !private ["SH", "map"]
+- !private ["SH", "terminalStylize"]
+- !private ["s14JoinedSequenceV", "ansi"]
+- !private ["4Core23LosslessDataConvertibleP", "ANSICommand"]
+- !private ["4Core23LosslessDataConvertibleP", "ansi"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "joined"]
+- !private ["4Core23LosslessDataConvertibleP", "map"]
+- !private ["4Core23LosslessDataConvertibleP", "terminalStylize"]
+- !private ["s25LosslessStringConvertibleP", "ANSICommand"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "ansi"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "terminalStylize"]
+- !private ["s10MirrorPathP", "ANSICommand"]
+- !private ["s10MirrorPathP", "ansi"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "terminalStylize"]
+- !private ["SM", "append"]
+- !private ["SM", "joined"]
+- !private ["SM", "map"]
+- !private ["So8NSCodingP", "ansi"]
+- !private ["So8NSCodingP", "terminalStylize"]
+- !private ["So9NSCopyingP", "ansi"]
+- !private ["So9NSCopyingP", "terminalStylize"]
+- !private ["So21NSItemProviderReadingP", "ansi"]
+- !private ["So21NSItemProviderReadingP", "terminalStylize"]
+- !private ["So21NSItemProviderWritingP", "ansi"]
+- !private ["So21NSItemProviderWritingP", "terminalStylize"]
+- !private ["So16NSMutableCopyingP", "ansi"]
+- !private ["So16NSMutableCopyingP", "terminalStylize"]
+- !private ["So8NSObjectC", "ansi"]
+- !private ["So8NSObjectC", "terminalStylize"]
+- !private ["So8NSObjectP", "ansi"]
+- !private ["So8NSObjectP", "terminalStylize"]
+- !private ["So14NSSecureCodingP", "ansi"]
+- !private ["So14NSSecureCodingP", "terminalStylize"]
+- !private ["So8NSStringC", "ansi"]
+- !private ["So8NSStringC", "terminalStylize"]
+- !private ["Sk", "append"]
+- !private ["Sk", "fragments"]
+- !private ["Sk", "joined"]
+- !private ["Sk", "map"]
+- !private ["Sm", "ANSICommand"]
+- !private ["Sm", "ansi"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "map"]
+- !private ["Sm", "terminalStylize"]
+- !private ["4Core19ReflectionDecodableP", "ANSICommand"]
+- !private ["4Core19ReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core19ReflectionDecodableP", "ansi"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "joined"]
+- !private ["4Core19ReflectionDecodableP", "map"]
+- !private ["4Core19ReflectionDecodableP", "terminalStylize"]
+- !private ["ST", "ANSICommand"]
+- !private ["ST", "ansi"]
+- !private ["ST", "append"]
+- !private ["ST", "fragments"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "joined"]
+- !private ["ST", "map"]
+- !private ["ST", "terminalStylize"]
+- !private ["SS", "ANSICommand"]
+- ["SS", "ConsoleStyle"]
+- ["SS", "String"]
+- !private ["SS", "ansi"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- ["SS", "terminalStylize"]
+- !private ["Sy", "ANSICommand"]
+- !private ["Sy", "ansi"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "terminalStylize"]
+- ["7Console8TerminalC", "ANSICommand"]
+- !private ["7Console8TerminalC", "Swift"]
+- ["7Console8TerminalC", "command"]
+- !private ["7Console8TerminalC", "enableCommands"]
+- !private ["s16TextOutputStreamP", "ANSICommand"]
+- !private ["s16TextOutputStreamP", "ansi"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "terminalStylize"]
+- !private ["s20TextOutputStreamableP", "ANSICommand"]
+- !private ["s20TextOutputStreamableP", "ansi"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "terminalStylize"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "ANSICommand"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "ansi"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "terminalStylize"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "ANSICommand"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "ansi"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "terminalStylize"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "ANSICommand"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "ansi"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "terminalStylize"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "ANSICommand"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "ansi"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "terminalStylize"]
+- !private ["s33_ExpressibleByStringInterpolationP", "ANSICommand"]
+- !private ["s33_ExpressibleByStringInterpolationP", "ansi"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "terminalStylize"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "ansi"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "terminalStylize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ansi"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "terminalStylize"]
+- !private ["s21_ObjectiveCBridgeableP", "ANSICommand"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "ansi"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "terminalStylize"]
+- !private ["s16_SwiftStringViewP", "ANSICommand"]
+- !private ["s16_SwiftStringViewP", "ansi"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "terminalStylize"]
+depends-nominal:
+- "7Console11ANSICommandO"
+- "7Console16ANSISGRColorSpecO"
+- "7Console14ANSISGRCommandO"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "7ConsoleAAP"
+- "7Console0A5ColorO"
+- "7Console0A5StyleV"
+- "7Console0A4TextV"
+- !private "7Console0A12TextFragmentV"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7Service10ExtendableP"
+- !private "SH"
+- !private "s14JoinedSequenceV"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sk"
+- !private "Sm"
+- !private "4Core19ReflectionDecodableP"
+- !private "ST"
+- "SS"
+- !private "Sy"
+- "7Console8TerminalC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Logging.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "fc0547e0e7998f1731a4730226768d5d"

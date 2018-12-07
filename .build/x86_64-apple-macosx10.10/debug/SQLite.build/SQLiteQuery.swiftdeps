@@ -1,0 +1,359 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLiteQuery"
+provides-nominal:
+- "6SQLite0A5QueryO"
+provides-member:
+- ["6SQLite0A5QueryO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "Encodable"
+- "ExpressibleByStringLiteral"
+- "SQLQuery"
+- "SQLiteAlterTable"
+- "SQLiteCreateIndex"
+- "SQLiteCreateTable"
+- "SQLiteDelete"
+- "SQLiteDropIndex"
+- "SQLiteDropTable"
+- "SQLiteInsert"
+- "SQLiteQuery"
+- "SQLiteRowDecoder"
+- "SQLiteSelect"
+- "SQLiteUpdate"
+- "String"
+depends-member:
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "AlterTable"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "CreateIndex"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "CreateTable"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Delete"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "DropIndex"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "DropTable"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Insert"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Select"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Update"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_alterTable"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_createIndex"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_createTable"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_delete"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_dropIndex"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_dropTable"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_insert"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_raw"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_select"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_update"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "alterTable"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "createIndex"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "createTable"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "delete"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dropIndex"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dropTable"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "insert"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "raw"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "select"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "serialize"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "update"]
+- ["s26ExpressibleByStringLiteralP", "AlterTable"]
+- ["s26ExpressibleByStringLiteralP", "CreateIndex"]
+- ["s26ExpressibleByStringLiteralP", "CreateTable"]
+- ["s26ExpressibleByStringLiteralP", "Delete"]
+- ["s26ExpressibleByStringLiteralP", "DropIndex"]
+- ["s26ExpressibleByStringLiteralP", "DropTable"]
+- ["s26ExpressibleByStringLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "Insert"]
+- ["s26ExpressibleByStringLiteralP", "Select"]
+- ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "Update"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_alterTable"]
+- ["s26ExpressibleByStringLiteralP", "_createIndex"]
+- ["s26ExpressibleByStringLiteralP", "_createTable"]
+- ["s26ExpressibleByStringLiteralP", "_delete"]
+- ["s26ExpressibleByStringLiteralP", "_dropIndex"]
+- ["s26ExpressibleByStringLiteralP", "_dropTable"]
+- ["s26ExpressibleByStringLiteralP", "_insert"]
+- ["s26ExpressibleByStringLiteralP", "_raw"]
+- ["s26ExpressibleByStringLiteralP", "_select"]
+- ["s26ExpressibleByStringLiteralP", "_update"]
+- ["s26ExpressibleByStringLiteralP", "alterTable"]
+- ["s26ExpressibleByStringLiteralP", "createIndex"]
+- ["s26ExpressibleByStringLiteralP", "createTable"]
+- ["s26ExpressibleByStringLiteralP", "delete"]
+- ["s26ExpressibleByStringLiteralP", "dropIndex"]
+- ["s26ExpressibleByStringLiteralP", "dropTable"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "insert"]
+- ["s26ExpressibleByStringLiteralP", "raw"]
+- ["s26ExpressibleByStringLiteralP", "select"]
+- ["s26ExpressibleByStringLiteralP", "serialize"]
+- ["s26ExpressibleByStringLiteralP", "update"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "AlterTable"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "CreateIndex"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "CreateTable"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Delete"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "DropIndex"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "DropTable"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Insert"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Select"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Update"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_alterTable"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_createIndex"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_createTable"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_delete"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_dropIndex"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_dropTable"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_insert"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_raw"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_select"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_update"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "alterTable"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "createIndex"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "createTable"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "delete"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "dropIndex"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "dropTable"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "insert"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "raw"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "select"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "serialize"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "update"]
+- !private ["3SQL21GenericSQLCreateIndexV", "serialize"]
+- !private ["3SQL16GenericSQLDeleteV", "serialize"]
+- !private ["3SQL19GenericSQLDropTableV", "serialize"]
+- !private ["3SQL16GenericSQLInsertV", "serialize"]
+- !private ["3SQL16GenericSQLSelectV", "serialize"]
+- !private ["3SQL16GenericSQLUpdateV", "serialize"]
+- !private ["3SQL13SQLAlterTableP", "serialize"]
+- !private ["3SQL14SQLCreateIndexP", "serialize"]
+- !private ["3SQL14SQLCreateTableP", "serialize"]
+- !private ["3SQL9SQLDeleteP", "serialize"]
+- !private ["3SQL12SQLDropIndexP", "serialize"]
+- !private ["3SQL12SQLDropTableP", "serialize"]
+- !private ["3SQL9SQLInsertP", "serialize"]
+- ["3SQL8SQLQueryP", "AlterTable"]
+- ["3SQL8SQLQueryP", "CreateIndex"]
+- ["3SQL8SQLQueryP", "CreateTable"]
+- ["3SQL8SQLQueryP", "Delete"]
+- ["3SQL8SQLQueryP", "DropIndex"]
+- ["3SQL8SQLQueryP", "DropTable"]
+- ["3SQL8SQLQueryP", "ExtendedGraphemeClusterLiteralType"]
+- ["3SQL8SQLQueryP", "Insert"]
+- ["3SQL8SQLQueryP", "Select"]
+- ["3SQL8SQLQueryP", "StringLiteralType"]
+- ["3SQL8SQLQueryP", "UnicodeScalarLiteralType"]
+- ["3SQL8SQLQueryP", "Update"]
+- ["3SQL8SQLQueryP", ""]
+- ["3SQL8SQLQueryP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["3SQL8SQLQueryP", "_Default_StringLiteralType"]
+- ["3SQL8SQLQueryP", "_Default_UnicodeScalarLiteralType"]
+- ["3SQL8SQLQueryP", "_alterTable"]
+- ["3SQL8SQLQueryP", "_createIndex"]
+- ["3SQL8SQLQueryP", "_createTable"]
+- ["3SQL8SQLQueryP", "_delete"]
+- ["3SQL8SQLQueryP", "_dropIndex"]
+- ["3SQL8SQLQueryP", "_dropTable"]
+- ["3SQL8SQLQueryP", "_insert"]
+- ["3SQL8SQLQueryP", "_raw"]
+- ["3SQL8SQLQueryP", "_select"]
+- ["3SQL8SQLQueryP", "_update"]
+- ["3SQL8SQLQueryP", "alterTable"]
+- ["3SQL8SQLQueryP", "createIndex"]
+- ["3SQL8SQLQueryP", "createTable"]
+- ["3SQL8SQLQueryP", "delete"]
+- ["3SQL8SQLQueryP", "dropIndex"]
+- ["3SQL8SQLQueryP", "dropTable"]
+- ["3SQL8SQLQueryP", "init"]
+- ["3SQL8SQLQueryP", "insert"]
+- ["3SQL8SQLQueryP", "raw"]
+- ["3SQL8SQLQueryP", "select"]
+- ["3SQL8SQLQueryP", "serialize"]
+- ["3SQL8SQLQueryP", "update"]
+- !private ["3SQL9SQLSelectP", "serialize"]
+- ["3SQL15SQLSerializableP", "AlterTable"]
+- ["3SQL15SQLSerializableP", "CreateIndex"]
+- ["3SQL15SQLSerializableP", "CreateTable"]
+- ["3SQL15SQLSerializableP", "Delete"]
+- ["3SQL15SQLSerializableP", "DropIndex"]
+- ["3SQL15SQLSerializableP", "DropTable"]
+- ["3SQL15SQLSerializableP", "ExtendedGraphemeClusterLiteralType"]
+- ["3SQL15SQLSerializableP", "Insert"]
+- ["3SQL15SQLSerializableP", "Select"]
+- ["3SQL15SQLSerializableP", "StringLiteralType"]
+- ["3SQL15SQLSerializableP", "UnicodeScalarLiteralType"]
+- ["3SQL15SQLSerializableP", "Update"]
+- ["3SQL15SQLSerializableP", ""]
+- ["3SQL15SQLSerializableP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["3SQL15SQLSerializableP", "_Default_StringLiteralType"]
+- ["3SQL15SQLSerializableP", "_Default_UnicodeScalarLiteralType"]
+- ["3SQL15SQLSerializableP", "_alterTable"]
+- ["3SQL15SQLSerializableP", "_createIndex"]
+- ["3SQL15SQLSerializableP", "_createTable"]
+- ["3SQL15SQLSerializableP", "_delete"]
+- ["3SQL15SQLSerializableP", "_dropIndex"]
+- ["3SQL15SQLSerializableP", "_dropTable"]
+- ["3SQL15SQLSerializableP", "_insert"]
+- ["3SQL15SQLSerializableP", "_raw"]
+- ["3SQL15SQLSerializableP", "_select"]
+- ["3SQL15SQLSerializableP", "_update"]
+- ["3SQL15SQLSerializableP", "alterTable"]
+- ["3SQL15SQLSerializableP", "createIndex"]
+- ["3SQL15SQLSerializableP", "createTable"]
+- ["3SQL15SQLSerializableP", "delete"]
+- ["3SQL15SQLSerializableP", "dropIndex"]
+- ["3SQL15SQLSerializableP", "dropTable"]
+- ["3SQL15SQLSerializableP", "init"]
+- ["3SQL15SQLSerializableP", "insert"]
+- ["3SQL15SQLSerializableP", "raw"]
+- ["3SQL15SQLSerializableP", "select"]
+- ["3SQL15SQLSerializableP", "serialize"]
+- ["3SQL15SQLSerializableP", "update"]
+- !private ["3SQL9SQLUpdateP", "serialize"]
+- ["6SQLite0A10AlterTableV", "deinit"]
+- !private ["6SQLite0A10AlterTableV", "serialize"]
+- ["6SQLite0A11CreateTableV", "deinit"]
+- !private ["6SQLite0A11CreateTableV", "serialize"]
+- ["6SQLite0A9DropIndexV", "deinit"]
+- !private ["6SQLite0A9DropIndexV", "serialize"]
+- ["6SQLite0A5QueryO", "AlterTable"]
+- ["6SQLite0A5QueryO", "CreateIndex"]
+- ["6SQLite0A5QueryO", "CreateTable"]
+- ["6SQLite0A5QueryO", "Delete"]
+- ["6SQLite0A5QueryO", "DropIndex"]
+- ["6SQLite0A5QueryO", "DropTable"]
+- ["6SQLite0A5QueryO", "Encodable"]
+- ["6SQLite0A5QueryO", "ExtendedGraphemeClusterLiteralType"]
+- ["6SQLite0A5QueryO", "Insert"]
+- ["6SQLite0A5QueryO", "RowDecoder"]
+- ["6SQLite0A5QueryO", "SQLiteAlterTable"]
+- ["6SQLite0A5QueryO", "SQLiteCreateIndex"]
+- ["6SQLite0A5QueryO", "SQLiteCreateTable"]
+- ["6SQLite0A5QueryO", "SQLiteDelete"]
+- ["6SQLite0A5QueryO", "SQLiteDropIndex"]
+- ["6SQLite0A5QueryO", "SQLiteDropTable"]
+- ["6SQLite0A5QueryO", "SQLiteInsert"]
+- ["6SQLite0A5QueryO", "SQLiteQuery"]
+- ["6SQLite0A5QueryO", "SQLiteRowDecoder"]
+- ["6SQLite0A5QueryO", "SQLiteSelect"]
+- ["6SQLite0A5QueryO", "SQLiteUpdate"]
+- ["6SQLite0A5QueryO", "Select"]
+- ["6SQLite0A5QueryO", "String"]
+- ["6SQLite0A5QueryO", "StringLiteralType"]
+- ["6SQLite0A5QueryO", "UnicodeScalarLiteralType"]
+- ["6SQLite0A5QueryO", "Update"]
+- ["6SQLite0A5QueryO", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["6SQLite0A5QueryO", "_Default_StringLiteralType"]
+- ["6SQLite0A5QueryO", "_Default_UnicodeScalarLiteralType"]
+- ["6SQLite0A5QueryO", "_alterTable"]
+- ["6SQLite0A5QueryO", "_createIndex"]
+- ["6SQLite0A5QueryO", "_createTable"]
+- ["6SQLite0A5QueryO", "_delete"]
+- ["6SQLite0A5QueryO", "_dropIndex"]
+- ["6SQLite0A5QueryO", "_dropTable"]
+- ["6SQLite0A5QueryO", "_insert"]
+- ["6SQLite0A5QueryO", "_raw"]
+- ["6SQLite0A5QueryO", "_select"]
+- ["6SQLite0A5QueryO", "_update"]
+- ["6SQLite0A5QueryO", "alterTable"]
+- ["6SQLite0A5QueryO", "createIndex"]
+- ["6SQLite0A5QueryO", "createTable"]
+- ["6SQLite0A5QueryO", "deinit"]
+- ["6SQLite0A5QueryO", "delete"]
+- ["6SQLite0A5QueryO", "dropIndex"]
+- ["6SQLite0A5QueryO", "dropTable"]
+- ["6SQLite0A5QueryO", "init"]
+- ["6SQLite0A5QueryO", "insert"]
+- ["6SQLite0A5QueryO", "raw"]
+- ["6SQLite0A5QueryO", "select"]
+- ["6SQLite0A5QueryO", "serialize"]
+- ["6SQLite0A5QueryO", "update"]
+depends-nominal:
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "3SQL21GenericSQLCreateIndexV"
+- !private "3SQL16GenericSQLDeleteV"
+- !private "3SQL19GenericSQLDropTableV"
+- !private "3SQL16GenericSQLInsertV"
+- !private "3SQL16GenericSQLSelectV"
+- !private "3SQL16GenericSQLUpdateV"
+- !private "3SQL13SQLAlterTableP"
+- !private "3SQL14SQLCreateIndexP"
+- !private "3SQL14SQLCreateTableP"
+- !private "3SQL9SQLDeleteP"
+- !private "3SQL12SQLDropIndexP"
+- !private "3SQL12SQLDropTableP"
+- !private "3SQL9SQLInsertP"
+- "3SQL8SQLQueryP"
+- !private "3SQL9SQLSelectP"
+- "3SQL15SQLSerializableP"
+- !private "3SQL9SQLUpdateP"
+- "6SQLite0A10AlterTableV"
+- "6SQLite0A11CreateTableV"
+- "6SQLite0A9DropIndexV"
+- "6SQLite0A5QueryO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/SQL.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/DatabaseKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4433eb2e1fe8448d02999732530a2808"

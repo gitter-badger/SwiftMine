@@ -1,0 +1,517 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OneWriteOperationResult"
+- "OverallWriteResult"
+- "PendingStreamWritesManager"
+- "WriteMechanism"
+- "PendingWritesManager"
+provides-nominal:
+- "3NIO23OneWriteOperationResultO"
+- "3NIO18OverallWriteResultO"
+- "3NIO26PendingStreamWritesManagerC"
+- "3NIO14WriteMechanismO"
+- "3NIO20PendingWritesManagerP"
+provides-member:
+- ["3NIO23OneWriteOperationResultO", ""]
+- ["3NIO18OverallWriteResultO", ""]
+- ["3NIO26PendingStreamWritesManagerC", ""]
+- ["3NIO14WriteMechanismO", ""]
+- ["3NIO20PendingWritesManagerP", ""]
+- ["3NIO20PendingWritesManagerP", "isWritable"]
+- ["3NIO20PendingWritesManagerP", "triggerWriteOperations"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "-="
+- !private "..."
+- !private "..<"
+- !private "<"
+- "=="
+- !private ">"
+- !private ">="
+- !private "??"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Atomic"
+- "Bool"
+- "BooleanLiteralType"
+- "CInt"
+- "Error"
+- "EventLoopPromise"
+- "FloatLiteralType"
+- "IOData"
+- "IOResult"
+- "IOVector"
+- "Int"
+- "IntegerLiteralType"
+- "MarkedCircularBuffer"
+- "OneWriteOperationResult"
+- "OverallWriteResult"
+- "PendingStreamWrite"
+- "PendingStreamWritesManager"
+- "PendingStreamWritesState"
+- "PendingWritesManager"
+- !private "Socket"
+- !private "StringLiteralType"
+- "UInt"
+- !private "UnicodeScalarType"
+- "Unmanaged"
+- "UnsafeBufferPointer"
+- "UnsafeMutableBufferPointer"
+- !private "UnsafeMutableRawPointer"
+- "UnsafeRawBufferPointer"
+- "Void"
+- "WriteBufferWaterMark"
+- "WriteMechanism"
+- !private "assert"
+- !private "assertionFailure"
+- !private "doPendingWriteVectorOperation"
+- !private "iovec"
+- !private "min"
+- !private "preconditionFailure"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["3NIO20AppendableCollectionP", "append"]
+- !private ["3NIO20AppendableCollectionP", "hasMark"]
+- ["3NIO20AppendableCollectionP", "init"]
+- !private ["3NIO20AppendableCollectionP", "isEmpty"]
+- !private ["3NIO20AppendableCollectionP", "mark"]
+- !private ["3NIO20AppendableCollectionP", "markedElementIndex"]
+- !private ["3NIO20AppendableCollectionP", "removeFirst"]
+- !private ["3NIO20AppendableCollectionP", "subscript"]
+- !private ["21NIOConcurrencyHelpers6AtomicC", "compareAndExchange"]
+- ["21NIOConcurrencyHelpers6AtomicC", "init"]
+- !private ["21NIOConcurrencyHelpers6AtomicC", "load"]
+- !private ["21NIOConcurrencyHelpers6AtomicC", "store"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["3NIO10BaseSocketC", "writevLimitBytes"]
+- !private ["3NIO10BaseSocketC", "writevLimitIOVectors"]
+- !private ["SK", "baseAddress"]
+- !private ["SK", "count"]
+- !private ["SK", "data"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "release"]
+- !private ["SK", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["3NIO10ByteBufferV", "readableBytes"]
+- !private ["3NIO10ByteBufferV", "withUnsafeReadableBytes"]
+- !private ["3NIO10ByteBufferV", "withUnsafeReadableBytesWithStorageManagement"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["Sl", "append"]
+- !private ["Sl", "baseAddress"]
+- !private ["Sl", "count"]
+- !private ["Sl", "data"]
+- !private ["Sl", "hasMark"]
+- ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "mark"]
+- !private ["Sl", "markedElementIndex"]
+- !private ["Sl", "release"]
+- !private ["Sl", "removeFirst"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["3NIO20ContiguousCollectionP", "baseAddress"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "endIndex"]
+- !private ["s23CustomStringConvertibleP", "fileHandle"]
+- !private ["s23CustomStringConvertibleP", "hasMark"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "mark"]
+- !private ["s23CustomStringConvertibleP", "markedElementIndex"]
+- !private ["s23CustomStringConvertibleP", "readableBytes"]
+- !private ["s23CustomStringConvertibleP", "readerIndex"]
+- !private ["s23CustomStringConvertibleP", "removeFirst"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeReadableBytes"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeReadableBytesWithStorageManagement"]
+- !private ["s23CustomStringConvertibleP", "writevLimitBytes"]
+- !private ["s23CustomStringConvertibleP", "writevLimitIOVectors"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "byteBuffer"]
+- !private ["SQ", "cascade"]
+- !private ["SQ", "couldNotWriteEverything"]
+- !private ["SQ", "endIndex"]
+- !private ["SQ", "fileHandle"]
+- ["SQ", "fileRegion"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "moveReaderIndex"]
+- !private ["SQ", "nothingToBeWritten"]
+- ["SQ", "processed"]
+- !private ["SQ", "readableBytes"]
+- !private ["SQ", "readerIndex"]
+- !private ["SQ", "scalarBufferWrite"]
+- !private ["SQ", "scalarFileWrite"]
+- !private ["SQ", "vectorBufferWrite"]
+- !private ["SQ", "withUnsafeReadableBytes"]
+- !private ["SQ", "withUnsafeReadableBytesWithStorageManagement"]
+- ["SQ", "wouldBlock"]
+- !private ["SQ", "writtenCompletely"]
+- !private ["SQ", "writtenPartially"]
+- !private ["3NIO15EventLoopFutureC", "cascade"]
+- !private ["3NIO16EventLoopPromiseV", "fail"]
+- !private ["3NIO16EventLoopPromiseV", "futureResult"]
+- !private ["3NIO16EventLoopPromiseV", "succeed"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["3NIO14FileDescriptorP", "withUnsafeFileDescriptor"]
+- !private ["3NIO14FileDescriptorP", "writevLimitBytes"]
+- !private ["3NIO14FileDescriptorP", "writevLimitIOVectors"]
+- !private ["3NIO10FileHandleC", "deinit"]
+- !private ["3NIO10FileHandleC", "withUnsafeFileDescriptor"]
+- !private ["3NIO10FileRegionV", "endIndex"]
+- !private ["3NIO10FileRegionV", "fileHandle"]
+- !private ["3NIO10FileRegionV", "readableBytes"]
+- !private ["3NIO10FileRegionV", "readerIndex"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "couldNotWriteEverything"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "nothingToBeWritten"]
+- !private ["SH", "scalarBufferWrite"]
+- !private ["SH", "scalarFileWrite"]
+- !private ["SH", "vectorBufferWrite"]
+- !private ["SH", "wouldBlock"]
+- !private ["SH", "writtenCompletely"]
+- !private ["SH", "writtenPartially"]
+- !private ["s6HasherV", "combine"]
+- ["3NIO6IODataO", "byteBuffer"]
+- ["3NIO6IODataO", "fileRegion"]
+- !private ["3NIO6IODataO", "moveReaderIndex"]
+- !private ["3NIO6IODataO", "readableBytes"]
+- ["3NIO8IOResultO", "processed"]
+- ["3NIO8IOResultO", "wouldBlock"]
+- !private ["s22LazyCollectionProtocolP", "data"]
+- !private ["s22LazyCollectionProtocolP", "release"]
+- !private ["s20LazySequenceProtocolP", "data"]
+- !private ["s20LazySequenceProtocolP", "release"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["3NIO20MarkedCircularBufferV", "append"]
+- !private ["3NIO20MarkedCircularBufferV", "deinit"]
+- !private ["3NIO20MarkedCircularBufferV", "hasMark"]
+- ["3NIO20MarkedCircularBufferV", "init"]
+- !private ["3NIO20MarkedCircularBufferV", "isEmpty"]
+- !private ["3NIO20MarkedCircularBufferV", "mark"]
+- !private ["3NIO20MarkedCircularBufferV", "markedElementIndex"]
+- !private ["3NIO20MarkedCircularBufferV", "removeFirst"]
+- !private ["3NIO20MarkedCircularBufferV", "subscript"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "baseAddress"]
+- !private ["SM", "count"]
+- !private ["SM", "data"]
+- !private ["SM", "release"]
+- !private ["SM", "subscript"]
+- ["3NIO23OneWriteOperationResultO", "__derived_enum_equals"]
+- ["3NIO23OneWriteOperationResultO", "deinit"]
+- ["3NIO23OneWriteOperationResultO", "hash"]
+- ["3NIO23OneWriteOperationResultO", "hashValue"]
+- ["3NIO23OneWriteOperationResultO", "wouldBlock"]
+- ["3NIO23OneWriteOperationResultO", "writtenCompletely"]
+- ["3NIO23OneWriteOperationResultO", "writtenPartially"]
+- !private ["Sq", "map"]
+- ["3NIO18OverallWriteResultO", "__derived_enum_equals"]
+- ["3NIO18OverallWriteResultO", "couldNotWriteEverything"]
+- ["3NIO18OverallWriteResultO", "deinit"]
+- ["3NIO18OverallWriteResultO", "hash"]
+- ["3NIO18OverallWriteResultO", "hashValue"]
+- ["3NIO18OverallWriteResultO", "writtenCompletely"]
+- ["3NIO26PendingStreamWritesManagerC", "AnyObject"]
+- ["3NIO26PendingStreamWritesManagerC", "Atomic"]
+- ["3NIO26PendingStreamWritesManagerC", "Bool"]
+- ["3NIO26PendingStreamWritesManagerC", "CInt"]
+- ["3NIO26PendingStreamWritesManagerC", "Error"]
+- ["3NIO26PendingStreamWritesManagerC", "EventLoopPromise"]
+- ["3NIO26PendingStreamWritesManagerC", "IOData"]
+- ["3NIO26PendingStreamWritesManagerC", "IOResult"]
+- ["3NIO26PendingStreamWritesManagerC", "IOVector"]
+- ["3NIO26PendingStreamWritesManagerC", "Int"]
+- ["3NIO26PendingStreamWritesManagerC", "OneWriteOperationResult"]
+- ["3NIO26PendingStreamWritesManagerC", "OverallWriteResult"]
+- ["3NIO26PendingStreamWritesManagerC", "PendingStreamWritesState"]
+- ["3NIO26PendingStreamWritesManagerC", "UInt"]
+- ["3NIO26PendingStreamWritesManagerC", "Unmanaged"]
+- ["3NIO26PendingStreamWritesManagerC", "UnsafeBufferPointer"]
+- ["3NIO26PendingStreamWritesManagerC", "UnsafeMutableBufferPointer"]
+- ["3NIO26PendingStreamWritesManagerC", "UnsafeRawBufferPointer"]
+- ["3NIO26PendingStreamWritesManagerC", "Void"]
+- ["3NIO26PendingStreamWritesManagerC", "WriteBufferWaterMark"]
+- ["3NIO26PendingStreamWritesManagerC", "WriteMechanism"]
+- ["3NIO26PendingStreamWritesManagerC", "add"]
+- !private ["3NIO26PendingStreamWritesManagerC", "assert"]
+- !private ["3NIO26PendingStreamWritesManagerC", "assertionFailure"]
+- ["3NIO26PendingStreamWritesManagerC", "channelWritabilityFlag"]
+- ["3NIO26PendingStreamWritesManagerC", "currentBestWriteMechanism"]
+- ["3NIO26PendingStreamWritesManagerC", "deinit"]
+- !private ["3NIO26PendingStreamWritesManagerC", "didWrite"]
+- !private ["3NIO26PendingStreamWritesManagerC", "doPendingWriteVectorOperation"]
+- ["3NIO26PendingStreamWritesManagerC", "failAll"]
+- ["3NIO26PendingStreamWritesManagerC", "init"]
+- !private ["3NIO26PendingStreamWritesManagerC", "iovecs"]
+- ["3NIO26PendingStreamWritesManagerC", "isEmpty"]
+- ["3NIO26PendingStreamWritesManagerC", "isFlushPending"]
+- ["3NIO26PendingStreamWritesManagerC", "isOpen"]
+- ["3NIO26PendingStreamWritesManagerC", "markFlushCheckpoint"]
+- !private ["3NIO26PendingStreamWritesManagerC", "preconditionFailure"]
+- !private ["3NIO26PendingStreamWritesManagerC", "state"]
+- !private ["3NIO26PendingStreamWritesManagerC", "storageRefs"]
+- ["3NIO26PendingStreamWritesManagerC", "triggerAppropriateWriteOperations"]
+- !private ["3NIO26PendingStreamWritesManagerC", "triggerScalarBufferWrite"]
+- !private ["3NIO26PendingStreamWritesManagerC", "triggerScalarFileWrite"]
+- !private ["3NIO26PendingStreamWritesManagerC", "triggerVectorBufferWrite"]
+- !private ["3NIO26PendingStreamWritesManagerC", "triggerWriteOperations"]
+- ["3NIO26PendingStreamWritesManagerC", "waterMark"]
+- ["3NIO26PendingStreamWritesManagerC", "writeSpinCount"]
+- ["3NIO20PendingWritesManagerP", "Atomic"]
+- ["3NIO20PendingWritesManagerP", "Bool"]
+- ["3NIO20PendingWritesManagerP", "OneWriteOperationResult"]
+- ["3NIO20PendingWritesManagerP", "OverallWriteResult"]
+- ["3NIO20PendingWritesManagerP", "PendingStreamWritesState"]
+- ["3NIO20PendingWritesManagerP", "UInt"]
+- ["3NIO20PendingWritesManagerP", "WriteBufferWaterMark"]
+- ["3NIO20PendingWritesManagerP", "WriteMechanism"]
+- ["3NIO20PendingWritesManagerP", ""]
+- !private ["3NIO20PendingWritesManagerP", "assert"]
+- !private ["3NIO20PendingWritesManagerP", "assertionFailure"]
+- ["3NIO20PendingWritesManagerP", "channelWritabilityFlag"]
+- ["3NIO20PendingWritesManagerP", "currentBestWriteMechanism"]
+- !private ["3NIO20PendingWritesManagerP", "didWrite"]
+- !private ["3NIO20PendingWritesManagerP", "doPendingWriteVectorOperation"]
+- !private ["3NIO20PendingWritesManagerP", "iovecs"]
+- ["3NIO20PendingWritesManagerP", "isFlushPending"]
+- ["3NIO20PendingWritesManagerP", "isOpen"]
+- ["3NIO20PendingWritesManagerP", "isWritable"]
+- !private ["3NIO20PendingWritesManagerP", "preconditionFailure"]
+- !private ["3NIO20PendingWritesManagerP", "state"]
+- !private ["3NIO20PendingWritesManagerP", "storageRefs"]
+- !private ["3NIO20PendingWritesManagerP", "triggerScalarBufferWrite"]
+- !private ["3NIO20PendingWritesManagerP", "triggerScalarFileWrite"]
+- !private ["3NIO20PendingWritesManagerP", "triggerVectorBufferWrite"]
+- ["3NIO20PendingWritesManagerP", "triggerWriteOperations"]
+- !private ["3NIO20PendingWritesManagerP", "waterMark"]
+- ["3NIO20PendingWritesManagerP", "writeSpinCount"]
+- !private ["Sk", "baseAddress"]
+- !private ["Sk", "count"]
+- !private ["Sk", "data"]
+- !private ["Sk", "init"]
+- !private ["Sk", "release"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "data"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "release"]
+- !private ["3NIO10SelectableP", "writevLimitBytes"]
+- !private ["3NIO10SelectableP", "writevLimitIOVectors"]
+- !private ["ST", "append"]
+- !private ["ST", "baseAddress"]
+- !private ["ST", "count"]
+- !private ["ST", "data"]
+- !private ["ST", "hasMark"]
+- ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "mark"]
+- !private ["ST", "markedElementIndex"]
+- !private ["ST", "release"]
+- !private ["ST", "removeFirst"]
+- !private ["ST", "subscript"]
+- !private ["s5SliceV", "data"]
+- !private ["s5SliceV", "release"]
+- !private ["3NIO6SocketC", "writevLimitBytes"]
+- !private ["3NIO6SocketC", "writevLimitIOVectors"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s9UnmanagedV", "release"]
+- !private ["s9UnmanagedV", "retain"]
+- !private ["SR", "init"]
+- !private ["Sr", "baseAddress"]
+- !private ["Sr", "count"]
+- !private ["Sr", "subscript"]
+- !private ["Sv", "init"]
+- !private ["SW", "baseAddress"]
+- !private ["3NIO20WriteBufferWaterMarkV", "high"]
+- ["3NIO20WriteBufferWaterMarkV", "init"]
+- !private ["3NIO20WriteBufferWaterMarkV", "low"]
+- ["3NIO14WriteMechanismO", "__derived_enum_equals"]
+- ["3NIO14WriteMechanismO", "deinit"]
+- ["3NIO14WriteMechanismO", "hash"]
+- ["3NIO14WriteMechanismO", "hashValue"]
+- ["3NIO14WriteMechanismO", "nothingToBeWritten"]
+- ["3NIO14WriteMechanismO", "scalarBufferWrite"]
+- ["3NIO14WriteMechanismO", "scalarFileWrite"]
+- ["3NIO14WriteMechanismO", "vectorBufferWrite"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s8_PointerP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["So5iovecV", "init"]
+depends-nominal:
+- "3NIO20AppendableCollectionP"
+- "21NIOConcurrencyHelpers6AtomicC"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "3NIO10BaseSocketC"
+- !private "SK"
+- !private "Sb"
+- !private "3NIO10ByteBufferV"
+- !private "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO16EventLoopPromiseV"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "3NIO14FileDescriptorP"
+- !private "3NIO10FileHandleC"
+- !private "3NIO10FileRegionV"
+- "SH"
+- !private "s6HasherV"
+- "3NIO6IODataO"
+- "3NIO8IOResultO"
+- !private "s22LazyCollectionProtocolP"
+- !private "s20LazySequenceProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- "3NIO20MarkedCircularBufferV"
+- !private "s10MirrorPathP"
+- !private "SM"
+- "3NIO23OneWriteOperationResultO"
+- !private "Sq"
+- "3NIO18OverallWriteResultO"
+- "3NIO26PendingStreamWritesManagerC"
+- "3NIO20PendingWritesManagerP"
+- !private "Sk"
+- !private "Sm"
+- !private "3NIO10SelectableP"
+- "ST"
+- !private "s5SliceV"
+- !private "3NIO6SocketC"
+- !private "s12StaticStringV"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s9UnmanagedV"
+- !private "SR"
+- !private "Sr"
+- !private "Sv"
+- !private "SW"
+- "3NIO20WriteBufferWaterMarkV"
+- "3NIO14WriteMechanismO"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s16_SwiftStringViewP"
+- !private "So5iovecV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+interface-hash: "12e0abf934eab389e8bf74de1649814c"

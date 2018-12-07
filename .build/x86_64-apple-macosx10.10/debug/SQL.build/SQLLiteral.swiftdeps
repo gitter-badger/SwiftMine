@@ -1,0 +1,477 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLLiteral"
+- "GenericSQLLiteral"
+provides-nominal:
+- "3SQL10SQLLiteralP"
+- "3SQL17GenericSQLLiteralO"
+provides-member:
+- ["3SQL10SQLLiteralP", ""]
+- ["3SQL17GenericSQLLiteralO", ""]
+- ["3SQL10SQLLiteralP", "default"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Double"
+- "Encodable"
+- "ExpressibleByFloatLiteral"
+- "ExpressibleByIntegerLiteral"
+- "ExpressibleByStringLiteral"
+- "GenericSQLLiteral"
+- "Int"
+- "SQLBoolLiteral"
+- "SQLDefaultLiteral"
+- "SQLLiteral"
+- "SQLSerializable"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "description"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "description"]
+- !private ["4Core21BasicKeyRepresentableP", "description"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SB", "description"]
+- !private ["Sz", "description"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "description"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "description"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "description"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Sd", "description"]
+- !private ["SE", "description"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "description"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "BoolLiteral"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "DefaultLiteral"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "FloatLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "IntegerLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_BoolLiteral"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_DefaultLiteral"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_FloatLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_IntegerLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_boolean"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_default"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_null"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_numeric"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_string"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "boolean"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "default"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isNull"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "null"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "numeric"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "serialize"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- ["s25ExpressibleByFloatLiteralP", "BoolLiteral"]
+- ["s25ExpressibleByFloatLiteralP", "DefaultLiteral"]
+- ["s25ExpressibleByFloatLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
+- ["s25ExpressibleByFloatLiteralP", "IntegerLiteralType"]
+- ["s25ExpressibleByFloatLiteralP", "StringLiteralType"]
+- ["s25ExpressibleByFloatLiteralP", "UnicodeScalarLiteralType"]
+- ["s25ExpressibleByFloatLiteralP", ""]
+- ["s25ExpressibleByFloatLiteralP", "_Default_BoolLiteral"]
+- ["s25ExpressibleByFloatLiteralP", "_Default_DefaultLiteral"]
+- ["s25ExpressibleByFloatLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s25ExpressibleByFloatLiteralP", "_Default_FloatLiteralType"]
+- ["s25ExpressibleByFloatLiteralP", "_Default_IntegerLiteralType"]
+- ["s25ExpressibleByFloatLiteralP", "_Default_StringLiteralType"]
+- ["s25ExpressibleByFloatLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s25ExpressibleByFloatLiteralP", "_boolean"]
+- ["s25ExpressibleByFloatLiteralP", "_default"]
+- ["s25ExpressibleByFloatLiteralP", "_null"]
+- ["s25ExpressibleByFloatLiteralP", "_numeric"]
+- ["s25ExpressibleByFloatLiteralP", "_string"]
+- ["s25ExpressibleByFloatLiteralP", "boolean"]
+- ["s25ExpressibleByFloatLiteralP", "default"]
+- !private ["s25ExpressibleByFloatLiteralP", "description"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "isNull"]
+- ["s25ExpressibleByFloatLiteralP", "null"]
+- ["s25ExpressibleByFloatLiteralP", "numeric"]
+- ["s25ExpressibleByFloatLiteralP", "serialize"]
+- ["s25ExpressibleByFloatLiteralP", "string"]
+- ["s27ExpressibleByIntegerLiteralP", "BoolLiteral"]
+- ["s27ExpressibleByIntegerLiteralP", "DefaultLiteral"]
+- ["s27ExpressibleByIntegerLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", "FloatLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", "StringLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", "UnicodeScalarLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", "_Default_BoolLiteral"]
+- ["s27ExpressibleByIntegerLiteralP", "_Default_DefaultLiteral"]
+- ["s27ExpressibleByIntegerLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", "_Default_FloatLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", "_Default_IntegerLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", "_Default_StringLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", "_boolean"]
+- ["s27ExpressibleByIntegerLiteralP", "_default"]
+- ["s27ExpressibleByIntegerLiteralP", "_null"]
+- ["s27ExpressibleByIntegerLiteralP", "_numeric"]
+- ["s27ExpressibleByIntegerLiteralP", "_string"]
+- ["s27ExpressibleByIntegerLiteralP", "boolean"]
+- ["s27ExpressibleByIntegerLiteralP", "default"]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "isNull"]
+- ["s27ExpressibleByIntegerLiteralP", "null"]
+- ["s27ExpressibleByIntegerLiteralP", "numeric"]
+- ["s27ExpressibleByIntegerLiteralP", "serialize"]
+- ["s27ExpressibleByIntegerLiteralP", "string"]
+- ["s26ExpressibleByStringLiteralP", "BoolLiteral"]
+- ["s26ExpressibleByStringLiteralP", "DefaultLiteral"]
+- ["s26ExpressibleByStringLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "FloatLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "IntegerLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "_Default_BoolLiteral"]
+- ["s26ExpressibleByStringLiteralP", "_Default_DefaultLiteral"]
+- ["s26ExpressibleByStringLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_FloatLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_IntegerLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_boolean"]
+- ["s26ExpressibleByStringLiteralP", "_default"]
+- ["s26ExpressibleByStringLiteralP", "_null"]
+- ["s26ExpressibleByStringLiteralP", "_numeric"]
+- ["s26ExpressibleByStringLiteralP", "_string"]
+- ["s26ExpressibleByStringLiteralP", "boolean"]
+- ["s26ExpressibleByStringLiteralP", "default"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "isNull"]
+- ["s26ExpressibleByStringLiteralP", "null"]
+- ["s26ExpressibleByStringLiteralP", "numeric"]
+- ["s26ExpressibleByStringLiteralP", "serialize"]
+- ["s26ExpressibleByStringLiteralP", "string"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "BoolLiteral"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "DefaultLiteral"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "FloatLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "IntegerLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_BoolLiteral"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_DefaultLiteral"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_FloatLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_IntegerLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_boolean"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_default"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_null"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_numeric"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_string"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "boolean"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "default"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "isNull"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "null"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "numeric"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "serialize"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- !private ["s17FixedWidthIntegerP", "description"]
+- !private ["SF", "description"]
+- ["3SQL17GenericSQLLiteralO", "Bool"]
+- ["3SQL17GenericSQLLiteralO", "BoolLiteral"]
+- ["3SQL17GenericSQLLiteralO", "DefaultLiteral"]
+- ["3SQL17GenericSQLLiteralO", "Double"]
+- ["3SQL17GenericSQLLiteralO", "Encodable"]
+- ["3SQL17GenericSQLLiteralO", "ExtendedGraphemeClusterLiteralType"]
+- ["3SQL17GenericSQLLiteralO", "FloatLiteralType"]
+- ["3SQL17GenericSQLLiteralO", "GenericSQLLiteral"]
+- ["3SQL17GenericSQLLiteralO", "Int"]
+- ["3SQL17GenericSQLLiteralO", "IntegerLiteralType"]
+- ["3SQL17GenericSQLLiteralO", "String"]
+- ["3SQL17GenericSQLLiteralO", "StringLiteralType"]
+- ["3SQL17GenericSQLLiteralO", "UnicodeScalarLiteralType"]
+- ["3SQL17GenericSQLLiteralO", "_Default_BoolLiteral"]
+- ["3SQL17GenericSQLLiteralO", "_Default_DefaultLiteral"]
+- ["3SQL17GenericSQLLiteralO", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["3SQL17GenericSQLLiteralO", "_Default_FloatLiteralType"]
+- ["3SQL17GenericSQLLiteralO", "_Default_IntegerLiteralType"]
+- ["3SQL17GenericSQLLiteralO", "_Default_StringLiteralType"]
+- ["3SQL17GenericSQLLiteralO", "_Default_UnicodeScalarLiteralType"]
+- ["3SQL17GenericSQLLiteralO", "_boolean"]
+- ["3SQL17GenericSQLLiteralO", "_default"]
+- ["3SQL17GenericSQLLiteralO", "_null"]
+- ["3SQL17GenericSQLLiteralO", "_numeric"]
+- ["3SQL17GenericSQLLiteralO", "_string"]
+- ["3SQL17GenericSQLLiteralO", "boolean"]
+- ["3SQL17GenericSQLLiteralO", "default"]
+- ["3SQL17GenericSQLLiteralO", "deinit"]
+- ["3SQL17GenericSQLLiteralO", "init"]
+- ["3SQL17GenericSQLLiteralO", "isNull"]
+- ["3SQL17GenericSQLLiteralO", "null"]
+- ["3SQL17GenericSQLLiteralO", "numeric"]
+- ["3SQL17GenericSQLLiteralO", "serialize"]
+- ["3SQL17GenericSQLLiteralO", "string"]
+- !private ["SH", "description"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["Si", "description"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "description"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["Sj", "description"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["4Core19ReflectionDecodableP", "description"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["3SQL14SQLBoolLiteralP", "serialize"]
+- !private ["3SQL17SQLDefaultLiteralP", "default"]
+- !private ["3SQL17SQLDefaultLiteralP", "serialize"]
+- ["3SQL10SQLLiteralP", "Bool"]
+- ["3SQL10SQLLiteralP", "BoolLiteral"]
+- ["3SQL10SQLLiteralP", "DefaultLiteral"]
+- ["3SQL10SQLLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["3SQL10SQLLiteralP", "FloatLiteralType"]
+- ["3SQL10SQLLiteralP", "IntegerLiteralType"]
+- ["3SQL10SQLLiteralP", "SQLBoolLiteral"]
+- ["3SQL10SQLLiteralP", "SQLDefaultLiteral"]
+- ["3SQL10SQLLiteralP", "Self"]
+- ["3SQL10SQLLiteralP", "String"]
+- ["3SQL10SQLLiteralP", "StringLiteralType"]
+- ["3SQL10SQLLiteralP", "UnicodeScalarLiteralType"]
+- ["3SQL10SQLLiteralP", ""]
+- ["3SQL10SQLLiteralP", "_Default_BoolLiteral"]
+- ["3SQL10SQLLiteralP", "_Default_DefaultLiteral"]
+- ["3SQL10SQLLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["3SQL10SQLLiteralP", "_Default_FloatLiteralType"]
+- ["3SQL10SQLLiteralP", "_Default_IntegerLiteralType"]
+- ["3SQL10SQLLiteralP", "_Default_StringLiteralType"]
+- ["3SQL10SQLLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["3SQL10SQLLiteralP", "_boolean"]
+- ["3SQL10SQLLiteralP", "_default"]
+- ["3SQL10SQLLiteralP", "_null"]
+- ["3SQL10SQLLiteralP", "_numeric"]
+- ["3SQL10SQLLiteralP", "_string"]
+- ["3SQL10SQLLiteralP", "boolean"]
+- ["3SQL10SQLLiteralP", "default"]
+- ["3SQL10SQLLiteralP", "init"]
+- ["3SQL10SQLLiteralP", "isNull"]
+- ["3SQL10SQLLiteralP", "null"]
+- ["3SQL10SQLLiteralP", "numeric"]
+- ["3SQL10SQLLiteralP", "serialize"]
+- ["3SQL10SQLLiteralP", "string"]
+- ["3SQL15SQLSerializableP", "Bool"]
+- ["3SQL15SQLSerializableP", "BoolLiteral"]
+- ["3SQL15SQLSerializableP", "DefaultLiteral"]
+- ["3SQL15SQLSerializableP", "ExtendedGraphemeClusterLiteralType"]
+- ["3SQL15SQLSerializableP", "FloatLiteralType"]
+- ["3SQL15SQLSerializableP", "IntegerLiteralType"]
+- ["3SQL15SQLSerializableP", "SQLBoolLiteral"]
+- ["3SQL15SQLSerializableP", "SQLDefaultLiteral"]
+- ["3SQL15SQLSerializableP", "Self"]
+- ["3SQL15SQLSerializableP", "String"]
+- ["3SQL15SQLSerializableP", "StringLiteralType"]
+- ["3SQL15SQLSerializableP", "UnicodeScalarLiteralType"]
+- ["3SQL15SQLSerializableP", ""]
+- ["3SQL15SQLSerializableP", "_Default_BoolLiteral"]
+- ["3SQL15SQLSerializableP", "_Default_DefaultLiteral"]
+- ["3SQL15SQLSerializableP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["3SQL15SQLSerializableP", "_Default_FloatLiteralType"]
+- ["3SQL15SQLSerializableP", "_Default_IntegerLiteralType"]
+- ["3SQL15SQLSerializableP", "_Default_StringLiteralType"]
+- ["3SQL15SQLSerializableP", "_Default_UnicodeScalarLiteralType"]
+- ["3SQL15SQLSerializableP", "_boolean"]
+- ["3SQL15SQLSerializableP", "_default"]
+- ["3SQL15SQLSerializableP", "_null"]
+- ["3SQL15SQLSerializableP", "_numeric"]
+- ["3SQL15SQLSerializableP", "_string"]
+- ["3SQL15SQLSerializableP", "boolean"]
+- ["3SQL15SQLSerializableP", "default"]
+- ["3SQL15SQLSerializableP", "init"]
+- ["3SQL15SQLSerializableP", "isNull"]
+- ["3SQL15SQLSerializableP", "null"]
+- ["3SQL15SQLSerializableP", "numeric"]
+- ["3SQL15SQLSerializableP", "serialize"]
+- ["3SQL15SQLSerializableP", "string"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SZ", "description"]
+- !private ["s13SignedNumericP", "description"]
+- !private ["Sx", "description"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s18_BitwiseOperationsP", "description"]
+- !private ["s15_CVarArgAlignedP", "description"]
+- !private ["s22_CVarArgPassedAsDoubleP", "description"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "description"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "4Core22AnyReflectionDecodableP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "Sd"
+- !private "SE"
+- !private "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- "3SQL17GenericSQLLiteralO"
+- !private "SH"
+- !private "Si"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "Sj"
+- !private "Sm"
+- !private "4Core19ReflectionDecodableP"
+- !private "3SQL14SQLBoolLiteralP"
+- !private "3SQL17SQLDefaultLiteralP"
+- "3SQL10SQLLiteralP"
+- "3SQL15SQLSerializableP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/DatabaseKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "56331ad91b23338242d2e4640b9ab65f"

@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "6b2a5d6013e8864f71f923cada9682b3"
+build_time: [1544147859, 65444000]
+inputs:
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/Exports.swift": [1544147826, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/FluentSQLiteError.swift": [1544147826, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/FluentSQLiteProvider.swift": [1544147826, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/FluentSQLiteQuery.swift": [1544147826, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/FluentSQLiteSchema.swift": [1544147826, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/SQLiteDatabase+JoinSupporting.swift": [1544147826, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/SQLiteDatabase+MigrationSupporting.swift": [1544147826, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/SQLiteDatabase+QuerySupporting.swift": [1544147826, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/SQLiteDatabase+SchemaSupporting.swift": [1544147826, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/SQLiteDatabase+TransactionSupporting.swift": [1544147826, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/SQLiteModels.swift": [1544147826, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/fluent-sqlite.git-6303883039080209870/Sources/FluentSQLite/SQLiteTypes.swift": [1544147826, 0]

@@ -1,0 +1,4 @@
+module CCryptoOpenSSL {
+    umbrella "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/crypto.git-7859200340603983537/Sources/CCryptoOpenSSL/include"
+    export *
+}

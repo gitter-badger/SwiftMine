@@ -1,0 +1,373 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ReflectionDecoderContext"
+- "ReflectionDecoder"
+- "ReflectionSingleValueDecoder"
+- "ReflectionKeyedDecoder"
+provides-nominal:
+- "4Core24ReflectionDecoderContextC"
+- "4Core17ReflectionDecoderV"
+- "4Core28ReflectionSingleValueDecoderV"
+- "4Core22ReflectionKeyedDecoderC"
+provides-member:
+- ["4Core24ReflectionDecoderContextC", ""]
+- ["4Core17ReflectionDecoderV", ""]
+- ["4Core28ReflectionSingleValueDecoderV", ""]
+- ["4Core22ReflectionKeyedDecoderC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "+="
+- !private "=="
+- !private ">"
+- !private "AnyReflectionDecodable"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "CodingKey"
+- "CodingUserInfoKey"
+- "Decodable"
+- "Decoder"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "KeyedDecodingContainer"
+- "KeyedDecodingContainerProtocol"
+- "ReflectedProperty"
+- "ReflectionDecoder"
+- "ReflectionDecoderContext"
+- "ReflectionKeyedDecoder"
+- "ReflectionSingleValueDecoder"
+- !private "ReflectionUnkeyedDecoder"
+- "SingleValueDecodingContainer"
+- "UnkeyedDecodingContainer"
+- !private "forceCast"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core22AnyReflectionDecodableP", "anyReflectDecoded"]
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- !private ["4Core22AnyReflectionDecodableP", "count"]
+- !private ["4Core22AnyReflectionDecodableP", "filter"]
+- !private ["4Core22AnyReflectionDecodableP", "map"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "map"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "filter"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "filter"]
+- !private ["SK", "map"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "map"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "filter"]
+- !private ["3NIO20ContiguousCollectionP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "filter"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["s7DecoderP", "ReflectionKeyedDecoder"]
+- !private ["s7DecoderP", "ReflectionSingleValueDecoder"]
+- !private ["s7DecoderP", "ReflectionUnkeyedDecoder"]
+- ["s7DecoderP", ""]
+- ["s7DecoderP", "codingPath"]
+- ["s7DecoderP", "container"]
+- !private ["s7DecoderP", "context"]
+- !private ["s7DecoderP", "init"]
+- ["s7DecoderP", "singleValueContainer"]
+- ["s7DecoderP", "unkeyedContainer"]
+- ["s7DecoderP", "userInfo"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "filter"]
+- !private ["SE", "map"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- !private ["SH", "filter"]
+- !private ["SH", "map"]
+- !private ["s22KeyedDecodingContainerV", "init"]
+- !private ["s22KeyedDecodingContainerV", "init"]
+- ["s30KeyedDecodingContainerProtocolP", "Key"]
+- !private ["s30KeyedDecodingContainerProtocolP", "ReflectionDecoder"]
+- !private ["s30KeyedDecodingContainerProtocolP", "ReflectionKeyedDecoder"]
+- !private ["s30KeyedDecodingContainerProtocolP", "ReflectionUnkeyedDecoder"]
+- ["s30KeyedDecodingContainerProtocolP", ""]
+- ["s30KeyedDecodingContainerProtocolP", "allKeys"]
+- ["s30KeyedDecodingContainerProtocolP", "codingPath"]
+- ["s30KeyedDecodingContainerProtocolP", "contains"]
+- !private ["s30KeyedDecodingContainerProtocolP", "context"]
+- ["s30KeyedDecodingContainerProtocolP", "decode"]
+- ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- ["s30KeyedDecodingContainerProtocolP", "decodeNil"]
+- !private ["s30KeyedDecodingContainerProtocolP", "init"]
+- !private ["s30KeyedDecodingContainerProtocolP", "init"]
+- ["s30KeyedDecodingContainerProtocolP", "nestedContainer"]
+- ["s30KeyedDecodingContainerProtocolP", "nestedUnkeyedContainer"]
+- !private ["s30KeyedDecodingContainerProtocolP", "nextIsOptional"]
+- ["s30KeyedDecodingContainerProtocolP", "superDecoder"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- !private ["4Core23LosslessDataConvertibleP", "count"]
+- !private ["4Core23LosslessDataConvertibleP", "filter"]
+- !private ["4Core23LosslessDataConvertibleP", "map"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "filter"]
+- !private ["SM", "map"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "map"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "map"]
+- !private ["4Core17ReflectedPropertyV", "init"]
+- !private ["4Core17ReflectedPropertyV", "init"]
+- !private ["4Core17ReflectedPropertyV", "path"]
+- !private ["4Core19ReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- !private ["4Core19ReflectionDecodableP", "count"]
+- !private ["4Core19ReflectionDecodableP", "filter"]
+- !private ["4Core19ReflectionDecodableP", "map"]
+- ["4Core17ReflectionDecoderV", "CodingKey"]
+- ["4Core17ReflectionDecoderV", "CodingUserInfoKey"]
+- ["4Core17ReflectionDecoderV", "KeyedDecodingContainer"]
+- ["4Core17ReflectionDecoderV", "ReflectionDecoderContext"]
+- !private ["4Core17ReflectionDecoderV", "ReflectionKeyedDecoder"]
+- !private ["4Core17ReflectionDecoderV", "ReflectionSingleValueDecoder"]
+- !private ["4Core17ReflectionDecoderV", "ReflectionUnkeyedDecoder"]
+- ["4Core17ReflectionDecoderV", "SingleValueDecodingContainer"]
+- ["4Core17ReflectionDecoderV", "UnkeyedDecodingContainer"]
+- ["4Core17ReflectionDecoderV", "codingPath"]
+- ["4Core17ReflectionDecoderV", "container"]
+- ["4Core17ReflectionDecoderV", "context"]
+- ["4Core17ReflectionDecoderV", "deinit"]
+- ["4Core17ReflectionDecoderV", "init"]
+- ["4Core17ReflectionDecoderV", "singleValueContainer"]
+- ["4Core17ReflectionDecoderV", "unkeyedContainer"]
+- ["4Core17ReflectionDecoderV", "userInfo"]
+- ["4Core24ReflectionDecoderContextC", "Bool"]
+- ["4Core24ReflectionDecoderContextC", "CodingKey"]
+- ["4Core24ReflectionDecoderContextC", "Int"]
+- ["4Core24ReflectionDecoderContextC", "ReflectedProperty"]
+- ["4Core24ReflectionDecoderContextC", "activeCodingPath"]
+- !private ["4Core24ReflectionDecoderContextC", "activeOffset"]
+- ["4Core24ReflectionDecoderContextC", "addProperty"]
+- !private ["4Core24ReflectionDecoderContextC", "currentOffset"]
+- ["4Core24ReflectionDecoderContextC", "init"]
+- ["4Core24ReflectionDecoderContextC", "isActive"]
+- ["4Core24ReflectionDecoderContextC", "maxDepth"]
+- ["4Core24ReflectionDecoderContextC", "properties"]
+- !private ["4Core22ReflectionKeyedDecoderC", "AnyReflectionDecodable"]
+- ["4Core22ReflectionKeyedDecoderC", "Bool"]
+- ["4Core22ReflectionKeyedDecoderC", "CodingKey"]
+- ["4Core22ReflectionKeyedDecoderC", "Decodable"]
+- ["4Core22ReflectionKeyedDecoderC", "Decoder"]
+- ["4Core22ReflectionKeyedDecoderC", "K"]
+- ["4Core22ReflectionKeyedDecoderC", "Key"]
+- ["4Core22ReflectionKeyedDecoderC", "KeyedDecodingContainer"]
+- !private ["4Core22ReflectionKeyedDecoderC", "ReflectionDecoder"]
+- ["4Core22ReflectionKeyedDecoderC", "ReflectionDecoderContext"]
+- !private ["4Core22ReflectionKeyedDecoderC", "ReflectionKeyedDecoder"]
+- !private ["4Core22ReflectionKeyedDecoderC", "ReflectionUnkeyedDecoder"]
+- ["4Core22ReflectionKeyedDecoderC", "UnkeyedDecodingContainer"]
+- ["4Core22ReflectionKeyedDecoderC", "allKeys"]
+- ["4Core22ReflectionKeyedDecoderC", "codingPath"]
+- ["4Core22ReflectionKeyedDecoderC", "contains"]
+- ["4Core22ReflectionKeyedDecoderC", "context"]
+- ["4Core22ReflectionKeyedDecoderC", "decode"]
+- ["4Core22ReflectionKeyedDecoderC", "decodeIfPresent"]
+- ["4Core22ReflectionKeyedDecoderC", "decodeNil"]
+- ["4Core22ReflectionKeyedDecoderC", "deinit"]
+- ["4Core22ReflectionKeyedDecoderC", "init"]
+- ["4Core22ReflectionKeyedDecoderC", "nestedContainer"]
+- ["4Core22ReflectionKeyedDecoderC", "nestedUnkeyedContainer"]
+- ["4Core22ReflectionKeyedDecoderC", "nextIsOptional"]
+- ["4Core22ReflectionKeyedDecoderC", "superDecoder"]
+- ["4Core28ReflectionSingleValueDecoderV", "Bool"]
+- ["4Core28ReflectionSingleValueDecoderV", "CodingKey"]
+- ["4Core28ReflectionSingleValueDecoderV", "Decodable"]
+- ["4Core28ReflectionSingleValueDecoderV", "ReflectionDecoderContext"]
+- ["4Core28ReflectionSingleValueDecoderV", "codingPath"]
+- ["4Core28ReflectionSingleValueDecoderV", "context"]
+- ["4Core28ReflectionSingleValueDecoderV", "decode"]
+- ["4Core28ReflectionSingleValueDecoderV", "decodeNil"]
+- ["4Core28ReflectionSingleValueDecoderV", "deinit"]
+- !private ["4Core28ReflectionSingleValueDecoderV", "forceCast"]
+- ["4Core28ReflectionSingleValueDecoderV", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "filter"]
+- !private ["ST", "map"]
+- ["s28SingleValueDecodingContainerP", ""]
+- ["s28SingleValueDecodingContainerP", "codingPath"]
+- !private ["s28SingleValueDecodingContainerP", "context"]
+- ["s28SingleValueDecodingContainerP", "decode"]
+- ["s28SingleValueDecodingContainerP", "decodeNil"]
+- !private ["s28SingleValueDecodingContainerP", "forceCast"]
+- !private ["s28SingleValueDecodingContainerP", "init"]
+- !private ["s24UnkeyedDecodingContainerP", "ReflectionDecoder"]
+- !private ["s24UnkeyedDecodingContainerP", "ReflectionKeyedDecoder"]
+- !private ["s24UnkeyedDecodingContainerP", "ReflectionUnkeyedDecoder"]
+- !private ["s24UnkeyedDecodingContainerP", ""]
+- ["s24UnkeyedDecodingContainerP", "codingPath"]
+- !private ["s24UnkeyedDecodingContainerP", "context"]
+- ["s24UnkeyedDecodingContainerP", "count"]
+- ["s24UnkeyedDecodingContainerP", "currentIndex"]
+- ["s24UnkeyedDecodingContainerP", "decode"]
+- ["s24UnkeyedDecodingContainerP", "decodeIfPresent"]
+- ["s24UnkeyedDecodingContainerP", "decodeNil"]
+- !private ["s24UnkeyedDecodingContainerP", "init"]
+- ["s24UnkeyedDecodingContainerP", "isAtEnd"]
+- ["s24UnkeyedDecodingContainerP", "nestedContainer"]
+- ["s24UnkeyedDecodingContainerP", "nestedUnkeyedContainer"]
+- ["s24UnkeyedDecodingContainerP", "superDecoder"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s9CodingKeyP"
+- !private "Sl"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- "s7DecoderP"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "SH"
+- !private "s22KeyedDecodingContainerV"
+- "s30KeyedDecodingContainerProtocolP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "Sk"
+- !private "Sm"
+- !private "4Core17ReflectedPropertyV"
+- !private "4Core19ReflectionDecodableP"
+- "4Core17ReflectionDecoderV"
+- "4Core24ReflectionDecoderContextC"
+- "4Core22ReflectionKeyedDecoderC"
+- "4Core28ReflectionSingleValueDecoderV"
+- !private "ST"
+- "s28SingleValueDecodingContainerP"
+- "s24UnkeyedDecodingContainerP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d8c207a4ed55f882809b17edee61fead"

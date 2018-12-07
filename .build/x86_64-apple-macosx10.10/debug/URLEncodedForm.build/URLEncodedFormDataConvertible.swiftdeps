@@ -1,0 +1,679 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "URLEncodedFormDataConvertible"
+provides-nominal:
+- "14URLEncodedForm0aB15DataConvertibleP"
+- "SS"
+- "Si"
+- "s4Int8V"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "Su"
+- "s5UInt8V"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "Sf"
+- "Sd"
+- "Sb"
+- "So9NSDecimala"
+provides-member:
+- ["14URLEncodedForm0aB15DataConvertibleP", ""]
+- ["SS", ""]
+- ["s17FixedWidthIntegerP", ""]
+- ["Si", ""]
+- ["s4Int8V", ""]
+- ["s5Int16V", ""]
+- ["s5Int32V", ""]
+- ["s5Int64V", ""]
+- ["Su", ""]
+- ["s5UInt8V", ""]
+- ["s6UInt16V", ""]
+- ["s6UInt32V", ""]
+- ["s6UInt64V", ""]
+- ["SB", ""]
+- ["Sf", ""]
+- ["Sd", ""]
+- ["Sb", ""]
+- ["So9NSDecimala", ""]
+- ["s17FixedWidthIntegerP", "convertToURLEncodedFormData"]
+- ["s17FixedWidthIntegerP", "convertFromURLEncodedFormData"]
+- ["SB", "convertToURLEncodedFormData"]
+- ["SB", "convertFromURLEncodedFormData"]
+provides-dynamic-lookup:
+depends-top-level:
+- "BinaryFloatingPoint"
+- "Bool"
+- "Decimal"
+- "Double"
+- "FixedWidthInteger"
+- "Float"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- "String"
+- !private "StringLiteralType"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- "URLEncodedFormData"
+- "URLEncodedFormDataConvertible"
+- !private "URLEncodedFormError"
+depends-member:
+- !private ["4Core15AnyOptionalTypeP", "flatMap"]
+- !private ["4Core22AnyReflectionDecodableP", "Decimal"]
+- !private ["4Core22AnyReflectionDecodableP", "URLEncodedFormError"]
+- !private ["4Core22AnyReflectionDecodableP", "bool"]
+- ["4Core22AnyReflectionDecodableP", "convertFromURLEncodedFormData"]
+- ["4Core22AnyReflectionDecodableP", "convertToURLEncodedFormData"]
+- !private ["4Core22AnyReflectionDecodableP", "description"]
+- !private ["4Core22AnyReflectionDecodableP", "flatMap"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "URLEncodedFormError"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "convertFromURLEncodedFormData"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "convertToURLEncodedFormData"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "description"]
+- !private ["4Core21BasicKeyRepresentableP", "URLEncodedFormError"]
+- !private ["4Core21BasicKeyRepresentableP", "bool"]
+- ["4Core21BasicKeyRepresentableP", "convertFromURLEncodedFormData"]
+- ["4Core21BasicKeyRepresentableP", "convertToURLEncodedFormData"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["SK", "URLEncodedFormError"]
+- !private ["SK", "bool"]
+- ["SK", "convertFromURLEncodedFormData"]
+- ["SK", "convertToURLEncodedFormData"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SB", "Double"]
+- ["SB", "Self"]
+- ["SB", "URLEncodedFormData"]
+- !private ["SB", "URLEncodedFormError"]
+- ["SB", "convertFromURLEncodedFormData"]
+- ["SB", "convertToURLEncodedFormData"]
+- !private ["SB", "init"]
+- !private ["SB", "init"]
+- ["Sz", "Self"]
+- ["Sz", "URLEncodedFormData"]
+- !private ["Sz", "URLEncodedFormError"]
+- ["Sz", "convertFromURLEncodedFormData"]
+- ["Sz", "convertToURLEncodedFormData"]
+- !private ["Sz", "description"]
+- !private ["Sz", "init"]
+- !private ["Sz", "init"]
+- ["Sb", "Bool"]
+- ["Sb", "URLEncodedFormData"]
+- !private ["Sb", "URLEncodedFormError"]
+- ["Sb", "convertFromURLEncodedFormData"]
+- ["Sb", "convertToURLEncodedFormData"]
+- ["Sb", "deinit"]
+- !private ["Sb", "description"]
+- !private ["s7CVarArgP", "URLEncodedFormError"]
+- !private ["s7CVarArgP", "bool"]
+- ["s7CVarArgP", "convertFromURLEncodedFormData"]
+- ["s7CVarArgP", "convertToURLEncodedFormData"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "URLEncodedFormError"]
+- !private ["Sl", "bool"]
+- ["Sl", "convertFromURLEncodedFormData"]
+- ["Sl", "convertToURLEncodedFormData"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "Decimal"]
+- !private ["SL", "Double"]
+- ["SL", "Self"]
+- ["SL", "URLEncodedFormData"]
+- !private ["SL", "URLEncodedFormError"]
+- !private ["SL", "bool"]
+- ["SL", "convertFromURLEncodedFormData"]
+- ["SL", "convertToURLEncodedFormData"]
+- !private ["SL", "description"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "URLEncodedFormError"]
+- !private ["s28CustomDebugStringConvertibleP", "bool"]
+- ["s28CustomDebugStringConvertibleP", "convertFromURLEncodedFormData"]
+- ["s28CustomDebugStringConvertibleP", "convertToURLEncodedFormData"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "URLEncodedFormError"]
+- !private ["s29CustomPlaygroundQuickLookableP", "bool"]
+- ["s29CustomPlaygroundQuickLookableP", "convertFromURLEncodedFormData"]
+- ["s29CustomPlaygroundQuickLookableP", "convertToURLEncodedFormData"]
+- !private ["s29CustomPlaygroundQuickLookableP", "description"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "URLEncodedFormError"]
+- !private ["s17CustomReflectableP", "bool"]
+- ["s17CustomReflectableP", "convertFromURLEncodedFormData"]
+- ["s17CustomReflectableP", "convertToURLEncodedFormData"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Decimal"]
+- ["s23CustomStringConvertibleP", "Self"]
+- ["s23CustomStringConvertibleP", "URLEncodedFormData"]
+- !private ["s23CustomStringConvertibleP", "URLEncodedFormError"]
+- !private ["s23CustomStringConvertibleP", "bool"]
+- ["s23CustomStringConvertibleP", "convertFromURLEncodedFormData"]
+- ["s23CustomStringConvertibleP", "convertToURLEncodedFormData"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["9Debugging10DebuggableP", "init"]
+- ["So9NSDecimala", "Decimal"]
+- ["So9NSDecimala", "URLEncodedFormData"]
+- !private ["So9NSDecimala", "URLEncodedFormError"]
+- ["So9NSDecimala", "convertFromURLEncodedFormData"]
+- ["So9NSDecimala", "convertToURLEncodedFormData"]
+- ["So9NSDecimala", "deinit"]
+- !private ["So9NSDecimala", "description"]
+- !private ["So9NSDecimala", "init"]
+- !private ["Se", "Decimal"]
+- !private ["Se", "URLEncodedFormError"]
+- !private ["Se", "bool"]
+- ["Se", "convertFromURLEncodedFormData"]
+- ["Se", "convertToURLEncodedFormData"]
+- !private ["Se", "description"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- ["Sd", "convertFromURLEncodedFormData"]
+- ["Sd", "convertToURLEncodedFormData"]
+- ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["Sd", "init"]
+- !private ["SE", "Decimal"]
+- !private ["SE", "URLEncodedFormError"]
+- !private ["SE", "bool"]
+- ["SE", "convertFromURLEncodedFormData"]
+- ["SE", "convertToURLEncodedFormData"]
+- !private ["SE", "description"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "Decimal"]
+- !private ["SQ", "Double"]
+- ["SQ", "Self"]
+- ["SQ", "URLEncodedFormData"]
+- !private ["SQ", "URLEncodedFormError"]
+- !private ["SQ", "bool"]
+- ["SQ", "convertFromURLEncodedFormData"]
+- ["SQ", "convertToURLEncodedFormData"]
+- !private ["SQ", "description"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "str"]
+- !private ["SQ", "string"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "str"]
+- !private ["s25ExpressibleByArrayLiteralP", "string"]
+- !private ["s27ExpressibleByBooleanLiteralP", "URLEncodedFormError"]
+- ["s27ExpressibleByBooleanLiteralP", "convertFromURLEncodedFormData"]
+- ["s27ExpressibleByBooleanLiteralP", "convertToURLEncodedFormData"]
+- !private ["s27ExpressibleByBooleanLiteralP", "description"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "str"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "string"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "URLEncodedFormError"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "bool"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "convertFromURLEncodedFormData"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "convertToURLEncodedFormData"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "str"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s25ExpressibleByFloatLiteralP", "Decimal"]
+- !private ["s25ExpressibleByFloatLiteralP", "Double"]
+- ["s25ExpressibleByFloatLiteralP", "Self"]
+- ["s25ExpressibleByFloatLiteralP", "URLEncodedFormData"]
+- !private ["s25ExpressibleByFloatLiteralP", "URLEncodedFormError"]
+- ["s25ExpressibleByFloatLiteralP", "convertFromURLEncodedFormData"]
+- ["s25ExpressibleByFloatLiteralP", "convertToURLEncodedFormData"]
+- !private ["s25ExpressibleByFloatLiteralP", "description"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Decimal"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Double"]
+- ["s27ExpressibleByIntegerLiteralP", "Self"]
+- ["s27ExpressibleByIntegerLiteralP", "URLEncodedFormData"]
+- !private ["s27ExpressibleByIntegerLiteralP", "URLEncodedFormError"]
+- ["s27ExpressibleByIntegerLiteralP", "convertFromURLEncodedFormData"]
+- ["s27ExpressibleByIntegerLiteralP", "convertToURLEncodedFormData"]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s26ExpressibleByStringLiteralP", "URLEncodedFormError"]
+- !private ["s26ExpressibleByStringLiteralP", "bool"]
+- ["s26ExpressibleByStringLiteralP", "convertFromURLEncodedFormData"]
+- ["s26ExpressibleByStringLiteralP", "convertToURLEncodedFormData"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "str"]
+- !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "URLEncodedFormError"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "bool"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "convertFromURLEncodedFormData"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "convertToURLEncodedFormData"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "str"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- ["s17FixedWidthIntegerP", "Self"]
+- ["s17FixedWidthIntegerP", "URLEncodedFormData"]
+- !private ["s17FixedWidthIntegerP", "URLEncodedFormError"]
+- ["s17FixedWidthIntegerP", "convertFromURLEncodedFormData"]
+- ["s17FixedWidthIntegerP", "convertToURLEncodedFormData"]
+- !private ["s17FixedWidthIntegerP", "description"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["Sf", "convertFromURLEncodedFormData"]
+- ["Sf", "convertToURLEncodedFormData"]
+- ["Sf", "deinit"]
+- !private ["SF", "Double"]
+- ["SF", "Self"]
+- ["SF", "URLEncodedFormData"]
+- !private ["SF", "URLEncodedFormError"]
+- ["SF", "convertFromURLEncodedFormData"]
+- ["SF", "convertToURLEncodedFormData"]
+- !private ["SF", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "Decimal"]
+- !private ["SH", "Double"]
+- ["SH", "Self"]
+- ["SH", "URLEncodedFormData"]
+- !private ["SH", "URLEncodedFormError"]
+- !private ["SH", "bool"]
+- ["SH", "convertFromURLEncodedFormData"]
+- ["SH", "convertToURLEncodedFormData"]
+- !private ["SH", "description"]
+- !private ["SH", "flatMap"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- ["Si", "convertFromURLEncodedFormData"]
+- ["Si", "convertToURLEncodedFormData"]
+- ["Si", "deinit"]
+- ["s5Int16V", "convertFromURLEncodedFormData"]
+- ["s5Int16V", "convertToURLEncodedFormData"]
+- ["s5Int16V", "deinit"]
+- ["s5Int32V", "convertFromURLEncodedFormData"]
+- ["s5Int32V", "convertToURLEncodedFormData"]
+- ["s5Int32V", "deinit"]
+- ["s5Int64V", "convertFromURLEncodedFormData"]
+- ["s5Int64V", "convertToURLEncodedFormData"]
+- ["s5Int64V", "deinit"]
+- ["s4Int8V", "convertFromURLEncodedFormData"]
+- ["s4Int8V", "convertToURLEncodedFormData"]
+- ["s4Int8V", "deinit"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "URLEncodedFormError"]
+- !private ["4Core23LosslessDataConvertibleP", "bool"]
+- ["4Core23LosslessDataConvertibleP", "convertFromURLEncodedFormData"]
+- ["4Core23LosslessDataConvertibleP", "convertToURLEncodedFormData"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "Self"]
+- ["s25LosslessStringConvertibleP", "URLEncodedFormData"]
+- !private ["s25LosslessStringConvertibleP", "URLEncodedFormError"]
+- !private ["s25LosslessStringConvertibleP", "bool"]
+- ["s25LosslessStringConvertibleP", "convertFromURLEncodedFormData"]
+- ["s25LosslessStringConvertibleP", "convertToURLEncodedFormData"]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "URLEncodedFormError"]
+- !private ["s10MirrorPathP", "bool"]
+- ["s10MirrorPathP", "convertFromURLEncodedFormData"]
+- ["s10MirrorPathP", "convertToURLEncodedFormData"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "bool"]
+- !private ["So9NSCopyingP", "bool"]
+- !private ["So21NSItemProviderReadingP", "bool"]
+- !private ["So21NSItemProviderWritingP", "bool"]
+- !private ["So16NSMutableCopyingP", "bool"]
+- !private ["So8NSObjectC", "bool"]
+- !private ["So8NSObjectP", "bool"]
+- !private ["So14NSSecureCodingP", "bool"]
+- !private ["So8NSStringC", "bool"]
+- !private ["4Core10NestedDataP", "str"]
+- !private ["4Core10NestedDataP", "string"]
+- !private ["Sj", "Decimal"]
+- !private ["Sj", "Double"]
+- ["Sj", "Self"]
+- ["Sj", "URLEncodedFormData"]
+- !private ["Sj", "URLEncodedFormError"]
+- ["Sj", "convertFromURLEncodedFormData"]
+- ["Sj", "convertToURLEncodedFormData"]
+- !private ["Sj", "description"]
+- !private ["Sj", "init"]
+- !private ["Sj", "init"]
+- !private ["Sq", "flatMap"]
+- !private ["4Core12OptionalTypeP", "flatMap"]
+- !private ["Sm", "URLEncodedFormError"]
+- !private ["Sm", "bool"]
+- ["Sm", "convertFromURLEncodedFormData"]
+- ["Sm", "convertToURLEncodedFormData"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["4Core19ReflectionDecodableP", "Decimal"]
+- !private ["4Core19ReflectionDecodableP", "URLEncodedFormError"]
+- !private ["4Core19ReflectionDecodableP", "bool"]
+- ["4Core19ReflectionDecodableP", "convertFromURLEncodedFormData"]
+- ["4Core19ReflectionDecodableP", "convertToURLEncodedFormData"]
+- !private ["4Core19ReflectionDecodableP", "description"]
+- !private ["4Core19ReflectionDecodableP", "flatMap"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["ST", "URLEncodedFormError"]
+- !private ["ST", "bool"]
+- ["ST", "convertFromURLEncodedFormData"]
+- ["ST", "convertToURLEncodedFormData"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- ["SZ", "convertFromURLEncodedFormData"]
+- ["SZ", "convertToURLEncodedFormData"]
+- !private ["s13SignedNumericP", "Decimal"]
+- !private ["s13SignedNumericP", "Double"]
+- ["s13SignedNumericP", "Self"]
+- ["s13SignedNumericP", "URLEncodedFormData"]
+- !private ["s13SignedNumericP", "URLEncodedFormError"]
+- ["s13SignedNumericP", "convertFromURLEncodedFormData"]
+- ["s13SignedNumericP", "convertToURLEncodedFormData"]
+- !private ["s13SignedNumericP", "description"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "Decimal"]
+- !private ["Sx", "Double"]
+- ["Sx", "Self"]
+- ["Sx", "URLEncodedFormData"]
+- !private ["Sx", "URLEncodedFormError"]
+- ["Sx", "convertFromURLEncodedFormData"]
+- ["Sx", "convertToURLEncodedFormData"]
+- !private ["Sx", "description"]
+- !private ["Sx", "init"]
+- !private ["Sx", "init"]
+- ["SS", "String"]
+- ["SS", "URLEncodedFormData"]
+- !private ["SS", "URLEncodedFormError"]
+- !private ["SS", "bool"]
+- ["SS", "convertFromURLEncodedFormData"]
+- ["SS", "convertToURLEncodedFormData"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "URLEncodedFormError"]
+- !private ["Sy", "bool"]
+- ["Sy", "convertFromURLEncodedFormData"]
+- ["Sy", "convertToURLEncodedFormData"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "URLEncodedFormError"]
+- !private ["s16TextOutputStreamP", "bool"]
+- ["s16TextOutputStreamP", "convertFromURLEncodedFormData"]
+- ["s16TextOutputStreamP", "convertToURLEncodedFormData"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "URLEncodedFormError"]
+- !private ["s20TextOutputStreamableP", "bool"]
+- ["s20TextOutputStreamableP", "convertFromURLEncodedFormData"]
+- ["s20TextOutputStreamableP", "convertToURLEncodedFormData"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["Su", "convertFromURLEncodedFormData"]
+- ["Su", "convertToURLEncodedFormData"]
+- ["Su", "deinit"]
+- ["s6UInt16V", "convertFromURLEncodedFormData"]
+- ["s6UInt16V", "convertToURLEncodedFormData"]
+- ["s6UInt16V", "deinit"]
+- ["s6UInt32V", "convertFromURLEncodedFormData"]
+- ["s6UInt32V", "convertToURLEncodedFormData"]
+- ["s6UInt32V", "deinit"]
+- ["s6UInt64V", "convertFromURLEncodedFormData"]
+- ["s6UInt64V", "convertToURLEncodedFormData"]
+- ["s6UInt64V", "deinit"]
+- ["s5UInt8V", "convertFromURLEncodedFormData"]
+- ["s5UInt8V", "convertToURLEncodedFormData"]
+- ["s5UInt8V", "deinit"]
+- !private ["14URLEncodedForm0aB4DataO", "str"]
+- !private ["14URLEncodedForm0aB4DataO", "string"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "Decimal"]
+- ["14URLEncodedForm0aB15DataConvertibleP", "URLEncodedFormData"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "URLEncodedFormError"]
+- ["14URLEncodedForm0aB15DataConvertibleP", ""]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "bool"]
+- ["14URLEncodedForm0aB15DataConvertibleP", "convertFromURLEncodedFormData"]
+- ["14URLEncodedForm0aB15DataConvertibleP", "convertToURLEncodedFormData"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "description"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "init"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "init"]
+- !private ["14URLEncodedForm0aB5ErrorV", "deinit"]
+- !private ["14URLEncodedForm0aB5ErrorV", "init"]
+- ["SU", "convertFromURLEncodedFormData"]
+- ["SU", "convertToURLEncodedFormData"]
+- ["s18_BitwiseOperationsP", "Self"]
+- ["s18_BitwiseOperationsP", "URLEncodedFormData"]
+- !private ["s18_BitwiseOperationsP", "URLEncodedFormError"]
+- ["s18_BitwiseOperationsP", "convertFromURLEncodedFormData"]
+- ["s18_BitwiseOperationsP", "convertToURLEncodedFormData"]
+- !private ["s18_BitwiseOperationsP", "description"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- ["s15_CVarArgAlignedP", "convertFromURLEncodedFormData"]
+- ["s15_CVarArgAlignedP", "convertToURLEncodedFormData"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- ["s22_CVarArgPassedAsDoubleP", "convertFromURLEncodedFormData"]
+- ["s22_CVarArgPassedAsDoubleP", "convertToURLEncodedFormData"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "URLEncodedFormError"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "convertFromURLEncodedFormData"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "convertToURLEncodedFormData"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "description"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "URLEncodedFormError"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "bool"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "convertFromURLEncodedFormData"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "convertToURLEncodedFormData"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "convertFromURLEncodedFormData"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "convertToURLEncodedFormData"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "convertFromURLEncodedFormData"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "convertToURLEncodedFormData"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "URLEncodedFormError"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "bool"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "convertFromURLEncodedFormData"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "convertToURLEncodedFormData"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "URLEncodedFormError"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "bool"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "convertFromURLEncodedFormData"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "convertToURLEncodedFormData"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "URLEncodedFormError"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "bool"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "convertFromURLEncodedFormData"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "convertToURLEncodedFormData"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "URLEncodedFormError"]
+- !private ["s33_ExpressibleByStringInterpolationP", "bool"]
+- ["s33_ExpressibleByStringInterpolationP", "convertFromURLEncodedFormData"]
+- ["s33_ExpressibleByStringInterpolationP", "convertToURLEncodedFormData"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "bool"]
+- ["s35_HasCustomAnyHashableRepresentationP", "convertFromURLEncodedFormData"]
+- ["s35_HasCustomAnyHashableRepresentationP", "convertToURLEncodedFormData"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bool"]
+- !private ["s21_ObjectiveCBridgeableP", "Decimal"]
+- !private ["s21_ObjectiveCBridgeableP", "URLEncodedFormError"]
+- !private ["s21_ObjectiveCBridgeableP", "bool"]
+- ["s21_ObjectiveCBridgeableP", "convertFromURLEncodedFormData"]
+- ["s21_ObjectiveCBridgeableP", "convertToURLEncodedFormData"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s14_StringElementP", "convertFromURLEncodedFormData"]
+- ["s14_StringElementP", "convertToURLEncodedFormData"]
+- !private ["s16_SwiftStringViewP", "URLEncodedFormError"]
+- !private ["s16_SwiftStringViewP", "bool"]
+- ["s16_SwiftStringViewP", "convertFromURLEncodedFormData"]
+- ["s16_SwiftStringViewP", "convertToURLEncodedFormData"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "4Core15AnyOptionalTypeP"
+- "4Core22AnyReflectionDecodableP"
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "4Core21BasicKeyRepresentableP"
+- "SK"
+- "SB"
+- "Sz"
+- "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "9Debugging10DebuggableP"
+- "So9NSDecimala"
+- "Se"
+- "Sd"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "Sf"
+- "SF"
+- "SH"
+- "Si"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "s4Int8V"
+- !private "10Foundation14LocalizedErrorP"
+- "4Core23LosslessDataConvertibleP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "4Core10NestedDataP"
+- "Sj"
+- !private "Sq"
+- !private "4Core12OptionalTypeP"
+- "Sm"
+- "4Core19ReflectionDecodableP"
+- "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "Su"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "s5UInt8V"
+- !private "14URLEncodedForm0aB4DataO"
+- "14URLEncodedForm0aB15DataConvertibleP"
+- !private "14URLEncodedForm0aB5ErrorV"
+- "SU"
+- "s18_BitwiseOperationsP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s14_StringElementP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "694055630defb5ca4af3dd16d3dc9556"

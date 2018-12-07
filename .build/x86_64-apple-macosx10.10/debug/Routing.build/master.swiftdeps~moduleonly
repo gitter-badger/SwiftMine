@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "e67f419a6d803928c3dd75e98b54c777"
+build_time: [1544147848, 500878000]
+inputs:
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/routing.git--612975245969984482/Sources/Routing/Parameter/Parameter.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/routing.git--612975245969984482/Sources/Routing/Parameter/ParameterValue.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/routing.git--612975245969984482/Sources/Routing/Parameter/Parameters.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/routing.git--612975245969984482/Sources/Routing/Register/PathComponent.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/routing.git--612975245969984482/Sources/Routing/Register/Route.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/routing.git--612975245969984482/Sources/Routing/Register/RouterOption.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/routing.git--612975245969984482/Sources/Routing/Routing/RoutableComponent.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/routing.git--612975245969984482/Sources/Routing/Routing/RouterNode.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/routing.git--612975245969984482/Sources/Routing/Routing/TrieRouter.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/routing.git--612975245969984482/Sources/Routing/Utilities/Deprecated.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/routing.git--612975245969984482/Sources/Routing/Utilities/Exports.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/routing.git--612975245969984482/Sources/Routing/Utilities/RoutingError.swift": [1544147825, 0]

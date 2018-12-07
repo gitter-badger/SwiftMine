@@ -1,0 +1,316 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChannelOption"
+- "SocketOptionName"
+- "SocketOptionLevel"
+- "SocketOptionValue"
+- "SocketOption"
+- "AllocatorOption"
+- "RecvAllocatorOption"
+- "AutoReadOption"
+- "WriteSpinOption"
+- "MaxMessagesPerReadOption"
+- "BacklogOption"
+- "WriteBufferWaterMark"
+- "WriteBufferWaterMarkOption"
+- "ConnectTimeoutOption"
+- "AllowRemoteHalfClosureOption"
+- "ChannelOptions"
+provides-nominal:
+- "3NIO13ChannelOptionP"
+- "3NIO12SocketOptionO"
+- "3NIO15AllocatorOptionO"
+- "3NIO19RecvAllocatorOptionO"
+- "3NIO14AutoReadOptionO"
+- "3NIO15WriteSpinOptionO"
+- "3NIO24MaxMessagesPerReadOptionO"
+- "3NIO13BacklogOptionO"
+- "3NIO20WriteBufferWaterMarkV"
+- "3NIO26WriteBufferWaterMarkOptionO"
+- "3NIO20ConnectTimeoutOptionO"
+- "3NIO28AllowRemoteHalfClosureOptionO"
+- "3NIO14ChannelOptionsV"
+provides-member:
+- ["3NIO13ChannelOptionP", ""]
+- ["3NIO12SocketOptionO", ""]
+- ["3NIO15AllocatorOptionO", ""]
+- ["3NIO19RecvAllocatorOptionO", ""]
+- ["3NIO14AutoReadOptionO", ""]
+- ["3NIO15WriteSpinOptionO", ""]
+- ["3NIO24MaxMessagesPerReadOptionO", ""]
+- ["3NIO13BacklogOptionO", ""]
+- ["3NIO20WriteBufferWaterMarkV", ""]
+- ["3NIO26WriteBufferWaterMarkOptionO", ""]
+- ["3NIO20ConnectTimeoutOptionO", ""]
+- ["3NIO28AllowRemoteHalfClosureOptionO", ""]
+- ["3NIO14ChannelOptionsV", ""]
+- ["3NIO13ChannelOptionP", "type"]
+- ["3NIO13ChannelOptionP", "value"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private ">="
+- "AllocatorOption"
+- "AllowRemoteHalfClosureOption"
+- "AssignmentPrecedence"
+- "AutoReadOption"
+- "BacklogOption"
+- "Bool"
+- "ByteBufferAllocator"
+- "ChannelOption"
+- "ChannelOptions"
+- "ConnectTimeoutOption"
+- !private "FloatLiteralType"
+- "Int"
+- "Int32"
+- !private "IntegerLiteralType"
+- "MaxMessagesPerReadOption"
+- "RecvAllocatorOption"
+- "RecvByteBufferAllocator"
+- "SocketOption"
+- "SocketOptionLevel"
+- "SocketOptionName"
+- "SocketOptionValue"
+- !private "StringLiteralType"
+- "TimeAmount"
+- "UInt"
+- "WriteBufferWaterMark"
+- "WriteBufferWaterMarkOption"
+- "WriteSpinOption"
+- !private "precondition"
+depends-member:
+- ["3NIO15AllocatorOptionO", "AssociatedValueType"]
+- ["3NIO15AllocatorOptionO", "ByteBufferAllocator"]
+- ["3NIO15AllocatorOptionO", "OptionType"]
+- ["3NIO15AllocatorOptionO", "const"]
+- ["3NIO15AllocatorOptionO", "deinit"]
+- ["3NIO15AllocatorOptionO", "type"]
+- ["3NIO15AllocatorOptionO", "value"]
+- ["3NIO28AllowRemoteHalfClosureOptionO", "AssociatedValueType"]
+- ["3NIO28AllowRemoteHalfClosureOptionO", "Bool"]
+- ["3NIO28AllowRemoteHalfClosureOptionO", "OptionType"]
+- ["3NIO28AllowRemoteHalfClosureOptionO", "const"]
+- ["3NIO28AllowRemoteHalfClosureOptionO", "deinit"]
+- ["3NIO28AllowRemoteHalfClosureOptionO", "type"]
+- ["3NIO28AllowRemoteHalfClosureOptionO", "value"]
+- ["3NIO14AutoReadOptionO", "AssociatedValueType"]
+- ["3NIO14AutoReadOptionO", "Bool"]
+- ["3NIO14AutoReadOptionO", "OptionType"]
+- ["3NIO14AutoReadOptionO", "const"]
+- ["3NIO14AutoReadOptionO", "deinit"]
+- ["3NIO14AutoReadOptionO", "type"]
+- ["3NIO14AutoReadOptionO", "value"]
+- ["3NIO13BacklogOptionO", "AssociatedValueType"]
+- ["3NIO13BacklogOptionO", "Int32"]
+- ["3NIO13BacklogOptionO", "OptionType"]
+- ["3NIO13BacklogOptionO", "const"]
+- ["3NIO13BacklogOptionO", "deinit"]
+- ["3NIO13BacklogOptionO", "type"]
+- ["3NIO13BacklogOptionO", "value"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- ["3NIO13ChannelOptionP", "AssociatedValueType"]
+- ["3NIO13ChannelOptionP", "OptionType"]
+- ["3NIO13ChannelOptionP", ""]
+- ["3NIO13ChannelOptionP", "const"]
+- ["3NIO13ChannelOptionP", "type"]
+- ["3NIO13ChannelOptionP", "value"]
+- ["3NIO14ChannelOptionsV", "AllocatorOption"]
+- ["3NIO14ChannelOptionsV", "AllowRemoteHalfClosureOption"]
+- ["3NIO14ChannelOptionsV", "AutoReadOption"]
+- ["3NIO14ChannelOptionsV", "BacklogOption"]
+- ["3NIO14ChannelOptionsV", "ConnectTimeoutOption"]
+- ["3NIO14ChannelOptionsV", "MaxMessagesPerReadOption"]
+- ["3NIO14ChannelOptionsV", "RecvAllocatorOption"]
+- ["3NIO14ChannelOptionsV", "SocketOption"]
+- ["3NIO14ChannelOptionsV", "SocketOptionLevel"]
+- ["3NIO14ChannelOptionsV", "SocketOptionName"]
+- ["3NIO14ChannelOptionsV", "WriteBufferWaterMarkOption"]
+- ["3NIO14ChannelOptionsV", "WriteSpinOption"]
+- ["3NIO14ChannelOptionsV", "allocator"]
+- ["3NIO14ChannelOptionsV", "allowRemoteHalfClosure"]
+- ["3NIO14ChannelOptionsV", "autoRead"]
+- ["3NIO14ChannelOptionsV", "backlog"]
+- ["3NIO14ChannelOptionsV", "connectTimeout"]
+- ["3NIO14ChannelOptionsV", "init"]
+- ["3NIO14ChannelOptionsV", "maxMessagesPerRead"]
+- ["3NIO14ChannelOptionsV", "recvAllocator"]
+- ["3NIO14ChannelOptionsV", "socket"]
+- ["3NIO14ChannelOptionsV", "writeBufferWaterMark"]
+- ["3NIO14ChannelOptionsV", "writeSpin"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["3NIO20ConnectTimeoutOptionO", "AssociatedValueType"]
+- ["3NIO20ConnectTimeoutOptionO", "OptionType"]
+- ["3NIO20ConnectTimeoutOptionO", "TimeAmount"]
+- ["3NIO20ConnectTimeoutOptionO", "const"]
+- ["3NIO20ConnectTimeoutOptionO", "deinit"]
+- ["3NIO20ConnectTimeoutOptionO", "type"]
+- ["3NIO20ConnectTimeoutOptionO", "value"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["3NIO24MaxMessagesPerReadOptionO", "AssociatedValueType"]
+- ["3NIO24MaxMessagesPerReadOptionO", "OptionType"]
+- ["3NIO24MaxMessagesPerReadOptionO", "UInt"]
+- ["3NIO24MaxMessagesPerReadOptionO", "const"]
+- ["3NIO24MaxMessagesPerReadOptionO", "deinit"]
+- ["3NIO24MaxMessagesPerReadOptionO", "type"]
+- ["3NIO24MaxMessagesPerReadOptionO", "value"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- ["3NIO19RecvAllocatorOptionO", "AssociatedValueType"]
+- ["3NIO19RecvAllocatorOptionO", "OptionType"]
+- ["3NIO19RecvAllocatorOptionO", "RecvByteBufferAllocator"]
+- ["3NIO19RecvAllocatorOptionO", "const"]
+- ["3NIO19RecvAllocatorOptionO", "deinit"]
+- ["3NIO19RecvAllocatorOptionO", "type"]
+- ["3NIO19RecvAllocatorOptionO", "value"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- ["3NIO12SocketOptionO", "AssociatedValueType"]
+- ["3NIO12SocketOptionO", "OptionType"]
+- ["3NIO12SocketOptionO", "SocketOptionLevel"]
+- ["3NIO12SocketOptionO", "SocketOptionName"]
+- ["3NIO12SocketOptionO", "SocketOptionValue"]
+- ["3NIO12SocketOptionO", "const"]
+- ["3NIO12SocketOptionO", "deinit"]
+- ["3NIO12SocketOptionO", "init"]
+- ["3NIO12SocketOptionO", "type"]
+- ["3NIO12SocketOptionO", "value"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["3NIO20WriteBufferWaterMarkV", "Int"]
+- ["3NIO20WriteBufferWaterMarkV", "high"]
+- ["3NIO20WriteBufferWaterMarkV", "init"]
+- ["3NIO20WriteBufferWaterMarkV", "low"]
+- !private ["3NIO20WriteBufferWaterMarkV", "precondition"]
+- ["3NIO26WriteBufferWaterMarkOptionO", "AssociatedValueType"]
+- ["3NIO26WriteBufferWaterMarkOptionO", "OptionType"]
+- ["3NIO26WriteBufferWaterMarkOptionO", "WriteBufferWaterMark"]
+- ["3NIO26WriteBufferWaterMarkOptionO", "const"]
+- ["3NIO26WriteBufferWaterMarkOptionO", "deinit"]
+- ["3NIO26WriteBufferWaterMarkOptionO", "type"]
+- ["3NIO26WriteBufferWaterMarkOptionO", "value"]
+- ["3NIO15WriteSpinOptionO", "AssociatedValueType"]
+- ["3NIO15WriteSpinOptionO", "OptionType"]
+- ["3NIO15WriteSpinOptionO", "UInt"]
+- ["3NIO15WriteSpinOptionO", "const"]
+- ["3NIO15WriteSpinOptionO", "deinit"]
+- ["3NIO15WriteSpinOptionO", "type"]
+- ["3NIO15WriteSpinOptionO", "value"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "3NIO15AllocatorOptionO"
+- "3NIO28AllowRemoteHalfClosureOptionO"
+- "3NIO14AutoReadOptionO"
+- "3NIO13BacklogOptionO"
+- !private "SK"
+- "3NIO13ChannelOptionP"
+- "3NIO14ChannelOptionsV"
+- !private "Sl"
+- !private "SL"
+- "3NIO20ConnectTimeoutOptionO"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- "3NIO24MaxMessagesPerReadOptionO"
+- !private "s10MirrorPathP"
+- !private "Sm"
+- "3NIO19RecvAllocatorOptionO"
+- !private "ST"
+- "3NIO12SocketOptionO"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "3NIO20WriteBufferWaterMarkV"
+- "3NIO26WriteBufferWaterMarkOptionO"
+- "3NIO15WriteSpinOptionO"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+interface-hash: "671ec099b6bb8382add17bca3597c054"

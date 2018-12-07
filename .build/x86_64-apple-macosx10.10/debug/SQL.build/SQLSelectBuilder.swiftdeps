@@ -1,0 +1,342 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLSelectBuilder"
+provides-nominal:
+- "3SQL16SQLSelectBuilderC"
+provides-member:
+- ["3SQL16SQLSelectBuilderC", ""]
+- ["3SQL14SQLConnectableP", ""]
+- ["3SQL16SQLSelectBuilderC", "column"]
+- ["3SQL14SQLConnectableP", "select"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+="
+- !private "=="
+- "AssignmentPrecedence"
+- "Encodable"
+- "Int"
+- "KeyPath"
+- "SQLConnectable"
+- "SQLPredicateBuilder"
+- "SQLQueryFetcher"
+- "SQLSelectBuilder"
+- "SQLTable"
+depends-member:
+- !private ["s10AnyKeyPathC", "all"]
+- !private ["s10AnyKeyPathC", "allTable"]
+- !private ["s10AnyKeyPathC", "column"]
+- !private ["s10AnyKeyPathC", "expression"]
+- !private ["s10AnyKeyPathC", "keyPath"]
+- !private ["4Core14AnyReflectableP", "sqlTableIdentifierString"]
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- !private ["3SQL11AnySQLTableP", "sqlTableIdentifierString"]
+- !private ["Sa", "append"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["SK", "append"]
+- !private ["s7CVarArgP", "append"]
+- !private ["Sl", "append"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["11DatabaseKit0A9QueryableP", "Query"]
+- !private ["Se", "append"]
+- !private ["Se", "sqlTableIdentifierString"]
+- !private ["SE", "append"]
+- !private ["SE", "sqlTableIdentifierString"]
+- !private ["SQ", "all"]
+- !private ["SQ", "allTable"]
+- !private ["SQ", "append"]
+- !private ["SQ", "column"]
+- !private ["SQ", "expression"]
+- !private ["SQ", "keyPath"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "all"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "allTable"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "column"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "expression"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "identifier"]
+- !private ["s25ExpressibleByFloatLiteralP", "all"]
+- !private ["s25ExpressibleByFloatLiteralP", "allTable"]
+- !private ["s25ExpressibleByFloatLiteralP", "column"]
+- !private ["s25ExpressibleByFloatLiteralP", "expression"]
+- !private ["s25ExpressibleByFloatLiteralP", "subquery"]
+- !private ["s27ExpressibleByIntegerLiteralP", "all"]
+- !private ["s27ExpressibleByIntegerLiteralP", "allTable"]
+- !private ["s27ExpressibleByIntegerLiteralP", "column"]
+- !private ["s27ExpressibleByIntegerLiteralP", "expression"]
+- !private ["s27ExpressibleByIntegerLiteralP", "subquery"]
+- !private ["s26ExpressibleByStringLiteralP", "all"]
+- !private ["s26ExpressibleByStringLiteralP", "allTable"]
+- !private ["s26ExpressibleByStringLiteralP", "column"]
+- !private ["s26ExpressibleByStringLiteralP", "expression"]
+- !private ["s26ExpressibleByStringLiteralP", "identifier"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "all"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "allTable"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "column"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "expression"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "identifier"]
+- !private ["SH", "all"]
+- !private ["SH", "allTable"]
+- !private ["SH", "append"]
+- !private ["SH", "column"]
+- !private ["SH", "expression"]
+- !private ["SH", "keyPath"]
+- !private ["s7KeyPathC", "all"]
+- !private ["s7KeyPathC", "allTable"]
+- !private ["s7KeyPathC", "column"]
+- !private ["s7KeyPathC", "expression"]
+- !private ["s7KeyPathC", "keyPath"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- !private ["SM", "append"]
+- !private ["s14PartialKeyPathC", "all"]
+- !private ["s14PartialKeyPathC", "allTable"]
+- !private ["s14PartialKeyPathC", "column"]
+- !private ["s14PartialKeyPathC", "expression"]
+- !private ["s14PartialKeyPathC", "keyPath"]
+- !private ["Sk", "append"]
+- !private ["Sm", "append"]
+- !private ["4Core11ReflectableP", "sqlTableIdentifierString"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- !private ["3SQL19SQLColumnIdentifierP", "column"]
+- !private ["3SQL19SQLColumnIdentifierP", "keyPath"]
+- ["3SQL14SQLConnectableP", "Connection"]
+- ["3SQL14SQLConnectableP", "Query"]
+- ["3SQL14SQLConnectableP", "SQLSelectBuilder"]
+- ["3SQL14SQLConnectableP", "Self"]
+- ["3SQL14SQLConnectableP", "select"]
+- ["3SQL13SQLConnectionP", "Query"]
+- !private ["3SQL12SQLDirectionP", "ascending"]
+- !private ["3SQL13SQLExpressionP", "all"]
+- !private ["3SQL13SQLExpressionP", "allTable"]
+- !private ["3SQL13SQLExpressionP", "column"]
+- !private ["3SQL13SQLExpressionP", "expression"]
+- !private ["3SQL13SQLExpressionP", "subquery"]
+- !private ["3SQL10SQLGroupByP", "groupBy"]
+- !private ["3SQL13SQLIdentifierP", "all"]
+- !private ["3SQL13SQLIdentifierP", "allTable"]
+- !private ["3SQL13SQLIdentifierP", "column"]
+- !private ["3SQL13SQLIdentifierP", "expression"]
+- !private ["3SQL13SQLIdentifierP", "identifier"]
+- !private ["3SQL7SQLJoinP", "join"]
+- !private ["3SQL13SQLJoinMethodP", "default"]
+- !private ["3SQL10SQLOrderByP", "orderBy"]
+- ["3SQL19SQLPredicateBuilderP", "Connectable"]
+- ["3SQL19SQLPredicateBuilderP", "Expression"]
+- ["3SQL19SQLPredicateBuilderP", ""]
+- ["3SQL19SQLPredicateBuilderP", "_Default_Connectable"]
+- ["3SQL19SQLPredicateBuilderP", "_Default_Expression"]
+- !private ["3SQL19SQLPredicateBuilderP", "column"]
+- ["3SQL19SQLPredicateBuilderP", "connectable"]
+- !private ["3SQL19SQLPredicateBuilderP", "groupBy"]
+- !private ["3SQL19SQLPredicateBuilderP", "init"]
+- !private ["3SQL19SQLPredicateBuilderP", "init"]
+- !private ["3SQL19SQLPredicateBuilderP", "join"]
+- !private ["3SQL19SQLPredicateBuilderP", "orderBy"]
+- ["3SQL19SQLPredicateBuilderP", "predicate"]
+- ["3SQL19SQLPredicateBuilderP", "query"]
+- !private ["3SQL19SQLPredicateBuilderP", "select"]
+- ["3SQL8SQLQueryP", "Select"]
+- !private ["3SQL8SQLQueryP", "select"]
+- ["3SQL15SQLQueryBuilderP", "Connectable"]
+- ["3SQL15SQLQueryBuilderP", "Expression"]
+- ["3SQL15SQLQueryBuilderP", ""]
+- ["3SQL15SQLQueryBuilderP", "_Default_Connectable"]
+- ["3SQL15SQLQueryBuilderP", "_Default_Expression"]
+- !private ["3SQL15SQLQueryBuilderP", "column"]
+- ["3SQL15SQLQueryBuilderP", "connectable"]
+- !private ["3SQL15SQLQueryBuilderP", "groupBy"]
+- !private ["3SQL15SQLQueryBuilderP", "init"]
+- !private ["3SQL15SQLQueryBuilderP", "init"]
+- !private ["3SQL15SQLQueryBuilderP", "join"]
+- !private ["3SQL15SQLQueryBuilderP", "orderBy"]
+- ["3SQL15SQLQueryBuilderP", "predicate"]
+- ["3SQL15SQLQueryBuilderP", "query"]
+- !private ["3SQL15SQLQueryBuilderP", "select"]
+- ["3SQL15SQLQueryFetcherP", "Connectable"]
+- ["3SQL15SQLQueryFetcherP", "Expression"]
+- ["3SQL15SQLQueryFetcherP", ""]
+- ["3SQL15SQLQueryFetcherP", "_Default_Connectable"]
+- ["3SQL15SQLQueryFetcherP", "_Default_Expression"]
+- !private ["3SQL15SQLQueryFetcherP", "column"]
+- ["3SQL15SQLQueryFetcherP", "connectable"]
+- !private ["3SQL15SQLQueryFetcherP", "groupBy"]
+- !private ["3SQL15SQLQueryFetcherP", "init"]
+- !private ["3SQL15SQLQueryFetcherP", "init"]
+- !private ["3SQL15SQLQueryFetcherP", "join"]
+- !private ["3SQL15SQLQueryFetcherP", "orderBy"]
+- ["3SQL15SQLQueryFetcherP", "predicate"]
+- ["3SQL15SQLQueryFetcherP", "query"]
+- !private ["3SQL15SQLQueryFetcherP", "select"]
+- ["3SQL9SQLSelectP", "Expression"]
+- !private ["3SQL9SQLSelectP", "columns"]
+- !private ["3SQL9SQLSelectP", "groupBy"]
+- !private ["3SQL9SQLSelectP", "joins"]
+- !private ["3SQL9SQLSelectP", "limit"]
+- !private ["3SQL9SQLSelectP", "offset"]
+- !private ["3SQL9SQLSelectP", "orderBy"]
+- !private ["3SQL9SQLSelectP", "predicate"]
+- !private ["3SQL9SQLSelectP", "select"]
+- !private ["3SQL9SQLSelectP", "tables"]
+- ["3SQL16SQLSelectBuilderC", "Connectable"]
+- ["3SQL16SQLSelectBuilderC", "Encodable"]
+- ["3SQL16SQLSelectBuilderC", "Expression"]
+- ["3SQL16SQLSelectBuilderC", "Int"]
+- ["3SQL16SQLSelectBuilderC", "KeyPath"]
+- ["3SQL16SQLSelectBuilderC", "SQLSelectBuilder"]
+- ["3SQL16SQLSelectBuilderC", "SQLTable"]
+- ["3SQL16SQLSelectBuilderC", "_Default_Connectable"]
+- ["3SQL16SQLSelectBuilderC", "_Default_Expression"]
+- ["3SQL16SQLSelectBuilderC", "all"]
+- ["3SQL16SQLSelectBuilderC", "column"]
+- ["3SQL16SQLSelectBuilderC", "connectable"]
+- ["3SQL16SQLSelectBuilderC", "deinit"]
+- ["3SQL16SQLSelectBuilderC", "from"]
+- ["3SQL16SQLSelectBuilderC", "groupBy"]
+- ["3SQL16SQLSelectBuilderC", "init"]
+- !private ["3SQL16SQLSelectBuilderC", "init"]
+- ["3SQL16SQLSelectBuilderC", "join"]
+- ["3SQL16SQLSelectBuilderC", "limit"]
+- ["3SQL16SQLSelectBuilderC", "offset"]
+- ["3SQL16SQLSelectBuilderC", "orderBy"]
+- ["3SQL16SQLSelectBuilderC", "predicate"]
+- ["3SQL16SQLSelectBuilderC", "query"]
+- ["3SQL16SQLSelectBuilderC", "select"]
+- !private ["3SQL19SQLSelectExpressionP", "all"]
+- !private ["3SQL19SQLSelectExpressionP", "allTable"]
+- !private ["3SQL19SQLSelectExpressionP", "column"]
+- !private ["3SQL19SQLSelectExpressionP", "expression"]
+- ["3SQL15SQLSerializableP", "Expression"]
+- ["3SQL15SQLSerializableP", "Select"]
+- !private ["3SQL15SQLSerializableP", "all"]
+- !private ["3SQL15SQLSerializableP", "allTable"]
+- !private ["3SQL15SQLSerializableP", "ascending"]
+- !private ["3SQL15SQLSerializableP", "column"]
+- !private ["3SQL15SQLSerializableP", "columns"]
+- !private ["3SQL15SQLSerializableP", "default"]
+- !private ["3SQL15SQLSerializableP", "expression"]
+- !private ["3SQL15SQLSerializableP", "groupBy"]
+- !private ["3SQL15SQLSerializableP", "identifier"]
+- !private ["3SQL15SQLSerializableP", "join"]
+- !private ["3SQL15SQLSerializableP", "joins"]
+- !private ["3SQL15SQLSerializableP", "keyPath"]
+- !private ["3SQL15SQLSerializableP", "limit"]
+- !private ["3SQL15SQLSerializableP", "offset"]
+- !private ["3SQL15SQLSerializableP", "orderBy"]
+- !private ["3SQL15SQLSerializableP", "predicate"]
+- !private ["3SQL15SQLSerializableP", "select"]
+- !private ["3SQL15SQLSerializableP", "subquery"]
+- !private ["3SQL15SQLSerializableP", "table"]
+- !private ["3SQL15SQLSerializableP", "tables"]
+- !private ["3SQL8SQLTableP", "sqlTableIdentifierString"]
+- !private ["3SQL18SQLTableIdentifierP", "table"]
+- !private ["ST", "append"]
+- !private ["s14_AppendKeyPathP", "all"]
+- !private ["s14_AppendKeyPathP", "allTable"]
+- !private ["s14_AppendKeyPathP", "column"]
+- !private ["s14_AppendKeyPathP", "expression"]
+- !private ["s14_AppendKeyPathP", "keyPath"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+depends-nominal:
+- !private "s10AnyKeyPathC"
+- !private "4Core14AnyReflectableP"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "3SQL11AnySQLTableP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "11DatabaseKit0A9QueryableP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s7KeyPathC"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "SM"
+- !private "s14PartialKeyPathC"
+- !private "Sk"
+- !private "Sm"
+- !private "4Core11ReflectableP"
+- !private "4Core19ReflectionDecodableP"
+- !private "3SQL19SQLColumnIdentifierP"
+- "3SQL14SQLConnectableP"
+- "3SQL13SQLConnectionP"
+- !private "3SQL12SQLDirectionP"
+- !private "3SQL13SQLExpressionP"
+- !private "3SQL10SQLGroupByP"
+- !private "3SQL13SQLIdentifierP"
+- !private "3SQL7SQLJoinP"
+- !private "3SQL13SQLJoinMethodP"
+- !private "3SQL10SQLOrderByP"
+- "3SQL19SQLPredicateBuilderP"
+- "3SQL8SQLQueryP"
+- "3SQL15SQLQueryBuilderP"
+- "3SQL15SQLQueryFetcherP"
+- "3SQL9SQLSelectP"
+- "3SQL16SQLSelectBuilderC"
+- !private "3SQL19SQLSelectExpressionP"
+- "3SQL15SQLSerializableP"
+- !private "3SQL8SQLTableP"
+- !private "3SQL18SQLTableIdentifierP"
+- !private "ST"
+- !private "s14_AppendKeyPathP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/DatabaseKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "56a43cbd85ab73777531e1239a1e6840"

@@ -1,0 +1,168 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "QuerySupporting"
+provides-nominal:
+- "6Fluent15QuerySupportingP"
+provides-member:
+- ["6Fluent15QuerySupportingP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "Database"
+- "Decodable"
+- "Encodable"
+- "FluentProperty"
+- "Future"
+- "Int"
+- "Model"
+- "ModelEvent"
+- "QuerySupporting"
+- "String"
+- "Void"
+depends-member:
+- ["11DatabaseKit0A0P", "Bool"]
+- ["11DatabaseKit0A0P", "Connection"]
+- ["11DatabaseKit0A0P", "Decodable"]
+- ["11DatabaseKit0A0P", "Encodable"]
+- ["11DatabaseKit0A0P", "FluentProperty"]
+- ["11DatabaseKit0A0P", "Future"]
+- ["11DatabaseKit0A0P", "Int"]
+- ["11DatabaseKit0A0P", "Model"]
+- ["11DatabaseKit0A0P", "ModelEvent"]
+- ["11DatabaseKit0A0P", "Output"]
+- ["11DatabaseKit0A0P", "Query"]
+- ["11DatabaseKit0A0P", "QueryAction"]
+- ["11DatabaseKit0A0P", "QueryAggregate"]
+- ["11DatabaseKit0A0P", "QueryData"]
+- ["11DatabaseKit0A0P", "QueryField"]
+- ["11DatabaseKit0A0P", "QueryFilter"]
+- ["11DatabaseKit0A0P", "QueryFilterMethod"]
+- ["11DatabaseKit0A0P", "QueryFilterRelation"]
+- ["11DatabaseKit0A0P", "QueryFilterValue"]
+- ["11DatabaseKit0A0P", "QueryKey"]
+- ["11DatabaseKit0A0P", "QuerySort"]
+- ["11DatabaseKit0A0P", "QuerySortDirection"]
+- ["11DatabaseKit0A0P", "Self"]
+- ["11DatabaseKit0A0P", "String"]
+- ["11DatabaseKit0A0P", "Void"]
+- ["11DatabaseKit0A0P", ""]
+- ["6Fluent15QuerySupportingP", "Bool"]
+- ["6Fluent15QuerySupportingP", "Connection"]
+- ["6Fluent15QuerySupportingP", "Decodable"]
+- ["6Fluent15QuerySupportingP", "Encodable"]
+- ["6Fluent15QuerySupportingP", "FluentProperty"]
+- ["6Fluent15QuerySupportingP", "Future"]
+- ["6Fluent15QuerySupportingP", "Int"]
+- ["6Fluent15QuerySupportingP", "Model"]
+- ["6Fluent15QuerySupportingP", "ModelEvent"]
+- ["6Fluent15QuerySupportingP", "Output"]
+- ["6Fluent15QuerySupportingP", "Query"]
+- ["6Fluent15QuerySupportingP", "QueryAction"]
+- ["6Fluent15QuerySupportingP", "QueryAggregate"]
+- ["6Fluent15QuerySupportingP", "QueryData"]
+- ["6Fluent15QuerySupportingP", "QueryField"]
+- ["6Fluent15QuerySupportingP", "QueryFilter"]
+- ["6Fluent15QuerySupportingP", "QueryFilterMethod"]
+- ["6Fluent15QuerySupportingP", "QueryFilterRelation"]
+- ["6Fluent15QuerySupportingP", "QueryFilterValue"]
+- ["6Fluent15QuerySupportingP", "QueryKey"]
+- ["6Fluent15QuerySupportingP", "QuerySort"]
+- ["6Fluent15QuerySupportingP", "QuerySortDirection"]
+- ["6Fluent15QuerySupportingP", "Self"]
+- ["6Fluent15QuerySupportingP", "String"]
+- ["6Fluent15QuerySupportingP", "Void"]
+- ["6Fluent15QuerySupportingP", "modelEvent"]
+- ["6Fluent15QuerySupportingP", "query"]
+- ["6Fluent15QuerySupportingP", "queryActionApply"]
+- ["6Fluent15QuerySupportingP", "queryActionCreate"]
+- ["6Fluent15QuerySupportingP", "queryActionDelete"]
+- ["6Fluent15QuerySupportingP", "queryActionIsCreate"]
+- ["6Fluent15QuerySupportingP", "queryActionRead"]
+- ["6Fluent15QuerySupportingP", "queryActionUpdate"]
+- ["6Fluent15QuerySupportingP", "queryAggregate"]
+- ["6Fluent15QuerySupportingP", "queryAggregateAverage"]
+- ["6Fluent15QuerySupportingP", "queryAggregateCount"]
+- ["6Fluent15QuerySupportingP", "queryAggregateMaximum"]
+- ["6Fluent15QuerySupportingP", "queryAggregateMinimum"]
+- ["6Fluent15QuerySupportingP", "queryAggregateSum"]
+- ["6Fluent15QuerySupportingP", "queryDataApply"]
+- ["6Fluent15QuerySupportingP", "queryDataSet"]
+- ["6Fluent15QuerySupportingP", "queryDecode"]
+- ["6Fluent15QuerySupportingP", "queryDefaultFilterRelation"]
+- ["6Fluent15QuerySupportingP", "queryEncode"]
+- ["6Fluent15QuerySupportingP", "queryEntity"]
+- ["6Fluent15QuerySupportingP", "queryExecute"]
+- ["6Fluent15QuerySupportingP", "queryField"]
+- ["6Fluent15QuerySupportingP", "queryFilter"]
+- ["6Fluent15QuerySupportingP", "queryFilterApply"]
+- ["6Fluent15QuerySupportingP", "queryFilterGroup"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodEqual"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodGreaterThan"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodGreaterThanOrEqual"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodInSubset"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodLessThan"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodLessThanOrEqual"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodNotEqual"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodNotInSubset"]
+- ["6Fluent15QuerySupportingP", "queryFilterRelationAnd"]
+- ["6Fluent15QuerySupportingP", "queryFilterRelationOr"]
+- ["6Fluent15QuerySupportingP", "queryFilterValue"]
+- ["6Fluent15QuerySupportingP", "queryFilterValueNil"]
+- ["6Fluent15QuerySupportingP", "queryFilters"]
+- ["6Fluent15QuerySupportingP", "queryKey"]
+- ["6Fluent15QuerySupportingP", "queryKeyAll"]
+- ["6Fluent15QuerySupportingP", "queryKeyApply"]
+- ["6Fluent15QuerySupportingP", "queryRangeApply"]
+- ["6Fluent15QuerySupportingP", "querySort"]
+- ["6Fluent15QuerySupportingP", "querySortApply"]
+- ["6Fluent15QuerySupportingP", "querySortDirectionAscending"]
+- ["6Fluent15QuerySupportingP", "querySortDirectionDescending"]
+depends-nominal:
+- "11DatabaseKit0A0P"
+- "6Fluent15QuerySupportingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Command.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Console.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Logging.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/DatabaseKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d583feea82fa96a263a019513ebb0249"

@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "bed5610bbf57ffe3197d871bf5c0a322"
+build_time: [1544147838, 162099000]
+inputs:
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/NIOConcurrencyHelpers/atomics.swift": [1544147824, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/NIOConcurrencyHelpers/lock.swift": [1544147824, 0]

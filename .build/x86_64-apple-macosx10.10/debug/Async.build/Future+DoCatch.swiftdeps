@@ -1,0 +1,88 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["3NIO15EventLoopFutureC", ""]
+- ["Sl", ""]
+- ["3NIO15EventLoopFutureC", "do"]
+- ["3NIO15EventLoopFutureC", "catch"]
+- ["3NIO15EventLoopFutureC", "always"]
+- ["Sl", "do"]
+- ["Sl", "catch"]
+- ["Sl", "always"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Collection"
+- "Error"
+- "Future"
+- "FutureType"
+- "Worker"
+depends-member:
+- ["Sl", "Element"]
+- ["Sl", "Error"]
+- ["Sl", "Future"]
+- ["Sl", "FutureType"]
+- ["Sl", "Worker"]
+- ["Sl", "always"]
+- ["Sl", "catch"]
+- ["Sl", "do"]
+- !private ["Sl", "flatten"]
+- !private ["SQ", "always"]
+- !private ["SQ", "catch"]
+- !private ["SQ", "do"]
+- !private ["SQ", "whenComplete"]
+- !private ["SQ", "whenFailure"]
+- !private ["SQ", "whenSuccess"]
+- ["3NIO15EventLoopFutureC", "Error"]
+- ["3NIO15EventLoopFutureC", "Future"]
+- ["3NIO15EventLoopFutureC", "T"]
+- ["3NIO15EventLoopFutureC", "always"]
+- ["3NIO15EventLoopFutureC", "catch"]
+- ["3NIO15EventLoopFutureC", "do"]
+- !private ["3NIO15EventLoopFutureC", "whenComplete"]
+- !private ["3NIO15EventLoopFutureC", "whenFailure"]
+- !private ["3NIO15EventLoopFutureC", "whenSuccess"]
+- !private ["5Async10FutureTypeP", "always"]
+- !private ["5Async10FutureTypeP", "catch"]
+- !private ["5Async10FutureTypeP", "do"]
+- !private ["5Async10FutureTypeP", "whenComplete"]
+- !private ["5Async10FutureTypeP", "whenFailure"]
+- !private ["5Async10FutureTypeP", "whenSuccess"]
+- ["ST", "Element"]
+- ["ST", "Error"]
+- ["ST", "Future"]
+- ["ST", "FutureType"]
+- ["ST", "Worker"]
+- !private ["ST", "flatten"]
+depends-nominal:
+- "Sl"
+- !private "SQ"
+- "3NIO15EventLoopFutureC"
+- !private "5Async10FutureTypeP"
+- "ST"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+interface-hash: "ef386b9762a849a77a0bf7d23ed604f5"

@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "c628eb3eb833174954234925f64d6090"
+build_time: [1544147845, 517629000]
+inputs:
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/multipart.git--8624239246873209060/Sources/Multipart/Exports.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/multipart.git--8624239246873209060/Sources/Multipart/FormDataDecoder.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/multipart.git--8624239246873209060/Sources/Multipart/FormDataEncoder.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/multipart.git--8624239246873209060/Sources/Multipart/MultipartError.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/multipart.git--8624239246873209060/Sources/Multipart/MultipartParser.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/multipart.git--8624239246873209060/Sources/Multipart/MultipartPart.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/multipart.git--8624239246873209060/Sources/Multipart/MultipartPartConvertible.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/multipart.git--8624239246873209060/Sources/Multipart/MultipartSerializer.swift": [1544147827, 0]

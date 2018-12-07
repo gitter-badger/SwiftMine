@@ -1,0 +1,303 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RecvByteBufferAllocator"
+- "FixedSizeRecvByteBufferAllocator"
+- "AdaptiveRecvByteBufferAllocator"
+provides-nominal:
+- "3NIO23RecvByteBufferAllocatorP"
+- "3NIO32FixedSizeRecvByteBufferAllocatorV"
+- "3NIO31AdaptiveRecvByteBufferAllocatorV"
+provides-member:
+- ["3NIO23RecvByteBufferAllocatorP", ""]
+- ["3NIO32FixedSizeRecvByteBufferAllocatorV", ""]
+- ["3NIO31AdaptiveRecvByteBufferAllocatorV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "+="
+- !private "-"
+- "<"
+- "<<="
+- !private "<="
+- !private "=="
+- ">"
+- !private ">="
+- !private ">>"
+- "AdaptiveRecvByteBufferAllocator"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ByteBuffer"
+- "ByteBufferAllocator"
+- "FixedSizeRecvByteBufferAllocator"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "RecvByteBufferAllocator"
+- !private "StringLiteralType"
+- !private "max"
+- !private "min"
+- !private "precondition"
+depends-member:
+- !private ["3NIO31AdaptiveRecvByteBufferAllocatorV", "AdaptiveRecvByteBufferAllocator"]
+- ["3NIO31AdaptiveRecvByteBufferAllocatorV", "Bool"]
+- ["3NIO31AdaptiveRecvByteBufferAllocatorV", "ByteBuffer"]
+- ["3NIO31AdaptiveRecvByteBufferAllocatorV", "ByteBufferAllocator"]
+- ["3NIO31AdaptiveRecvByteBufferAllocatorV", "Int"]
+- ["3NIO31AdaptiveRecvByteBufferAllocatorV", "buffer"]
+- !private ["3NIO31AdaptiveRecvByteBufferAllocatorV", "decreaseNow"]
+- ["3NIO31AdaptiveRecvByteBufferAllocatorV", "deinit"]
+- !private ["3NIO31AdaptiveRecvByteBufferAllocatorV", "index"]
+- !private ["3NIO31AdaptiveRecvByteBufferAllocatorV", "indexDecrement"]
+- !private ["3NIO31AdaptiveRecvByteBufferAllocatorV", "indexIncrement"]
+- ["3NIO31AdaptiveRecvByteBufferAllocatorV", "init"]
+- ["3NIO31AdaptiveRecvByteBufferAllocatorV", "initial"]
+- !private ["3NIO31AdaptiveRecvByteBufferAllocatorV", "max"]
+- !private ["3NIO31AdaptiveRecvByteBufferAllocatorV", "maxIndex"]
+- ["3NIO31AdaptiveRecvByteBufferAllocatorV", "maximum"]
+- !private ["3NIO31AdaptiveRecvByteBufferAllocatorV", "min"]
+- !private ["3NIO31AdaptiveRecvByteBufferAllocatorV", "minIndex"]
+- ["3NIO31AdaptiveRecvByteBufferAllocatorV", "minimum"]
+- !private ["3NIO31AdaptiveRecvByteBufferAllocatorV", "nextReceiveBufferSize"]
+- !private ["3NIO31AdaptiveRecvByteBufferAllocatorV", "precondition"]
+- ["3NIO31AdaptiveRecvByteBufferAllocatorV", "record"]
+- !private ["3NIO31AdaptiveRecvByteBufferAllocatorV", "sizeTable"]
+- !private ["3NIO31AdaptiveRecvByteBufferAllocatorV", "sizeTableIndex"]
+- ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- ["Sb", "_getBuiltinLogicValue"]
+- !private ["3NIO19ByteBufferAllocatorV", "buffer"]
+- ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["Se", "_getBuiltinLogicValue"]
+- ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- ["SE", "_getBuiltinLogicValue"]
+- ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "append"]
+- !private ["SQ", "count"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "subscript"]
+- ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["3NIO32FixedSizeRecvByteBufferAllocatorV", "Bool"]
+- ["3NIO32FixedSizeRecvByteBufferAllocatorV", "ByteBuffer"]
+- ["3NIO32FixedSizeRecvByteBufferAllocatorV", "ByteBufferAllocator"]
+- ["3NIO32FixedSizeRecvByteBufferAllocatorV", "Int"]
+- ["3NIO32FixedSizeRecvByteBufferAllocatorV", "buffer"]
+- ["3NIO32FixedSizeRecvByteBufferAllocatorV", "capacity"]
+- ["3NIO32FixedSizeRecvByteBufferAllocatorV", "deinit"]
+- ["3NIO32FixedSizeRecvByteBufferAllocatorV", "init"]
+- !private ["3NIO32FixedSizeRecvByteBufferAllocatorV", "precondition"]
+- ["3NIO32FixedSizeRecvByteBufferAllocatorV", "record"]
+- ["SH", "_getBuiltinLogicValue"]
+- ["SH", "append"]
+- !private ["SH", "count"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "subscript"]
+- ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "subscript"]
+- ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "subscript"]
+- ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["3NIO23RecvByteBufferAllocatorP", "AdaptiveRecvByteBufferAllocator"]
+- ["3NIO23RecvByteBufferAllocatorP", "Bool"]
+- ["3NIO23RecvByteBufferAllocatorP", "ByteBuffer"]
+- ["3NIO23RecvByteBufferAllocatorP", "ByteBufferAllocator"]
+- ["3NIO23RecvByteBufferAllocatorP", "Int"]
+- ["3NIO23RecvByteBufferAllocatorP", ""]
+- ["3NIO23RecvByteBufferAllocatorP", "buffer"]
+- !private ["3NIO23RecvByteBufferAllocatorP", "capacity"]
+- !private ["3NIO23RecvByteBufferAllocatorP", "decreaseNow"]
+- !private ["3NIO23RecvByteBufferAllocatorP", "index"]
+- !private ["3NIO23RecvByteBufferAllocatorP", "indexDecrement"]
+- !private ["3NIO23RecvByteBufferAllocatorP", "indexIncrement"]
+- !private ["3NIO23RecvByteBufferAllocatorP", "init"]
+- !private ["3NIO23RecvByteBufferAllocatorP", "initial"]
+- !private ["3NIO23RecvByteBufferAllocatorP", "max"]
+- !private ["3NIO23RecvByteBufferAllocatorP", "maxIndex"]
+- !private ["3NIO23RecvByteBufferAllocatorP", "maximum"]
+- !private ["3NIO23RecvByteBufferAllocatorP", "min"]
+- !private ["3NIO23RecvByteBufferAllocatorP", "minIndex"]
+- !private ["3NIO23RecvByteBufferAllocatorP", "minimum"]
+- !private ["3NIO23RecvByteBufferAllocatorP", "nextReceiveBufferSize"]
+- !private ["3NIO23RecvByteBufferAllocatorP", "precondition"]
+- ["3NIO23RecvByteBufferAllocatorP", "record"]
+- !private ["3NIO23RecvByteBufferAllocatorP", "sizeTable"]
+- !private ["3NIO23RecvByteBufferAllocatorP", "sizeTableIndex"]
+- ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "3NIO31AdaptiveRecvByteBufferAllocatorV"
+- "Sa"
+- "s13ArrayProtocolP"
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "SK"
+- "Sb"
+- !private "3NIO19ByteBufferAllocatorV"
+- "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "3NIO32FixedSizeRecvByteBufferAllocatorV"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "SM"
+- "Sk"
+- "Sm"
+- "3NIO23RecvByteBufferAllocatorP"
+- "ST"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+interface-hash: "6d38bacb8c0ca5cf8d991588065cd0e2"

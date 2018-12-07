@@ -1,0 +1,4 @@
+module CNIOLinux {
+    umbrella "/Users/davidseitzjr/Desktop/Minecraft/SwiftMine/.build/checkouts/swift-nio.git-1040269697393771273/Sources/CNIOLinux/include"
+    export *
+}

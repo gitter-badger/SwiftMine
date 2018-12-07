@@ -1,0 +1,266 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OSRandom"
+provides-nominal:
+- "6Random8OSRandomV"
+provides-member:
+- ["6Random8OSRandomV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "-"
+- !private "..<"
+- "Byte"
+- "Data"
+- "DataGenerator"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "OSRandom"
+- !private "UInt32"
+- !private "arc4random_uniform"
+depends-member:
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "Byte"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "Int"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "max"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "maxByte"]
+- !private ["SK", "append"]
+- !private ["SK", "init"]
+- ["Sz", "Byte"]
+- ["Sz", "Int"]
+- ["Sz", "init"]
+- ["Sz", "max"]
+- !private ["Sz", "maxByte"]
+- ["s7CVarArgP", "Byte"]
+- ["s7CVarArgP", "Int"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "maxByte"]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- ["SL", "Byte"]
+- ["SL", "Int"]
+- ["SL", "init"]
+- ["SL", "max"]
+- !private ["SL", "maxByte"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "Byte"]
+- ["s29CustomPlaygroundQuickLookableP", "Int"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "max"]
+- !private ["s29CustomPlaygroundQuickLookableP", "maxByte"]
+- ["s17CustomReflectableP", "Byte"]
+- ["s17CustomReflectableP", "Int"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "max"]
+- !private ["s17CustomReflectableP", "maxByte"]
+- ["s23CustomStringConvertibleP", "Byte"]
+- ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "maxByte"]
+- !private ["10Foundation4DataV", "append"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["6Random13DataGeneratorP", "Byte"]
+- !private ["6Random13DataGeneratorP", "Data"]
+- !private ["6Random13DataGeneratorP", "Int"]
+- !private ["6Random13DataGeneratorP", "UInt32"]
+- ["6Random13DataGeneratorP", ""]
+- !private ["6Random13DataGeneratorP", "arc4random_uniform"]
+- ["6Random13DataGeneratorP", "generateData"]
+- !private ["6Random13DataGeneratorP", "makeRandom"]
+- ["Se", "Byte"]
+- ["Se", "Int"]
+- !private ["Se", "append"]
+- ["Se", "init"]
+- ["Se", "max"]
+- !private ["Se", "maxByte"]
+- ["SE", "Byte"]
+- ["SE", "Int"]
+- !private ["SE", "append"]
+- ["SE", "init"]
+- ["SE", "max"]
+- !private ["SE", "maxByte"]
+- ["SQ", "Byte"]
+- ["SQ", "Int"]
+- !private ["SQ", "append"]
+- ["SQ", "init"]
+- ["SQ", "max"]
+- !private ["SQ", "maxByte"]
+- ["s27ExpressibleByIntegerLiteralP", "Byte"]
+- ["s27ExpressibleByIntegerLiteralP", "Int"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "max"]
+- !private ["s27ExpressibleByIntegerLiteralP", "maxByte"]
+- ["s17FixedWidthIntegerP", "Byte"]
+- ["s17FixedWidthIntegerP", "Int"]
+- ["s17FixedWidthIntegerP", "init"]
+- ["s17FixedWidthIntegerP", "max"]
+- !private ["s17FixedWidthIntegerP", "maxByte"]
+- ["SH", "Byte"]
+- ["SH", "Int"]
+- !private ["SH", "append"]
+- ["SH", "init"]
+- ["SH", "max"]
+- !private ["SH", "maxByte"]
+- ["Si", "Byte"]
+- ["Si", "Int"]
+- ["Si", "init"]
+- !private ["Si", "maxByte"]
+- ["s25LosslessStringConvertibleP", "Byte"]
+- ["s25LosslessStringConvertibleP", "Int"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "max"]
+- !private ["s25LosslessStringConvertibleP", "maxByte"]
+- ["s10MirrorPathP", "Byte"]
+- ["s10MirrorPathP", "Int"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "maxByte"]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
+- ["Sj", "Byte"]
+- ["Sj", "Int"]
+- ["Sj", "init"]
+- ["Sj", "max"]
+- !private ["Sj", "maxByte"]
+- !private ["6Random8OSRandomV", "Byte"]
+- ["6Random8OSRandomV", "Data"]
+- ["6Random8OSRandomV", "Int"]
+- !private ["6Random8OSRandomV", "UInt32"]
+- !private ["6Random8OSRandomV", "arc4random_uniform"]
+- ["6Random8OSRandomV", "deinit"]
+- ["6Random8OSRandomV", "generateData"]
+- ["6Random8OSRandomV", "init"]
+- !private ["6Random8OSRandomV", "makeRandom"]
+- !private ["Sk", "append"]
+- !private ["Sk", "init"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "append"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- ["SZ", "Byte"]
+- ["SZ", "Int"]
+- ["SZ", "init"]
+- !private ["SZ", "maxByte"]
+- ["s13SignedNumericP", "Byte"]
+- ["s13SignedNumericP", "Int"]
+- ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "maxByte"]
+- ["Sx", "Byte"]
+- ["Sx", "Int"]
+- ["Sx", "init"]
+- ["Sx", "max"]
+- !private ["Sx", "maxByte"]
+- !private ["s6UInt32V", "init"]
+- !private ["s5UInt8V", "init"]
+- ["s5UInt8V", "max"]
+- !private ["SU", "init"]
+- ["SU", "max"]
+- ["s18_BitwiseOperationsP", "Byte"]
+- ["s18_BitwiseOperationsP", "Int"]
+- ["s18_BitwiseOperationsP", "init"]
+- ["s18_BitwiseOperationsP", "max"]
+- !private ["s18_BitwiseOperationsP", "maxByte"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "Byte"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "Int"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "max"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "maxByte"]
+- ["s35_HasCustomAnyHashableRepresentationP", "Byte"]
+- ["s35_HasCustomAnyHashableRepresentationP", "Int"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "max"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "maxByte"]
+- ["s21_ObjectiveCBridgeableP", "Byte"]
+- ["s21_ObjectiveCBridgeableP", "Int"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "max"]
+- !private ["s21_ObjectiveCBridgeableP", "maxByte"]
+- !private ["s14_StringElementP", "init"]
+- ["s14_StringElementP", "max"]
+depends-nominal:
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "SK"
+- "Sz"
+- "s7CVarArgP"
+- !private "Sl"
+- "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- "6Random13DataGeneratorP"
+- "Se"
+- "SE"
+- "SQ"
+- "s27ExpressibleByIntegerLiteralP"
+- "s17FixedWidthIntegerP"
+- "SH"
+- "Si"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- "Sj"
+- "6Random8OSRandomV"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- !private "s6UInt32V"
+- "s5UInt8V"
+- "SU"
+- "s18_BitwiseOperationsP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+- "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-ssl-support.git-7929588247395141738/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "dba7edd3cfa6030f6502c7a5b5510ed5"

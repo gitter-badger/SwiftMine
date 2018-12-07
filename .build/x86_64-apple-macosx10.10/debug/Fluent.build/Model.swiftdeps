@@ -1,0 +1,563 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Model"
+provides-nominal:
+- "6Fluent5ModelP"
+provides-member:
+- ["6Fluent5ModelP", ""]
+- ["Se", ""]
+- ["6Fluent5ModelP", "willCreate"]
+- ["6Fluent5ModelP", "didCreate"]
+- ["6Fluent5ModelP", "willUpdate"]
+- ["6Fluent5ModelP", "didUpdate"]
+- ["6Fluent5ModelP", "willRead"]
+- ["6Fluent5ModelP", "willDelete"]
+- ["6Fluent5ModelP", "didDelete"]
+- ["6Fluent5ModelP", "willRestore"]
+- ["6Fluent5ModelP", "didRestore"]
+- ["6Fluent5ModelP", "willSoftDelete"]
+- ["6Fluent5ModelP", "didSoftDelete"]
+- ["6Fluent5ModelP", "createdAtKey"]
+- ["6Fluent5ModelP", "updatedAtKey"]
+- ["6Fluent5ModelP", "deletedAtKey"]
+- ["6Fluent5ModelP", "requireID"]
+- ["6Fluent5ModelP", "fluentID"]
+- ["6Fluent5ModelP", "fluentCreatedAt"]
+- ["6Fluent5ModelP", "fluentUpdatedAt"]
+- ["6Fluent5ModelP", "fluentDeletedAt"]
+- ["6Fluent5ModelP", "query"]
+- ["6Fluent5ModelP", "find"]
+- ["6Fluent5ModelP", "query"]
+- ["Se", "query"]
+- ["6Fluent5ModelP", "defaultDatabase"]
+- ["6Fluent5ModelP", "requireDefaultDatabase"]
+- ["6Fluent5ModelP", "make"]
+- ["6Fluent5ModelP", "resolveParameter"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "=="
+- !private ">"
+- "AnyModel"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "Container"
+- "DatabaseConnectable"
+- "DatabaseConnection"
+- "DatabaseIdentifier"
+- "Date"
+- "Decodable"
+- !private "FloatLiteralType"
+- "Fluent"
+- !private "FluentError"
+- "Future"
+- "ID"
+- !private "IntegerLiteralType"
+- !private "LosslessStringConvertible"
+- "Model"
+- !private "NotFound"
+- "ObjectIdentifier"
+- "QueryBuilder"
+- "QuerySupporting"
+- "Reflectable"
+- "String"
+- !private "StringLiteralType"
+- !private "SubContainer"
+- !private "UnicodeScalarType"
+- "WritableKeyPath"
+- !private "_defaultDatabases"
+depends-member:
+- ["6Fluent8AnyModelP", "Bool"]
+- ["6Fluent8AnyModelP", "Container"]
+- ["6Fluent8AnyModelP", "Database"]
+- ["6Fluent8AnyModelP", "DatabaseConnectable"]
+- ["6Fluent8AnyModelP", "DatabaseIdentifier"]
+- ["6Fluent8AnyModelP", "Date"]
+- ["6Fluent8AnyModelP", "Fluent"]
+- !private ["6Fluent8AnyModelP", "FluentError"]
+- ["6Fluent8AnyModelP", "Future"]
+- ["6Fluent8AnyModelP", "ID"]
+- ["6Fluent8AnyModelP", "IDKey"]
+- !private ["6Fluent8AnyModelP", "LosslessStringConvertible"]
+- !private ["6Fluent8AnyModelP", "NotFound"]
+- !private ["6Fluent8AnyModelP", "ObjectIdentifier"]
+- ["6Fluent8AnyModelP", "QueryBuilder"]
+- ["6Fluent8AnyModelP", "QuerySupporting"]
+- ["6Fluent8AnyModelP", "Self"]
+- ["6Fluent8AnyModelP", "String"]
+- !private ["6Fluent8AnyModelP", "SubContainer"]
+- ["6Fluent8AnyModelP", "TimestampKey"]
+- ["6Fluent8AnyModelP", "WritableKeyPath"]
+- ["6Fluent8AnyModelP", ""]
+- !private ["6Fluent8AnyModelP", "_defaultDatabases"]
+- !private ["6Fluent8AnyModelP", "createdAtKey"]
+- !private ["6Fluent8AnyModelP", "defaultDatabase"]
+- !private ["6Fluent8AnyModelP", "deletedAtKey"]
+- !private ["6Fluent8AnyModelP", "entity"]
+- !private ["6Fluent8AnyModelP", "find"]
+- !private ["6Fluent8AnyModelP", "fluentID"]
+- !private ["6Fluent8AnyModelP", "idKey"]
+- !private ["6Fluent8AnyModelP", "make"]
+- !private ["6Fluent8AnyModelP", "query"]
+- !private ["6Fluent8AnyModelP", "requireDefaultDatabase"]
+- !private ["6Fluent8AnyModelP", "subscript"]
+- !private ["6Fluent8AnyModelP", "updatedAtKey"]
+- !private ["6Fluent8AnyModelP", "willRead"]
+- ["4Core14AnyReflectableP", "Bool"]
+- ["4Core14AnyReflectableP", "Container"]
+- ["4Core14AnyReflectableP", "Database"]
+- ["4Core14AnyReflectableP", "DatabaseConnectable"]
+- ["4Core14AnyReflectableP", "DatabaseIdentifier"]
+- ["4Core14AnyReflectableP", "Date"]
+- ["4Core14AnyReflectableP", "Fluent"]
+- !private ["4Core14AnyReflectableP", "FluentError"]
+- ["4Core14AnyReflectableP", "Future"]
+- ["4Core14AnyReflectableP", "ID"]
+- ["4Core14AnyReflectableP", "IDKey"]
+- !private ["4Core14AnyReflectableP", "LosslessStringConvertible"]
+- !private ["4Core14AnyReflectableP", "NotFound"]
+- !private ["4Core14AnyReflectableP", "ObjectIdentifier"]
+- ["4Core14AnyReflectableP", "QueryBuilder"]
+- ["4Core14AnyReflectableP", "QuerySupporting"]
+- ["4Core14AnyReflectableP", "Self"]
+- ["4Core14AnyReflectableP", "String"]
+- !private ["4Core14AnyReflectableP", "SubContainer"]
+- ["4Core14AnyReflectableP", "TimestampKey"]
+- ["4Core14AnyReflectableP", "WritableKeyPath"]
+- !private ["4Core14AnyReflectableP", "_defaultDatabases"]
+- !private ["4Core14AnyReflectableP", "createdAtKey"]
+- !private ["4Core14AnyReflectableP", "defaultDatabase"]
+- !private ["4Core14AnyReflectableP", "deletedAtKey"]
+- !private ["4Core14AnyReflectableP", "entity"]
+- !private ["4Core14AnyReflectableP", "find"]
+- !private ["4Core14AnyReflectableP", "fluentID"]
+- !private ["4Core14AnyReflectableP", "idKey"]
+- !private ["4Core14AnyReflectableP", "make"]
+- !private ["4Core14AnyReflectableP", "query"]
+- !private ["4Core14AnyReflectableP", "requireDefaultDatabase"]
+- !private ["4Core14AnyReflectableP", "subscript"]
+- !private ["4Core14AnyReflectableP", "updatedAtKey"]
+- !private ["4Core14AnyReflectableP", "willRead"]
+- !private ["4Core22AnyReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "subscript"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["5Async11BasicWorkerP", "requestCachedConnection"]
+- !private ["5Async11BasicWorkerP", "withPooledConnection"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["7Service9ContainerP", "requestCachedConnection"]
+- !private ["7Service9ContainerP", "withPooledConnection"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["11DatabaseKit0A0P", "Output"]
+- !private ["11DatabaseKit0A0P", "modelEvent"]
+- !private ["11DatabaseKit0A0P", "queryFilterRelationOr"]
+- !private ["11DatabaseKit0A11ConnectableP", "Database"]
+- !private ["11DatabaseKit0A11ConnectableP", "databaseConnection"]
+- !private ["11DatabaseKit0A11ConnectableP", "future"]
+- !private ["11DatabaseKit0A10ConnectionP", "Database"]
+- !private ["11DatabaseKit0A10ConnectionP", "future"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["9Debugging10DebuggableP", "init"]
+- ["Se", "Bool"]
+- ["Se", "Container"]
+- ["Se", "Database"]
+- ["Se", "DatabaseConnectable"]
+- ["Se", "DatabaseConnection"]
+- ["Se", "DatabaseIdentifier"]
+- ["Se", "Date"]
+- ["Se", "Fluent"]
+- !private ["Se", "FluentError"]
+- ["Se", "Future"]
+- ["Se", "ID"]
+- ["Se", "IDKey"]
+- !private ["Se", "LosslessStringConvertible"]
+- !private ["Se", "NotFound"]
+- !private ["Se", "ObjectIdentifier"]
+- ["Se", "QueryBuilder"]
+- ["Se", "QuerySupporting"]
+- ["Se", "Self"]
+- ["Se", "String"]
+- !private ["Se", "SubContainer"]
+- ["Se", "TimestampKey"]
+- ["Se", "WritableKeyPath"]
+- !private ["Se", "_defaultDatabases"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "createdAtKey"]
+- !private ["Se", "defaultDatabase"]
+- !private ["Se", "deletedAtKey"]
+- !private ["Se", "entity"]
+- !private ["Se", "find"]
+- !private ["Se", "fluentID"]
+- !private ["Se", "idKey"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "make"]
+- ["Se", "query"]
+- !private ["Se", "requireDefaultDatabase"]
+- !private ["Se", "subscript"]
+- !private ["Se", "updatedAtKey"]
+- !private ["Se", "willRead"]
+- !private ["SD", "subscript"]
+- ["SE", "Bool"]
+- ["SE", "Container"]
+- ["SE", "Database"]
+- ["SE", "DatabaseConnectable"]
+- ["SE", "DatabaseIdentifier"]
+- ["SE", "Date"]
+- ["SE", "Fluent"]
+- !private ["SE", "FluentError"]
+- ["SE", "Future"]
+- ["SE", "ID"]
+- ["SE", "IDKey"]
+- !private ["SE", "LosslessStringConvertible"]
+- !private ["SE", "NotFound"]
+- !private ["SE", "ObjectIdentifier"]
+- ["SE", "QueryBuilder"]
+- ["SE", "QuerySupporting"]
+- ["SE", "Self"]
+- ["SE", "String"]
+- !private ["SE", "SubContainer"]
+- ["SE", "TimestampKey"]
+- ["SE", "WritableKeyPath"]
+- !private ["SE", "_defaultDatabases"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "createdAtKey"]
+- !private ["SE", "defaultDatabase"]
+- !private ["SE", "deletedAtKey"]
+- !private ["SE", "entity"]
+- !private ["SE", "find"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "fluentID"]
+- !private ["SE", "idKey"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "make"]
+- !private ["SE", "map"]
+- !private ["SE", "query"]
+- !private ["SE", "requireDefaultDatabase"]
+- !private ["SE", "subscript"]
+- !private ["SE", "updatedAtKey"]
+- !private ["SE", "willRead"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "willRead"]
+- !private ["s5ErrorP", "init"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO14EventLoopGroupP", "Database"]
+- !private ["3NIO14EventLoopGroupP", "databaseConnection"]
+- !private ["3NIO14EventLoopGroupP", "future"]
+- !private ["3NIO14EventLoopGroupP", "requestCachedConnection"]
+- !private ["3NIO14EventLoopGroupP", "withPooledConnection"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["7Service10ExtendableP", "Database"]
+- !private ["7Service10ExtendableP", "future"]
+- !private ["6Fluent0A5ErrorV", "deinit"]
+- !private ["6Fluent0A5ErrorV", "init"]
+- !private ["5Async10FutureTypeP", "flatMap"]
+- !private ["5Async10FutureTypeP", "map"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "subscript"]
+- !private ["SH", "willRead"]
+- !private ["6Fluent2IDP", "init"]
+- !private ["6Fluent2IDP", "init"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["6Fluent5ModelP", "Bool"]
+- ["6Fluent5ModelP", "Container"]
+- ["6Fluent5ModelP", "Database"]
+- ["6Fluent5ModelP", "DatabaseConnectable"]
+- ["6Fluent5ModelP", "DatabaseIdentifier"]
+- ["6Fluent5ModelP", "Date"]
+- ["6Fluent5ModelP", "Fluent"]
+- !private ["6Fluent5ModelP", "FluentError"]
+- ["6Fluent5ModelP", "Future"]
+- ["6Fluent5ModelP", "ID"]
+- ["6Fluent5ModelP", "IDKey"]
+- !private ["6Fluent5ModelP", "LosslessStringConvertible"]
+- !private ["6Fluent5ModelP", "NotFound"]
+- !private ["6Fluent5ModelP", "ObjectIdentifier"]
+- ["6Fluent5ModelP", "QueryBuilder"]
+- ["6Fluent5ModelP", "QuerySupporting"]
+- ["6Fluent5ModelP", "Self"]
+- ["6Fluent5ModelP", "String"]
+- !private ["6Fluent5ModelP", "SubContainer"]
+- ["6Fluent5ModelP", "TimestampKey"]
+- ["6Fluent5ModelP", "WritableKeyPath"]
+- !private ["6Fluent5ModelP", "_defaultDatabases"]
+- ["6Fluent5ModelP", "createdAtKey"]
+- ["6Fluent5ModelP", "defaultDatabase"]
+- ["6Fluent5ModelP", "deletedAtKey"]
+- ["6Fluent5ModelP", "didCreate"]
+- ["6Fluent5ModelP", "didDelete"]
+- ["6Fluent5ModelP", "didRestore"]
+- ["6Fluent5ModelP", "didSoftDelete"]
+- ["6Fluent5ModelP", "didUpdate"]
+- !private ["6Fluent5ModelP", "entity"]
+- ["6Fluent5ModelP", "find"]
+- ["6Fluent5ModelP", "fluentCreatedAt"]
+- ["6Fluent5ModelP", "fluentDeletedAt"]
+- ["6Fluent5ModelP", "fluentID"]
+- ["6Fluent5ModelP", "fluentUpdatedAt"]
+- ["6Fluent5ModelP", "idKey"]
+- ["6Fluent5ModelP", "make"]
+- ["6Fluent5ModelP", "query"]
+- ["6Fluent5ModelP", "requireDefaultDatabase"]
+- ["6Fluent5ModelP", "requireID"]
+- ["6Fluent5ModelP", "resolveParameter"]
+- !private ["6Fluent5ModelP", "subscript"]
+- ["6Fluent5ModelP", "updatedAtKey"]
+- ["6Fluent5ModelP", "willCreate"]
+- ["6Fluent5ModelP", "willDelete"]
+- ["6Fluent5ModelP", "willRead"]
+- ["6Fluent5ModelP", "willRestore"]
+- ["6Fluent5ModelP", "willSoftDelete"]
+- ["6Fluent5ModelP", "willUpdate"]
+- !private ["6Fluent10ModelEventO", "willRead"]
+- !private ["4Core8NotFoundV", "init"]
+- !private ["SO", "init"]
+- !private ["6Fluent12QueryBuilderC", "decode"]
+- !private ["6Fluent12QueryBuilderC", "filter"]
+- !private ["6Fluent12QueryBuilderC", "first"]
+- !private ["6Fluent12QueryBuilderC", "group"]
+- !private ["6Fluent12QueryBuilderC", "raw"]
+- !private ["6Fluent12QueryBuilderC", "transformResult"]
+- !private ["6Fluent15QuerySupportingP", "Output"]
+- !private ["6Fluent15QuerySupportingP", "modelEvent"]
+- !private ["6Fluent15QuerySupportingP", "queryFilterRelationOr"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["4Core11ReflectableP", "Bool"]
+- ["4Core11ReflectableP", "Container"]
+- ["4Core11ReflectableP", "Database"]
+- ["4Core11ReflectableP", "DatabaseConnectable"]
+- ["4Core11ReflectableP", "DatabaseIdentifier"]
+- ["4Core11ReflectableP", "Date"]
+- ["4Core11ReflectableP", "Fluent"]
+- !private ["4Core11ReflectableP", "FluentError"]
+- ["4Core11ReflectableP", "Future"]
+- ["4Core11ReflectableP", "ID"]
+- ["4Core11ReflectableP", "IDKey"]
+- !private ["4Core11ReflectableP", "LosslessStringConvertible"]
+- !private ["4Core11ReflectableP", "NotFound"]
+- !private ["4Core11ReflectableP", "ObjectIdentifier"]
+- ["4Core11ReflectableP", "QueryBuilder"]
+- ["4Core11ReflectableP", "QuerySupporting"]
+- ["4Core11ReflectableP", "Self"]
+- ["4Core11ReflectableP", "String"]
+- !private ["4Core11ReflectableP", "SubContainer"]
+- ["4Core11ReflectableP", "TimestampKey"]
+- ["4Core11ReflectableP", "WritableKeyPath"]
+- ["4Core11ReflectableP", ""]
+- !private ["4Core11ReflectableP", "_defaultDatabases"]
+- !private ["4Core11ReflectableP", "createdAtKey"]
+- !private ["4Core11ReflectableP", "defaultDatabase"]
+- !private ["4Core11ReflectableP", "deletedAtKey"]
+- !private ["4Core11ReflectableP", "entity"]
+- !private ["4Core11ReflectableP", "find"]
+- !private ["4Core11ReflectableP", "fluentID"]
+- !private ["4Core11ReflectableP", "idKey"]
+- !private ["4Core11ReflectableP", "make"]
+- !private ["4Core11ReflectableP", "query"]
+- !private ["4Core11ReflectableP", "requireDefaultDatabase"]
+- !private ["4Core11ReflectableP", "subscript"]
+- !private ["4Core11ReflectableP", "updatedAtKey"]
+- !private ["4Core11ReflectableP", "willRead"]
+- !private ["4Core19ReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "subscript"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["7Service12SubContainerP", "requestCachedConnection"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "6Fluent8AnyModelP"
+- "4Core14AnyReflectableP"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "5Async11BasicWorkerP"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "7Service9ContainerP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "11DatabaseKit0A0P"
+- !private "11DatabaseKit0A11ConnectableP"
+- !private "11DatabaseKit0A10ConnectionP"
+- !private "10Foundation4DateV"
+- !private "9Debugging10DebuggableP"
+- "Se"
+- !private "SD"
+- "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7Service10ExtendableP"
+- !private "6Fluent0A5ErrorV"
+- !private "5Async10FutureTypeP"
+- !private "SH"
+- !private "6Fluent2IDP"
+- !private "10Foundation14LocalizedErrorP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "6Fluent5ModelP"
+- !private "6Fluent10ModelEventO"
+- !private "4Core8NotFoundV"
+- !private "SO"
+- !private "6Fluent12QueryBuilderC"
+- !private "6Fluent15QuerySupportingP"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- "4Core11ReflectableP"
+- !private "4Core19ReflectionDecodableP"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "7Service12SubContainerP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Command.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Console.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Logging.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/DatabaseKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "89c6ca8590f26873a43550e25b7dd323"

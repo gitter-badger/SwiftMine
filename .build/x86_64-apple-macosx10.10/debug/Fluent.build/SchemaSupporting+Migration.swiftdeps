@@ -1,0 +1,307 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "6Fluent12MigrationLogC"
+provides-member:
+- ["6Fluent16SchemaSupportingP", ""]
+- ["6Fluent12MigrationLogC", ""]
+- ["6Fluent16SchemaSupportingP", "prepareMigrationMetadata"]
+- ["6Fluent16SchemaSupportingP", "revertMigrationMetadata"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyMigration"
+- !private "FloatLiteralType"
+- "Future"
+- !private "IntegerLiteralType"
+- "Migration"
+- "MigrationLog"
+- "MigrationSupporting"
+- "SchemaSupporting"
+- !private "StringLiteralType"
+- "Void"
+depends-member:
+- ["6Fluent12AnyMigrationP", "Database"]
+- !private ["6Fluent12AnyMigrationP", "MigrationLog"]
+- ["6Fluent12AnyMigrationP", "MigrationSupporting"]
+- ["6Fluent12AnyMigrationP", "SchemaSupporting"]
+- !private ["6Fluent12AnyMigrationP", "Void"]
+- ["6Fluent12AnyMigrationP", ""]
+- ["6Fluent12AnyMigrationP", "_Default_Database"]
+- ["6Fluent12AnyMigrationP", "migrationName"]
+- ["6Fluent12AnyMigrationP", "migrationPrepare"]
+- ["6Fluent12AnyMigrationP", "migrationRevert"]
+- ["6Fluent12AnyMigrationP", "prepare"]
+- !private ["6Fluent12AnyMigrationP", "prepareMetadata"]
+- !private ["6Fluent12AnyMigrationP", "query"]
+- ["6Fluent12AnyMigrationP", "revert"]
+- !private ["6Fluent12AnyMigrationP", "revertMetadata"]
+- ["6Fluent8AnyModelP", "Database"]
+- !private ["6Fluent8AnyModelP", "MigrationLog"]
+- ["6Fluent8AnyModelP", "MigrationSupporting"]
+- ["6Fluent8AnyModelP", "SchemaSupporting"]
+- !private ["6Fluent8AnyModelP", "Void"]
+- ["6Fluent8AnyModelP", "_Default_Database"]
+- ["6Fluent8AnyModelP", "migrationName"]
+- ["6Fluent8AnyModelP", "migrationPrepare"]
+- ["6Fluent8AnyModelP", "migrationRevert"]
+- ["6Fluent8AnyModelP", "prepare"]
+- !private ["6Fluent8AnyModelP", "prepareMetadata"]
+- !private ["6Fluent8AnyModelP", "query"]
+- ["6Fluent8AnyModelP", "revert"]
+- !private ["6Fluent8AnyModelP", "revertMetadata"]
+- ["4Core14AnyReflectableP", "Database"]
+- !private ["4Core14AnyReflectableP", "MigrationLog"]
+- ["4Core14AnyReflectableP", "MigrationSupporting"]
+- ["4Core14AnyReflectableP", "SchemaSupporting"]
+- !private ["4Core14AnyReflectableP", "Void"]
+- ["4Core14AnyReflectableP", "_Default_Database"]
+- ["4Core14AnyReflectableP", "migrationName"]
+- ["4Core14AnyReflectableP", "migrationPrepare"]
+- ["4Core14AnyReflectableP", "migrationRevert"]
+- ["4Core14AnyReflectableP", "prepare"]
+- !private ["4Core14AnyReflectableP", "prepareMetadata"]
+- !private ["4Core14AnyReflectableP", "query"]
+- ["4Core14AnyReflectableP", "revert"]
+- !private ["4Core14AnyReflectableP", "revertMetadata"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["11DatabaseKit0A0P", "Connection"]
+- ["11DatabaseKit0A0P", "Future"]
+- !private ["11DatabaseKit0A0P", "MigrationLog"]
+- ["11DatabaseKit0A0P", "MigrationSupporting"]
+- !private ["11DatabaseKit0A0P", "Self"]
+- ["11DatabaseKit0A0P", "Void"]
+- !private ["11DatabaseKit0A11ConnectableP", "eventLoop"]
+- !private ["11DatabaseKit0A10ConnectionP", "eventLoop"]
+- ["Se", "Database"]
+- !private ["Se", "MigrationLog"]
+- ["Se", "MigrationSupporting"]
+- ["Se", "SchemaSupporting"]
+- !private ["Se", "Void"]
+- ["Se", "_Default_Database"]
+- ["Se", "migrationName"]
+- ["Se", "migrationPrepare"]
+- ["Se", "migrationRevert"]
+- ["Se", "prepare"]
+- !private ["Se", "prepareMetadata"]
+- !private ["Se", "query"]
+- ["Se", "revert"]
+- !private ["Se", "revertMetadata"]
+- ["SE", "Database"]
+- !private ["SE", "MigrationLog"]
+- ["SE", "MigrationSupporting"]
+- ["SE", "SchemaSupporting"]
+- !private ["SE", "Void"]
+- ["SE", "_Default_Database"]
+- !private ["SE", "cascade"]
+- !private ["SE", "catch"]
+- !private ["SE", "do"]
+- ["SE", "migrationName"]
+- ["SE", "migrationPrepare"]
+- ["SE", "migrationRevert"]
+- ["SE", "prepare"]
+- !private ["SE", "prepareMetadata"]
+- !private ["SE", "query"]
+- ["SE", "revert"]
+- !private ["SE", "revertMetadata"]
+- !private ["SQ", "cascade"]
+- !private ["SQ", "catch"]
+- !private ["SQ", "do"]
+- !private ["3NIO9EventLoopP", "newPromise"]
+- !private ["3NIO15EventLoopFutureC", "cascade"]
+- !private ["3NIO15EventLoopFutureC", "catch"]
+- !private ["3NIO15EventLoopFutureC", "do"]
+- !private ["3NIO14EventLoopGroupP", "eventLoop"]
+- !private ["3NIO14EventLoopGroupP", "newPromise"]
+- !private ["3NIO16EventLoopPromiseV", "futureResult"]
+- !private ["3NIO16EventLoopPromiseV", "succeed"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["7Service10ExtendableP", "eventLoop"]
+- !private ["5Async10FutureTypeP", "cascade"]
+- !private ["5Async10FutureTypeP", "catch"]
+- !private ["5Async10FutureTypeP", "do"]
+- ["6Fluent9MigrationP", "Database"]
+- !private ["6Fluent9MigrationP", "MigrationLog"]
+- ["6Fluent9MigrationP", "MigrationSupporting"]
+- ["6Fluent9MigrationP", "SchemaSupporting"]
+- !private ["6Fluent9MigrationP", "Void"]
+- ["6Fluent9MigrationP", ""]
+- ["6Fluent9MigrationP", "_Default_Database"]
+- ["6Fluent9MigrationP", "migrationName"]
+- ["6Fluent9MigrationP", "migrationPrepare"]
+- ["6Fluent9MigrationP", "migrationRevert"]
+- ["6Fluent9MigrationP", "prepare"]
+- !private ["6Fluent9MigrationP", "prepareMetadata"]
+- !private ["6Fluent9MigrationP", "query"]
+- ["6Fluent9MigrationP", "revert"]
+- !private ["6Fluent9MigrationP", "revertMetadata"]
+- ["6Fluent12MigrationLogC", "Database"]
+- ["6Fluent12MigrationLogC", "Future"]
+- !private ["6Fluent12MigrationLogC", "MigrationLog"]
+- ["6Fluent12MigrationLogC", "MigrationSupporting"]
+- ["6Fluent12MigrationLogC", "SchemaSupporting"]
+- ["6Fluent12MigrationLogC", "Void"]
+- ["6Fluent12MigrationLogC", "_Default_Database"]
+- ["6Fluent12MigrationLogC", "deinit"]
+- ["6Fluent12MigrationLogC", "migrationName"]
+- ["6Fluent12MigrationLogC", "migrationPrepare"]
+- ["6Fluent12MigrationLogC", "migrationRevert"]
+- ["6Fluent12MigrationLogC", "prepare"]
+- !private ["6Fluent12MigrationLogC", "prepareMetadata"]
+- !private ["6Fluent12MigrationLogC", "query"]
+- ["6Fluent12MigrationLogC", "revert"]
+- !private ["6Fluent12MigrationLogC", "revertMetadata"]
+- ["6Fluent19MigrationSupportingP", "Connection"]
+- ["6Fluent19MigrationSupportingP", "Future"]
+- !private ["6Fluent19MigrationSupportingP", "MigrationLog"]
+- !private ["6Fluent19MigrationSupportingP", "Self"]
+- ["6Fluent19MigrationSupportingP", "Void"]
+- ["6Fluent5ModelP", "Database"]
+- !private ["6Fluent5ModelP", "MigrationLog"]
+- ["6Fluent5ModelP", "MigrationSupporting"]
+- ["6Fluent5ModelP", "SchemaSupporting"]
+- !private ["6Fluent5ModelP", "Void"]
+- ["6Fluent5ModelP", "_Default_Database"]
+- ["6Fluent5ModelP", "migrationName"]
+- ["6Fluent5ModelP", "migrationPrepare"]
+- ["6Fluent5ModelP", "migrationRevert"]
+- ["6Fluent5ModelP", "prepare"]
+- !private ["6Fluent5ModelP", "prepareMetadata"]
+- !private ["6Fluent5ModelP", "query"]
+- ["6Fluent5ModelP", "revert"]
+- !private ["6Fluent5ModelP", "revertMetadata"]
+- !private ["6Fluent12QueryBuilderC", "count"]
+- ["6Fluent15QuerySupportingP", "Connection"]
+- ["6Fluent15QuerySupportingP", "Future"]
+- !private ["6Fluent15QuerySupportingP", "MigrationLog"]
+- ["6Fluent15QuerySupportingP", "MigrationSupporting"]
+- !private ["6Fluent15QuerySupportingP", "Self"]
+- ["6Fluent15QuerySupportingP", "Void"]
+- ["4Core11ReflectableP", "Database"]
+- !private ["4Core11ReflectableP", "MigrationLog"]
+- ["4Core11ReflectableP", "MigrationSupporting"]
+- ["4Core11ReflectableP", "SchemaSupporting"]
+- !private ["4Core11ReflectableP", "Void"]
+- ["4Core11ReflectableP", "_Default_Database"]
+- ["4Core11ReflectableP", "migrationName"]
+- ["4Core11ReflectableP", "migrationPrepare"]
+- ["4Core11ReflectableP", "migrationRevert"]
+- ["4Core11ReflectableP", "prepare"]
+- !private ["4Core11ReflectableP", "prepareMetadata"]
+- !private ["4Core11ReflectableP", "query"]
+- ["4Core11ReflectableP", "revert"]
+- !private ["4Core11ReflectableP", "revertMetadata"]
+- ["6Fluent16SchemaSupportingP", "Connection"]
+- ["6Fluent16SchemaSupportingP", "Future"]
+- !private ["6Fluent16SchemaSupportingP", "MigrationLog"]
+- ["6Fluent16SchemaSupportingP", "MigrationSupporting"]
+- !private ["6Fluent16SchemaSupportingP", "Self"]
+- ["6Fluent16SchemaSupportingP", "Void"]
+- ["6Fluent16SchemaSupportingP", "prepareMigrationMetadata"]
+- ["6Fluent16SchemaSupportingP", "revertMigrationMetadata"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+depends-nominal:
+- "6Fluent12AnyMigrationP"
+- "6Fluent8AnyModelP"
+- "4Core14AnyReflectableP"
+- !private "Sl"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "11DatabaseKit0A0P"
+- !private "11DatabaseKit0A11ConnectableP"
+- !private "11DatabaseKit0A10ConnectionP"
+- "Se"
+- "SE"
+- !private "SQ"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "3NIO16EventLoopPromiseV"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7Service10ExtendableP"
+- !private "5Async10FutureTypeP"
+- "6Fluent9MigrationP"
+- "6Fluent12MigrationLogC"
+- "6Fluent19MigrationSupportingP"
+- "6Fluent5ModelP"
+- !private "6Fluent12QueryBuilderC"
+- "6Fluent15QuerySupportingP"
+- "4Core11ReflectableP"
+- "6Fluent16SchemaSupportingP"
+- !private "ST"
+- !private "s12StaticStringV"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Command.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Console.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Logging.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/DatabaseKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "cd459ff7f215199430c466fa9706148b"

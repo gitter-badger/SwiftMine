@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "52c020430ac2178a37357fd3df9aa0f5"
+build_time: [1544147841, 163281000]
+inputs:
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/NIOTLS/ApplicationProtocolNegotiationHandler.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/NIOTLS/SNIHandler.swift": [1544147825, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/NIOTLS/TLSEvents.swift": [1544147825, 0]

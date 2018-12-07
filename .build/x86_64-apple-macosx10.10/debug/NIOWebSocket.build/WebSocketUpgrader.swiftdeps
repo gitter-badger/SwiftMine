@@ -1,0 +1,424 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NIOWebSocketUpgradeError"
+- "WebSocketUpgrader"
+provides-nominal:
+- "12NIOWebSocket0aB12UpgradeErrorO"
+- "12NIOWebSocket03WebB8UpgraderC"
+provides-member:
+- ["12NIOWebSocket0aB12UpgradeErrorO", ""]
+- ["12NIOWebSocket03WebB8UpgraderC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "<<"
+- !private "<="
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Channel"
+- "ChannelHandlerContext"
+- "Error"
+- "EventLoopFuture"
+- !private "FloatLiteralType"
+- "HTTPHeaders"
+- "HTTPProtocolUpgrader"
+- "HTTPRequestHead"
+- "Int"
+- !private "IntegerLiteralType"
+- "NIOWebSocketUpgradeError"
+- !private "SHA1"
+- "String"
+- "StringLiteralType"
+- !private "UInt32"
+- "Void"
+- !private "WebSocketFrameDecoder"
+- !private "WebSocketFrameEncoder"
+- !private "WebSocketProtocolErrorHandler"
+- "WebSocketUpgrader"
+- !private "magicWebSocketGUID"
+- !private "precondition"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "first"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "first"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "max"]
+- !private ["SK", "count"]
+- !private ["SK", "first"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["Sz", "max"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["3NIO20ByteToMessageDecoderP", "init"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "max"]
+- !private ["3NIO14ChannelHandlerP", "init"]
+- !private ["3NIO21ChannelHandlerContextC", "channel"]
+- !private ["3NIO21ChannelHandlerContextC", "pipeline"]
+- !private ["3NIO21ChannelInboundHandlerP", "init"]
+- !private ["3NIO21ChannelInboundInvokerP", "add"]
+- !private ["3NIO21ChannelInboundInvokerP", "channel"]
+- !private ["3NIO21ChannelInboundInvokerP", "pipeline"]
+- !private ["3NIO14ChannelInvokerP", "add"]
+- !private ["3NIO14ChannelInvokerP", "channel"]
+- !private ["3NIO14ChannelInvokerP", "pipeline"]
+- !private ["3NIO22ChannelOutboundHandlerP", "init"]
+- !private ["3NIO22ChannelOutboundInvokerP", "add"]
+- !private ["3NIO22ChannelOutboundInvokerP", "channel"]
+- !private ["3NIO22ChannelOutboundInvokerP", "pipeline"]
+- !private ["3NIO15ChannelPipelineC", "add"]
+- !private ["Sl", "count"]
+- !private ["Sl", "first"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["SL", "max"]
+- !private ["3NIO20ContiguousCollectionP", "count"]
+- !private ["3NIO20ContiguousCollectionP", "first"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "max"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "max"]
+- !private ["s23CustomStringConvertibleP", "NIOWebSocketUpgradeError"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "headers"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "nonListHeader"]
+- !private ["s23CustomStringConvertibleP", "replaceOrAdd"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "count"]
+- !private ["Se", "first"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "max"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "count"]
+- !private ["SE", "first"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "max"]
+- !private ["SQ", "NIOWebSocketUpgradeError"]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "add"]
+- !private ["SQ", "count"]
+- !private ["SQ", "first"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "headers"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "invalidUpgradeHeader"]
+- !private ["SQ", "max"]
+- !private ["SQ", "nonListHeader"]
+- !private ["SQ", "replaceOrAdd"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "then"]
+- !private ["SQ", "unsupportedWebSocketTarget"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- !private ["s5ErrorP", "invalidUpgradeHeader"]
+- !private ["s5ErrorP", "unsupportedWebSocketTarget"]
+- !private ["3NIO15EventLoopFutureC", "then"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "max"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "max"]
+- !private ["8NIOHTTP111HTTPHeadersV", "NIOWebSocketUpgradeError"]
+- ["8NIOHTTP111HTTPHeadersV", "String"]
+- !private ["8NIOHTTP111HTTPHeadersV", "add"]
+- !private ["8NIOHTTP111HTTPHeadersV", "nonListHeader"]
+- !private ["8NIOHTTP111HTTPHeadersV", "replaceOrAdd"]
+- !private ["8NIOHTTP111HTTPHeadersV", "subscript"]
+- !private ["8NIOHTTP120HTTPProtocolUpgraderP", "NIOWebSocketUpgradeError"]
+- !private ["8NIOHTTP120HTTPProtocolUpgraderP", "SHA1"]
+- !private ["8NIOHTTP120HTTPProtocolUpgraderP", "String"]
+- !private ["8NIOHTTP120HTTPProtocolUpgraderP", "UInt32"]
+- !private ["8NIOHTTP120HTTPProtocolUpgraderP", "WebSocketFrameDecoder"]
+- !private ["8NIOHTTP120HTTPProtocolUpgraderP", "WebSocketFrameEncoder"]
+- !private ["8NIOHTTP120HTTPProtocolUpgraderP", "WebSocketProtocolErrorHandler"]
+- ["8NIOHTTP120HTTPProtocolUpgraderP", ""]
+- !private ["8NIOHTTP120HTTPProtocolUpgraderP", "automaticErrorHandling"]
+- ["8NIOHTTP120HTTPProtocolUpgraderP", "buildUpgradeResponse"]
+- !private ["8NIOHTTP120HTTPProtocolUpgraderP", "init"]
+- !private ["8NIOHTTP120HTTPProtocolUpgraderP", "magicWebSocketGUID"]
+- !private ["8NIOHTTP120HTTPProtocolUpgraderP", "maxFrameSize"]
+- !private ["8NIOHTTP120HTTPProtocolUpgraderP", "precondition"]
+- ["8NIOHTTP120HTTPProtocolUpgraderP", "requiredUpgradeHeaders"]
+- !private ["8NIOHTTP120HTTPProtocolUpgraderP", "shouldUpgrade"]
+- ["8NIOHTTP120HTTPProtocolUpgraderP", "supportedProtocol"]
+- ["8NIOHTTP120HTTPProtocolUpgraderP", "upgrade"]
+- !private ["8NIOHTTP120HTTPProtocolUpgraderP", "upgradePipelineHandler"]
+- !private ["8NIOHTTP115HTTPRequestHeadV", "headers"]
+- ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_userInfo"]
+- !private ["SH", "count"]
+- !private ["SH", "first"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "invalidUpgradeHeader"]
+- !private ["SH", "max"]
+- !private ["SH", "unsupportedWebSocketTarget"]
+- !private ["s6HasherV", "combine"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "max"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- !private ["SM", "first"]
+- ["12NIOWebSocket0aB12UpgradeErrorO", "__derived_enum_equals"]
+- ["12NIOWebSocket0aB12UpgradeErrorO", "_code"]
+- ["12NIOWebSocket0aB12UpgradeErrorO", "_domain"]
+- ["12NIOWebSocket0aB12UpgradeErrorO", "_getEmbeddedNSError"]
+- ["12NIOWebSocket0aB12UpgradeErrorO", "_userInfo"]
+- ["12NIOWebSocket0aB12UpgradeErrorO", "deinit"]
+- ["12NIOWebSocket0aB12UpgradeErrorO", "hash"]
+- ["12NIOWebSocket0aB12UpgradeErrorO", "hashValue"]
+- ["12NIOWebSocket0aB12UpgradeErrorO", "invalidUpgradeHeader"]
+- ["12NIOWebSocket0aB12UpgradeErrorO", "unsupportedWebSocketTarget"]
+- !private ["Sj", "max"]
+- !private ["Sk", "count"]
+- !private ["Sk", "first"]
+- !private ["Sm", "count"]
+- !private ["Sm", "first"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["12NIOWebSocket4SHA1V", "finish"]
+- !private ["12NIOWebSocket4SHA1V", "init"]
+- !private ["12NIOWebSocket4SHA1V", "update"]
+- !private ["ST", "NIOWebSocketUpgradeError"]
+- !private ["ST", "add"]
+- !private ["ST", "count"]
+- !private ["ST", "first"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "nonListHeader"]
+- !private ["ST", "replaceOrAdd"]
+- !private ["ST", "subscript"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "max"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s6UInt32V", "max"]
+- !private ["SU", "max"]
+- !private ["12NIOWebSocket03WebB12FrameDecoderC", "deinit"]
+- !private ["12NIOWebSocket03WebB12FrameDecoderC", "init"]
+- !private ["12NIOWebSocket03WebB12FrameEncoderC", "deinit"]
+- !private ["12NIOWebSocket03WebB12FrameEncoderC", "init"]
+- !private ["12NIOWebSocket03WebB20ProtocolErrorHandlerC", "deinit"]
+- !private ["12NIOWebSocket03WebB20ProtocolErrorHandlerC", "init"]
+- ["12NIOWebSocket03WebB8UpgraderC", "Bool"]
+- ["12NIOWebSocket03WebB8UpgraderC", "Channel"]
+- ["12NIOWebSocket03WebB8UpgraderC", "ChannelHandlerContext"]
+- ["12NIOWebSocket03WebB8UpgraderC", "EventLoopFuture"]
+- ["12NIOWebSocket03WebB8UpgraderC", "HTTPHeaders"]
+- ["12NIOWebSocket03WebB8UpgraderC", "HTTPRequestHead"]
+- ["12NIOWebSocket03WebB8UpgraderC", "Int"]
+- !private ["12NIOWebSocket03WebB8UpgraderC", "NIOWebSocketUpgradeError"]
+- !private ["12NIOWebSocket03WebB8UpgraderC", "SHA1"]
+- ["12NIOWebSocket03WebB8UpgraderC", "String"]
+- !private ["12NIOWebSocket03WebB8UpgraderC", "UInt32"]
+- ["12NIOWebSocket03WebB8UpgraderC", "Void"]
+- !private ["12NIOWebSocket03WebB8UpgraderC", "WebSocketFrameDecoder"]
+- !private ["12NIOWebSocket03WebB8UpgraderC", "WebSocketFrameEncoder"]
+- !private ["12NIOWebSocket03WebB8UpgraderC", "WebSocketProtocolErrorHandler"]
+- !private ["12NIOWebSocket03WebB8UpgraderC", "automaticErrorHandling"]
+- ["12NIOWebSocket03WebB8UpgraderC", "buildUpgradeResponse"]
+- ["12NIOWebSocket03WebB8UpgraderC", "deinit"]
+- ["12NIOWebSocket03WebB8UpgraderC", "init"]
+- !private ["12NIOWebSocket03WebB8UpgraderC", "magicWebSocketGUID"]
+- !private ["12NIOWebSocket03WebB8UpgraderC", "maxFrameSize"]
+- !private ["12NIOWebSocket03WebB8UpgraderC", "precondition"]
+- ["12NIOWebSocket03WebB8UpgraderC", "requiredUpgradeHeaders"]
+- !private ["12NIOWebSocket03WebB8UpgraderC", "shouldUpgrade"]
+- ["12NIOWebSocket03WebB8UpgraderC", "supportedProtocol"]
+- ["12NIOWebSocket03WebB8UpgraderC", "upgrade"]
+- !private ["12NIOWebSocket03WebB8UpgraderC", "upgradePipelineHandler"]
+- !private ["s18_BitwiseOperationsP", "max"]
+- !private ["3NIO22_ChannelInboundHandlerP", "init"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "init"]
+- !private ["8NIOHTTP128_DeprecateHTTPHeaderIteratorP", "NIOWebSocketUpgradeError"]
+- !private ["8NIOHTTP128_DeprecateHTTPHeaderIteratorP", "add"]
+- !private ["8NIOHTTP128_DeprecateHTTPHeaderIteratorP", "nonListHeader"]
+- !private ["8NIOHTTP128_DeprecateHTTPHeaderIteratorP", "replaceOrAdd"]
+- !private ["8NIOHTTP128_DeprecateHTTPHeaderIteratorP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["3NIO23_EmittingChannelHandlerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "max"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "max"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "SK"
+- !private "Sz"
+- !private "Sb"
+- !private "3NIO20ByteToMessageDecoderP"
+- !private "s7CVarArgP"
+- !private "3NIO14ChannelHandlerP"
+- !private "3NIO21ChannelHandlerContextC"
+- !private "3NIO21ChannelInboundHandlerP"
+- !private "3NIO21ChannelInboundInvokerP"
+- !private "3NIO14ChannelInvokerP"
+- !private "3NIO22ChannelOutboundHandlerP"
+- !private "3NIO22ChannelOutboundInvokerP"
+- !private "3NIO15ChannelPipelineC"
+- "Sl"
+- "SL"
+- !private "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "3NIO15EventLoopFutureC"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "8NIOHTTP111HTTPHeadersV"
+- "8NIOHTTP120HTTPProtocolUpgraderP"
+- !private "8NIOHTTP115HTTPRequestHeadV"
+- "SH"
+- !private "s6HasherV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- "12NIOWebSocket0aB12UpgradeErrorO"
+- !private "Sj"
+- !private "Sk"
+- "Sm"
+- !private "12NIOWebSocket4SHA1V"
+- "ST"
+- !private "s12StaticStringV"
+- !private "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s6UInt32V"
+- !private "SU"
+- !private "12NIOWebSocket03WebB12FrameDecoderC"
+- !private "12NIOWebSocket03WebB12FrameEncoderC"
+- !private "12NIOWebSocket03WebB20ProtocolErrorHandlerC"
+- "12NIOWebSocket03WebB8UpgraderC"
+- !private "s18_BitwiseOperationsP"
+- !private "3NIO22_ChannelInboundHandlerP"
+- !private "3NIO23_ChannelOutboundHandlerP"
+- !private "8NIOHTTP128_DeprecateHTTPHeaderIteratorP"
+- !private "s24_DestructorSafeContainerP"
+- !private "3NIO23_EmittingChannelHandlerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOHTTP1.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOSHA1/include/c_nio_sha1.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOZlib/include/c_nio_zlib.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+interface-hash: "e338d92ba1f6f9d22634b8f1373efa03"

@@ -1,0 +1,386 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLiteDataTypeStaticRepresentable"
+provides-nominal:
+- "6SQLite0A27DataTypeStaticRepresentableP"
+- "Su"
+- "s5UInt8V"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "Si"
+- "s4Int8V"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "10Foundation4DateV"
+- "Sf"
+- "Sd"
+- "Sb"
+- "10Foundation4UUIDV"
+- "10Foundation4DataV"
+- "SS"
+- "10Foundation3URLV"
+provides-member:
+- ["6SQLite0A27DataTypeStaticRepresentableP", ""]
+- ["s17FixedWidthIntegerP", ""]
+- ["Su", ""]
+- ["s5UInt8V", ""]
+- ["s6UInt16V", ""]
+- ["s6UInt32V", ""]
+- ["s6UInt64V", ""]
+- ["Si", ""]
+- ["s4Int8V", ""]
+- ["s5Int16V", ""]
+- ["s5Int32V", ""]
+- ["s5Int64V", ""]
+- ["10Foundation4DateV", ""]
+- ["SB", ""]
+- ["Sf", ""]
+- ["Sd", ""]
+- ["Sb", ""]
+- ["10Foundation4UUIDV", ""]
+- ["10Foundation4DataV", ""]
+- ["SS", ""]
+- ["10Foundation3URLV", ""]
+- ["s17FixedWidthIntegerP", "sqliteDataType"]
+- ["SB", "sqliteDataType"]
+provides-dynamic-lookup:
+depends-top-level:
+- "BinaryFloatingPoint"
+- "Bool"
+- "Data"
+- "Date"
+- "Double"
+- "FixedWidthInteger"
+- "Float"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- "SQLiteDataType"
+- "SQLiteDataTypeStaticRepresentable"
+- "String"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- "URL"
+- "UUID"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "Double"]
+- !private ["4Core22AnyReflectionDecodableP", "Int"]
+- ["4Core22AnyReflectionDecodableP", "sqliteDataType"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "Int"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "sqliteDataType"]
+- ["4Core21BasicKeyRepresentableP", "sqliteDataType"]
+- ["SK", "sqliteDataType"]
+- ["SB", "SQLiteDataType"]
+- ["SB", "sqliteDataType"]
+- ["Sz", "SQLiteDataType"]
+- ["Sz", "sqliteDataType"]
+- !private ["Sb", "Int"]
+- ["Sb", "SQLiteDataType"]
+- ["Sb", "deinit"]
+- ["Sb", "sqliteDataType"]
+- !private ["s7CVarArgP", "Int"]
+- ["s7CVarArgP", "sqliteDataType"]
+- ["Sl", "sqliteDataType"]
+- !private ["SL", "Double"]
+- ["SL", "SQLiteDataType"]
+- ["SL", "sqliteDataType"]
+- ["3NIO20ContiguousCollectionP", "sqliteDataType"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "sqliteDataType"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Double"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Int"]
+- !private ["s29CustomPlaygroundQuickLookableP", "String"]
+- ["s29CustomPlaygroundQuickLookableP", "sqliteDataType"]
+- !private ["s17CustomReflectableP", "Double"]
+- !private ["s17CustomReflectableP", "Int"]
+- ["s17CustomReflectableP", "sqliteDataType"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- ["s23CustomStringConvertibleP", "SQLiteDataType"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "sqliteDataType"]
+- ["10Foundation4DataV", "SQLiteDataType"]
+- ["10Foundation4DataV", "deinit"]
+- ["10Foundation4DataV", "sqliteDataType"]
+- !private ["10Foundation4DateV", "Double"]
+- ["10Foundation4DateV", "SQLiteDataType"]
+- ["10Foundation4DateV", "deinit"]
+- ["10Foundation4DateV", "sqliteDataType"]
+- !private ["Se", "Double"]
+- !private ["Se", "Int"]
+- !private ["Se", "String"]
+- ["Se", "sqliteDataType"]
+- ["Sd", "deinit"]
+- ["Sd", "sqliteDataType"]
+- !private ["SE", "Double"]
+- !private ["SE", "Int"]
+- !private ["SE", "String"]
+- ["SE", "sqliteDataType"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "Int"]
+- ["SQ", "SQLiteDataType"]
+- !private ["SQ", "String"]
+- !private ["SQ", "blob"]
+- !private ["SQ", "integer"]
+- !private ["SQ", "real"]
+- ["SQ", "sqliteDataType"]
+- !private ["SQ", "text"]
+- !private ["s27ExpressibleByBooleanLiteralP", "Int"]
+- ["s27ExpressibleByBooleanLiteralP", "sqliteDataType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "sqliteDataType"]
+- ["s25ExpressibleByFloatLiteralP", "SQLiteDataType"]
+- ["s25ExpressibleByFloatLiteralP", "sqliteDataType"]
+- ["s27ExpressibleByIntegerLiteralP", "SQLiteDataType"]
+- ["s27ExpressibleByIntegerLiteralP", "sqliteDataType"]
+- ["s26ExpressibleByStringLiteralP", "sqliteDataType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "sqliteDataType"]
+- ["s17FixedWidthIntegerP", "SQLiteDataType"]
+- ["s17FixedWidthIntegerP", "sqliteDataType"]
+- ["Sf", "deinit"]
+- ["Sf", "sqliteDataType"]
+- ["SF", "SQLiteDataType"]
+- ["SF", "sqliteDataType"]
+- !private ["SH", "Double"]
+- !private ["SH", "Int"]
+- ["SH", "SQLiteDataType"]
+- !private ["SH", "String"]
+- !private ["SH", "blob"]
+- !private ["SH", "integer"]
+- !private ["SH", "real"]
+- ["SH", "sqliteDataType"]
+- !private ["SH", "text"]
+- ["Si", "deinit"]
+- ["Si", "sqliteDataType"]
+- ["s5Int16V", "deinit"]
+- ["s5Int16V", "sqliteDataType"]
+- ["s5Int32V", "deinit"]
+- ["s5Int32V", "sqliteDataType"]
+- ["s5Int64V", "deinit"]
+- ["s5Int64V", "sqliteDataType"]
+- ["s4Int8V", "deinit"]
+- ["s4Int8V", "sqliteDataType"]
+- ["4Core23LosslessDataConvertibleP", "sqliteDataType"]
+- !private ["s25LosslessStringConvertibleP", "Int"]
+- ["s25LosslessStringConvertibleP", "SQLiteDataType"]
+- ["s25LosslessStringConvertibleP", "sqliteDataType"]
+- ["s10MirrorPathP", "sqliteDataType"]
+- ["SM", "sqliteDataType"]
+- ["Sj", "SQLiteDataType"]
+- ["Sj", "sqliteDataType"]
+- ["Sk", "sqliteDataType"]
+- ["Sm", "sqliteDataType"]
+- !private ["10Foundation20ReferenceConvertibleP", "Double"]
+- !private ["10Foundation20ReferenceConvertibleP", "String"]
+- ["10Foundation20ReferenceConvertibleP", "sqliteDataType"]
+- !private ["4Core19ReflectionDecodableP", "Double"]
+- !private ["4Core19ReflectionDecodableP", "Int"]
+- ["4Core19ReflectionDecodableP", "sqliteDataType"]
+- !private ["3SQL11SQLDataTypeP", "blob"]
+- !private ["3SQL11SQLDataTypeP", "integer"]
+- !private ["3SQL11SQLDataTypeP", "real"]
+- !private ["3SQL11SQLDataTypeP", "text"]
+- !private ["3SQL15SQLSerializableP", "blob"]
+- !private ["3SQL15SQLSerializableP", "integer"]
+- !private ["3SQL15SQLSerializableP", "real"]
+- !private ["3SQL15SQLSerializableP", "text"]
+- !private ["6SQLite0A15DataConvertibleP", "Double"]
+- !private ["6SQLite0A15DataConvertibleP", "Int"]
+- !private ["6SQLite0A15DataConvertibleP", "String"]
+- ["6SQLite0A15DataConvertibleP", "sqliteDataType"]
+- !private ["6SQLite0A8DataTypeO", "blob"]
+- !private ["6SQLite0A8DataTypeO", "integer"]
+- !private ["6SQLite0A8DataTypeO", "real"]
+- !private ["6SQLite0A8DataTypeO", "text"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "Double"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "Int"]
+- ["6SQLite0A27DataTypeStaticRepresentableP", "SQLiteDataType"]
+- !private ["6SQLite0A27DataTypeStaticRepresentableP", "String"]
+- ["6SQLite0A27DataTypeStaticRepresentableP", ""]
+- ["6SQLite0A27DataTypeStaticRepresentableP", "sqliteDataType"]
+- ["ST", "sqliteDataType"]
+- ["SZ", "sqliteDataType"]
+- ["s13SignedNumericP", "SQLiteDataType"]
+- ["s13SignedNumericP", "sqliteDataType"]
+- ["Sx", "SQLiteDataType"]
+- ["Sx", "sqliteDataType"]
+- ["SS", "SQLiteDataType"]
+- ["SS", "deinit"]
+- ["SS", "sqliteDataType"]
+- ["Sy", "sqliteDataType"]
+- ["s16TextOutputStreamP", "sqliteDataType"]
+- ["s20TextOutputStreamableP", "sqliteDataType"]
+- ["Su", "deinit"]
+- ["Su", "sqliteDataType"]
+- ["s6UInt16V", "deinit"]
+- ["s6UInt16V", "sqliteDataType"]
+- ["s6UInt32V", "deinit"]
+- ["s6UInt32V", "sqliteDataType"]
+- ["s6UInt64V", "deinit"]
+- ["s6UInt64V", "sqliteDataType"]
+- ["s5UInt8V", "deinit"]
+- ["s5UInt8V", "sqliteDataType"]
+- ["10Foundation3URLV", "SQLiteDataType"]
+- !private ["10Foundation3URLV", "String"]
+- ["10Foundation3URLV", "deinit"]
+- ["10Foundation3URLV", "sqliteDataType"]
+- ["10Foundation4UUIDV", "SQLiteDataType"]
+- ["10Foundation4UUIDV", "deinit"]
+- ["10Foundation4UUIDV", "sqliteDataType"]
+- ["SU", "sqliteDataType"]
+- ["s18_BitwiseOperationsP", "SQLiteDataType"]
+- ["s18_BitwiseOperationsP", "sqliteDataType"]
+- ["s15_CVarArgAlignedP", "sqliteDataType"]
+- ["s22_CVarArgPassedAsDoubleP", "sqliteDataType"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "Int"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "sqliteDataType"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "sqliteDataType"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "sqliteDataType"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "sqliteDataType"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "sqliteDataType"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "sqliteDataType"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "sqliteDataType"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "String"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "sqliteDataType"]
+- ["s33_ExpressibleByStringInterpolationP", "sqliteDataType"]
+- ["s35_HasCustomAnyHashableRepresentationP", "sqliteDataType"]
+- !private ["s21_ObjectiveCBridgeableP", "Double"]
+- !private ["s21_ObjectiveCBridgeableP", "Int"]
+- !private ["s21_ObjectiveCBridgeableP", "String"]
+- ["s21_ObjectiveCBridgeableP", "sqliteDataType"]
+- ["s14_StringElementP", "sqliteDataType"]
+- ["s16_SwiftStringViewP", "sqliteDataType"]
+depends-nominal:
+- "4Core22AnyReflectionDecodableP"
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "4Core21BasicKeyRepresentableP"
+- "SK"
+- "SB"
+- "Sz"
+- "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- "10Foundation4DateV"
+- "Se"
+- "Sd"
+- "SE"
+- "SQ"
+- "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "Sf"
+- "SF"
+- "SH"
+- "Si"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "s4Int8V"
+- "4Core23LosslessDataConvertibleP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "SM"
+- "Sj"
+- "Sk"
+- "Sm"
+- "10Foundation20ReferenceConvertibleP"
+- "4Core19ReflectionDecodableP"
+- !private "3SQL11SQLDataTypeP"
+- !private "3SQL15SQLSerializableP"
+- "6SQLite0A15DataConvertibleP"
+- !private "6SQLite0A8DataTypeO"
+- "6SQLite0A27DataTypeStaticRepresentableP"
+- "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "Su"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "s5UInt8V"
+- "10Foundation3URLV"
+- "10Foundation4UUIDV"
+- "SU"
+- "s18_BitwiseOperationsP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+- "s14_StringElementP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/SQL.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Service.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/DatabaseKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e5fe94221db5e4dc6f62688e179b2402"

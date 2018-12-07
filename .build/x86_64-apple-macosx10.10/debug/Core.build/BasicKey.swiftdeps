@@ -1,0 +1,319 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BasicKey"
+- "BasicKeyRepresentable"
+provides-nominal:
+- "4Core8BasicKeyV"
+- "4Core21BasicKeyRepresentableP"
+- "SS"
+- "Si"
+provides-member:
+- ["4Core8BasicKeyV", ""]
+- ["4Core21BasicKeyRepresentableP", ""]
+- ["SS", ""]
+- ["Si", ""]
+- ["Sa", ""]
+- ["Sa", "makeBasicKeys"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- "AssignmentPrecedence"
+- "BasicKey"
+- "BasicKeyRepresentable"
+- "CodingKey"
+- "Int"
+- "String"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "BasicKey"]
+- ["4Core22AnyReflectionDecodableP", "BasicKeyRepresentable"]
+- !private ["4Core22AnyReflectionDecodableP", "description"]
+- ["4Core22AnyReflectionDecodableP", "makeBasicKey"]
+- !private ["4Core22AnyReflectionDecodableP", "map"]
+- ["Sa", "BasicKey"]
+- ["Sa", "BasicKeyRepresentable"]
+- ["Sa", "makeBasicKeys"]
+- !private ["Sa", "map"]
+- ["s13ArrayProtocolP", "BasicKeyRepresentable"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "BasicKey"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "description"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "makeBasicKey"]
+- ["4Core8BasicKeyV", "Int"]
+- ["4Core8BasicKeyV", "String"]
+- ["4Core8BasicKeyV", "debugDescription"]
+- ["4Core8BasicKeyV", "deinit"]
+- ["4Core8BasicKeyV", "description"]
+- ["4Core8BasicKeyV", "init"]
+- ["4Core8BasicKeyV", "intValue"]
+- ["4Core8BasicKeyV", "stringValue"]
+- ["4Core21BasicKeyRepresentableP", "BasicKey"]
+- ["4Core21BasicKeyRepresentableP", ""]
+- !private ["4Core21BasicKeyRepresentableP", "description"]
+- ["4Core21BasicKeyRepresentableP", "makeBasicKey"]
+- !private ["SK", "BasicKey"]
+- ["SK", "BasicKeyRepresentable"]
+- ["SK", "makeBasicKey"]
+- !private ["SK", "map"]
+- !private ["Sz", "BasicKey"]
+- !private ["Sz", "description"]
+- ["Sz", "makeBasicKey"]
+- !private ["s7CVarArgP", "BasicKey"]
+- ["s7CVarArgP", "BasicKeyRepresentable"]
+- !private ["s7CVarArgP", "description"]
+- ["s7CVarArgP", "makeBasicKey"]
+- !private ["s7CVarArgP", "map"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", "BasicKey"]
+- ["Sl", "BasicKeyRepresentable"]
+- ["Sl", "makeBasicKey"]
+- !private ["Sl", "map"]
+- !private ["SL", "BasicKey"]
+- !private ["SL", "description"]
+- ["SL", "makeBasicKey"]
+- ["3NIO20ContiguousCollectionP", "BasicKeyRepresentable"]
+- !private ["3NIO20ContiguousCollectionP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "BasicKey"]
+- ["s28CustomDebugStringConvertibleP", "BasicKeyRepresentable"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "makeBasicKey"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "BasicKey"]
+- !private ["s29CustomPlaygroundQuickLookableP", "description"]
+- ["s29CustomPlaygroundQuickLookableP", "makeBasicKey"]
+- !private ["s17CustomReflectableP", "BasicKey"]
+- ["s17CustomReflectableP", "BasicKeyRepresentable"]
+- !private ["s17CustomReflectableP", "description"]
+- ["s17CustomReflectableP", "makeBasicKey"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "BasicKey"]
+- ["s23CustomStringConvertibleP", "BasicKeyRepresentable"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "makeBasicKey"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["Se", "BasicKey"]
+- ["Se", "BasicKeyRepresentable"]
+- !private ["Se", "description"]
+- ["Se", "makeBasicKey"]
+- !private ["Se", "map"]
+- !private ["SE", "BasicKey"]
+- ["SE", "BasicKeyRepresentable"]
+- !private ["SE", "description"]
+- ["SE", "makeBasicKey"]
+- !private ["SE", "map"]
+- !private ["SQ", "BasicKey"]
+- ["SQ", "BasicKeyRepresentable"]
+- !private ["SQ", "description"]
+- ["SQ", "makeBasicKey"]
+- !private ["SQ", "map"]
+- ["s25ExpressibleByArrayLiteralP", "BasicKeyRepresentable"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "BasicKey"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "makeBasicKey"]
+- !private ["s27ExpressibleByIntegerLiteralP", "BasicKey"]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- ["s27ExpressibleByIntegerLiteralP", "makeBasicKey"]
+- !private ["s26ExpressibleByStringLiteralP", "BasicKey"]
+- ["s26ExpressibleByStringLiteralP", "makeBasicKey"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "BasicKey"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "makeBasicKey"]
+- !private ["s17FixedWidthIntegerP", "BasicKey"]
+- !private ["s17FixedWidthIntegerP", "description"]
+- ["s17FixedWidthIntegerP", "makeBasicKey"]
+- !private ["SH", "BasicKey"]
+- ["SH", "BasicKeyRepresentable"]
+- !private ["SH", "description"]
+- ["SH", "makeBasicKey"]
+- !private ["SH", "map"]
+- ["Si", "BasicKey"]
+- ["Si", "deinit"]
+- !private ["Si", "description"]
+- ["Si", "makeBasicKey"]
+- !private ["4Core23LosslessDataConvertibleP", "BasicKey"]
+- ["4Core23LosslessDataConvertibleP", "BasicKeyRepresentable"]
+- ["4Core23LosslessDataConvertibleP", "makeBasicKey"]
+- !private ["4Core23LosslessDataConvertibleP", "map"]
+- !private ["s25LosslessStringConvertibleP", "BasicKey"]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- ["s25LosslessStringConvertibleP", "makeBasicKey"]
+- !private ["s10MirrorPathP", "BasicKey"]
+- !private ["s10MirrorPathP", "description"]
+- ["s10MirrorPathP", "makeBasicKey"]
+- ["SM", "BasicKeyRepresentable"]
+- !private ["SM", "map"]
+- !private ["Sj", "BasicKey"]
+- !private ["Sj", "description"]
+- ["Sj", "makeBasicKey"]
+- ["Sk", "BasicKeyRepresentable"]
+- !private ["Sk", "map"]
+- !private ["Sm", "BasicKey"]
+- ["Sm", "BasicKeyRepresentable"]
+- ["Sm", "makeBasicKey"]
+- !private ["Sm", "map"]
+- !private ["4Core19ReflectionDecodableP", "BasicKey"]
+- ["4Core19ReflectionDecodableP", "BasicKeyRepresentable"]
+- !private ["4Core19ReflectionDecodableP", "description"]
+- ["4Core19ReflectionDecodableP", "makeBasicKey"]
+- !private ["4Core19ReflectionDecodableP", "map"]
+- !private ["ST", "BasicKey"]
+- ["ST", "BasicKeyRepresentable"]
+- ["ST", "makeBasicKey"]
+- !private ["ST", "map"]
+- !private ["SZ", "BasicKey"]
+- !private ["SZ", "description"]
+- ["SZ", "makeBasicKey"]
+- !private ["s13SignedNumericP", "BasicKey"]
+- !private ["s13SignedNumericP", "description"]
+- ["s13SignedNumericP", "makeBasicKey"]
+- !private ["Sx", "BasicKey"]
+- !private ["Sx", "description"]
+- ["Sx", "makeBasicKey"]
+- ["SS", "BasicKey"]
+- ["SS", "deinit"]
+- ["SS", "makeBasicKey"]
+- !private ["Sy", "BasicKey"]
+- ["Sy", "makeBasicKey"]
+- !private ["s16TextOutputStreamP", "BasicKey"]
+- ["s16TextOutputStreamP", "makeBasicKey"]
+- !private ["s20TextOutputStreamableP", "BasicKey"]
+- ["s20TextOutputStreamableP", "makeBasicKey"]
+- !private ["s18_BitwiseOperationsP", "BasicKey"]
+- !private ["s18_BitwiseOperationsP", "description"]
+- ["s18_BitwiseOperationsP", "makeBasicKey"]
+- ["s24_DestructorSafeContainerP", "BasicKeyRepresentable"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "BasicKey"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "makeBasicKey"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "BasicKey"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "makeBasicKey"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "BasicKey"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "makeBasicKey"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "BasicKey"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "makeBasicKey"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "BasicKey"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "makeBasicKey"]
+- !private ["s33_ExpressibleByStringInterpolationP", "BasicKey"]
+- ["s33_ExpressibleByStringInterpolationP", "makeBasicKey"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "BasicKey"]
+- ["s35_HasCustomAnyHashableRepresentationP", "BasicKeyRepresentable"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- ["s35_HasCustomAnyHashableRepresentationP", "makeBasicKey"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "BasicKey"]
+- ["s21_ObjectiveCBridgeableP", "BasicKeyRepresentable"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- ["s21_ObjectiveCBridgeableP", "makeBasicKey"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s16_SwiftStringViewP", "BasicKey"]
+- ["s16_SwiftStringViewP", "makeBasicKey"]
+depends-nominal:
+- "4Core22AnyReflectionDecodableP"
+- "Sa"
+- "s13ArrayProtocolP"
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "4Core8BasicKeyV"
+- "4Core21BasicKeyRepresentableP"
+- "SK"
+- "Sz"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "Sl"
+- "SL"
+- "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "SH"
+- "Si"
+- "4Core23LosslessDataConvertibleP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "SM"
+- "Sj"
+- "Sk"
+- "Sm"
+- "4Core19ReflectionDecodableP"
+- "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s18_BitwiseOperationsP"
+- "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Async.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/COperatingSystem.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOFoundationCompat.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c7cd8e91effc80ab2e01b3c7abf82914"

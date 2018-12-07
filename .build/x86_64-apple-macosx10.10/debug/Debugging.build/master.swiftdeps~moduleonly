@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "a77a4cad2e207815c630ae3d771574e6"
+build_time: [1544147834, 451207000]
+inputs:
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Debugging/Debuggable.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Debugging/Demangler.swift": [1544147827, 0]
+  "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/core.git--5377566927627729405/Sources/Debugging/SourceLocation.swift": [1544147827, 0]

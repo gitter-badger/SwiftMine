@@ -1,0 +1,242 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["s5UInt8V", ""]
+- ["s5UInt8V", "isWhitespace"]
+- ["s5UInt8V", "horizontalTab"]
+- ["s5UInt8V", "newLine"]
+- ["s5UInt8V", "carriageReturn"]
+- ["s5UInt8V", "space"]
+- ["s5UInt8V", "exclamation"]
+- ["s5UInt8V", "quote"]
+- ["s5UInt8V", "numberSign"]
+- ["s5UInt8V", "dollar"]
+- ["s5UInt8V", "percent"]
+- ["s5UInt8V", "ampersand"]
+- ["s5UInt8V", "apostrophe"]
+- ["s5UInt8V", "leftParenthesis"]
+- ["s5UInt8V", "rightParenthesis"]
+- ["s5UInt8V", "asterisk"]
+- ["s5UInt8V", "plus"]
+- ["s5UInt8V", "comma"]
+- ["s5UInt8V", "hyphen"]
+- ["s5UInt8V", "period"]
+- ["s5UInt8V", "forwardSlash"]
+- ["s5UInt8V", "backSlash"]
+- ["s5UInt8V", "colon"]
+- ["s5UInt8V", "semicolon"]
+- ["s5UInt8V", "equals"]
+- ["s5UInt8V", "questionMark"]
+- ["s5UInt8V", "at"]
+- ["s5UInt8V", "leftSquareBracket"]
+- ["s5UInt8V", "rightSquareBracket"]
+- ["s5UInt8V", "caret"]
+- ["s5UInt8V", "underscore"]
+- ["s5UInt8V", "backtick"]
+- ["s5UInt8V", "tilde"]
+- ["s5UInt8V", "leftCurlyBracket"]
+- ["s5UInt8V", "rightCurlyBracket"]
+- ["s5UInt8V", "lessThan"]
+- ["s5UInt8V", "greaterThan"]
+- ["s5UInt8V", "pipe"]
+- ["s5UInt8V", "crlf"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "Bool"
+- "Byte"
+- "Bytes"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "||"
+depends-member:
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "carriageReturn"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "horizontalTab"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "newLine"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "space"]
+- ["Sz", "carriageReturn"]
+- !private ["Sz", "horizontalTab"]
+- ["Sz", "newLine"]
+- !private ["Sz", "space"]
+- ["s7CVarArgP", "carriageReturn"]
+- !private ["s7CVarArgP", "horizontalTab"]
+- ["s7CVarArgP", "newLine"]
+- !private ["s7CVarArgP", "space"]
+- ["SL", "carriageReturn"]
+- !private ["SL", "horizontalTab"]
+- ["SL", "newLine"]
+- !private ["SL", "space"]
+- ["s29CustomPlaygroundQuickLookableP", "carriageReturn"]
+- !private ["s29CustomPlaygroundQuickLookableP", "horizontalTab"]
+- ["s29CustomPlaygroundQuickLookableP", "newLine"]
+- !private ["s29CustomPlaygroundQuickLookableP", "space"]
+- ["s17CustomReflectableP", "carriageReturn"]
+- !private ["s17CustomReflectableP", "horizontalTab"]
+- ["s17CustomReflectableP", "newLine"]
+- !private ["s17CustomReflectableP", "space"]
+- ["s23CustomStringConvertibleP", "carriageReturn"]
+- !private ["s23CustomStringConvertibleP", "horizontalTab"]
+- ["s23CustomStringConvertibleP", "newLine"]
+- !private ["s23CustomStringConvertibleP", "space"]
+- ["Se", "carriageReturn"]
+- !private ["Se", "horizontalTab"]
+- ["Se", "newLine"]
+- !private ["Se", "space"]
+- ["SE", "carriageReturn"]
+- !private ["SE", "horizontalTab"]
+- ["SE", "newLine"]
+- !private ["SE", "space"]
+- ["SQ", "carriageReturn"]
+- !private ["SQ", "horizontalTab"]
+- ["SQ", "newLine"]
+- !private ["SQ", "space"]
+- ["s27ExpressibleByIntegerLiteralP", "carriageReturn"]
+- !private ["s27ExpressibleByIntegerLiteralP", "horizontalTab"]
+- ["s27ExpressibleByIntegerLiteralP", "newLine"]
+- !private ["s27ExpressibleByIntegerLiteralP", "space"]
+- ["s17FixedWidthIntegerP", "carriageReturn"]
+- !private ["s17FixedWidthIntegerP", "horizontalTab"]
+- ["s17FixedWidthIntegerP", "newLine"]
+- !private ["s17FixedWidthIntegerP", "space"]
+- ["SH", "carriageReturn"]
+- !private ["SH", "horizontalTab"]
+- ["SH", "newLine"]
+- !private ["SH", "space"]
+- ["s25LosslessStringConvertibleP", "carriageReturn"]
+- !private ["s25LosslessStringConvertibleP", "horizontalTab"]
+- ["s25LosslessStringConvertibleP", "newLine"]
+- !private ["s25LosslessStringConvertibleP", "space"]
+- ["Sj", "carriageReturn"]
+- !private ["Sj", "horizontalTab"]
+- ["Sj", "newLine"]
+- !private ["Sj", "space"]
+- ["Sx", "carriageReturn"]
+- !private ["Sx", "horizontalTab"]
+- ["Sx", "newLine"]
+- !private ["Sx", "space"]
+- ["s5UInt8V", "Bool"]
+- ["s5UInt8V", "Byte"]
+- ["s5UInt8V", "Bytes"]
+- ["s5UInt8V", "ampersand"]
+- ["s5UInt8V", "apostrophe"]
+- ["s5UInt8V", "asterisk"]
+- ["s5UInt8V", "at"]
+- ["s5UInt8V", "backSlash"]
+- ["s5UInt8V", "backtick"]
+- ["s5UInt8V", "caret"]
+- ["s5UInt8V", "carriageReturn"]
+- ["s5UInt8V", "colon"]
+- ["s5UInt8V", "comma"]
+- ["s5UInt8V", "crlf"]
+- ["s5UInt8V", "dollar"]
+- ["s5UInt8V", "equals"]
+- ["s5UInt8V", "exclamation"]
+- ["s5UInt8V", "forwardSlash"]
+- ["s5UInt8V", "greaterThan"]
+- ["s5UInt8V", "horizontalTab"]
+- ["s5UInt8V", "hyphen"]
+- ["s5UInt8V", "isWhitespace"]
+- ["s5UInt8V", "leftCurlyBracket"]
+- ["s5UInt8V", "leftParenthesis"]
+- ["s5UInt8V", "leftSquareBracket"]
+- ["s5UInt8V", "lessThan"]
+- ["s5UInt8V", "newLine"]
+- ["s5UInt8V", "numberSign"]
+- ["s5UInt8V", "percent"]
+- ["s5UInt8V", "period"]
+- ["s5UInt8V", "pipe"]
+- ["s5UInt8V", "plus"]
+- ["s5UInt8V", "questionMark"]
+- ["s5UInt8V", "quote"]
+- ["s5UInt8V", "rightCurlyBracket"]
+- ["s5UInt8V", "rightParenthesis"]
+- ["s5UInt8V", "rightSquareBracket"]
+- ["s5UInt8V", "semicolon"]
+- ["s5UInt8V", "space"]
+- ["s5UInt8V", "tilde"]
+- ["s5UInt8V", "underscore"]
+- ["SU", "carriageReturn"]
+- !private ["SU", "horizontalTab"]
+- ["SU", "newLine"]
+- !private ["SU", "space"]
+- ["s18_BitwiseOperationsP", "carriageReturn"]
+- !private ["s18_BitwiseOperationsP", "horizontalTab"]
+- ["s18_BitwiseOperationsP", "newLine"]
+- !private ["s18_BitwiseOperationsP", "space"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "carriageReturn"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "horizontalTab"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "newLine"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "space"]
+- ["s35_HasCustomAnyHashableRepresentationP", "carriageReturn"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "horizontalTab"]
+- ["s35_HasCustomAnyHashableRepresentationP", "newLine"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "space"]
+- ["s21_ObjectiveCBridgeableP", "carriageReturn"]
+- !private ["s21_ObjectiveCBridgeableP", "horizontalTab"]
+- ["s21_ObjectiveCBridgeableP", "newLine"]
+- !private ["s21_ObjectiveCBridgeableP", "space"]
+- ["s14_StringElementP", "carriageReturn"]
+- !private ["s14_StringElementP", "horizontalTab"]
+- ["s14_StringElementP", "newLine"]
+- !private ["s14_StringElementP", "space"]
+depends-nominal:
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "Sz"
+- "s7CVarArgP"
+- "SL"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s27ExpressibleByIntegerLiteralP"
+- "s17FixedWidthIntegerP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "Sj"
+- "Sx"
+- "s5UInt8V"
+- "SU"
+- "s18_BitwiseOperationsP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+- "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIO.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio.git--2285730865762943079/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/checkouts/swift-nio-zlib-support.git-6233878442190418117/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOZlib.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIODarwin.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/davidseitzjr/Desktop/SwiftMine/.build/x86_64-apple-macosx10.10/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "fb472859c6f8d36f03a2d845a7f1908c"
